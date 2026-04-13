@@ -1,0 +1,61 @@
+player_id,player_name,gender,nationality,ranking_position,racket_brand,racket_model,string_brand,shoe_brand,apparel_brand,glove_brand,bag_brand,contract_start,contract_end,contract_value_eur,yearly_rackets,sponsorship_type,exclusivity
+P001,Arturo Coello,M,ESP,1,Bullpadel,Bullpadel Hack 01,Luxilon,Adidas,Adidas,Bullpadel,Bullpadel,2023-01-01,2025-12-31,450000,30,Full Sponsorship,Full
+P002,Agustin Tapia,M,ARG,1,HEAD,HEAD Alpha Elite,HEAD,Nike,Nike,HEAD,HEAD,2024-01-01,2026-12-31,420000,25,Full Sponsorship,Full
+P003,Alejandro Galan,M,ESP,3,Adidas,Adidas Adipower Light,Adidas,Adidas,Adidas,Adidas,Adidas,2023-06-01,2026-05-31,380000,28,Full Sponsorship,Full
+P004,Federico Chingotto,M,ARG,3,HEAD,HEAD Gravity Pro,HEAD,Nike,Nike,HEAD,HEAD,2024-02-01,2027-01-31,360000,22,Full Sponsorship,Full
+P005,Juan Lebron,M,ESP,5,Bullpadel,Bullpadel Vertex 03,Luxilon,Adidas,Adidas,Bullpadel,Bullpadel,2023-03-01,2025-02-28,340000,26,Full Sponsorship,Full
+P006,Paquito Navarro,M,ESP,6,Adidas,Adidas Metalbone,Adidas,Adidas,Adidas,Adidas,Adidas,2022-09-01,2024-08-31,320000,24,Full Sponsorship,Full
+P007,Sanyo Gutierrez,M,ARG,7,HEAD,HEAD Delta Pro,HEAD,Nike,Nike,HEAD,HEAD,2023-11-01,2025-10-31,300000,20,Full Sponsorship,Full
+P008,Martin Di Nenno,M,ARG,8,Adidas,Adidas Adipower Team,Adidas,Adidas,Adidas,Adidas,Adidas,2024-01-01,2026-12-31,280000,22,Full Sponsorship,Full
+P009,Franco Stupaczuk,M,ARG,9,Bullpadel,Bullpadel Hack 02,Luxilon,Nike,Nike,Bullpadel,Bullpadel,2023-08-01,2025-07-31,260000,18,Full Sponsorship,Full
+P010,Miguel Lamperti,M,ARG,10,Adidas,Adidas Adipower CTRL,Adidas,Adidas,Adidas,Adidas,Adidas,2023-04-01,2025-03-31,240000,20,Full Sponsorship,Full
+P011,Delfina Brea,F,ARG,1,HEAD,HEAD Alpha Pro,HEAD,Nike,Nike,HEAD,HEAD,2024-01-01,2026-12-31,400000,25,Full Sponsorship,Full
+P012,Gemma Triay,F,ESP,1,Bullpadel,Bullpadel Hack Women,Luxilon,Adidas,Adidas,Bullpadel,Bullpadel,2023-02-01,2025-01-31,380000,28,Full Sponsorship,Full
+P013,Ariana Sanchez,F,ESP,3,Adidas,Adidas Adipower Women,Adidas,Adidas,Adidas,Adidas,Adidas,2023-07-01,2026-06-30,350000,26,Full Sponsorship,Full
+P014,Paula Josemaria,F,ESP,3,Bullpadel,Bullpadel Vertex Women,Bullpadel,Adidas,Adidas,Bullpadel,Bullpadel,2024-01-01,2027-12-31,330000,24,Full Sponsorship,Full
+P015,Marta Ortega,F,ESP,5,HEAD,HEAD Gravity Women,HEAD,Nike,Nike,HEAD,HEAD,2023-05-01,2025-04-30,310000,22,Full Sponsorship,Full
+P016,Alejandra Salazar,F,ESP,6,Adidas,Adidas Metalbone Women,Adidas,Adidas,Adidas,Adidas,Adidas,2023-09-01,2025-08-31,290000,20,Full Sponsorship,Full
+P017,Beatriz Gonzalez,F,ESP,7,Bullpadel,Bullpadel Hack 01 Women,Luxilon,Nike,Nike,Bullpadel,Bullpadel,2024-03-01,2026-02-28,270000,18,Full Sponsorship,Full
+P018,Claudia Fernandez,F,ESP,8,HEAD,HEAD Delta Women,HEAD,Nike,Nike,HEAD,HEAD,2023-12-01,2025-11-30,250000,16,Full Sponsorship,Full
+P019,Marta Marrero,F,ESP,9,Adidas,Adidas Adipower Team Women,Adidas,Adidas,Adidas,Adidas,Adidas,2024-01-01,2025-12-31,230000,18,Full Sponsorship,Full
+P020,Lucia Sainz,F,ESP,10,Bullpadel,Bullpadel Vertex 03 Women,Bullpadel,Adidas,Adidas,Bullpadel,Bullpadel,2023-10-01,2025-09-30,210000,15,Full Sponsorship,Full
+P021,Fernando Belasteguin,M,ARG,12,HEAD,HEAD Alpha Pro,Babolat,Nike,Nike,HEAD,HEAD,2023-01-01,2024-12-31,180000,12,Equipment Only,Partial
+P022,Pablo Lima,M,BRA,14,Siux,Siux ST1 Attack,Siux,Asics,Asics,Siux,Siux,2024-01-01,2026-12-31,160000,15,Full Sponsorship,Full
+P023,Maxi Sanchez,M,ARG,16,Babolat,Babolat Counter Viper,Babolat,Babolat,Babolat,Babolat,Babolat,2023-06-01,2025-05-31,150000,14,Full Sponsorship,Full
+P024,Alex Ruiz,M,ESP,18,Nox,Nox ML10 Pro Cup,Nox,Joma,Joma,Nox,Nox,2024-02-01,2027-01-31,140000,12,Full Sponsorship,Full
+P025,Javier Garrido,M,ESP,20,Starvie,Starvie Metheora,Starvie,Kelme,Kelme,Starvie,Starvie,2023-08-01,2025-07-31,130000,10,Full Sponsorship,Full
+P026,Javier Rico,M,ESP,22,Adidas,Adidas Adipower CTRL,Adidas,Adidas,Adidas,Adidas,Adidas,2024-01-01,2025-12-31,120000,12,Equipment Only,Partial
+P027,Coki Nieto,M,ARG,24,Bullpadel,Bullpadel Hack 01,Luxilon,Adidas,Adidas,Bullpadel,Bullpadel,2023-11-01,2025-10-31,110000,10,Full Sponsorship,Full
+P028,Javi Ruiz,M,ESP,26,HEAD,HEAD Gravity Pro,HEAD,Nike,Nike,HEAD,HEAD,2024-03-01,2026-02-28,100000,8,Equipment Only,Partial
+P029,Juan Tello,M,ARG,28,Siux,Siux ST2 Power,Siux,Asics,Asics,Siux,Siux,2023-09-01,2025-08-31,90000,9,Full Sponsorship,Full
+P030,Momo Gonzalez,M,ESP,30,Babolat,Babolat Technical Viper,Babolat,Babolat,Babolat,Babolat,Babolat,2024-01-01,2026-12-31,85000,8,Full Sponsorship,Full
+P031,Carlos Daniel Gutierrez,M,MEX,32,Nox,Nox AT10 Genius,Nox,Joma,Joma,Nox,Nox,2023-12-01,2025-11-30,80000,7,Full Sponsorship,Full
+P032,Jose Antonio Garcia,M,ESP,34,Starvie,Starvie Astrum Eris,Starvie,Kelme,Kelme,Starvie,Starvie,2024-02-01,2026-01-31,75000,6,Full Sponsorship,Full
+P033,Pablo Lijó,M,ESP,36,Adidas,Adidas Metalbone,Adidas,Adidas,Adidas,Adidas,Adidas,2023-07-01,2025-06-30,70000,8,Equipment Only,Partial
+P034,Jorge Martinez,M,ESP,38,Bullpadel,Bullpadel Vertex 02,Bullpadel,Adidas,Adidas,Bullpadel,Bullpadel,2024-01-01,2025-12-31,65000,6,Full Sponsorship,Full
+P035,Ramiro Moyano,M,ARG,40,HEAD,HEAD Alpha Elite,HEAD,Nike,Nike,HEAD,HEAD,2023-10-01,2025-09-30,60000,5,Equipment Only,Partial
+P036,Lucho Capra,M,ARG,42,Siux,Siux ST3 Control,Siux,Asics,Asics,Siux,Siux,2024-03-01,2026-02-28,55000,5,Full Sponsorship,Full
+P037,Juan Cruz Belluati,M,ARG,44,Babolat,Babolat Counter Viper,Babolat,Babolat,Babolat,Babolat,Babolat,2023-08-01,2025-07-31,50000,4,Full Sponsorship,Full
+P038,Antonio Fernandez,M,ESP,46,Nox,Nox ML10 Pro Cup,Nox,Joma,Joma,Nox,Nox,2024-01-01,2025-12-31,45000,4,Equipment Only,Partial
+P039,Alvaro Cepero,M,ESP,48,Starvie,Starvie Metheora,Starvie,Kelme,Kelme,Starvie,Starvie,2023-11-01,2025-10-31,40000,3,Full Sponsorship,Full
+P040,Rafa Mendez,M,ESP,50,Adidas,Adidas Adipower Light,Adidas,Adidas,Adidas,Adidas,Adidas,2024-02-01,2026-01-31,38000,4,Equipment Only,Partial
+P041,Patricia Llaguno,F,ESP,12,HEAD,HEAD Alpha Pro,HEAD,Nike,Nike,HEAD,HEAD,2023-06-01,2025-05-31,170000,14,Full Sponsorship,Full
+P042,Eli Amatria,F,ESP,14,Bullpadel,Bullpadel Hack Women,Bullpadel,Adidas,Adidas,Bullpadel,Bullpadel,2024-01-01,2026-12-31,150000,13,Full Sponsorship,Full
+P043,Araceli Martinez,F,ESP,16,Adidas,Adidas Adipower Women,Adidas,Adidas,Adidas,Adidas,Adidas,2023-09-01,2025-08-31,130000,12,Full Sponsorship,Full
+P044,Sofia Araujo,F,POR,18,Bullpadel,Bullpadel Vertex Women,Bullpadel,Nike,Nike,Bullpadel,Bullpadel,2024-02-01,2027-01-31,120000,10,Full Sponsorship,Full
+P045,Jessica Castelló,F,ESP,20,HEAD,HEAD Gravity Women,HEAD,Nike,Nike,HEAD,HEAD,2023-12-01,2025-11-30,110000,9,Full Sponsorship,Full
+P046,Alba Galan,F,ESP,22,Adidas,Adidas Metalbone Women,Adidas,Adidas,Adidas,Adidas,Adidas,2024-01-01,2025-12-31,100000,8,Full Sponsorship,Full
+P047,Victoria Iglesias,F,ESP,24,Bullpadel,Bullpadel Hack 01 Women,Bullpadel,Adidas,Adidas,Bullpadel,Bullpadel,2023-10-01,2025-09-30,90000,7,Full Sponsorship,Full
+P048,Carla Touly,F,FRA,26,HEAD,HEAD Delta Women,HEAD,Nike,Nike,HEAD,HEAD,2024-03-01,2026-02-28,80000,6,Full Sponsorship,Full
+P049,Mapi Sanchez,F,ESP,28,Adidas,Adidas Adipower Team Women,Adidas,Adidas,Adidas,Adidas,Adidas,2023-07-01,2025-06-30,70000,6,Equipment Only,Partial
+P050,Bea Gonzalez,F,ESP,30,Bullpadel,Bullpadel Vertex 03 Women,Bullpadel,Nike,Nike,Bullpadel,Bullpadel,2024-01-01,2026-12-31,65000,5,Full Sponsorship,Full
+P051,Tamara Icardo,F,ESP,32,Siux,Siux ST1 Women,Siux,Asics,Asics,Siux,Siux,2023-11-01,2025-10-31,60000,5,Full Sponsorship,Full
+P052,Duna Vall,F,ESP,34,Babolat,Babolat Counter Women,Babolat,Babolat,Babolat,Babolat,Babolat,2024-02-01,2026-01-31,55000,4,Full Sponsorship,Full
+P053,Carolina Navarro,F,ESP,36,Nox,Nox ML10 Women,Nox,Joma,Joma,Nox,Nox,2023-08-01,2025-07-31,50000,4,Full Sponsorship,Full
+P054,Cata Tenorio,F,ARG,38,Starvie,Starvie Astrum Women,Starvie,Kelme,Kelme,Starvie,Starvie,2024-01-01,2025-12-31,45000,3,Full Sponsorship,Full
+P055,Mari Carmen Villalba,F,ESP,40,Adidas,Adidas Adipower CTRL Women,Adidas,Adidas,Adidas,Adidas,Adidas,2023-12-01,2025-11-30,40000,3,Equipment Only,Partial
+P056,Ana Catarina Nogueira,F,POR,42,Bullpadel,Bullpadel Hack 02 Women,Bullpadel,Adidas,Adidas,Bullpadel,Bullpadel,2024-03-01,2026-02-28,38000,3,Full Sponsorship,Full
+P057,Martita Talavan,F,ESP,44,HEAD,HEAD Alpha Pro Women,HEAD,Nike,Nike,HEAD,HEAD,2023-09-01,2025-08-31,35000,2,Equipment Only,Partial
+P058,Ariana Caceres,F,ARG,46,Siux,Siux ST2 Women,Siux,Asics,Asics,Siux,Siux,2024-01-01,2025-12-31,32000,2,Full Sponsorship,Full
+P059,Julieta Bidahorria,F,ARG,48,Babolat,Babolat Technical Women,Babolat,Babolat,Babolat,Babolat,Babolat,2023-10-01,2025-09-30,30000,2,Full Sponsorship,Full
+P060,Ana Fernandez,F,ESP,50,Nox,Nox AT10 Women,Nox,Joma,Joma,Nox,Nox,2024-02-01,2026-01-31,28000,2,Equipment Only,Partial

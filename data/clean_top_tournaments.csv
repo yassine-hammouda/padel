@@ -1,0 +1,26 @@
+tournament_id,tournament_name,year,location,total_viewers_millions,peak_viewers_thousands,avg_viewers_thousands,tv_channels,digital_platforms,ticket_revenue_eur,stadium_attendance,stadium_capacity,prize_money_eur,tv_channels_list,digital_platforms_list,tv_channels_count,occupancy_rate
+WPT001,World Padel Tour Master Final,2023,Barcelona,12.5,2100,850,Eurosport;Movistar+,WPT TV;YouTube,2100000,16500,17000,500000,"['Eurosport', 'Movistar+']","['WPT TV', 'YouTube']",2,97.06
+WPT002,Madrid Master,2024,Madrid,9.8,1800,720,DAZN;TVE,WPT TV,1850000,14200,15000,450000,"['DAZN', 'TVE']",['WPT TV'],2,94.67
+PPT001,Premier Padel Riyadh,2024,Riyadh,15.2,2800,1100,beIN Sports,WPT TV;YouTube,3200000,19800,20000,750000,['beIN Sports'],"['WPT TV', 'YouTube']",1,99.0
+WPT003,Estrella Damm Master,2023,Valencia,8.3,1500,650,Movistar+,YouTube,1650000,12500,13500,350000,['Movistar+'],['YouTube'],1,92.59
+PPT002,Premier Padel Mexico,2023,Mexico City,11.3,2200,890,ESPN,WPT TV,1950000,15800,16500,600000,['ESPN'],['WPT TV'],1,95.76
+WPT004,Copenhagen Open,2024,Copenhagen,6.9,1100,540,TV2 Sport,Viaplay,1250000,9800,11000,300000,['TV2 Sport'],['Viaplay'],1,89.09
+PPT003,Premier Padel Italy,2023,Rome,9.7,1900,750,Eurosport,DAZN,1450000,11400,12000,400000,['Eurosport'],['DAZN'],1,95.0
+WPT005,Brussels Padel Master,2023,Brussels,7.2,1200,580,Eurosport,WPT TV,1380000,10500,11500,320000,['Eurosport'],['WPT TV'],1,91.3
+PPT004,Premier Padel Paris,2024,Paris,8.9,1700,690,beIN Sports;Eurosport,Amazon Prime,1900000,15100,16000,550000,"['beIN Sports', 'Eurosport']",['Amazon Prime'],2,94.38
+WPT006,Swedish Open,2024,Stockholm,5.8,950,480,TV4 Sport,Viaplay,980000,8200,9500,250000,['TV4 Sport'],['Viaplay'],1,86.32
+PPT005,Premier Padel Egypt,2023,Cairo,7.4,1400,610,beIN Sports,WPT TV,1150000,9200,10000,280000,['beIN Sports'],['WPT TV'],1,92.0
+WPT007,Lisbon Open,2023,Lisbon,6.3,1050,520,Sport TV;Eurosport,WPT TV,1080000,8700,9500,270000,"['Sport TV', 'Eurosport']",['WPT TV'],2,91.58
+PPT006,Premier Padel Miami,2024,Miami,10.5,1950,820,ESPN,ESPN+,2250000,16800,18000,650000,['ESPN'],['ESPN+'],1,93.33
+WPT008,Amsterdam Open,2024,Amsterdam,5.2,890,430,Ziggo Sport,Viaplay,890000,7600,8500,220000,['Ziggo Sport'],['Viaplay'],1,89.41
+PPT007,Premier Padel Buenos Aires,2023,Buenos Aires,13.8,2400,950,ESPN;TyC Sports,WPT TV,2450000,18200,19000,700000,"['ESPN', 'TyC Sports']",['WPT TV'],2,95.79
+WPT009,Marbella Open,2023,Marbella,7.8,1350,670,Movistar+,YouTube,1320000,10100,11000,310000,['Movistar+'],['YouTube'],1,91.82
+PPT008,Premier Padel Dubai,2024,Dubai,9.1,1750,710,beIN Sports,WPT TV,2050000,16200,17000,580000,['beIN Sports'],['WPT TV'],1,95.29
+WPT010,London Open,2024,London,8.1,1450,660,Sky Sports;Eurosport,Amazon Prime,1750000,13800,15000,480000,"['Sky Sports', 'Eurosport']",['Amazon Prime'],2,92.0
+PPT009,Premier Padel Monaco,2023,Monaco,6.7,1150,590,Eurosport,DAZN,1280000,9900,10500,290000,['Eurosport'],['DAZN'],1,94.29
+WPT011,Vienna Open,2023,Vienna,4.9,820,410,Sky Sport Austria,Viaplay,780000,6900,8000,200000,['Sky Sport Austria'],['Viaplay'],1,86.25
+PPT010,Premier Padel Qatar,2024,Doha,8.4,1600,680,beIN Sports,WPT TV,1880000,14900,15500,520000,['beIN Sports'],['WPT TV'],1,96.13
+WPT012,Bilbao Open,2024,Bilbao,6.5,1120,570,Movistar+,YouTube,1180000,9400,10500,260000,['Movistar+'],['YouTube'],1,89.52
+PPT011,Premier Padel Singapore,2023,Singapore,5.3,900,440,Star Hub;beIN Sports,WPT TV,950000,8100,9000,230000,"['Star Hub', 'beIN Sports']",['WPT TV'],2,90.0
+WPT013,Porto Open,2023,Porto,5.6,970,460,Sport TV,WPT TV,1020000,8500,9500,240000,['Sport TV'],['WPT TV'],1,89.47
+PPT012,Premier Padel Tokyo,2024,Tokyo,7.9,1420,620,WOWOW;DAZN,WPT TV,1680000,13200,14000,460000,"['WOWOW', 'DAZN']",['WPT TV'],2,94.29

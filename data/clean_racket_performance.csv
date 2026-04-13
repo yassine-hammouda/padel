@@ -1,0 +1,21 @@
+racket_model,brand,players_using_count,avg_player_ranking,price_eur,weight_grams,balance,shape,foam_type,release_year,success_rate_percent
+Bullpadel Hack 01,Bullpadel,8,12.5,389.9,365,High,Round,HR3,2023,92.4
+HEAD Alpha Elite,HEAD,7,15.2,349.9,370,Medium,Teardrop,Power Foam,2024,89.7
+Adidas Adipower Light,Adidas,6,18.3,369.9,360,Low,Diamond,EVA,2023,87.5
+HEAD Gravity Pro,HEAD,5,22.1,329.9,375,High,Round,Multi-density,2024,85.2
+Bullpadel Vertex 03,Bullpadel,5,24.8,379.9,362,Medium,Diamond,HR3,2023,83.9
+Adidas Metalbone,Adidas,4,27.5,359.9,368,Low,Teardrop,Powerlite,2024,81.6
+HEAD Delta Pro,HEAD,4,29.7,319.9,372,Medium,Round,Soft EVA,2023,79.8
+Adidas Adipower Team,Adidas,3,31.4,339.9,366,High,Diamond,EVA,2024,77.5
+Bullpadel Hack 02,Bullpadel,3,33.2,369.9,364,Medium,Round,HR3,2024,75.9
+Adidas Adipower CTRL,Adidas,3,35.8,349.9,370,Low,Teardrop,Powerlite,2023,73.4
+Siux ST1 Attack,Siux,2,38.5,329.9,363,Medium,Diamond,Carbon,2024,71.2
+Babolat Counter Viper,Babolat,2,40.3,359.9,367,High,Round,PMT,2023,68.9
+Nox ML10 Pro Cup,Nox,2,42.7,299.9,361,Medium,Teardrop,EVA,2024,66.5
+Starvie Metheora,Starvie,2,44.9,279.9,369,Low,Diamond,Multi-density,2023,64.3
+HEAD Alpha Pro,HEAD,2,47.2,339.9,371,High,Round,Power Foam,2024,62.1
+Bullpadel Hack Women,Bullpadel,4,14.8,379.9,355,Medium,Round,HR3,2023,90.6
+HEAD Alpha Pro Women,HEAD,3,17.4,329.9,358,Low,Teardrop,Power Foam,2024,88.3
+Adidas Adipower Women,Adidas,3,19.7,359.9,352,Medium,Diamond,EVA,2023,86.2
+Bullpadel Vertex Women,Bullpadel,2,21.5,369.9,356,High,Round,HR3,2024,84.1
+HEAD Gravity Women,HEAD,2,23.8,309.9,360,Medium,Teardrop,Multi-density,2023,82.0

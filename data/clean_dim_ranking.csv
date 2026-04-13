@@ -1,0 +1,4112 @@
+player_name,country,points,position,move,gender
+Arturo Coello,ESP,19800,1,0,M
+Agustin Tapia,ARG,19800,1,0,M
+Alejandro Galan,ESP,17320,3,0,M
+Federico Chingotto,ARG,17320,3,0,M
+Franco Stupaczuk,ARG,7905,5,0,M
+Juan Lebron,ESP,7845,6,0,M
+Jorge Nieto,ESP,6322,7,0,M
+Miguel Yanguas,ESP,6322,7,0,M
+Francisco Navarro,ESP,6115,9,0,M
+Leandro Augsburger,ARG,5155,10,0,M
+Jon Sanz,ESP,5125,11,0,M
+Martin Di Nenno,ARG,5110,12,0,M
+Lucas Bergamini,BRA,4550,13,0,M
+Francisco Guerrero,ESP,4410,14,0,M
+Jeronimo Gonzalez,ESP,4350,15,0,M
+Javier Leal,ESP,3665,16,0,M
+Juan Tello,ARG,3330,17,0,M
+Eduardo Alonso,ESP,2955,18,0,M
+Leonel Daniel Aguirre,ARG,2870,19,0,M
+Gonzalo Gabriel Alfonso,ARG,2760,20,0,M
+Alejandro Ruiz,ESP,2570,21,0,M
+Javier Garrido,ESP,2528,22,0,M
+Javier Garcia,ESP,2500,23,0,M
+Javier Barahona,ESP,2475,24,0,M
+Pablo Cardona,ESP,2400,25,0,M
+Alejandro Arroyo,ESP,2354,26,0,M
+Juanlu Esbri,ESP,2292,27,0,M
+Lucas Campagnolo,BRA,2280,28,0,M
+Alex Chozas,ARG,2252,29,0,M
+Jairo Bautista,ESP,2201,30,0,M
+Carlos Daniel Gutierrez,ARG,2148,31,0,M
+Inigo Jofre,UAE,1941,32,0,M
+Jose Antonio Diestro,ESP,1935,33,0,M
+Victor Ruiz,ESP,1794,34,0,M
+David Gala Sanchez,ESP,1736,35,0,M
+Jose Jimenez Casas,ESP,1591,36,0,M
+Pablo Garcia Rodrigo,ESP,1580,37,0,M
+Javier Ruiz,ESP,1518,38,0,M
+Francisco Cabeza Teres,ESP,1507,39,0,M
+Pol Hernandez Alvarez,ESP,1506,40,0,M
+Guillermo Collado Losada,ESP,1463,41,0,M
+Gonzalo Rubio,ESP,1461,42,0,M
+Maximiliano Sanchez Blasco,ARG,1449,43,0,M
+Valentino Gabriel Libaak,ARG,1447,44,0,M
+Francisco Manuel Gil,ESP,1398,45,0,M
+Pablo Lijo,ESP,1390,46,1,M
+Diego Garcia Garcia,ESP,1379,47,-1,M
+Nuno Deus,POR,1367,48,0,M
+Miguel Deus,POR,1367,48,0,M
+Alvaro Cepero,ESP,1325,50,0,M
+Maximiliano Sanchez,ARG,1293,51,0,M
+Eduardo Agustin Torre,ARG,1209,52,0,M
+Juan Ignacio Rubini,ARG,1184,53,0,M
+Denis Tomas Perino,ITA,1181,54,0,M
+Ignacio Piotto Albornoz,ARG,1169,55,0,M
+Ignacio Sager,ESP,1145,56,0,M
+Luis Hernandez Quesada,ESP,1138,57,0,M
+Andres Fernandez Lancha,ESP,1104,58,0,M
+Maximiliano Arce Simo,ARG,1085,59,0,M
+Enrique Goenaga,ESP,1060,60,0,M
+Jose Luis Gonzalez,ESP,1060,60,0,M
+Facundo Dominguez,ITA,1040,62,0,M
+Antonio Fernandez,ESP,1024,63,0,M
+Enzo Jensen Sirvent,ITA,1003,64,0,M
+Aimar Goñi Lacabe,ESP,985,65,0,M
+Javier Martinez,ESP,982,66,0,M
+Juan Cruz Belluati,ARG,975,67,0,M
+Aris Patiniotis,ITA,965,68,0,M
+Alonso Rodriguez Martinez,ESP,964,69,0,M
+Mario Del Castillo,ESP,963,70,0,M
+Mario Huete Hernandez,ESP,962,71,0,M
+Marc Sintes Villalonga,ESP,954,72,0,M
+Marco Cassetta,ITA,953,73,0,M
+Mario Ortega,ESP,947,74,0,M
+Flavio Abbate,ITA,945,75,0,M
+Daniel Santigosa Sastre,ESP,942,76,0,M
+Emilio Sanchez Chamero,ESP,940,77,0,M
+Anton Sans,ESP,931,78,0,M
+Federico Mouriño,ARG,928,79,0,M
+Marc Quilez,ESP,911,80,0,M
+Teodoro Zapata,ESP,911,80,0,M
+Manuel Castaño Salguero,ESP,894,82,0,M
+Alvaro Montiel Caruso,ITA,878,83,0,M
+Javier Valdes,CHI,853,84,0,M
+Ramiro Jesus Valenzuela,ARG,848,85,0,M
+Agustin Gutierrez,ARG,839,86,0,M
+Álvaro Melendez Amaya,ESP,824,87,0,M
+Miguel Lamperti,ARG,818,88,0,M
+Salvador Oria,ESP,812,89,0,M
+Adam Axelsson,SWE,810,90,0,M
+Ignacio Vilariño Gestoso,ESP,772,91,0,M
+Clement Geens,BEL,744,92,0,M
+Jesus Moya,ESP,728,93,0,M
+Simone Cremona,ITA,709,94,3,M
+Alejandro Jerez Carnero,ESP,696,95,-1,M
+Simon Vasquez,SWE,694,96,-1,M
+Boris Castro Garcia,ESP,691,97,-1,M
+Jaume Romera Barcelo,ESP,646,98,0,M
+Nacho Moragues Moltò,ESP,616,99,0,M
+Luciano Capra,ARG,596,100,0,M
+Jose Rico,ESP,578,101,0,M
+Juan Ignacio De Pascual,ARG,571,102,0,M
+Ferran Insa Sotillo,ESP,569,103,0,M
+Mariano Agustin Gonzalez San Martin,PAR,567,104,0,M
+Juan Zamora Perez,ESP,565,105,0,M
+Adrian Marques Berdonce,ESP,549,106,0,M
+Alberto Garcia Jimenez,ESP,549,106,0,M
+Rafael Mendez,ESP,521,108,0,M
+Arnau Ayats,UAE,512,109,1,M
+Ramiro Moyano,ARG,502,110,2,M
+Javier Rico,ESP,500,111,2,M
+Guillem Figuerola Santiago,ESP,499,112,-3,M
+Simone Iacovino,ITA,489,113,1,M
+Rodrigo Coello Manso,ESP,487,114,1,M
+Manuel Aragon Herrera,ESP,485,115,2,M
+Pedro Melendez Amaya,ESP,484,116,2,M
+Christian Medina Murphy,GBR,477,117,2,M
+Pepe Aliaga,ESP,473,118,-2,M
+Roberto Belmont Pastor,ESP,469,119,-8,M
+Santiago Jose Pineda Cabello,ESP,460,120,0,M
+Diego Gil,ESP,455,121,0,M
+Thijs Roper,NED,453,122,0,M
+Youp De Kroon,NED,451,123,0,M
+Diego Dorta Diaz,ESP,450,124,0,M
+Johan Bergeron,FRA,444,125,0,M
+Bastien Blanque,FRA,441,126,0,M
+Lorenzo Di Giovanni,ITA,441,126,0,M
+Sten Richters,NED,436,128,7,M
+Nicolas Suescun,ITA,435,129,-1,M
+Dylan Guichard,FRA,428,130,0,M
+Fran Ramirez Navas,ESP,427,131,0,M
+Giulio Graziotti,ITA,422,132,0,M
+Julian Prins,NED,411,133,0,M
+Alvaro Pozo Marroyo,ESP,408,134,0,M
+Marcos Gonzalez Blanco,ESP,406,135,1,M
+Miguel Melero Bernal,ESP,401,136,1,M
+Gustavo Nunes,POR,400,137,1,M
+Albert Roglan Pons,ESP,397,138,1,M
+Alberto Garcia Trabanco,ESP,394,139,1,M
+Pau Miñano Ortinez,ESP,389,140,1,M
+Diego Arredondo Garcia,MEX,387,141,7,M
+Martin Abud,PAR,387,141,1,M
+Christian Fuster,ESP,385,143,0,M
+Albin Olsson,SWE,384,144,0,M
+Julian Lacamoire,ARG,384,144,0,M
+Manuel Gayone,ARG,382,146,0,M
+Youssef Hossam,EGY,382,146,0,M
+Victor Tur Checa,ESP,375,148,-19,M
+Miguel Angel Solbes,ESP,372,149,0,M
+Miguel Gonzalez,ESP,370,150,0,M
+Victor Mena,ESP,370,150,0,M
+Miguel Benitez Lara,ESP,368,152,0,M
+Albert Trillas Garcia,ESP,365,153,0,M
+José Enrique Giménez Barcelona,ESP,364,154,0,M
+Nicolas Zurita,ITA,359,155,0,M
+Renzo Gabriel Nuñez,ARG,353,156,0,M
+Facundo Rodrigo Luis Lopez,ARG,352,157,1,M
+Pedro Araujo,POR,351,158,1,M
+Pablo Sanchez Vicente,ESP,347,159,1,M
+Felipe Calleja,ARG,340,160,1,M
+Marcos Cordoba,ESP,338,161,-5,M
+Axel William Guevara,ARG,336,162,0,M
+Agustin Reca,GER,335,163,0,M
+Adrian Naranjo Martinez,ESP,330,164,0,M
+Thomas Leygue,FRA,329,165,0,M
+Guillermo Fernandez Sanchez,ESP,329,165,0,M
+Joao Maria Caiano,POR,328,167,0,M
+Jaime Munoz,ESP,328,167,0,M
+Alejandro Calvo Perez,ESP,324,169,1,M
+Antonio Luque,POR,324,169,1,M
+Julien Seurin,FRA,324,169,0,M
+Facundo Dehnike,PAR,323,172,0,M
+Alvaro Lopez Luque,ESP,321,173,0,M
+Alfonso Sanchez Arriaga,ESP,320,174,0,M
+Menno Nolten,NED,315,175,0,M
+Federico Chiostri,ARG,308,176,0,M
+Alejandro Merino Nieto,ESP,303,177,0,M
+Afonso Fazendeiro,POR,302,178,0,M
+Sergio Icardo,UAE,301,179,0,M
+Diogo Jesus,POR,290,180,1,M
+Adrian Ronco Lopez,ESP,286,181,1,M
+Sergio Tierno Herrero,ESP,286,181,1,M
+Daniel Windahl,SWE,279,183,1,M
+Ivan Ramirez,ESP,277,184,1,M
+Pablo Castillo Valverde,ESP,276,185,1,M
+Pablo Molina Tofanelli,ARG,275,186,1,M
+Timeo Fonteny,FRA,272,187,1,M
+Luciano Puppo,ARG,269,188,1,M
+Maxime Joris,FRA,268,189,0,M
+Joel Olivera Palos,ESP,267,190,-10,M
+Candido Jorge Alfaro,ESP,265,191,0,M
+Jairo Guerrero Escarcena,ESP,261,192,1,M
+Luis Oliver Artigas,ESP,260,193,10,M
+Philemon Raichman,FRA,260,193,-2,M
+Hector Vazquez Lopez,ESP,258,195,-1,M
+Gerard Arnaldos Serrano,ESP,258,195,-1,M
+Cristobal Martinez,CHI,258,195,-1,M
+Juan Pablo Dametto,ARG,258,195,-1,M
+Marcel Font,ESP,257,199,-1,M
+Jose Solano Marmolejo,ESP,254,200,-1,M
+Antonio Varo Ramos,ESP,249,201,-1,M
+Yoan Boronad,FRA,247,202,-1,M
+Bart Van Opstal,NED,247,202,-1,M
+Toni Bueno,ESP,245,204,0,M
+Sergio Arias Aznar,ESP,245,204,0,M
+Cristian German Gutierrez,ARG,243,206,0,M
+Kevin Uriel Kviatkovski,ARG,242,207,0,M
+Pedro Graca,POR,239,208,0,M
+Maximo Jesus Maldonado,ARG,233,209,0,M
+Franco Renato Dal Bianco,ARG,231,210,0,M
+Samuel Rivas Garcia,ESP,230,211,0,M
+Mattia Di Bari,ITA,227,212,0,M
+Oscar Matias Almada,ARG,225,213,0,M
+Pedro Perry,POR,225,213,0,M
+Dylan Demian Cuello,ARG,223,215,0,M
+Pablo Reina Ambel,ESP,222,216,0,M
+Karlos Rodriguez Vidal,ESP,222,216,0,M
+Ignacio Archieri,ARG,221,218,0,M
+Jose Pablo Padilla,MEX,220,219,0,M
+Ramiro Pereyra,ARG,219,220,0,M
+Juan Manuel Argañaras,ARG,219,220,0,M
+Wagdy Raslan,EGY,219,220,0,M
+Jose Roman Martinez Sanchis,ESP,219,220,0,M
+Vinny Nahuel Di Francesco,USA,214,224,0,M
+Miguel Morales Domenech,ESP,212,225,0,M
+Henrique Barbosa,POR,212,225,0,M
+Borja Trujillo Chang,ESP,211,227,0,M
+Nicolas Crosio,ARG,210,228,0,M
+Antonio Palma,ITA,209,229,0,M
+Daniele Cattaneo,ITA,207,230,0,M
+Douglas Rutgersson,SWE,207,230,0,M
+Francisco Jurado Sosa,UAE,204,232,0,M
+Leonardo Yob,ARG,204,232,0,M
+Isaac Huysveld,BEL,203,234,0,M
+Zé Alexandre Meireles,POR,203,234,0,M
+Vasco Pascoal,POR,197,236,0,M
+Santino Giuliani Lombardo,ITA,195,237,0,M
+Andrea Mangiante,ITA,190,238,1,M
+Matteo Sargolini,ITA,188,239,1,M
+Thomas Panken,NED,188,239,1,M
+Santiago Rolla,ARG,187,241,1,M
+Francisco Maier,ARG,186,242,1,M
+Carlos Marti,ESP,186,242,1,M
+Miguel Oliveira,POR,183,244,1,M
+Joaquin Nicolas Escalona Linz,CHI,183,244,1,M
+Nicolas Rouanet,FRA,180,246,-8,M
+Willy Släryd,SWE,180,246,1,M
+Daniel Appelgren,SWE,178,248,0,M
+Georges Wakim,EGY,176,249,11,M
+Iago Fuertes Leonardo,ESP,176,249,0,M
+Arthur Hugounenq,FRA,175,251,-1,M
+Sergio Nieto Simon,ESP,173,252,0,M
+Pier Giulio Farabbi,ITA,172,253,-2,M
+Victor Ortega Garcia,ESP,172,253,1,M
+Sergi Guimet Bigas,ESP,169,255,8,M
+Mateo Rivero,ARG,169,255,0,M
+Adrian Rodriguez rodriguez-Manzaneque,ESP,168,257,-5,M
+Noe Sanchez Del Viejo,ESP,167,258,-2,M
+Pablo Cuesta Gomez,ESP,165,259,-2,M
+Oscar Sebber Gormsen,DEN,163,260,-2,M
+Jordi Casanova Bataller,ESP,163,260,-2,M
+Aly Zaghloul,EGY,160,262,-1,M
+Noa Bonnefoy,ITA,159,263,-1,M
+Jorrit Hazebroek,NED,155,264,-1,M
+Nino Zweers,NED,154,265,0,M
+Bohou Zhang,CHN,154,265,0,M
+Juan Cruz Forastello,ARG,153,267,0,M
+Roger Aromi Siquier,ESP,153,267,0,M
+Steve Piernicola Stracquadaini,ITA,150,269,1,M
+Matheus De Avila Simonato,BRA,150,269,1,M
+Bram Meijer,NED,149,271,2,M
+Thomas Vanbauce,FRA,148,272,-2,M
+Giuseppe Fino,ITA,148,272,2,M
+Marc Lupon Martinez,ESP,147,274,-5,M
+Mateo Conte Gonzalez,ARG,147,274,1,M
+Octavio Alvarez,ARG,146,276,0,M
+Juan Jose Dominguez Cruz,ESP,146,276,0,M
+Carlos Perez Cabeza,ESP,144,278,0,M
+Diogo Correa Rodrigues,BRA,144,278,0,M
+Ignacio Alonso Chillaron,ESP,143,280,0,M
+Federico Galli,ITA,142,281,0,M
+Simone Vaccari,ITA,140,282,1,M
+Arnau Candelo Casas,ESP,139,283,1,M
+Lucas Cunha,BRA,139,283,1,M
+Mateo Alvarez,CHI,138,285,1,M
+Marc Bernils Garcia,ESP,137,286,1,M
+Joaquin De Astoreca,ARG,137,286,1,M
+Gaston Lazzarini,ARG,135,288,1,M
+Kai Groen,NED,135,288,1,M
+Cristobal Garcia Blanco,ESP,134,290,1,M
+Joaquim Florensa Hernandez,ESP,134,290,1,M
+Riccardo Sinicropi,ITA,134,290,1,M
+Miguel Martin Cano,ESP,133,293,2,M
+Ivo Andenmatten Gudiño,ARG,133,293,2,M
+Rodrigo Manrique Nuño,ESP,131,295,2,M
+Eneko Arija Ochoa De Alda,ESP,131,295,2,M
+Max Bjorkman,SWE,130,297,-15,M
+Juan Ignacio Franco,ARG,129,298,2,M
+Jose Pedro Montalban Martin,ESP,126,299,2,M
+Adrian Molina Lopez,ESP,126,299,2,M
+Aleix Pozo Rius,ESP,125,301,-2,M
+Matteo Platania,ITA,124,302,1,M
+Pablo Pastor Landaburu,ESP,123,303,-12,M
+Matias Emiliano Gutierrez C.,ARG,122,304,0,M
+Jose David Sanchez,ESP,122,304,0,M
+Ferran Gonzalez Zamorano,ESP,121,306,0,M
+Jose Manuel Ortiz Llerena,ESP,120,307,0,M
+Juan Ignacio Balzola Galvani,ARG,119,308,0,M
+Miguel Muñoz Zurita,ESP,118,309,0,M
+Abraham Muñoz Zurita,ESP,117,310,0,M
+Nicolas Cordoba,ARG,117,310,0,M
+Aaron Garcia Rubio,ESP,117,310,0,M
+Juan Manuel Lasgoity,ITA,116,313,0,M
+Alejandro Prados,ESP,116,313,0,M
+Antonio Graupera,ARG,116,313,0,M
+Sergio Alba,ESP,115,316,0,M
+Sergi Nogueras Lorenz,ESP,115,316,0,M
+Arnau Carbonell Ortells,ESP,114,318,0,M
+Enzo Vista,ITA,114,318,0,M
+Daniel Martinez Otero,ESP,113,320,0,M
+Marco Antonio Quereda Moreno,ESP,112,321,0,M
+Bernardo Tavares,POR,111,322,0,M
+Mashari Nawaf,QAT,111,322,0,M
+Nicolas Van Betuw,NED,111,322,0,M
+Matias Soto,CHI,110,325,1,M
+Mats Groen,NED,109,326,-4,M
+Jorrit Notenboom,NED,108,327,1,M
+Manuel Vives,FRA,108,327,1,M
+Vasileios Sioulis,GRE,108,327,1,M
+Ali Dawani,BRN,107,330,1,M
+Nathan Courrin,FRA,107,330,-3,M
+Ruben Fernandez Sansano,ESP,106,332,3,M
+Benjamin Tison,FRA,106,332,3,M
+Sergio Esteban Barroso,ESP,104,334,-3,M
+Alejandro Guinaldo Martin,ESP,103,335,2,M
+Alexander Loughlan,GBR,103,335,2,M
+Plinio Ferrao,POR,103,335,2,M
+Henrique Orge,POR,102,338,2,M
+Salvador Ferreira Nunes Foios Simões,POR,102,338,2,M
+Alejandro Blanco Sollet,ESP,101,340,2,M
+David Esteban Esposito,ESP,101,340,7,M
+Emiliano Martin Iriart,ITA,100,342,1,M
+Mauro Agustin Salandro,ITA,100,342,1,M
+Santiago Sebastian Strazzabopo Nieves,ARG,99,344,1,M
+Michele Brambilla,ITA,99,344,1,M
+Daniel Blanco Dopazo,ESP,98,346,1,M
+Louie Harris,GBR,97,347,2,M
+Juan Pablo Castillo,MEX,97,347,2,M
+Fabricio Ivan Peiron,ARG,97,347,2,M
+Marco Remolina Pablo,ESP,96,350,3,M
+Gonzalo Perez Arbona,ESP,96,350,3,M
+Tygho Schoonus,NED,95,352,1,M
+Matias Emmanuel Del Moral,ARG,95,352,5,M
+Leon David Ruiz Shannon,ESP,95,352,1,M
+Rashed Nawaf,QAT,95,352,5,M
+Alvaro Martinez Espi,ESP,94,356,3,M
+Francisco Gomes,BRA,94,356,3,M
+Juan Figueroa Ayala,ESP,94,356,3,M
+Mohammed Saadon Alkuwari,QAT,93,359,3,M
+Adrian Baamonde,ESP,92,360,3,M
+Josep Aymerich Bellmunt,ESP,92,360,-11,M
+Nicolò Turchetti,ITA,92,360,3,M
+Daniele Catini,ITA,92,360,3,M
+Gonzalo Vera,ARG,91,364,2,M
+Joaquin Mazzeo Rubi,ARG,91,364,2,M
+Cameron Dollimore,GBR,90,366,26,M
+Tiago Valério,POR,90,366,2,M
+Lorenzo Chionna,ITA,90,366,2,M
+Patricio Belluati,ESP,89,369,1,M
+Javier Del Cacho Cidoncha,ESP,88,370,1,M
+Bruno Ferreira Pedrosa,POR,88,370,1,M
+Jan Masferrer,ESP,88,370,1,M
+Cristobal Molina,CHI,87,373,1,M
+Daniel Llorente Ruiz,ESP,87,373,1,M
+Pablo Acevedo Iturribarria,MEX,87,373,1,M
+Pablo Francisco Amora Hernandez,MEX,87,373,1,M
+Daniel Luna Peinado,ESP,87,373,1,M
+Lucas Mañero Cervo Baeza,ESP,86,378,1,M
+Harold Bernard,FRA,86,378,1,M
+Guillermo Vera Cebollero,ESP,85,380,-1,M
+Pol Alsina,ESP,85,380,-49,M
+Thijs De Kroon,NED,85,380,4,M
+Max Sjovall,FIN,85,380,-49,M
+Kwan Lam Vincent Chau,HKG,84,384,-5,M
+Thomas Seux,FRA,84,384,-5,M
+Fabricio Parra Heck,ARG,84,384,2,M
+Alvaro Lopez Campos,ESP,83,387,-1,M
+Matteo Rosingana,ITA,83,387,1,M
+Teo Gamondi,ARG,83,387,1,M
+Facundo Erguy,ARG,83,387,1,M
+Ricardo Martins,POR,83,387,1,M
+Alejandro Garcia Calahorro,ESP,82,392,0,M
+Roman Wink,NED,81,393,1,M
+Bentahor Espino Mustafa,ESP,81,393,1,M
+Javier Garcia Caro,ESP,80,395,-1,M
+Jorge Correa Cordoba,ESP,80,395,2,M
+Merlijn De Krom,NED,79,397,0,M
+Francesco Spurio,ITA,78,398,1,M
+Giorgio Saputo,ITA,78,398,1,M
+Filippo Rudelli,ITA,77,400,1,M
+Singgih Ario Suselo,INA,77,400,14,M
+Martin Araujo De Lizarza,URU,77,400,1,M
+Samuel Jones,GBR,77,400,1,M
+Gabriel Perez Carral,ESP,76,404,0,M
+Luis Soares Da Veiga,POR,76,404,0,M
+Kazuki Tomita,JPN,76,404,14,M
+Stefano Indomenico,ITA,76,404,0,M
+Jose Angel Montoya,MEX,76,404,0,M
+Lorenzo Minighini,ITA,76,404,0,M
+Leonid Poliakov,RUS,75,410,-1,M
+Andres Graupera,ARG,75,410,-1,M
+Clement Pelt,LUX,75,410,-1,M
+Antonis Asimakopoulos,GRE,75,410,-1,M
+Nicholas Agritelley,USA,75,410,-1,M
+Alejandro Caton Calvo,ESP,74,415,-1,M
+Imran Danill Van Dijk,NED,74,415,-1,M
+Rayane Akram Hamou,ALG,74,415,-1,M
+Matteo Maria Sperati,ITA,73,418,0,M
+Zar Lasahido,INA,73,418,0,M
+Gerard Gimeno Centelles,ESP,72,420,2,M
+Diego Agustin Marcial,ARG,71,421,2,M
+Alejandro Urzola Abad,ESP,71,421,2,M
+Maciej Naduk,POL,71,421,2,M
+Henrique Brazao,POR,71,421,2,M
+Abdulla Alhijji,QAT,69,425,3,M
+Javier Mena Moreno,ESP,69,425,3,M
+Gonzalo Camara Rodriguez,ESP,69,425,3,M
+Mostafa Hesham,EGY,69,425,3,M
+Higor Ensslin Alves,URU,69,425,3,M
+Theodore Garton,GBR,68,430,38,M
+Lars Du Pree,NED,68,430,3,M
+Aitor Garcia,ESP,68,430,3,M
+Jeremy Robert,FRA,68,430,3,M
+Mariano Cabrera,ARG,68,430,3,M
+Adrien Maigret,FRA,68,430,-12,M
+Kamel Mouimen,FRA,67,436,-3,M
+Nicolas Aguirre Sanchez,ESP,67,436,2,M
+Lorenzo Mancini,ITA,67,436,2,M
+Zè Pedro Ferreira,POR,66,439,1,M
+Lorenzo Bogarin,ITA,66,439,1,M
+Joel Fernandez Muñoz,ESP,65,441,-1,M
+Ids Hannema,NED,65,441,2,M
+Alessandro Tinti,ITA,65,441,2,M
+Francisco Britos,ARG,65,441,2,M
+Manuel Sousa,POR,65,441,2,M
+Daniel Beneyto Sanchez,ESP,64,446,1,M
+Bohdan Levchuk,UKR,64,446,1,M
+Pavlos-Louis Balafas,GRE,64,446,1,M
+Arturo Miguel Hernando Nuñez,ESP,63,449,1,M
+Edu Altimires Ros,ESP,63,449,-65,M
+Manuel Valcarcel Sanchez,ESP,63,449,1,M
+Daniel Salinas Ordenes,CHI,63,449,1,M
+Jose Gabriel Jimenez Jimenez,ESP,63,449,1,M
+Matias Negrete Oliva,CHI,63,449,1,M
+Adrian Allemandi,ARG,63,449,1,M
+Mauricio Suarez Gonzalez,MEX,62,456,0,M
+Raul Marcos,ESP,62,456,0,M
+Martin Martinez Perez,ESP,62,456,0,M
+Andrea Bettineschi,ITA,61,459,0,M
+Ivan Boluda Pitarch,ESP,61,459,0,M
+Nicolas Peña Ruiz,ESP,61,459,0,M
+Pedro Sousa Martinez,ESP,61,459,0,M
+Alejandro Jimenez Juanas,ESP,61,459,0,M
+David Quiros Peiro,ESP,61,459,0,M
+Omar Salem,EGY,61,459,0,M
+Austin Varghese,IND,61,459,0,M
+Rogrigo Tornelli Contreras,ESP,60,467,1,M
+Romain Sichez,FRA,60,467,1,M
+Alvaro Sola Sala,ESP,60,467,1,M
+Ethan Bardo,GBR,60,467,1,M
+Arturo Calzada Felici,ESP,59,471,2,M
+Mauricio Garcia Villalobos,MEX,59,471,2,M
+Ignacio Miguel Corbo,ARG,59,471,2,M
+Ricardo Martinez,ESP,59,471,2,M
+Daniel Maldonado Fornieles,ESP,59,471,2,M
+Alvaro Del Saz Garcia,ESP,58,476,2,M
+Yeray Conejero Cotillas,ESP,58,476,2,M
+Pietro Giovannini,ITA,58,476,2,M
+Yanis Muesser,FRA,58,476,2,M
+Nikhil Mohindra,GBR,58,476,2,M
+Antonio Garcia Fernandez,ESP,57,481,2,M
+Jorge Angles Ponce,ESP,57,481,2,M
+Guillermo Molina garcía-Muro,ESP,57,481,2,M
+Leonardo Bulgarini,ITA,57,481,2,M
+Mario Yohakim Prayanto,INA,56,485,2,M
+Guilherme Coelho,POR,56,485,2,M
+Xavi Rodriguez Vila,ESP,56,485,2,M
+Pablo Olmo Villa,ESP,56,485,2,M
+Naim Horacio Diaz,ARG,55,489,2,M
+Pedro Gonzalez Martin,ESP,55,489,2,M
+Sergio Jimenez Amozurrutia,MEX,55,489,2,M
+Kilian Jordan,SUI,55,489,2,M
+Hugo Lorenzo Serrano,ESP,55,489,2,M
+Gonzalo Federico Lopez,ARG,55,489,2,M
+Joao Pedro Flores,BRA,54,495,4,M
+Ivo Agustin Nuñez,ARG,54,495,4,M
+Gabriel Bili?ski,POL,54,495,4,M
+Adrian Maria Miranda,PAR,54,495,4,M
+Rayan Abdulla Aljufairi,QAT,54,495,4,M
+Lucas Pillon,FRA,53,500,4,M
+Manuel Ramirez Perez,ESP,53,500,-9,M
+Thomas Basso,FRA,53,500,4,M
+Leonardo Abbate,ITA,53,500,4,M
+Juan Manuel Romanazzi,ARG,53,500,4,M
+Alonso Villavicencio Mancilla,CHI,52,505,3,M
+Izan Marin,ESP,52,505,3,M
+Julien Biron,FRA,52,505,3,M
+Jerzy Janowicz,POL,52,505,3,M
+Jose Alberto Funes Ontivero,ARG,52,505,3,M
+Chun Ho Chow,HKG,51,510,3,M
+Fabian Oviedo Berazategui,ARG,51,510,3,M
+Olivier Guy De Chamisso,FRA,51,510,3,M
+Matias Segura,USA,51,510,3,M
+Nathan Lambrechts,BEL,51,510,3,M
+Mohammad Tuwainah,KUW,51,510,3,M
+Mohammed Al Khanji,QAT,51,510,3,M
+Jaime Lobo Wordsworth,GBR,51,510,3,M
+Relis Ferreyra,ARG,51,510,3,M
+Peter Potasch,SVK,51,510,3,M
+Giulio Lovascio,ITA,50,520,3,M
+Maximiliano Montaño,MEX,50,520,3,M
+Luca Santino Cortese,ARG,50,520,3,M
+Maxime Forcin,FRA,50,520,-61,M
+Ruben Cuevas Tornero,ESP,50,520,3,M
+Jort Nolten,NED,50,520,3,M
+Lucas Orduña Dejoz,ESP,49,526,4,M
+Mauricio A Rivero,ARG,49,526,4,M
+Michal Skonieczny,POL,49,526,4,M
+Francisco Coirini,ARG,49,526,4,M
+Iago Gonzalez Niño,ESP,49,526,4,M
+Karol Krawczy?ski,POL,49,526,4,M
+Giulio Lucchetti,ITA,49,526,4,M
+Pedro Navas Platero,ESP,49,526,4,M
+Jake Bewley,GBR,48,534,4,M
+Lucas Danuzzo,ARG,48,534,4,M
+Joaquin Terceros,ARG,48,534,4,M
+Javier Mesa Arenas,ESP,48,534,-11,M
+Alan Gabriel Ibarrola,ARG,48,534,4,M
+Skirmantas Macinskas,LTU,48,534,4,M
+Simon Wagner,FRA,48,534,-11,M
+Carlos Mateo Gallego,ESP,48,534,4,M
+Nojus Poska,LTU,48,534,4,M
+Fares Al Janahi,UAE,48,534,4,M
+Michal Bartusek,POL,48,534,4,M
+Andres Calzada Felici,ESP,47,545,2,M
+Moritz Eiersebner,AUT,47,545,2,M
+Majed Al Janahi,UAE,46,547,2,M
+Angel Torres,CHI,46,547,2,M
+Shungo Kusakabe,JPN,46,547,2,M
+Axel Waris,FIN,46,547,2,M
+Amr Mohammed Hassan,QAT,45,551,2,M
+Vicente Andrades Caro,CHI,45,551,2,M
+Pedro Carlos Garcia-Consuegra gutierrez,ESP,45,551,2,M
+Pablo Nicolas Egea,ARG,45,551,2,M
+Pedro Alonso,ESP,45,551,2,M
+Ulises Martinez Avila,MEX,45,551,2,M
+Alejandro Zaragoza Madrid,ESP,44,557,2,M
+Juan Pablo Andrada,ARG,44,557,2,M
+Victor Forsberg,SWE,44,557,-66,M
+Maneea Allah Almaqaleh,QAT,43,560,1,M
+Martim Gomes,POR,43,560,1,M
+Bruno Zem Nunes,BRA,43,560,1,M
+Ricardo Gomez martinez-Campos,ESP,43,560,1,M
+Alberto Micali,ITA,43,560,1,M
+Joaquin Bastos Veltri,ARG,43,560,1,M
+Raul Rosas,MEX,43,560,1,M
+Filippo Nicocia,ARG,43,560,1,M
+Gabriele Karol Maria Stracquadaini,ITA,43,560,1,M
+Francesco Berta,ITA,43,560,1,M
+Juan Carlos Gutierrez Guerrero,ESP,42,570,1,M
+Timothy Brown,AUS,42,570,1,M
+Martim Solano,POR,42,570,1,M
+Gerardo Irarrazabal Alvarez,CHI,41,573,2,M
+Tomas Luco,ARG,41,573,2,M
+Rafael Marquet,FRA,41,573,-2,M
+Hassan Adel Waly,QAT,41,573,2,M
+Aziz Khan,PAK,40,577,1,M
+Jorge Jimenez,MEX,40,577,1,M
+Martin Araguete Sales,ESP,40,577,1,M
+Lautaro Rodrigo Guevara,ARG,40,577,1,M
+Guillermo Lahoz Rodriguez,ESP,40,577,1,M
+Hayato Nakayashiki,JPN,40,577,1,M
+Aram Kocharyan,ARM,40,577,1,M
+Vasco Mensurado,POR,40,577,1,M
+Moises Rafael Rivero,MEX,40,577,1,M
+Daniele De Paolis,ITA,40,577,1,M
+Himar Acosta Suárez,ESP,40,577,1,M
+Matias Jimenez Colombres,CHI,40,577,1,M
+Guillermo Espinoza Concha,CHI,40,577,1,M
+Nikander Damianos,NED,40,577,1,M
+Jose Maria Alvarez Torres,MEX,40,577,1,M
+Sean Zachary Lo Escoto,HKG,40,577,1,M
+Diogo Veiga Pereira,POR,39,593,1,M
+Johannes Lindmeyer,GER,39,593,1,M
+Max Moral Mullol,ESP,39,593,1,M
+Matthias Wunner,GER,39,593,1,M
+Hugo Girona Diaz,ESP,39,593,1,M
+Ko Momokawa,JPN,39,593,38,M
+Javier Nuñez Lopez,ESP,39,593,-166,M
+Andres Britos,ITA,39,593,1,M
+Emilio Juan De Dios Benitez Arrien,ARG,38,601,-1,M
+Luciano Perez Gentile,ARG,38,601,-1,M
+Samuel Pontes,ESP,38,601,-1,M
+Alejo Gimenez,ARG,38,601,-1,M
+Jose Antonio De Armas,USA,37,605,-1,M
+Diego Pascual Simon Tomas,ESP,37,605,-1,M
+Islam Ghunaim,BRN,37,605,-1,M
+Exequiel Mouriño,ARG,37,605,-1,M
+Mohamed Kassem,EGY,37,605,-1,M
+Moises Rafael Castillo Contreras,MEX,37,605,-1,M
+Patricio Opazo Arias,CHI,37,605,-1,M
+Gabriele Laurino,ITA,36,612,-1,M
+Tommaso Forneris,ITA,36,612,-1,M
+Jose Alban Paz De La Llave,MEX,36,612,-1,M
+Sherif Mohamed Makhlouf,EGY,36,612,-1,M
+Christian Didier Chin Zao Quan,MAS,36,612,-1,M
+Luis Enrique Barrientos Garcia,MEX,36,612,-1,M
+Carlos Miguel Pelaez Suarez,ESP,36,612,-1,M
+Daniel Nino,COL,36,612,-1,M
+Saveliy Tulupov,RUS,35,620,0,M
+Pablo Navarro Almagro,ESP,35,620,0,M
+Dhari Alansari,KUW,35,620,0,M
+Christian Orduña Guzman,MEX,35,620,0,M
+Ignacio Tellez Rodriguez,ESP,35,620,0,M
+Leon Aurelius Taira Hoy,JPN,35,620,0,M
+Lucas Filippini,FRA,35,620,0,M
+Martin Noschese,ARG,35,620,0,M
+Ariel Cabaral,PHI,35,620,0,M
+Javier Rodriguez Marquez,ESP,35,620,0,M
+Abdulrahman Alawadhi,KUW,35,620,0,M
+Tomas Azocar,CHI,34,631,0,M
+Ben Phillips,GBR,34,631,0,M
+Karim Beltagi,EGY,34,631,0,M
+Gaston Diaz,ARG,34,631,0,M
+Jaime Martin Cano,ESP,34,631,0,M
+Salvador Atencia Basilio,ESP,34,631,0,M
+Hugo Jimenez Reina,ESP,34,631,0,M
+Mainard Mendel Sahagun,PHI,34,631,0,M
+Marin Santiago Alejo,ARG,33,639,1,M
+Federico Alejandro Fleitas,ARG,33,639,1,M
+Mohamed El Garhy,EGY,33,639,1,M
+Alvaro Salgado Soriano,ESP,33,639,1,M
+Ignacio Tato Cantalapiedra,ESP,33,639,1,M
+Egmond Van Heerden,RSA,33,639,1,M
+Diogo Moreira,POR,33,639,1,M
+Anthony Hyjazi,LBN,33,639,1,M
+Erwan Wiyono,INA,33,639,1,M
+Hassan Tarek Shaheen,EGY,33,639,1,M
+Issa Zayed,QAT,32,649,4,M
+Tomas Martinez Pezoa,CHI,32,649,4,M
+Vinayak Shrivastav,IND,32,649,4,M
+Alejandro Correa,ESP,32,649,4,M
+Matteo Mancini,ITA,32,649,4,M
+Lucas Miranda Santos,ESP,32,649,111,M
+Izan Ranera Pedrero,ESP,32,649,-9,M
+Juan Carlos Vargas Vera,MEX,32,649,4,M
+Sebastian Muñoz Campos,CHI,32,649,4,M
+Omar Sabry,EGY,32,649,4,M
+Jaime Fermosell Delgado,ESP,32,649,4,M
+Wenceslao Osorio Flores,ESP,32,649,4,M
+Mario Rodriguez Marcos,ESP,32,649,4,M
+Cosmin Constantin Bardan,ROU,32,649,-9,M
+Orlando Juarez Cano,MEX,31,663,1,M
+Manuel Muñoz Lozano,ESP,31,663,1,M
+Gonçalo Valente,POR,31,663,1,M
+Erko Nigula,EST,31,663,1,M
+Pavel Karpushkin,RUS,31,663,1,M
+Matias Vicencio Labarca,CHI,31,663,1,M
+Ignacio Jara Saez,CHI,31,663,1,M
+Yevgeniy Danilov,KAZ,31,663,1,M
+Lluis Miró Garrido,ESP,31,663,1,M
+Bernardo Bastos,POR,31,663,1,M
+Felix Gonzalez Rodriguez,ESP,31,663,1,M
+Philip Orloff,SUI,30,674,1,M
+Neils Koesoemahadi,INA,30,674,40,M
+Luis Facundo Sayes,ARG,30,674,1,M
+Omar Makhlouf,EGY,30,674,1,M
+Daniel Luengo Calado,ESP,30,674,1,M
+Lucas Franco Rodriguez,ARG,30,674,1,M
+Javier Navarro Perez,ESP,30,674,1,M
+Pablo Vacarezza Kuhlmann,CHI,30,674,1,M
+Alvaro Bermejo De Alamo,ESP,30,674,1,M
+Izan Gil Sampere,ESP,30,674,1,M
+Simon Charaf Jones,MEX,29,684,0,M
+Quintin Vos,NED,29,684,0,M
+Adrian Martinez Galindo,ESP,29,684,0,M
+Jarrett Laabs,USA,29,684,48,M
+Marwan Fayad,EGY,29,684,0,M
+Javier Lopez Garcia,ESP,29,684,0,M
+Tristan Piombo,FRA,29,684,0,M
+Javier Bolumar Orti,ESP,29,684,0,M
+Alejandro Chaveli Canovas,ESP,29,684,0,M
+Alejandro Alcaraz Gonzalez,MEX,29,684,0,M
+Muzaaffer Atakan Ozuysal,TUR,29,684,0,M
+Marco Mismetti,ITA,29,684,0,M
+Murilo Weber,BRA,29,684,0,M
+Omar Zaher,EGY,28,697,-1,M
+Emil Lilleøre madsen,DEN,28,697,-1,M
+Jairo Ajenjo Gomez,ESP,28,697,-1,M
+Abdulla Alaqili,UAE,28,697,-1,M
+Mohamed El-Hamamy,EGY,28,697,-1,M
+Richard Ashforth,RSA,28,697,-1,M
+Tom Farquharson,GBR,28,697,-1,M
+Gonzalo Escobar,ARG,28,697,-1,M
+Alessandro Pirrotta,ITA,28,697,-1,M
+Thiago Pinto,ARG,28,697,-1,M
+Ariff Suffian Bin Zainal Abidin,MAS,28,697,-1,M
+Tiago Fernandes,POR,28,697,-1,M
+Lautaro Mambrini,ARG,28,697,-1,M
+Alex Tur Checa,ESP,28,697,-1,M
+Naser Al Obaidly,KUW,28,697,-1,M
+Andres Ortuño De Pablo,ESP,28,697,-1,M
+Samuel Rodriguez,PAR,28,697,-1,M
+Alberto Simon Garcia,ESP,28,697,-1,M
+Theo Bernardo Dos Santos,BRA,27,715,-1,M
+Eleftherios Theodorou,GRE,27,715,-1,M
+Matias Damian Gonzalez,ITA,27,715,-1,M
+Samy Charni,FRA,27,715,-1,M
+Carlos Del Pico Torres,ESP,27,715,-1,M
+Yohan Borgel,FRA,27,715,-1,M
+Matias Karelovic,CHI,27,715,-1,M
+Wojciech Szczesny,POL,27,715,-1,M
+Carlos Fernandez-Cañadas paredes,ESP,27,715,-1,M
+Bernardo Roque,POR,27,715,-1,M
+Henrique Marsiglia,BRA,27,715,-1,M
+Sebastian Nair Rodriguez,PAR,27,715,-1,M
+Hampus Drakenberg,SWE,27,715,-1,M
+Pierre Perez Le Tiec,FRA,27,715,-1,M
+Mateusz Lipinski,POL,27,715,-1,M
+Alejandro Tasa Van Beek,ESP,27,715,-1,M
+Alfonso Diaz Ponce,ESP,26,731,1,M
+Hassan Barakat,EGY,26,731,1,M
+Manuel Correia,POR,26,731,1,M
+Hussein Gomaa,EGY,26,731,1,M
+Jairo Rueda,ESP,26,731,1,M
+Nicolas Lujan Torres,CHI,26,731,1,M
+Alvaro Sola Alba,ESP,26,731,1,M
+Guillermo Guerreño Pigola,PAR,26,731,1,M
+Josh Gilbert,GBR,26,731,1,M
+Mohamed Aboulkassem,EGY,26,731,1,M
+Pierre Petit Fernandez,PAR,26,731,1,M
+Sergis Kyratzis,CYP,26,731,1,M
+Yannick Verwater,NED,26,731,1,M
+Pablo Rojas,CHI,26,731,1,M
+Marcelo Vidaurreta Villanueva,MEX,26,731,1,M
+Tomas Dos Santos Nunes,POR,26,731,1,M
+Pedro Sequeira,BRA,26,731,1,M
+Elias Nasif,ARG,25,748,3,M
+Andrea Di Martino,ITA,25,748,3,M
+Enzo Silva,BRA,25,748,3,M
+I Putu Anandana Adi Guna,INA,25,748,3,M
+Alvaro Gonzalez Figueroa,ESP,25,748,3,M
+Carlos Flores Peñate,ESP,25,748,3,M
+Pierre Vincent,FRA,25,748,-137,M
+Ludovic Hutzemakers,BEL,25,748,3,M
+Fredrik Lonnqvist,SWE,25,748,3,M
+Andre Biro,HUN,24,757,-6,M
+Pelayo Bucero Sanchez,ESP,24,757,3,M
+Martim Nunes,POR,24,757,3,M
+Jose Antonio Crespo Sanchez,ESP,24,757,3,M
+Linus Frost,SWE,24,757,3,M
+Lucas Landais,FRA,24,757,3,M
+Abdullah Ahli,UAE,24,757,3,M
+Adrian Garcia Caballero,ESP,24,757,3,M
+Zhanibek Umbetov,KAZ,24,757,3,M
+Ignacio Andres Lehyt Sances,CHI,24,757,3,M
+Stefano Wirawan,INA,24,757,3,M
+Lorenzo Romano,ITA,24,757,3,M
+Shashank Narde,IND,24,757,69,M
+Andre Veiga Trindade,URU,24,757,3,M
+Bruno Costa,POR,24,757,3,M
+Thiago Henrique Gasparin Santos,BRA,24,757,3,M
+Cayan Chiodi Appel,BRA,24,757,3,M
+Belar Vera Lopez,ESP,24,757,3,M
+Toni Neykov,BUL,24,757,3,M
+Xie Zongnan,CHN,23,776,3,M
+Diego Arnoldo Ruiz Espinosa,MEX,23,776,3,M
+Argel Alexandro Albanes,MEX,23,776,3,M
+Ahmed El Derwy,EGY,23,776,3,M
+Aimar Lopez Catalan,ESP,23,776,3,M
+Pavel Tatarnikov,RUS,23,776,3,M
+Antonio Alamillo Alcaide,ESP,23,776,3,M
+Pablo Chacon Diaz,ESP,23,776,3,M
+Ivan Del Águila Navarro,ESP,23,776,3,M
+Florian Vandelanotte,BEL,23,776,3,M
+Emmanuel Riesgo Méndez,ESP,23,776,-16,M
+Sebastian Lagos Cerezo,CHI,23,776,3,M
+Angelo Rizza,ITA,23,776,3,M
+Raul Ruiz Alvarez,USA,23,776,3,M
+Diego Nino,COL,22,790,2,M
+Abdulrahman Alazzam,KSA,22,790,2,M
+Jorge Ruiz,ESP,22,790,2,M
+Tameem Salloum,EGY,22,790,2,M
+Oscar Mozo Garcia,ESP,22,790,2,M
+Gonçalo Costa Liberato,POR,22,790,2,M
+Abdullah Alabdulla,UAE,22,790,2,M
+Qassem Alobidan,KSA,22,790,2,M
+Pablo Marqués Gonzalez,ESP,22,790,2,M
+Eduardo Herrero Del Riego,ESP,22,790,2,M
+Edoardo Lecchi,ITA,22,790,2,M
+Omar Matias Ortiz,ARG,22,790,2,M
+Catalin Tropin,MDA,22,790,2,M
+Faisal Alrebdi,KSA,22,790,2,M
+Enric Sanmarti Beleta,ESP,22,790,2,M
+Hassan Sabry,EGY,22,790,2,M
+Vicente Jofre Venegas,CHI,22,790,2,M
+Abdullah Alabdullah,KSA,22,790,2,M
+Sebastian Solenghi,ARG,22,790,2,M
+Damien Lozano,FRA,22,790,2,M
+Fernando Gonzalez,CHI,22,790,2,M
+Aaron Segura,USA,22,790,2,M
+Adria Mercadal,ESP,22,790,-150,M
+Selahattin Yazar,TUR,22,790,2,M
+Guillermo Closa Pucernau,ESP,22,790,2,M
+Antonio Terzo,ITA,22,790,2,M
+Sebastien Garcia Ortega,BEL,22,790,2,M
+Maxime Deloyer,BEL,22,790,2,M
+Alvaro Moreno Herrera,ESP,22,790,2,M
+Matias Gonzalez,CHI,22,790,2,M
+Roberto Rodriguez Alonso,ESP,21,820,-28,M
+Mohamed Al Janahi,UAE,21,820,6,M
+Jeronimo Escalante Diz,MEX,21,820,6,M
+Eduardo Barbosa Sessim Da Silva,BRA,21,820,6,M
+Alberto Gasca Romero,ESP,21,820,6,M
+Mahdi Behboodi,IRI,21,820,6,M
+Noah Cecchi,NED,21,820,6,M
+Manav Sreekumar,IND,21,820,6,M
+Maheno Fontaine,FRA,21,820,6,M
+Bilal Duprat,FRA,21,820,-28,M
+Daniil Bobokhanov,RUS,21,820,6,M
+Amadeo Catala Lopez,ESP,21,820,6,M
+Javier Vazquez Bennassar,ESP,21,820,6,M
+Matteo Greco,ITA,21,820,6,M
+Mikel Blanco Dorao,ESP,21,820,6,M
+Breno Oliveira Enke,BRA,21,820,6,M
+Tomas Cunietti,ARG,21,820,6,M
+Ahmed Alaa Marzouk,EGY,21,820,6,M
+Leonardo Becker,BRA,21,820,6,M
+Renato De Aguiar Chuirki,BRA,21,820,6,M
+Pablo Villaroya Lazaro,ESP,21,820,6,M
+Aley Shokeir,EGY,21,820,6,M
+Ahmed Mostafa Nazir,EGY,21,820,6,M
+Fabio Da Costa Araujo,POR,21,820,6,M
+Julio Cesar Julianoti,BRA,21,820,6,M
+Marcos Bersch Da Cruz,BRA,21,820,6,M
+Petros Chrysochos,CYP,21,820,6,M
+Asier Gago Martinez,ESP,21,820,-88,M
+Pere Miralles Galiana,ESP,20,848,4,M
+Gonzalo Valdivieso Comesaña,CHI,20,848,4,M
+Erick Eduardo Martínez Torres,MEX,20,848,4,M
+Mauricio Alvarez,CHI,20,848,4,M
+Xander De Wever,BEL,20,848,4,M
+Diego Alejandro Cosio Posadas,MEX,20,848,4,M
+Jorge Hernan Tupayachi Llanos,ESP,20,848,4,M
+Raul Peralta Corredor,ESP,20,848,4,M
+Mohammed Ragab,EGY,20,848,4,M
+Robert Moore,HKG,20,848,4,M
+Bram Coene,BEL,20,848,-56,M
+Gabriel Lara Morejon,ESP,20,848,4,M
+Manfredi La Punzina,ITA,20,848,4,M
+Adria Lopez Caldentey,ESP,20,848,-56,M
+German Rodriguez Quesada,ESP,20,848,4,M
+Daniel Pashayan,RUS,19,863,2,M
+Joaquin Gaitan Bernardi,ARG,19,863,2,M
+Mohammad Saeid Gholamhoseinpour,IRI,19,863,2,M
+Gabriele Derosas,ITA,19,863,2,M
+Kian Rezaee,IRI,19,863,2,M
+Asier Martinez Lopez,ESP,19,863,2,M
+Alvaro Jauregui Sadaba,ESP,19,863,2,M
+Victor Miguel Saenz De Navarrete Martin,ESP,19,863,2,M
+Vasco Estevens Barbosa,POR,19,863,2,M
+Beihang Fu,CHN,19,863,2,M
+Mahmoud Moharam,EGY,19,863,2,M
+Simon Yitbarek,SWE,19,863,2,M
+Tomas Posse,ARG,19,863,2,M
+Isidoro Salamanca Fernandez,ESP,19,863,2,M
+Matteo Quatrana,ITA,19,863,2,M
+Maximo Cornejo Gonzalez,ARG,18,878,2,M
+Hugo Estebanez Estevez,ESP,18,878,2,M
+Luis Alfonso Chacon Gilo,ESP,18,878,2,M
+Bernardo De Marco Rigon,BRA,18,878,2,M
+Jacopo Bulgarelli,ITA,18,878,2,M
+Valentino Acosta Kremnitzer,ARG,18,878,2,M
+Antonio Pedro Pragana,POR,18,878,2,M
+Noam Cohen,ISR,18,878,2,M
+Oscar Diaz Jauregui,MEX,18,878,2,M
+Louis Jover,FRA,18,878,2,M
+Isak William Bäckman,SWE,18,878,2,M
+David Villalta Aguilar,ESP,18,878,2,M
+Jose Pablo Garza De La Peña,MEX,18,878,2,M
+Warren Kuhn,RSA,18,878,2,M
+Antonio Corpas Bermudez,ESP,18,878,2,M
+Alfons Lopez,SWE,18,878,2,M
+Gabriel Londero Almeida,BRA,18,878,2,M
+Asier Cabana Martin,ESP,18,878,2,M
+Renan Lobo Bosco,BRA,18,878,2,M
+Antti Kampman,FIN,18,878,2,M
+Antonio Borja Mulet,ESP,18,878,2,M
+Artem Matus,RUS,18,878,2,M
+Fernando Agustin Vega,ARG,18,878,2,M
+Ke Zhao,CHN,18,878,2,M
+Adam Van Harte,RSA,18,878,2,M
+Agustin Gallardo,ARG,18,878,2,M
+Pablo Cenoz,ESP,18,878,2,M
+Santiago Castro Recio,MEX,18,878,2,M
+Aaron Cohen,ISR,18,878,2,M
+Malthe Nielsen,DEN,17,907,2,M
+Iker Rodriguez Sanchez,ESP,17,907,2,M
+Nicolas Brusa,ITA,17,907,2,M
+Erik Thomaidis,RUS,17,907,2,M
+Sam Macneil,GBR,17,907,2,M
+Denis Merkulov,RUS,17,907,2,M
+André Monteiro Maia,POR,17,907,2,M
+Alejandro Navas Balaguer,ESP,17,907,2,M
+Jose Antonio Arcos,ESP,17,907,2,M
+Saif Alhammadi,UAE,17,907,2,M
+Youssef Abdelbadie,EGY,17,907,2,M
+Maximilian Brent,GBR,17,907,2,M
+Adilyar Muzdybayev,KAZ,17,907,2,M
+Maximiliano Labbè,CHI,17,907,2,M
+Oliver Hayday,GBR,17,907,2,M
+Shengkai Yang,CHN,17,907,2,M
+Amilcar Gaston Bejarano,ARG,17,907,2,M
+Theo Suzanna,FRA,17,907,2,M
+Armand Baboian,ROU,17,907,2,M
+Javier Eloy Perez Perez,ESP,17,907,2,M
+Artemii Besedin,RUS,17,907,2,M
+Julio Pulido Alegre,ESP,17,907,2,M
+Arya Roghani,IRI,17,907,2,M
+Xander Aue,NED,16,931,2,M
+Tiago Lourenço Santos,POR,16,931,2,M
+Nicolas Fernandez Lozon De Cantelmi,ESP,16,931,-139,M
+Miguel Vieira,POR,16,931,2,M
+Erik Nordström,SWE,16,931,2,M
+Kamran Ismailov,AZE,16,931,2,M
+Marc Monturiol Cordoba,ESP,16,931,2,M
+Gustav Eriksson,SWE,16,931,2,M
+Jaime Pérez Martín,ESP,16,931,2,M
+Vladimir Nifontov,RUS,16,931,2,M
+Santino Contreras,ARG,16,931,2,M
+Nachi Blazquez Domínguez,ESP,16,931,2,M
+Jasha Saas,NED,16,931,2,M
+Pedro Yañez Guevara,CHI,16,931,2,M
+Agustín Alvarez,ECU,16,931,2,M
+Damien Hall,AUS,16,931,28,M
+Amr Adel,EGY,16,931,2,M
+Gerard Marti Morales,ESP,16,931,2,M
+Colin Marshall,GBR,16,931,2,M
+Guillermo Lozano García De Paredes,ESP,16,931,2,M
+Mohamed Michel Hussein Khachab,CIV,16,931,2,M
+Guillaume Ledrap,FRA,16,931,2,M
+Miguel Ines Vaz,POR,16,931,2,M
+Ali Ahmed,SUD,16,931,2,M
+Majed Kilani,TUN,16,931,2,M
+Leonardo Ariel Torres,ARG,16,931,2,M
+Jabor Al-Mutawa,QAT,16,931,2,M
+Borja Sierra Del Val,MEX,16,931,2,M
+Thomas Saiani,ITA,15,959,0,M
+Kirill Kolganov,KAZ,15,959,0,M
+Oumar Ka,SEN,15,959,0,M
+Alessandro Ferrero,ITA,15,959,0,M
+Samuel Martinez Soriano,ESP,15,959,0,M
+Jeremy Scatena,FRA,15,959,0,M
+Pablo Simon Garcia,ESP,15,959,0,M
+Alfonso Patacho,GBR,15,959,0,M
+Francisco Javier Vergillos Alonso,ESP,15,959,0,M
+Amin Tiago Leiva,ARG,15,959,0,M
+Youssef Ait Oumelloul,MAR,15,959,0,M
+David Fernandes,POR,15,959,0,M
+Juan Pedro Ramirez Ruiz,ESP,15,959,0,M
+Hugo Jorquera Santos,ESP,15,959,0,M
+Alvaro Llaneza Garcia,ESP,15,959,0,M
+Federico Andres Sarmiento,ARG,15,959,0,M
+Paulo Hillal,BRA,15,959,0,M
+Pau Monclus Jubany,ESP,15,959,0,M
+Alberto Bagarello,ITA,15,959,0,M
+Christian Paolo,ITA,15,959,0,M
+Alessandro Antoniazzi,ITA,15,959,0,M
+Alvaro Vila Obregon,ESP,15,959,0,M
+Fernando Matias Albornoz,ARG,15,959,0,M
+Daniel Rubio Galtsova,ESP,15,959,0,M
+Diego Garcia Brito,ESP,15,959,0,M
+Christian De Sanctis,ESP,14,984,2,M
+Andres Macchiavello,CHI,14,984,2,M
+Jose Miguel Montes Diaz,CHI,14,984,2,M
+Joaquin Alan Giorgi Bustos,ARG,14,984,2,M
+Rodrigo Lopez Santin,ESP,14,984,2,M
+Izan Violero Lloret,ESP,14,984,2,M
+Max Bendel,RSA,14,984,2,M
+Tade Jensen,GER,14,984,2,M
+Mahmut ?ahuto?ullar?,TUR,14,984,2,M
+Oliver Szakacs,HUN,14,984,2,M
+Anastasios Mandalenakis,GRE,14,984,2,M
+Ethan Miguel Gonzalez Herrera,ESP,14,984,2,M
+Wenjie Wang,CHN,14,984,2,M
+Francis Eduard Parangan,PHI,14,984,2,M
+Yousif Ghunaim,BRN,14,984,2,M
+Maximiliano Jael Cejas,ARG,14,984,2,M
+Jose Mari Liong,PHI,14,984,2,M
+Pablo Gonzalez Neria,ESP,14,984,2,M
+Manuel Maira,CHI,14,984,2,M
+Edoardo Zecchinelli,ITA,14,984,2,M
+Joris De Weerdt,BEL,14,984,2,M
+Ionian Antonelly Carballo Hernandez,MEX,14,984,2,M
+Ashish Kumar,IND,14,984,2,M
+Paulo Bravo,CHI,14,984,2,M
+Prakhyath Kc,IND,14,984,2,M
+Abraham Rodriguez Gomez,ESP,14,984,2,M
+Enol Delgado Martinez,ESP,14,984,2,M
+Andre Freitas,BRA,14,984,2,M
+Ali Abdelaziz,EGY,14,984,2,M
+Kun Ye,CHN,14,984,2,M
+Antonio Campo,ITA,14,984,2,M
+Mohammed Atif Hyder,IND,14,984,2,M
+Alonso Calvache,ESP,14,984,2,M
+Pedro Jesus Robles Rodriguez,ESP,14,984,2,M
+Mickey Guerin,BEL,14,984,2,M
+Nicolas Arno,ARG,14,984,2,M
+Arsham Moradi Nejad Marian,IRI,14,984,2,M
+Moos Sporken,NED,14,984,2,M
+Chunxiao Qu,CHN,14,984,2,M
+Tommy Smith,GBR,14,984,2,M
+Diogo Alves,POR,14,984,2,M
+Javier Collantes Guijo,ESP,14,984,2,M
+Matas Poska,LTU,14,984,2,M
+Ulises Correa,ARG,14,984,2,M
+Daniel Muñoz Romero,ESP,14,984,2,M
+Kasparas Poska,LTU,14,984,2,M
+Sebastian Castaneda,USA,13,1030,5,M
+Pablo Nicolas Silberman,ARG,13,1030,5,M
+Alberto Cerrocchi,ITA,13,1030,5,M
+Paul Henri Teyssedre,FRA,13,1030,5,M
+Lucas Fernandes,BRA,13,1030,5,M
+Pablo Humberto Montoya Ramirez,MEX,13,1030,5,M
+Carlos Garcia-Alix alarcon,ESP,13,1030,5,M
+Tobias Pintos Castro,ARG,13,1030,5,M
+Artem Avdieiev,UKR,13,1030,5,M
+Christopher Verdura,FRA,13,1030,5,M
+Julian Rodrigo Caceres Rodriguez,ARG,13,1030,5,M
+Federico Alejandro Vega,ARG,13,1030,5,M
+Joao E. Moraes Maneck,BRA,13,1030,5,M
+Silvain Moreau,FRA,13,1030,5,M
+Oscar Dominguez Montes De Oca,ESP,13,1030,5,M
+Ismael Linero,ESP,13,1030,5,M
+Mike Tanoso,INA,13,1030,5,M
+Ronan Bruandet,FRA,13,1030,5,M
+Lautaro Chartron,ARG,13,1030,5,M
+Tomas Barros Queiroz De Mesquita Guimarães,POR,13,1030,5,M
+Daan Jans,NED,13,1030,5,M
+David Perez Sanz,ESP,13,1030,5,M
+Mario Alberto Yañez Tapia,MEX,13,1030,5,M
+Alessandro Zaccagnino,ITA,13,1030,5,M
+Victor Ribes Tierno,ESP,13,1030,5,M
+Jan Wajgt,POL,13,1030,5,M
+Jean Paul Nassar,GHA,13,1030,5,M
+Valentinus Wibawa,INA,13,1030,5,M
+Chris Salisbury,GBR,13,1030,5,M
+Baptiste Maitre,FRA,13,1030,5,M
+Abdulaziz Redha,KUW,13,1030,5,M
+Juan Pablo Perez Damian,MEX,13,1030,5,M
+Daniel Casanova Bataller,ESP,13,1030,5,M
+Nasa Hatakeyama,JPN,13,1030,5,M
+Lilian Foure,FRA,13,1030,-44,M
+Anlin Chen,CHN,13,1030,5,M
+Arthur Vasarevic,CRO,13,1030,5,M
+Gabriel Eduardo Molina,ARG,13,1030,5,M
+Fouad Behbehani,KUW,13,1030,5,M
+Marc Monné Cuevas,ESP,13,1030,5,M
+Diego Alejandro Picotto,ARG,13,1030,5,M
+Robin Sietsma,NED,13,1030,5,M
+Bernardo Monteiro,POR,13,1030,5,M
+Mickael Grenier,FRA,13,1030,5,M
+Selim El Aroui,TUN,13,1030,5,M
+Ariel Williams Carrasco Paricollo,ESP,13,1030,5,M
+Loick Bruandet,FRA,13,1030,5,M
+Dany Ryan El Riz,SEN,13,1030,5,M
+Mario Belizón Barrionuevo,ESP,13,1030,-71,M
+Romain Gutstein,FRA,13,1030,5,M
+Sebastian Domínguez Remis,MEX,13,1030,5,M
+Agustin De Miguel Nicolau,ESP,13,1030,5,M
+Tiaan Erasmus,RSA,13,1030,5,M
+Tom Biotti,FRA,13,1030,5,M
+Juan Maria Ramirez Carrasco,ESP,13,1030,5,M
+Timur Khabibulin,KAZ,13,1030,5,M
+Jorge Senoran Fructuoso,ESP,13,1030,5,M
+Tsz Yan Adrian Yao,HKG,13,1030,5,M
+Ziqiang Wei,CHN,13,1030,5,M
+Carlos Huerta,MEX,13,1030,5,M
+Tristan Dougan,AUS,13,1030,97,M
+Sebastian Saggiorato,ARG,13,1030,5,M
+Oliver Quarry,GBR,13,1030,169,M
+Manuel Perez Gonzalez,ESP,13,1030,5,M
+Leonardo Pontes,BRA,13,1030,5,M
+Geremias Caluva,ARG,13,1030,5,M
+Dominic Bechard,AUS,13,1030,-316,M
+Antonio Jose Alarcon Garcia,ESP,13,1030,5,M
+Juan Rodenas Rodriguez,ESP,13,1030,5,M
+Vuk Velickovic,AUS,13,1030,75,M
+Romain Grenet Laffont,FRA,13,1030,5,M
+Seif Mahdi,EGY,13,1030,5,M
+Eduardo Fischer,BRA,13,1030,5,M
+Daniel Warren,USA,13,1030,5,M
+Khaled Nagy,EGY,13,1030,5,M
+Pieter Hermus,NED,12,1105,0,M
+Ryan Wyatt,GBR,12,1105,0,M
+Juan Moro Klusek,ESP,12,1105,0,M
+Maxime De Roose,BEL,12,1105,-119,M
+Christian Boehnke,GER,12,1105,0,M
+Valentin Durand,FRA,12,1105,0,M
+Matheus Cadinelli De Farias,BRA,12,1105,0,M
+Nuno Sa,POR,12,1105,0,M
+Benjamin Niv,BUL,12,1105,0,M
+Tibo De Vylder,BEL,12,1105,0,M
+Gonzalo Duarte Arricau,ESP,12,1105,0,M
+Alvaro Jurado Cerezo,ESP,12,1105,0,M
+Edoardo Riso,ITA,12,1105,0,M
+Sergi Perez Calle,ESP,12,1105,0,M
+Juan Hernandez Gaitan,ESP,12,1105,-119,M
+Ramiro Gaston Perez,ARG,12,1105,0,M
+Oliver Hodos,SWE,12,1105,0,M
+Hirokazu Kitao,JPN,12,1105,366,M
+Taiga Sherr-Oshima,JPN,12,1105,0,M
+Francesco Giuseppe Angelini,ITA,12,1105,0,M
+Cameron Gomes,GBR,12,1105,0,M
+Genaro Manuel Campuzano Vazquez,PAR,12,1105,0,M
+Derek Gerson,FRA,12,1105,0,M
+Francisco Moura Couto Nunes Correia,POR,11,1128,-1,M
+Javier Redondo Mendez,ESP,11,1128,-1,M
+Tremayne Mitchell,RSA,11,1128,-1,M
+Mohamed Amr Menissy,EGY,11,1128,-1,M
+Mohamed Moussa,EGY,11,1128,-1,M
+Yannick Faucard,FRA,11,1128,-1,M
+Felipe Xose Fernandez Meaca,ESP,11,1128,-1,M
+Joa Takala,FIN,11,1128,-1,M
+Javier Antonio Cincotta,ARG,11,1128,-1,M
+Khalid Saadon Alkuwari,QAT,11,1128,-1,M
+Haoxuan He,CHN,11,1128,-1,M
+Ahmed Saleh,BRN,11,1128,-1,M
+Nathan De Barros Duval,BRA,11,1128,-1,M
+Javier Rodriguez Navarro,ESP,11,1128,-1,M
+Diego Torres Torres,ESP,11,1128,-1,M
+Horia Vladimir Nedelcu,ROU,11,1128,-1,M
+Marc Romans Roca,ESP,11,1128,-1,M
+Jorge Cordoba Lugo,ESP,11,1128,-1,M
+Antonio Castillo Valverde,ESP,11,1128,-1,M
+Hugo Marcille,FRA,11,1128,-1,M
+Joaquin Granados Villodre,ESP,11,1128,-1,M
+Santiago Manuel Colombo Romero,ARG,11,1128,-1,M
+Alejandro Cañete Rodriguez,ESP,11,1128,-1,M
+Alvaro Abad Diaz,ESP,11,1128,-1,M
+Thomas Delahaye,FRA,11,1128,-1,M
+Emil Okkels Jensen,DEN,11,1128,-1,M
+Tomas Ziza,ARG,11,1128,-1,M
+Giovanni Romeo,FRA,11,1128,-1,M
+Jacopo Crini,ITA,11,1128,-1,M
+Lucas Gonzalez Bueno,ARG,11,1128,-1,M
+Julien Guillery,FRA,11,1128,-1,M
+Zhakas Kozbak,KAZ,11,1128,-1,M
+Noe Navarro Porras,ESP,11,1128,-1,M
+Antonio Gonzalez,ESP,11,1128,-1,M
+Gonzalo Sassano,ITA,11,1128,-1,M
+Yan Brek,KAZ,11,1128,-1,M
+Haakon Haraldsen,NOR,11,1128,-1,M
+Louis Bastard,FRA,11,1128,-1,M
+Henrik Aarnio,FIN,11,1128,-1,M
+Nahuel Pineda,ARG,11,1128,-1,M
+Gabriel Morbey Basso,POR,11,1128,-1,M
+John Michael Tamayo,PHI,11,1128,-1,M
+Soli Colah,IND,11,1128,-1,M
+Lucca Berenguer,ESP,11,1128,-1,M
+Mario Guerrero Martinez,ESP,11,1128,-1,M
+Wael Franzen Bourgi,SEN,11,1128,-1,M
+Manuel Damian,ESP,11,1128,-1,M
+Jose Manuel Lopez Machado,ESP,11,1128,-1,M
+Pablo Gonzalez Torres,ESP,11,1128,-1,M
+Luciano Ignacio Leyton De Vincenzi,CHI,11,1128,-1,M
+Dheo Talatayod,PHI,11,1128,-1,M
+Pierre Guiraud,FRA,11,1128,-1,M
+Mohamed Khalaf,CIV,11,1128,-1,M
+Jaimes McKee,HKG,11,1128,-1,M
+Robert Coman,ROU,11,1128,-1,M
+Lucca Carlesso,BRA,11,1128,-1,M
+Joao Paulo Reck Boeira,BRA,11,1128,-1,M
+Hugo Portillo,ESP,11,1128,-23,M
+Joaquin Zerpa,ARG,11,1128,-1,M
+Matias Nicoletti,ITA,11,1128,-1,M
+Adit Patel,GBR,11,1128,-1,M
+Iran Nagimtay,KAZ,11,1128,-1,M
+Arturo Azocar Salinas,CHI,11,1128,-1,M
+Aidan Carrazedo,RSA,11,1128,-1,M
+Nikita Filatov,RUS,11,1128,-1,M
+Mateo Torres-Jacobs,BEL,11,1128,-1,M
+Maher Damergie,CIV,11,1128,-1,M
+Tomoaki Murasawa,JPN,11,1128,-93,M
+Francis Langan,GBR,11,1128,-1,M
+Johann Benson Lo Escoto,HKG,11,1128,-1,M
+Maniel Bains,GBR,10,1199,0,M
+Tsubasa Kato,JPN,10,1199,0,M
+Julian Leite,ARG,10,1199,0,M
+Matteo Coni,ITA,10,1199,0,M
+Oscar Guiral Mallart,ESP,10,1199,0,M
+Marc Fontanet,ESP,10,1199,0,M
+Luka Polovina,SRB,10,1199,0,M
+Atilla Kaan Göne,TUR,10,1199,0,M
+Rodion Pak,KAZ,10,1199,0,M
+Aaron Cortes Alcaraz,ESP,10,1199,0,M
+Edgar Barria,CHI,10,1199,0,M
+Matias Ilardia Meyer,URU,10,1199,0,M
+Felipe Ignacio Bermudez Aros,CHI,10,1199,0,M
+David Pedroso Hennemann,BRA,10,1199,0,M
+Bautista Romero Lang,ARG,10,1199,0,M
+Ian Walker,CHI,10,1199,0,M
+Ahmed Amr,EGY,10,1199,0,M
+Bernardo Corrochano Cid,ESP,10,1199,0,M
+Vincent Bakunowicz,GBR,10,1199,0,M
+Marcus Kevin Rouk,EST,10,1199,0,M
+Aday Sanchez Leon,ESP,10,1199,0,M
+Olly Cull,GBR,10,1199,0,M
+Adam Badreddine,CIV,10,1199,0,M
+Pedro Toccafondo Neto,BRA,10,1199,0,M
+Hugo Saintot,FRA,10,1199,0,M
+Adil Kalyanpur,IND,10,1199,0,M
+Charles Marot,FRA,10,1199,0,M
+Antonio Tricarico,ITA,10,1199,0,M
+Javier Serer Gutierrez,ESP,10,1199,0,M
+Ignacio Melgarejo Darnaude,ESP,10,1199,0,M
+Lei Xing,CHN,10,1199,0,M
+Quentin Anelli,FRA,10,1199,0,M
+Bartolomeo Zagaria,ITA,10,1199,0,M
+Giorgos Kakkouras,CYP,10,1199,0,M
+Artem Shcherbachenko,RUS,10,1199,0,M
+Umberto Prezioso,ITA,10,1199,0,M
+Fahir Berk Ilkel,TUR,10,1199,0,M
+Arnaud Meessen,BEL,10,1199,0,M
+Olivier Geresi,HUN,10,1199,0,M
+Giorgio Ranieri,ITA,10,1199,0,M
+Ange Gamaliel Nguessan,CIV,10,1199,0,M
+Timothy Berry,PHI,10,1199,0,M
+Nicolas Dereeper,FRA,10,1199,0,M
+Asao Igarashi,JPN,10,1199,0,M
+Vinicius Dos Santos Borges,BRA,10,1199,0,M
+Matteo Franceschetti,ITA,10,1199,0,M
+Felipe Alberto Quintana Palma,CHI,10,1199,0,M
+Juan Agustin Ordoñez,MEX,10,1199,0,M
+Valentin Cilli,ARG,10,1199,0,M
+Atsushi Maeda,JPN,10,1199,0,M
+Alihan Ozbayrak,TUR,10,1199,0,M
+Darío Gabriel Agustin Vergara,ARG,10,1199,0,M
+Alexandre Pichon De Bury,FRA,10,1199,0,M
+Leo Perez,FRA,10,1199,0,M
+Fernando Dominguez Cruz,ESP,10,1199,0,M
+Antonis Efthymiou,CYP,10,1199,0,M
+Florian Guerin,FRA,10,1199,0,M
+Ricardo Fernandez,MEX,10,1199,0,M
+Alexander Ulrik Frørup Lange,DEN,10,1199,0,M
+Alejandro Ochoa Garcia,MEX,10,1199,0,M
+Hamza Berrahou,BEL,10,1199,0,M
+Pavel Fedorov,RUS,10,1199,0,M
+Marius Miežis,LTU,10,1199,0,M
+Lok Pui Lawrence Lo,HKG,10,1199,0,M
+Tomislav Hadzic,CRO,10,1199,0,M
+Kouga Yasuda,JPN,10,1199,416,M
+Andrija Graovac,SRB,10,1199,0,M
+Israel Valero Martinez,ESP,10,1199,0,M
+Long Si,CHN,10,1199,0,M
+Mori Ignacio Sáez Lagos,CHI,10,1199,0,M
+George Weller,GBR,10,1199,0,M
+Fabrizio González Arrigunaga,MEX,10,1199,0,M
+Dongbo Peng,CHN,10,1199,0,M
+Jad Jaafar,LBN,10,1199,0,M
+Mohamed Elzayat,EGY,10,1199,0,M
+Tamer Fakhry,CIV,10,1199,0,M
+Fakih Najib,LBN,10,1199,0,M
+Tommaso Arcangeli,ITA,9,1276,1,M
+Fredrik Ask,NOR,9,1276,1,M
+Savvas Anthis,CYP,9,1276,1,M
+Christian Paul Del Amo Lauder,ESP,9,1276,1,M
+Yeldos Mussabekov,KAZ,9,1276,1,M
+Panos Katsaris,CYP,9,1276,1,M
+Axel Hein,ARG,9,1276,1,M
+Agustin Greco,ARG,9,1276,1,M
+Eran Sai Teja,IND,9,1276,1,M
+Ramiro Nehuen T. Contreras,ESP,9,1276,1,M
+Edgar Perez Garcia,ESP,9,1276,1,M
+Zhaslan Omarov,KAZ,9,1276,1,M
+Arnau Anglarill Urbano,ESP,9,1276,1,M
+Farsad Shahi,IRI,9,1276,1,M
+Josimar Casanova,BRA,9,1276,1,M
+Makar Makogon,KAZ,9,1276,1,M
+Kevin Danho,CIV,9,1276,1,M
+Jorge Morales Rocino,ESP,9,1276,1,M
+Stan Hunt,GBR,9,1276,1,M
+Franco Ceretani Hegi,ESP,9,1276,1,M
+Rodolphe Pouliquen,FRA,9,1276,1,M
+Alayli Rami,LBN,9,1276,1,M
+Rishabh Kishore,IND,9,1276,1,M
+Federico Salaro,ARG,9,1276,1,M
+Javier Navas,ESP,9,1276,1,M
+Nikhil Sai Kodali,IND,9,1276,1,M
+Rickard Kjellberg,SWE,9,1276,1,M
+Matias Aviles,CHI,9,1276,1,M
+Dmitry Myagkov,RUS,9,1276,1,M
+Minghui Hui,CHN,9,1276,1,M
+Andre Ferreira Van Holstein,POR,9,1276,52,M
+Luca Fontana,ITA,9,1276,1,M
+Iker Mercader Franco,ESP,9,1276,1,M
+David Antolin Solla,ESP,9,1276,1,M
+Luca Formigheri,BRA,9,1276,0,M
+Agustin Sanchez,ARG,9,1276,1,M
+Ismail Iskec,TUR,9,1276,1,M
+Brian Ortiz,ARG,9,1276,1,M
+Yann Auradou,FRA,9,1276,1,M
+Daniel Perdomo Marrero,ESP,9,1276,1,M
+Sergio Borrero Fernandez De La Puente,ESP,9,1276,1,M
+Vicente Soto Herrera,CHI,9,1276,1,M
+Lukman Hakim Bin Abdul Aziz Abdul Aziz,MAS,9,1276,1,M
+Andrea Melisi,ITA,9,1276,246,M
+Angelos Dionysiou,CYP,9,1276,1,M
+Aldiyar Zhexebayev,KAZ,9,1276,1,M
+Manuel Buil Baldellou,ESP,9,1276,1,M
+Bruno Ferreira,BRA,9,1276,1,M
+Bung Liu,CHN,9,1276,1,M
+Lucas Bareño Nieto,BRA,9,1276,1,M
+Rahat Achanta,IND,9,1276,1,M
+Alfonso Velasco Prieto,ESP,9,1276,1,M
+Martin Rubini,ARG,9,1276,1,M
+Timothy Stalgis,ARG,9,1276,246,M
+Felipe Camargo,ARG,8,1330,-2,M
+Milan Terkovics,HUN,8,1330,-2,M
+Daniel Elohim Fernandez Guerra,USA,8,1330,-2,M
+Victor Lethuilier,FRA,8,1330,-2,M
+Ruben Digbydiercks,AUS,8,1330,0,M
+Nikhil Narwani,HKG,8,1330,-2,M
+Jeronimo Jose Campora,ARG,8,1330,-2,M
+Norifumi Kawakita,JPN,8,1330,-2,M
+Nicolas Xiviller,URU,8,1330,-2,M
+Marcos Gonzalez Gil,ESP,8,1330,-2,M
+Manuel Rocafort Lores,ESP,8,1330,-2,M
+Rafael Reyes Moreno,ESP,8,1330,-2,M
+Thibaud Pech,FRA,8,1330,-2,M
+Esteban Santibanez Luna,MEX,8,1330,-2,M
+Hamood Samah,IND,8,1330,-2,M
+Carl Axel Ricardo Holmkvist Cabo,ESP,8,1330,-2,M
+Kohei Saito,JPN,8,1330,-2,M
+Kanagat Nugusbayev,KAZ,8,1330,-2,M
+Juan Carlos Gama Gonzalez,ESP,8,1330,-2,M
+Enrique Martos Lopez,ESP,8,1330,-2,M
+Vilgot Persson,SWE,8,1330,-2,M
+Sebastien Maunier,FRA,8,1330,-2,M
+Jorge Farid Sat,ARG,8,1330,-2,M
+Marc Pastor Montserrat,ESP,8,1330,-2,M
+Benoit Theard,FRA,8,1330,-2,M
+Sebastian Mauricio Muñoz Martinez,ESP,8,1330,-2,M
+Gian Andrea Farabbi,ITA,8,1330,-2,M
+Alejandro Portillo Lara,ESP,8,1330,-2,M
+Lucas Cohen Bacrie,FRA,8,1330,-2,M
+Federico Sferco,ARG,8,1330,-2,M
+Nicolaj Lyng Dahl,DEN,8,1330,-2,M
+Fernando Juan Tous Gelabert,ESP,8,1330,-2,M
+Jorge Ortigosa Martin,ESP,8,1330,-2,M
+Isa Albinali,BRN,8,1330,-2,M
+Dhanush Gowda,IND,8,1330,-2,M
+Saska Huttunen,FIN,8,1330,-2,M
+Eskar Revilla,INA,8,1330,-2,M
+Saul Serna Rafael,ESP,8,1330,-53,M
+Antoine Leo Gontard,HKG,8,1330,-2,M
+Ludovic Cancel,FRA,8,1330,-2,M
+Wael Ezzedine,SEN,8,1330,-2,M
+William Soeby Svendsen,DEN,8,1330,-2,M
+Nawaf Alkhayyat,BRN,8,1330,-2,M
+Anthony Hok Yin Lau,HKG,8,1330,-2,M
+Jeremias Rufino,ARG,8,1330,-2,M
+Vinay Kothari Kotha,IND,8,1330,-2,M
+Cristian Daniel Ozan,ARG,8,1330,-2,M
+Žan Luka Konjar,SLO,8,1330,-2,M
+Dean Georgiu,CYP,8,1330,-2,M
+Hector Rapallo Nuñez,ESP,8,1330,1385,M
+Jacobo Blanco,ESP,8,1330,-2,M
+Cem Ilkel,TUR,8,1330,-2,M
+Bourahli Djemel,FRA,8,1330,-2,M
+Axel Scheistel,ARG,8,1330,-2,M
+Arman Muradyan,ARM,8,1330,-2,M
+Ronald Osmar Rolandi,PAR,8,1330,-2,M
+Adil Yeltayev,KAZ,8,1330,-2,M
+Ricard Manchon Zugasti,ESP,8,1330,-2,M
+Joao Vicente Fonte,BRA,8,1330,-2,M
+Denys Milchenko,UKR,8,1330,-2,M
+Mauricio Rivera Caballero,MEX,8,1330,-2,M
+Andreas Falk Bjerrehus,DEN,8,1330,-2,M
+Agustin Hernandez,ARG,8,1330,-2,M
+Dimitris Chalavazis,GRE,8,1330,-2,M
+Yassin Daadour,EGY,8,1330,-2,M
+Daniil Anisimov,RUS,8,1330,-2,M
+Emil Thomsen,DEN,8,1330,-2,M
+Jan Cano Felix,ESP,8,1330,-131,M
+Ghaddar Nael,LBN,8,1330,-2,M
+Joel Losana,ESP,8,1330,-2,M
+Alessandro Volpin,ITA,8,1330,-2,M
+Danyil Yevdokimov,UKR,8,1330,-2,M
+Jesus Rico Hontoria,ESP,8,1330,-2,M
+Youssef Ben Dhiaf,TUN,8,1330,-2,M
+Carlos Gilabert Mulet,ESP,8,1330,-2,M
+Carlos Eugenio Barrera,ESP,8,1330,-2,M
+Luis Guzman,USA,8,1330,-2,M
+Aaron Lewis Joseph Besnainou,FRA,8,1330,-2,M
+Manuel Begines Calvo,ESP,8,1330,-2,M
+Cayetano Rocafort Lores,ESP,8,1330,-2,M
+Lorenzo Aste,CHI,8,1330,-2,M
+Marcos Galan Zori,ESP,8,1330,-2,M
+Linus Isaksson,SWE,8,1330,-2,M
+Ignacio Alejandro Opazo Ortega,CHI,8,1330,-2,M
+Tobias Raffaele,ARG,8,1330,-2,M
+Joel Rubio Moreno,ESP,8,1330,-2,M
+Diego Garcia Villalobos Blanco,MEX,8,1330,-2,M
+Kwok Kee Chu,HKG,8,1330,-2,M
+Ibrahim Joel Tresor Ouédraogo,CIV,8,1330,-2,M
+Guillermo Demianiuk Carou,ESP,8,1330,-2,M
+Johan Peloux Marchini,FRA,8,1330,-2,M
+Alejandro Diaz Estupiñan,ESP,8,1330,-2,M
+Raoul Teroy,FRA,8,1330,-2,M
+Joshua Benjamin Van Rensburg,RSA,8,1330,-2,M
+Adam Freeman,AUS,8,1330,0,M
+Anastasios Kourepinis,GRE,8,1330,-2,M
+David Saintot,FRA,8,1330,-2,M
+Gerard Sola Grau,ESP,8,1330,-2,M
+Filip Olech,POL,8,1330,-2,M
+Jeremy Charton,FRA,8,1330,-2,M
+Ferhat Korkmaz,TUR,8,1330,-2,M
+Juan Calleja Periset,ESP,8,1330,-2,M
+Johan Fors,SWE,8,1330,-2,M
+Giogri Giorgadze,GEO,8,1330,-2,M
+Sergo Sikharulidze,GEO,8,1330,-2,M
+Charlie Andrews,GBR,8,1330,-2,M
+Ashfaq Ahmed,IND,8,1330,-2,M
+Ali Alarif,UAE,8,1330,-2,M
+Oussama Zebakh Laakel,ESP,8,1330,-2,M
+Rodrigo Banzer,USA,8,1330,-2,M
+Felipe Baraçal,BRA,8,1330,-2,M
+Marcell Urvolgyi,HUN,8,1330,-2,M
+Ziad Barakat,EGY,8,1330,-2,M
+Eduardo Nieto De Orduña,ESP,8,1330,-2,M
+Joan Fede,FRA,8,1330,-2,M
+Sofus Broennum,DEN,8,1330,-2,M
+Adrian Yew Hock,MAS,8,1330,-2,M
+Nils Skajaa,DEN,8,1330,-2,M
+Shubham Sharma,IND,8,1330,-2,M
+Jorge Chacon Sanz,ESP,8,1330,-2,M
+Marcos Alejo Mardones,ARG,8,1330,-2,M
+Riccardo Chiaradia,ITA,8,1330,-2,M
+Afonso Quentin,FRA,8,1330,-2,M
+Tomas Javier Poblaciones Soto,ESP,8,1330,-2,M
+Maxime Poitevin,FRA,8,1330,-2,M
+Renzo Del Bue,ARG,8,1330,-2,M
+Nelson Dario Gutierrez,ARG,8,1330,-2,M
+Deepak Arora,IND,8,1330,-2,M
+Ramazan Yessengeldinov,KAZ,8,1330,-2,M
+Mathias Gavelin,SWE,8,1330,-2,M
+Juuso Tapanainen,FIN,8,1330,-2,M
+Mohamed Dolo,CIV,8,1330,-2,M
+Miguel Briega Ramos,ESP,8,1330,-2,M
+Leon Ortega Ibanez,ESP,8,1330,-2,M
+Hami Golestan,SWE,8,1330,-2,M
+Manuel Jesús Fernández Prieto,ESP,8,1330,-2,M
+Carlos Garcia Garcia,VEN,8,1330,-2,M
+Pyry Hyrkkönen,FIN,8,1330,-2,M
+Franklin Ovalles,USA,8,1330,-2,M
+Sebastian Molina,CHI,8,1330,-2,M
+Arturo Cejas,ESP,8,1330,-2,M
+Georgios Tofinis,CYP,8,1330,-2,M
+Pedro Junior Olivares Bernal,DOM,8,1330,-2,M
+Janne Wuorinen,FIN,8,1330,-2,M
+Luke Power,GBR,8,1330,-2,M
+Christian Gomez,PAN,8,1330,-2,M
+Ruben Alamo Cruz,ESP,8,1330,-2,M
+Luke Gomes,GBR,7,1477,-6,M
+Francisco Lihuel Acosta,ARG,7,1477,-6,M
+Sergey Yelnik,GBR,7,1477,-6,M
+Sherif Khattab,EGY,7,1477,-6,M
+Ivan Lopez Muñoz,ESP,7,1477,-6,M
+Gilles Stas,BEL,7,1477,-6,M
+Oscar Camacho Ortiz,ESP,7,1477,-6,M
+Pablo Avina,USA,7,1477,0,M
+Erik Paljakka,FIN,7,1477,-6,M
+Mariano Danei Linaza,ARG,7,1477,-6,M
+Agustin Maximiliano Parisi,ARG,7,1477,-6,M
+Juan Ramon Peña Soto,CHI,7,1477,-6,M
+Savvas Papadopoulos,CYP,7,1477,-6,M
+Simon Garforth-Bles,GBR,7,1477,-6,M
+Ron Kester Ako Annan,GHA,7,1477,-6,M
+George Argyrou,CYP,7,1477,-6,M
+Mauricio Martin Echazu Puente,PER,7,1477,-6,M
+Alessandro Ciaccia,ITA,7,1477,-6,M
+Jimmy Barbieux,BEL,7,1477,-6,M
+Andreas Stavrou,CYP,7,1477,-6,M
+Pedro Bosio Fuentes,CHI,7,1477,-6,M
+Junhao Zhang,CHN,7,1477,-6,M
+Martim Sousa,POR,7,1477,-6,M
+Andrew Brigham,GBR,7,1477,-6,M
+Pedro Vera,ESP,7,1477,-6,M
+Yixin Yang,CHN,7,1477,-6,M
+Bassel Guindi,EGY,7,1477,-6,M
+Francisco Goncalves Da Silva,POR,7,1477,-6,M
+Titouan Sarrat,FRA,7,1477,-6,M
+Ningwei Yang,CHN,7,1477,-6,M
+Nawaf Alsaeed,KSA,7,1477,-6,M
+Konstantinos Machattos,CYP,7,1477,-6,M
+Ivo Rodrigues,POR,7,1477,-6,M
+Guilherme Alves,POR,7,1477,-6,M
+Yuanqin Du,CHN,7,1477,-6,M
+Pedro Parada,POR,7,1477,-6,M
+Jesus Alvarez Hornillo,ESP,7,1477,-6,M
+Nick Merten,GER,7,1477,-6,M
+Marcelo Espinosa Garrido,CHI,7,1477,-6,M
+David Torregrosa Baena,ESP,7,1477,-6,M
+Gustavo Santos,POR,7,1477,-6,M
+Daniel Domenech,ESP,7,1477,-6,M
+Hugo Caparros Basterra,ESP,7,1477,-6,M
+Joao Gabriel Acunha,BRA,7,1477,-6,M
+Daniel Anum Quartey,GHA,7,1477,-6,M
+Raul Rodriguez Fuentes,ESP,7,1477,-6,M
+Alexey Abazov,RUS,7,1477,-6,M
+Sarcuto Pompeo,ITA,7,1477,-6,M
+Parker Rhodes,USA,7,1477,-6,M
+Valentin San Juan,ARG,7,1477,-6,M
+Mouhamed Daffe,SEN,6,1527,-5,M
+Mikael Martikainen,FIN,6,1527,-5,M
+Oliver Koch,SWE,6,1527,-5,M
+Guangmin Ma,CHN,6,1527,-5,M
+Pablo Burdeos Larruy,ESP,6,1527,-5,M
+Jerome Peeters,BEL,6,1527,-56,M
+Simone Codovini,ITA,6,1527,-5,M
+Gerry Gunawan Saputra,INA,6,1527,-5,M
+Nicolas Trancart,FRA,6,1527,-5,M
+Juan Vicente Alcala,ESP,6,1527,-5,M
+Pablo Gabilondo,ESP,6,1527,-5,M
+Lykle Roosjen,NED,6,1527,-5,M
+Mehdi Elloumi,TUN,6,1527,-5,M
+Hugo Cazaban,FRA,6,1527,-5,M
+Guillermo Ibañez Delgado,ESP,6,1527,-5,M
+Florent Prelot,FRA,6,1527,-5,M
+Adam Whiting,GBR,6,1527,-5,M
+Victor Macchiavello Karmy,CHI,6,1527,-5,M
+Juan Ramirez Prieto,ESP,6,1527,-5,M
+Aleksandros Tsykov,UKR,6,1527,-5,M
+Karl-Johan Mattsson,SWE,6,1527,-5,M
+Tomas Youlton Cerda,CHI,6,1527,-5,M
+Talal Mohsen El Shaarani,EGY,6,1527,-5,M
+Alejandro Ruben Kania Flores,ESP,6,1527,-5,M
+Isidro Tormos Carrascosa,ESP,6,1527,-5,M
+Javier Mora Cuart,ESP,6,1527,-5,M
+Alan Brinol,USA,6,1527,-5,M
+Alejo Gabriel Stella,ARG,6,1527,-5,M
+Adrian Mayor Pastor,ESP,6,1527,-5,M
+Liam De La Mare,GBR,6,1527,-5,M
+Henrik Pais Slyngstad,NOR,6,1527,-5,M
+Jaouad Zoubaa,FRA,6,1527,-5,M
+Hamad Alkokhardi,UAE,6,1527,-5,M
+Martin Materassi,ITA,6,1527,-5,M
+Ahmed Nooruddin,BRN,6,1527,-5,M
+Augusto Cornejo,ARG,6,1527,-5,M
+Jason Kostaridis,GRE,6,1527,-5,M
+Ilya Grinshteyn,RUS,6,1527,-5,M
+Tommaso Rivellini,ITA,6,1527,-5,M
+Jarno Kevarinmäki,FIN,6,1527,-5,M
+Rodolphe Lonjaret,FRA,6,1527,-5,M
+Hing Lung Weldon Chan,HKG,6,1527,-5,M
+Diego Benito,ARG,6,1527,-5,M
+Jorge Asencio Ambrona,ESP,6,1527,-5,M
+Matthew Barrelle,AUS,6,1527,-5,M
+Jaime Esteve Medina,ESP,6,1527,-5,M
+Pablo Calleja Pulido,ESP,6,1527,-5,M
+Mario Wongsuwan,THA,6,1527,-5,M
+Daniel Saavedra Ortega,CHI,6,1527,-5,M
+Hugo Houedessou,FRA,6,1527,-5,M
+Yuanjia Ding,CHN,6,1527,-5,M
+Kiril Dimitrov,BUL,6,1527,-5,M
+Alvaro Matador Garcia De Vinuesa,ESP,6,1527,-5,M
+Mario Rodriguez Garcia,ESP,6,1527,-5,M
+Mehdi Ketfi,FRA,6,1527,-5,M
+Rudinei Kalil,USA,6,1527,-5,M
+Eduardo Saratt,BRA,6,1527,-5,M
+Eduardo Castillo,MEX,6,1527,-5,M
+Simon Javoršek,SLO,6,1527,-5,M
+Raul Jerez Miranda,ESP,6,1527,-5,M
+Alex Cinca Hernandez,ESP,6,1527,-5,M
+Pedro Garcia,BRA,6,1527,-5,M
+Pablo Muñoz Garcia,ESP,6,1527,-5,M
+Fahad Alhooli,UAE,6,1527,-5,M
+Sebastian Wade,USA,6,1527,-5,M
+Oscar Vazquez Fernandez,ESP,6,1527,-5,M
+Matteo Viviano,ITA,6,1527,-5,M
+Marcos Antonio Cheung Modesto,POR,6,1527,-5,M
+Daniele Galloppa,ITA,6,1527,-5,M
+Arthaud Dumoulin,FRA,6,1527,-5,M
+Emilis Jaskunas,LTU,6,1527,-5,M
+Lazaro Leite,BRA,6,1527,-5,M
+Manuel Avina,MEX,6,1527,-5,M
+Dimitris Skalidakis,GRE,6,1527,-5,M
+Francois Castejon,USA,6,1527,-5,M
+Louis Jarrold,IRL,6,1527,-5,M
+Yusif Rzayev,AZE,6,1527,-5,M
+Saul Verdugo,ESP,6,1527,-5,M
+Federico Di Giuseppe,ITA,6,1527,-5,M
+Alejandro Canovas Ferrando,ESP,6,1527,-5,M
+Gabriele De Angelis,ITA,6,1527,-5,M
+Hallak Hussein,LBN,6,1527,-5,M
+David Gomez Fernandez,ESP,6,1527,-5,M
+Tamerlan Azizov,AZE,6,1527,-5,M
+Jean Noel Said,GHA,6,1527,-5,M
+Hussein Hallal,LBN,6,1527,-5,M
+Federico Nicolas Galarza,ARG,6,1527,-5,M
+Ali Alasfoor,BRN,6,1527,-5,M
+Armando Emilio Moya,ESP,6,1527,-5,M
+José Julián Durán Reyna,DOM,5,1616,-1,M
+Andres Martinez,AUS,5,1616,0,M
+Andrew Ma,USA,5,1616,-1,M
+Bartu Citak,TUR,5,1616,-1,M
+Anselmo Guerrero Alvarez,ESP,5,1616,-1,M
+Dante Gustavo Luchetti,ITA,5,1616,-1,M
+Lucas De La Rosa Brotons,ESP,5,1616,-1,M
+Hasan Alqattan,BRN,5,1616,-1,M
+Riccardo Menon,ITA,5,1616,-1,M
+Roland Kosche,CHI,5,1616,-1,M
+David Daniel,BRA,5,1616,-1,M
+Ferran Bueno Gomez,ESP,5,1616,-1,M
+Yuliang Yan,CHN,5,1616,-1,M
+Abdulla Mohamed Ahmed Mohamed,BRN,5,1616,-1,M
+Yuen Hong Yau,HKG,5,1616,-1,M
+Rashid Walid,UAE,5,1616,-1,M
+Leandro Favoretto,BRA,5,1616,-1,M
+Thomas Barateau,FRA,5,1616,-1,M
+Starlin Javier Rodríguez Sanchez,DOM,5,1616,-1,M
+Silviu Mircea Popescu,ROU,5,1616,-1,M
+Jason Tamayo,USA,5,1616,-1,M
+Josue Pazos Galeote,MEX,5,1616,-1,M
+Sergio Mauricio Herrera,ARG,5,1616,-1,M
+Alvaro Padilla,MEX,5,1616,-1,M
+Antonio Atencia Urbaneja,ESP,5,1616,-1,M
+Matija Selak,CRO,5,1616,-1,M
+Andreas Martell Beuzit,ESP,5,1616,-1,M
+Juan Jose Iguaran Melo,COL,5,1616,-1,M
+Francisco Javaloy,ESP,5,1616,-1,M
+Alejandro Montesdeoca Afonso,ESP,5,1616,-1,M
+Daniel Lingen,GER,5,1616,-1,M
+Shaun Leagas,RSA,5,1616,-1,M
+Pierluigi Musiari,ITA,5,1616,-1,M
+Adel Mahmoud Elsahn,EGY,5,1616,-1,M
+Henrik Sillanpää,FIN,5,1616,-1,M
+Hadi Hadi,LBN,5,1616,-1,M
+Manuel Arrizabalaga Eugenio,ESP,5,1616,-1,M
+Pedro Salas,SUI,5,1616,-1,M
+Muddassir Hussain,IND,5,1616,-1,M
+Witold Konopko,POL,5,1616,-1,M
+Galien Devillers,FRA,5,1616,-1,M
+Fernando Serrano Gonzalez,MEX,5,1616,-1,M
+Lasse Schramm Simonsen,DEN,5,1616,-1,M
+Ahmed Alfedhala,BRN,5,1616,-1,M
+Anthony Maury,FRA,5,1616,-1,M
+Hendrik Inno,EST,5,1616,-1,M
+Matias Angel Paredes,ARG,5,1616,-1,M
+Kashyap Ashok,USA,5,1616,-1,M
+Luan Krige,RSA,5,1616,-1,M
+Till Gygax,SUI,5,1616,-1,M
+Meda Kowere Baizoum Joel,BUR,5,1616,-1,M
+David Tudela,ESP,5,1616,-1,M
+Jiri Vanek,CZE,5,1616,-1,M
+Jason Wright,AUS,5,1616,-1,M
+Jeremy Garcia,FRA,5,1616,-1,M
+Alan Joseph Healy,IRL,5,1616,-1,M
+Marcelo Antonio Godoy,ARG,5,1616,-1,M
+Tommaso Forini,ITA,5,1616,-1,M
+Diego Garcia,MEX,5,1616,-1,M
+Lucas Perez Marin,ESP,5,1616,-1,M
+Rafael Vega Otaolaurruchi,ESP,5,1616,-1,M
+Dorian Vasung,CRO,5,1616,-1,M
+Ege Avci,TUR,5,1616,-1,M
+Osvaldo Estevanez Jimenez,ESP,5,1616,-1,M
+Jad Slaibi,LBN,5,1616,-1,M
+Felipe Furghestti,BRA,5,1616,-1,M
+Aryan Hemdev,IND,5,1616,-1,M
+Oscar Bazaley,GBR,5,1616,783,M
+Guillem Gañan Alegre,ESP,5,1616,-1,M
+Francisco Cunietti,ARG,5,1616,-1,M
+Agustin Garcia Carabasa,ESP,5,1616,-1,M
+Antonio Gallego,ESP,5,1616,-1,M
+Meiram Zhardayev,KAZ,5,1616,-1,M
+Goran Vujaklija,CRO,5,1616,-1,M
+Tilen Zalar,SLO,5,1616,-1,M
+Domenico Cutuli,ITA,5,1616,-1,M
+Sebastian Santibanez,CHI,5,1616,-1,M
+Samuel Alos Boal,ESP,5,1616,-1,M
+Luis Gonzalez Sanchez,DOM,5,1616,-1,M
+Marcos Sanchez Pestaña,ESP,5,1616,-1,M
+Marcio Andre Crizel,BRA,5,1616,-1,M
+Ahmed Mohamed,BRN,5,1616,-1,M
+Zsombor Schmidt-Bohn,HUN,5,1616,-1,M
+Simonas Zukauskas,LTU,5,1616,-1,M
+Lenon Flain,BRA,5,1616,-1,M
+Melik Feler,FRA,5,1616,-1,M
+Nick Faessen,NED,5,1616,-1,M
+Diego Lopez Aviles,ESP,5,1616,-1,M
+Jorge Catalan Zamorano,CHI,5,1616,-1,M
+Carlos Malia,ESP,5,1616,-1,M
+Riaz Ravate,FRA,5,1616,-1,M
+Anton Mickelsson,SWE,5,1616,-1,M
+Diib Peruzzi Hammad,BRA,5,1616,-1,M
+Hector Pino,ESP,5,1616,-1,M
+Manuel Bragança,POR,5,1616,-1,M
+Jeremias Pucheta,ARG,5,1616,-1,M
+Shankai Guo,CHN,5,1616,-1,M
+Ari Amsellem,FRA,5,1616,-1,M
+Javier Reyes Gonzalez,ESP,5,1616,-1,M
+Daniel Benz,GER,5,1616,-1,M
+Tiger Bitanga,PHI,5,1616,-1,M
+Pablo Andres Toro Loaiza,COL,5,1616,-1,M
+Omar Esperon Acuna,MEX,5,1616,-1,M
+Vittorio Mascarello,ITA,5,1616,-1,M
+Joao Vinagre,POR,5,1616,-1,M
+Gabriele Ciampichetti,ITA,5,1616,-1,M
+Nauzet Rafael Guedes Hernandez,ESP,5,1616,-1,M
+Daniel Concepcion Vaquer,ESP,5,1616,-1,M
+Hector Ruiz Cadenas,ESP,5,1616,-1,M
+Andrea Giarrusso,ITA,5,1616,-1,M
+Jiabao Guo,CHN,5,1616,-1,M
+Hugo Sihr,FRA,5,1616,-1,M
+Chenhao He,CHN,5,1616,-1,M
+Bernard Quentin,FRA,5,1616,-1,M
+Sharlon Pace,MLT,5,1616,-1,M
+Petr Maltsev,RUS,5,1616,-1,M
+Georg Malmros,DEN,5,1616,-1,M
+Germano Giacalone,ITA,5,1616,-1,M
+Jeffree Gondres,DOM,5,1616,-1,M
+Lucas De Souza Teixeira,BRA,5,1616,-1,M
+Pablo Carretero,ESP,5,1616,-1,M
+Divyang Kumar,IND,5,1616,-1,M
+Francisco Mendieta Ruiz,COL,5,1616,0,M
+Acoran Martin,ESP,5,1616,-1,M
+Daniel Benarroch,ISR,5,1616,-1,M
+Mark Bogatyrenko,RUS,5,1616,-1,M
+Christopher Koutrouzas,CYP,5,1616,-1,M
+Denis Ignacio Caluva,ARG,5,1616,-1,M
+Carlos Gimeno Valero,ESP,5,1616,-1,M
+Lalloum Sonny,FRA,5,1616,-1,M
+Nicolas Saracho,ARG,5,1616,-1,M
+Carlos Enrique Diaz Otero Lopez,ESP,5,1616,-1,M
+Abdulla Almehza,BRN,5,1616,-1,M
+Santiago Veglia,ARG,5,1616,-1,M
+Lucien Van Doorn,NED,5,1616,-1,M
+Anton Gora,RUS,5,1616,-1,M
+Mariano Nicolas Lopez,ARG,5,1616,-1,M
+Riccardo Minighini,ITA,5,1616,-1,M
+Romain Lavit,FRA,5,1616,-1,M
+Nicolas Lujan Castaneda,ARG,5,1616,-1,M
+Alex Escamilla Pueyo,ESP,5,1616,-1,M
+Håkon Kveseth,NOR,5,1616,-1,M
+Hao Li,CHN,5,1616,-1,M
+Andres Izurieta,CHI,5,1616,-1,M
+Benjamin Palm,SWE,5,1616,-1,M
+Marc Casals Roige,ESP,5,1616,-1,M
+Abdalla Erfan,EGY,5,1616,-1,M
+Omar Ezzat,EGY,5,1616,-1,M
+Pablo Jiménez-Blanco bravo,ESP,5,1616,-1,M
+Maicol Cabrera Perez,ESP,5,1616,-1,M
+Javier Bandera Galisteo,ESP,5,1616,-1,M
+Werner Lootsma,NED,5,1616,-1,M
+Berro Khodr Karim,LBN,5,1616,-1,M
+Alex Rodriguez Tuch,ESP,5,1616,-1,M
+Ilan Conan,FRA,5,1616,-1,M
+Juan Pablo Chavez Valdes,MEX,5,1616,-1,M
+Leandro Javier Roldan,ARG,5,1616,-1,M
+Alvaro Velasco Palma,ESP,5,1616,-1,M
+Andres Valenzuela,ARG,5,1616,-1,M
+Bommanhin Felix Ange Romaric Boblei,CIV,5,1616,-1,M
+Jurie Johannes Ingram,RSA,5,1616,-1,M
+Elliot Heine,DEN,5,1616,-1,M
+Chris Da Cruz Pereira,POR,5,1616,-1,M
+Alberto Franco Villaran,ESP,5,1616,-1,M
+Husein Hussein,CIV,5,1616,-1,M
+David Payet,FRA,5,1616,-1,M
+Daniel Hinojosa Arroyo,ESP,5,1616,-1,M
+Javier Bravo Alvarez,ESP,5,1616,-1,M
+Hugo Martinez Toral,MEX,5,1616,-1,M
+Baorong Zhang,CHN,5,1616,-1,M
+Noah Holmvang,DEN,5,1616,-1,M
+Muhamad Zaid Patel,RSA,5,1616,-1,M
+Karan Ramchandani,HKG,5,1616,-1,M
+Daniyar Sherkan,KAZ,5,1616,-1,M
+Jan Reyzon Amondoron,PHI,5,1616,-1,M
+Amerikos Argyriou,CYP,5,1616,-1,M
+German Jesus Clavijo Ortiz,ESP,5,1616,-1,M
+Pablo Herreros,ESP,5,1616,-1,M
+Vicente Pinochet Gorichon,CHI,5,1616,-1,M
+Cheng Yong Wang,CHN,5,1616,-1,M
+Antonio Ramírez Muñoz,ESP,5,1616,-1,M
+Santiago Gonzalez,MEX,5,1616,-1,M
+Raul Harjani Sajnani,HKG,5,1616,-1,M
+Diego Valderrama,VEN,5,1616,-1,M
+Tim Lanyon,AUS,5,1616,783,M
+Luka Belic,CRO,5,1616,-1,M
+Felipe Urrutia,CHI,5,1616,-1,M
+Yuri Nath,BRA,5,1616,-1,M
+Chan Marco Kwun Nam,HKG,5,1616,-1,M
+Jason Hewitt,RSA,5,1616,-1,M
+Jose Laurenti,ARG,5,1616,-1,M
+Augusto Romero Lang,ARG,5,1616,-1,M
+Marcelo Kieffer Luiz,BRA,5,1616,-1,M
+Elliot Selby,GBR,5,1616,-1,M
+Seif Elkhayat,EGY,5,1616,-1,M
+Christian Ventura,ITA,5,1616,0,M
+Nicolas Garcia Perez,ESP,5,1616,-1,M
+Lalloum Lyrone,FRA,5,1616,-1,M
+Kevin Gomez,CHI,5,1616,-1,M
+Agustin Perez,ESP,5,1616,-1,M
+Bruno Nakid,BRA,5,1616,-1,M
+Alon Faiman,ISR,5,1616,-1,M
+Muhamad Tahir Alimomade,MOZ,5,1616,-1,M
+Bristan Bogdan-Alin,ROU,5,1616,-1,M
+Alejandro Wesbrooks,USA,5,1616,-1,M
+Efe Ozbayrak,TUR,5,1616,-1,M
+Martin Kazda,CZE,5,1616,-1,M
+Pablo González Díaz,ESP,5,1616,-1,M
+Alen Csogör,HUN,5,1616,-1,M
+Felipe Braga Jorge,BRA,5,1616,-1,M
+Rishi Reddy,IND,5,1616,-1,M
+Vitalie Sciuca,MDA,5,1616,-1,M
+Qiu Anan,CHN,5,1616,-1,M
+Christos Asimakopoulos,GRE,5,1616,-1,M
+Juan Cruz Bordoli,ARG,5,1616,-1,M
+Jefferson Dezai,CIV,5,1616,-1,M
+Damien Bayard,FRA,5,1616,-1,M
+Yikai Wang,CHN,5,1616,-1,M
+Javier Serrats,ESP,5,1616,-1,M
+Luca Maria Laguzza,ITA,5,1616,-1,M
+Ollie Bartosh,NZL,5,1616,0,M
+Angel Deza Torrecilla,ESP,5,1616,-1,M
+Fanrizio Fioretti,ITA,5,1616,-1,M
+Steven Loock,RSA,5,1616,-1,M
+George Tsirigotis,GRE,5,1616,-1,M
+Jaime Menendez,ESP,5,1616,-1,M
+Philipp Grechukha,RUS,5,1616,-1,M
+Addison Baptistella,BRA,5,1616,-1,M
+Christian Ramos Abad,ESP,5,1616,-1,M
+Federico Ciriello,ITA,5,1616,-1,M
+Kohei Hisatome,JPN,5,1616,-1,M
+Zhijun Mu,CHN,5,1616,-1,M
+Arata Saito,JPN,5,1616,-1,M
+Xusheng Wang,CHN,5,1616,-1,M
+Cenith Adrian Castillo Chavez,MEX,5,1616,-1,M
+Javier Hazouri Celorio,MEX,5,1616,-1,M
+Ziguang Song,CHN,5,1616,-1,M
+Isa Alqattan,BRN,5,1616,-1,M
+Leandro Honorato,ARG,5,1616,-1,M
+Cleiton Brustulin,BRA,5,1616,-1,M
+Nicolas De Marco,ARG,5,1616,-1,M
+Arthur De Greef,BEL,5,1616,-1,M
+Klim Kozyrev,RUS,5,1616,-1,M
+Valentin Volpe Bravo,ESP,5,1616,-1,M
+Mohamad Tayab Alimomade,MOZ,5,1616,-1,M
+Jose Daniel Sanchez Pardo,ESP,5,1616,-1,M
+Eliott Verraghen,BEL,5,1616,-1,M
+Santiago Carmona Vidal,MEX,5,1616,-1,M
+Harry Jiggins,GBR,5,1616,-1,M
+Franco Emanuel Rios Duarte,ARG,5,1616,-1,M
+Paulius Matulevicius,LTU,5,1616,-1,M
+Gustav Hefer,RSA,5,1616,-1,M
+Iker Rodriguez Soto,ESP,5,1616,-1,M
+Roque Silveira,BRA,5,1616,-1,M
+Sai Krishna Showrya Tirnati,IND,5,1616,-1,M
+Alvaro Alcalde Sanchez,ESP,5,1616,-1,M
+Rohit Sirigiri,NZL,5,1616,-1,M
+Sebastian Chylinski,POL,5,1616,-1,M
+Kazuki Shimizu,JPN,5,1616,-1,M
+Ege Bekgoz,TUR,5,1616,-1,M
+Aitor Rodriguez Rodriguez Manzaneque,ESP,5,1616,-1,M
+Aurelio De Diego Barrera,CHI,5,1616,-1,M
+Sergei Poliakov,RUS,5,1616,-1,M
+Nurzhan Saidakhmet,KAZ,5,1616,-1,M
+Nam Nguyen,SUI,5,1616,-1,M
+Dario Donati,ITA,5,1616,-1,M
+Kunal Chadha,IND,5,1616,-1,M
+Filippo Necchi,ITA,5,1616,-1,M
+Thomas Deschamps,BEL,5,1616,-1,M
+David Aguero,ECU,5,1616,-1,M
+Sebastian Brokmann,NED,5,1616,-1,M
+Saleh Sadry Salah,CIV,5,1616,-1,M
+Omar Qaed,BRN,5,1616,-1,M
+Mark Giulio Menotti,ITA,5,1616,0,M
+Xavier Beneito Molina,ESP,5,1616,-1,M
+Maxim De Peuter,BEL,5,1616,-1,M
+Alex Leira Gavilán,ESP,5,1616,-1,M
+Wanbin Li,CHN,5,1616,-1,M
+Hugo Jay,FRA,5,1616,-1,M
+Louis De Rouck,BEL,5,1616,-1,M
+Adrian Gerardo Daus,ARG,5,1616,-1,M
+Jorge Sanchez Marquez,MEX,5,1616,-1,M
+Bruno Alfaro,ARG,5,1616,-1,M
+Omar Bahrouzyan,UAE,5,1616,-1,M
+Gabriel Pontiz,ARG,5,1616,-1,M
+Iker Jimenez Figuerola,ESP,5,1616,-1,M
+Manuel Jesus Arias Ortiz,ESP,5,1616,-1,M
+Omar Al-Taei,OMA,5,1616,-1,M
+Joris Zumelzu,FRA,5,1616,-1,M
+Yi Feng,CHN,5,1616,-1,M
+Yuanzhi Pang,CHN,5,1616,-1,M
+Kobe Cuppens,BEL,5,1616,-1,M
+Francisco Jose Escalante,ESP,5,1616,-1,M
+Carlos Archila,VEN,5,1616,-1,M
+Daniel Koehler,USA,5,1616,-1,M
+Sameer Varun Reddy Sivareddy,IND,5,1616,-1,M
+Jorge Marcelo Daud,ARG,5,1616,-1,M
+David Lopez Cruz,ESP,5,1616,-1,M
+Pablo Tejero Delgado,ESP,5,1616,-1,M
+Hugo Olivier,RSA,5,1616,-1,M
+Aleksandre Tavartkiladze,GEO,5,1616,-1,M
+Anshuman Rath,HKG,5,1616,-1,M
+Evert Verbesselt,BEL,5,1616,-1,M
+Jiahao Dong,CHN,5,1616,-1,M
+Michal Wargocki,POL,5,1616,-1,M
+Raul Medina Rico,ESP,5,1616,-1,M
+Bruno Perescu,ROU,5,1616,-1,M
+Omeis Chadi,CIV,5,1616,-1,M
+James Southwood,GBR,5,1616,-1,M
+Sergio Merchán González,ESP,5,1616,-1,M
+Thomas Cartledge,GBR,5,1616,-1,M
+Enzo Correia,FRA,5,1616,-1,M
+Yorgo Molina Pizarro,CHI,5,1616,-1,M
+Mahmoud Koronfiely,EGY,5,1616,-1,M
+Lautaro Angelini,ARG,5,1616,-1,M
+Adeel Allawala,PAK,5,1616,-1,M
+Rodrigo Amaral,USA,5,1616,-1,M
+Riyaadh Farid Motani,RSA,5,1616,-1,M
+Khalifa Rashdan,BRN,5,1616,-1,M
+Ross Taylor,AUS,5,1616,783,M
+Craig De Silva,GBR,5,1616,-1,M
+Cheevan Davids,RSA,5,1616,-1,M
+Juan Manuel Vergara,ARG,5,1616,-1,M
+Zaizhen Li,CHN,5,1616,-1,M
+Daniel Agüero Mateo,ECU,5,1616,-1,M
+Simone Setti,ITA,5,1616,-1,M
+Antoni Pi Alarcon,ESP,5,1616,0,M
+Luis Vilchez Trapero,ESP,5,1616,-1,M
+Noel Antonio Agra,PHI,5,1616,-1,M
+Wuyingjun Wu,CHN,5,1616,-1,M
+Romà Busquets Picañol,ESP,5,1616,-1,M
+Arturo Sosa,MEX,5,1616,-1,M
+Mattia Faseli,ITA,5,1616,-1,M
+Agustin Ignacio Collosso,ITA,5,1616,-1,M
+Yuki Iwamoto,JPN,5,1616,-1,M
+Philippos Andreou Fernandez,CYP,5,1616,-1,M
+Franco Saenz,ARG,5,1616,-1,M
+Julien Motz,FRA,5,1616,-1,M
+Ziad Sherif Hussein,EGY,5,1616,-1,M
+Salvador Simões,POR,5,1616,-1,M
+Daniel Alberto Chelar,ARG,5,1616,-1,M
+Nicolas Cortijo Sanchez,ESP,5,1616,-1,M
+Juan Ramiro Irigoitia,ARG,5,1616,-1,M
+Fakhry Hassan,CIV,5,1616,-1,M
+Alejandro Basso,ESP,5,1616,0,M
+Samar Malhotra,IND,5,1616,-1,M
+Adarsh Kontham,IND,5,1616,-1,M
+Javier Rodriguez Acosta,ESP,5,1616,-1,M
+Jerome Inzerillo,FRA,5,1616,-417,M
+Valentin Wenger,SUI,5,1616,-1,M
+William Agritelley,USA,5,1616,-1,M
+Lucian Eugen Perescu,ROU,5,1616,-1,M
+Oskar Nurmio,FIN,5,1616,-1,M
+Igor Souto,BRA,5,1616,-1,M
+Guilherme Fachin Da Cunha,USA,5,1616,-1,M
+Alvaro Cañasveras Boza,ESP,5,1616,-1,M
+Oscar Govik,SWE,5,1616,-1,M
+Sebastiao Mendonça,POR,5,1616,-1,M
+Nick Braet,BEL,4,1974,-7,M
+Alberto Moreno Andrei,ESP,4,1974,-7,M
+Charles Desmet,BEL,4,1974,0,M
+Abdulrahman Alyafei,QAT,4,1974,-7,M
+Raul Pérez Lozano,ESP,4,1974,-7,M
+Joshua Kashdan,GBR,4,1974,-359,M
+Marcos Diaz De La Lastra,ESP,4,1974,-7,M
+Bastian Dario Barrueto Marzan,CHI,4,1974,-7,M
+Andrea Rosa Fauzza,ITA,4,1974,-7,M
+Yuta Ichikawa,JPN,4,1974,-7,M
+Enzo Fuentealba,CHI,4,1974,-7,M
+Martim Silva,POR,4,1974,-7,M
+Sattam Alshahrani,KSA,4,1974,-7,M
+Iker Zamora Garcia,ESP,4,1974,-7,M
+Jose Ariel Rivera Puebla,CHI,4,1974,-7,M
+Diego Pedrero,ESP,4,1974,-7,M
+Jassim Alharami,QAT,4,1974,-7,M
+Benjamin Benavente,CHI,4,1974,-7,M
+Pablo Manuel Diaz Weisser,CHI,4,1974,-7,M
+Alfonso Chavez Canales,CHI,4,1974,-7,M
+Luciano Miguel Piñero,ARG,4,1974,-7,M
+Brian Cabrera,ARG,4,1974,-7,M
+Sergio Cornejo Valenzuela,CHI,4,1974,-7,M
+Michel Diniz,BRA,4,1974,-7,M
+Weiliang Chen,CHN,4,1974,-7,M
+Rio Hanif,GBR,4,1974,-7,M
+Abdulla Alsada,QAT,4,1974,-7,M
+Ali Attiie,LBN,3,2001,-6,M
+Fillip Drachmann,DEN,3,2001,-6,M
+Bob Rolink,NED,3,2001,-6,M
+Biel Camacho Serra,ESP,3,2001,-6,M
+Michael Leonard Sungkono,INA,3,2001,-6,M
+Carlos Pena Rodriguez,ESP,3,2001,-6,M
+Fritz Chris Verdad,PHI,3,2001,-6,M
+Sofus Worm Enrum,DEN,3,2001,-6,M
+Weston Wai Ming Yu,HKG,3,2001,-6,M
+Giorgio Soemarno,INA,3,2001,-6,M
+Ovanes Petrosyan,GEO,3,2001,-6,M
+Mathias Gonzalez Lambert,ESP,3,2001,-6,M
+Carlos Mackenna Muñoz,CHI,3,2001,-6,M
+Ruchir Mahajan,IND,3,2001,-6,M
+Mohammed Almannai,BRN,3,2001,-6,M
+Thomas Vejling Melgaard Nielsen,DEN,3,2001,-6,M
+Rassulov Nabi,KAZ,3,2001,-6,M
+Evgeny Korotaev,RUS,3,2001,-6,M
+Justus Ranta,FIN,3,2001,-6,M
+Jorge Gabriel Rosales Castro,ARG,3,2001,-6,M
+Facundo Quiroga,ARG,3,2001,-6,M
+Craig Stewart,GBR,3,2001,-6,M
+Shinnosuke Nakamura,JPN,3,2001,-6,M
+Angelos Vlatakis,GRE,3,2001,-6,M
+Milton Jonsson,SWE,3,2001,-6,M
+Siraj Choukair,LBN,3,2001,-6,M
+Jonas Myrer,NOR,3,2001,-6,M
+Silvestre Paris,ARG,3,2001,0,M
+Alami Mohamed,MAR,3,2001,-6,M
+Rayan Zorkot,CIV,3,2001,-6,M
+Simon Termansen,DEN,3,2001,-6,M
+Oskar Erik Hakonen,EST,3,2001,-6,M
+Hans Van Der Meulen,NED,3,2001,398,M
+Basem Alsharji,BRN,3,2001,-6,M
+Alfredo Miranda,USA,3,2001,-6,M
+Anas Lakhdar Ghazal,MAR,3,2001,-6,M
+Thiago Mayerna,ARG,3,2001,-6,M
+Pelle Emil Hansen,DEN,3,2001,-6,M
+Toni Dujmenovic,CRO,3,2001,-6,M
+Marius Schjoetz,DEN,3,2001,-6,M
+Craig O'Shannessy,AUS,3,2001,398,M
+Darryl Ferzle,CIV,3,2001,-6,M
+Cole Fiegel,USA,3,2001,-6,M
+Lucas Miguel Caceres Rodriguez,ARG,3,2001,-6,M
+David Ibañez Martinez,ESP,3,2001,-6,M
+Mark Veldmate,NED,3,2001,-6,M
+Arya Ashok,IND,3,2001,-6,M
+Aleksei Golovachev,RUS,3,2001,-6,M
+Clemente Vasquez Gonzalez,CHI,3,2001,-6,M
+Ignacio Arias Quintana,ESP,3,2001,-6,M
+Miguel Rodriguez Revillas,ESP,3,2001,-6,M
+Takafumi Tominaka,JPN,3,2001,-6,M
+Plutarch Deliyannis,AUS,3,2001,0,M
+Gonzalo Ferrero Bayarri,ESP,3,2001,-6,M
+Andres Blancas Olvera,MEX,3,2001,-6,M
+Christopher Stanford,RSA,3,2001,-6,M
+Johannes Christiaan Pieterse,GER,3,2001,-6,M
+Jerry Johan Echter,NED,3,2001,-6,M
+Niccolò Abbrescia,ITA,3,2001,-6,M
+Thomas Reynolds,GBR,3,2001,-6,M
+Ryan Rymarczyk,POL,3,2001,-6,M
+Zhansultan Chembotayev,KAZ,3,2001,-6,M
+Enrique Cepas,ESP,3,2001,-6,M
+Paolo Trabalza,ITA,3,2001,-6,M
+Dado Dietel,GER,3,2001,-6,M
+Abdulrahman Janahi,BRN,3,2001,-6,M
+Burzio Matteo,ITA,3,2001,-6,M
+Miguel Ángel Medina Mateu,ESP,3,2001,-6,M
+Marcelo Ignacio Plaza Valenzuela,CHI,3,2001,-6,M
+Gilang Mahendra,INA,3,2001,-6,M
+Aleksandre Tavkhelidze,GEO,3,2001,-6,M
+Giorgi Vachnadze,GEO,3,2001,-6,M
+Evangelos Bogris,GRE,3,2001,-6,M
+Wiggo Johansson,SWE,3,2001,-6,M
+Radu Traian Ionescu,USA,3,2001,-6,M
+Salman Alkhalifa,BRN,3,2001,-6,M
+Famaz Shanavas,IND,3,2001,-6,M
+Kevin Romero Bocanegra,ESP,3,2001,-6,M
+Felipe Jose Villaça,BRA,3,2001,-6,M
+Yuhui Wang,CHN,3,2001,-6,M
+Antonios Markantonakis,GRE,3,2001,-6,M
+Ekaitz Gorostiaga,ESP,3,2001,-6,M
+Marcos Moreno,ESP,3,2001,-6,M
+Jeremie Euphrasie,FRA,3,2001,-6,M
+Agustin Cervera Valdivieso,ARG,3,2001,-6,M
+Noah Robert,FRA,3,2001,-6,M
+Lucas Benjamin Falco,ARG,3,2001,-6,M
+Julius Fuglsang,DEN,3,2001,-6,M
+Iker Rabinad Vila,ESP,3,2001,-6,M
+Dane Dunlap,CAN,3,2001,-6,M
+Luis Otavio Pires,BRA,3,2001,-6,M
+Ralph Adel Tohme,LBN,3,2001,-6,M
+Tristin Pretorius,RSA,3,2001,-6,M
+Andres Martinez Cuquerella,ESP,3,2001,-6,M
+Octavio Nicolas Corzo,ARG,3,2001,-6,M
+Yusuke Okubo,JPN,3,2001,-6,M
+Muhammad Muzammil Khalid,PAK,3,2001,-6,M
+Arturo Reyes,ARG,3,2001,-6,M
+Jeremy Gala,BEL,3,2001,-6,M
+Mads Elholm,DEN,3,2001,-6,M
+Ruan Lategan,RSA,3,2001,-6,M
+Mihai Crapatureanu,ROU,3,2001,-6,M
+Ivan Ortigosa Comas,ESP,3,2001,-6,M
+Pasquale Giardiello,ITA,3,2001,-6,M
+Cristobal Nuñez,CHI,3,2001,-6,M
+Daniel Sardina Serrano,ESP,3,2001,-6,M
+Diego Del Percio,ARG,3,2001,-6,M
+William Johansson,SWE,3,2001,-6,M
+Riemer Sijbring,NED,3,2001,-6,M
+Paul Fearon,JAM,3,2001,-6,M
+Pierre Valsot,MON,3,2001,-6,M
+Teruaki Ando,JPN,3,2001,-6,M
+Oscar Guerrero Pascual,ESP,3,2001,-6,M
+Jerko Brkic,CRO,3,2001,-6,M
+Grgo Dujmovic,CRO,3,2001,-6,M
+Luis Ricardo Aguirre,ESP,3,2001,-6,M
+Mika Heikkinen,SWE,3,2001,-6,M
+Elienoe Nicolay,LUX,3,2001,-6,M
+Emir Emiro?lu,TUR,3,2001,-6,M
+Ander Plazaola Zabala,AUS,3,2001,679,M
+Javier Perez Morillas,ESP,3,2001,-6,M
+Enzo Chua,SIN,3,2001,-6,M
+Sergi Alvarado Marquez,ESP,3,2001,-6,M
+Sebastian Miguel Guzman,ARG,3,2001,-6,M
+German Neuburger,ARG,3,2001,-6,M
+Benjamin Lespes,FRA,3,2001,-6,M
+Alberto Cost Torralba,ESP,3,2001,-6,M
+Tomas Castro,ESP,3,2001,-6,M
+Osama Salah Mubarak,BRN,3,2001,-6,M
+Nikola Tuparov,BUL,3,2001,-6,M
+Ferran Luarna Montilla,ESP,3,2001,-6,M
+Leonard Lozancic,CRO,3,2001,-6,M
+Alvaro Pizarro,CHI,3,2001,-6,M
+Jose Manuel Lillo Albertos,ESP,3,2001,-6,M
+Jose Adrian Prieto Nuñez,ESP,3,2001,-6,M
+Kristoffer Strand Oedven,NOR,3,2001,-6,M
+Arnau Vidal Miro,ESP,3,2001,-6,M
+Ludvig Jönsson,SWE,3,2001,-6,M
+Carl Isaac Wiman,SWE,3,2001,-6,M
+Talha Jamal Butt,PAK,3,2001,-6,M
+David Cañizares Illescas,ESP,3,2001,-6,M
+Wongsathorn Swangchot,THA,3,2001,-6,M
+Calin Motorga,ROU,3,2001,-6,M
+Polychronios Sirpos,GRE,3,2001,-6,M
+Jorge Soto,MEX,3,2001,-6,M
+Muhammad Ahsen,PAK,3,2001,-6,M
+Martin Stolt,SWE,3,2001,-6,M
+Daniel Espiño Rodriguez,ESP,3,2001,-6,M
+Octavio Guardia Domínguez,ARG,3,2001,-6,M
+Oscar Moya Gaitan,ESP,3,2001,-6,M
+Andreas Psaltis,CYP,3,2001,-6,M
+Mikhail Drachuk,KAZ,3,2001,-6,M
+Damian Schlebusch,RSA,3,2001,-6,M
+Juan Pereiro Gonzalez,ESP,3,2001,-6,M
+Khar Keon Wong,MAS,3,2001,-6,M
+Lasse Sundell,SWE,3,2001,-6,M
+Ivan Ignacio Herrera,IRL,3,2001,-6,M
+Cristian Lopez Sanchis,ESP,3,2001,-6,M
+Markus Kerner,EST,3,2001,-6,M
+Frederico De Marco Rigon,BRA,3,2001,-6,M
+Johan Lykken,DEN,3,2001,-6,M
+Emiliano Ruben Bustos,ITA,3,2001,-6,M
+Leverdez Brice,FRA,3,2001,-6,M
+Nooh Haji,BRN,3,2001,-6,M
+Bilal Aribal,CIV,3,2001,-6,M
+John Clerkin,IRL,3,2001,-6,M
+Husain Dawani,BRN,3,2001,-6,M
+Aman Behar,IND,3,2001,-6,M
+Jose Antonio Macia Herrera,ESP,3,2001,-6,M
+Ben Kogel,GER,3,2001,-6,M
+Benjamin Are Bruun,NOR,3,2001,-6,M
+Ignacio Perez Alonso,ESP,3,2001,-6,M
+Alibek Yessenov,KAZ,3,2001,-6,M
+Victor Escorihuela Dealbert,ESP,3,2001,-6,M
+Joao Magalhaes,POR,3,2001,-6,M
+Joey Chua Tiong Hoey,MAS,3,2001,-6,M
+Laurent Baese,GER,3,2001,-6,M
+Luis Simoes,POR,3,2001,-6,M
+Martin Ariel Andornino,ITA,3,2001,-6,M
+Joaquin Saura Padilla,ESP,3,2001,-6,M
+Olivier Roux,USA,3,2001,-6,M
+Pedro Izquierdo Cuerda,ESP,3,2001,0,M
+Mauro Bertone,ARG,3,2001,-6,M
+Muhammad Mudassar Khalid,PAK,3,2001,-6,M
+Filippo Simeoni,ITA,3,2001,-6,M
+Alvaro Lopez Navarro,ESP,3,2001,-6,M
+Rafael Gonzalez Guerrero,ESP,3,2001,-6,M
+Osamah Almaqaleh,YEM,3,2001,-6,M
+Muhammad Azhar,PAK,3,2001,-6,M
+Thomas Main,RSA,3,2001,-6,M
+Ivan Freire Ruiz,ESP,3,2001,-6,M
+Faustas Kuliušas,LTU,3,2001,-6,M
+Jose De La Riva Huerta,ESP,3,2001,-6,M
+Hugo Garcia Martinez,ESP,3,2001,-6,M
+Adrian Garcia Gonzalez,ESP,3,2001,-6,M
+Maher Hachem,SEN,3,2001,-34,M
+Mohamed Al-Nusuf,BRN,3,2001,-6,M
+Mads Vernegaard,DEN,3,2001,-6,M
+Chandan Matada Renukacharya,IND,3,2001,-6,M
+Alvaro Meras De Teresa,ESP,3,2001,-6,M
+Sylvain Seynaeve,BEL,3,2001,-6,M
+Padchon Ngamkiatkhajorn,THA,3,2001,-6,M
+Stanislas mathias jean-Francois Hug,FRA,3,2001,-6,M
+Andrea Zikic,ITA,3,2001,-6,M
+Aidan Khairuddin,MAS,3,2001,-6,M
+Alberto Lastortres Mancilla,ESP,3,2001,-6,M
+Braulio Cortes Maldonado,CHI,3,2001,-6,M
+Nikoloz Davlianidze,GEO,3,2001,-6,M
+Aaran Eastwood,GBR,3,2001,-6,M
+Tomy Salas,FRA,3,2001,-6,M
+Carlos Eduardo Delgado Muñoz,CHI,3,2001,-6,M
+Mohamed Alansari,BRN,3,2001,-6,M
+Didier Tanous,FRA,3,2001,-6,M
+Karl Henrik Hoff Raaholt,NOR,3,2001,-6,M
+Boštjan Repanšek,SLO,3,2001,-6,M
+Bru Veciana Coronado,ESP,3,2001,-6,M
+Iker Sevilla,ESP,3,2001,-6,M
+Luca Di Maggio,ITA,3,2001,-6,M
+Matteo Iafisco,ITA,3,2001,-6,M
+Federico Morano,ITA,3,2001,-6,M
+Francisco Marquez Arenas,ESP,3,2001,-6,M
+Irakli Tsurtsumia,GEO,3,2001,-6,M
+Alejandro Santaella Torcello,ESP,3,2001,-6,M
+Andria Antadze,GEO,3,2001,-6,M
+Mario Barcelo,GRE,3,2001,-6,M
+Leonardo Zarate,MEX,3,2001,-6,M
+Dario Maturi,MON,3,2001,-6,M
+Johannes Ravn Brække,NOR,3,2001,-6,M
+Victor Rodriguez Gauthier,ESP,3,2001,-6,M
+Dominique Coene,BEL,3,2001,-6,M
+Volkan Dundar,TUR,3,2001,-6,M
+Antonio Luis Ruiz Casero,ESP,3,2001,-6,M
+Lucas Christensen,DEN,3,2001,-6,M
+Gustavo Garcia Jimenez,ESP,3,2001,-6,M
+Omar Nadim,EGY,3,2001,-6,M
+Adrian Casanova Marrero,ESP,3,2001,-6,M
+Stoyan Dinchiiski,BUL,3,2001,-6,M
+Mohamed Sultan,BRN,3,2001,-6,M
+Muath Almuaili,BRN,3,2001,-6,M
+Alex Casas Solsona,ESP,3,2001,-6,M
+Stanislas Barbe,FRA,3,2001,0,M
+Eleftherios Neos,CYP,3,2001,-6,M
+Tim Milton,RSA,3,2001,-6,M
+Gonzalo Diez,ESP,3,2001,-6,M
+Alejandro Fernandez Mora,ESP,3,2001,-6,M
+Nicolas Pablo Rodriguez,ARG,3,2001,-6,M
+Manel Tabuena Lopez,ESP,3,2001,-6,M
+Curtis Chung Ting Yu,HKG,3,2001,-6,M
+Marcus Cipri,AUS,3,2001,0,M
+Yong Zhang,CHN,3,2001,-6,M
+Mark Stillerman,RSA,3,2001,-6,M
+Jingfeng Zhang,CHN,3,2001,-6,M
+Bader Mohamed,BRN,3,2001,-6,M
+Agustin Medina,CHI,3,2001,-6,M
+Gonzalo Izquierdo Lopez,ESP,3,2001,-6,M
+Enrique Uribe,USA,3,2001,-6,M
+Giuseppe Federico,ITA,3,2001,-6,M
+Antonio Manzano Valcarcel,ESP,3,2001,-6,M
+Farhan Mustafa,PAK,3,2001,-6,M
+Ralph Boekema,NED,3,2001,-6,M
+Tommaso Donda,ITA,3,2001,-6,M
+Dinu Serbanescu,ROU,3,2001,-6,M
+Daniel Eugster Sorensen,DEN,3,2001,-6,M
+Jassim Mohammed Alzeyara,QAT,3,2001,-6,M
+Mantas Gricius,LTU,3,2001,-6,M
+Guillem Medina Cuadradas,ESP,3,2001,-6,M
+Raphael Bittencourt,BRA,3,2001,-6,M
+Alejandro Eugenio Reino Brehcist,ESP,3,2001,-6,M
+Jesse Lohr,NED,3,2001,-6,M
+Michael Geraghty,NOR,3,2001,-6,M
+Alvaro Ruiz Cotorro Sagastizabal,ESP,3,2001,0,M
+Ignacio Carbonero,ESP,3,2001,-6,M
+Juan Torres Palacios,ESP,3,2001,-6,M
+Thomas Lorin,FRA,3,2001,-6,M
+Iago Blanco Negro,ESP,3,2001,-6,M
+Rajneesh Bhandari,IND,3,2001,-6,M
+Vincent Lam,HKG,3,2001,-6,M
+Håkon Melbø,NOR,3,2001,-6,M
+Maxim Spisiak,SVK,3,2001,-6,M
+Rumen Goranov,BUL,3,2001,-6,M
+Dan Glavic,SLO,3,2001,-6,M
+Lorcan Loughrey,IRL,3,2001,-6,M
+Gabriel Perdomo Gascon,ESP,3,2001,-6,M
+Wee Ming Hock Vincent Jones Jr,MAS,3,2001,-6,M
+Daniel Gonzalez Dominguez,ESP,3,2001,-6,M
+Khoo Teng Seng Julian,MAS,3,2001,-6,M
+Ben Reimond Libao,PHI,3,2001,-6,M
+Daniel Bressel Ambrossi,ESP,3,2001,-6,M
+Tomas Vaiš?,LTU,3,2001,-6,M
+Jonas Ostergaard Store,NOR,3,2001,-6,M
+Linus Ingvar Holthey,GER,3,2001,-6,M
+Giovanni Cassano,ITA,3,2001,-6,M
+Javier Merino Nieto,ESP,3,2001,0,M
+Manatsu Arakawa,JPN,3,2001,-6,M
+Yann Francoise,FRA,3,2001,-6,M
+Alonso Garcia Sicilia,ESP,3,2001,-6,M
+Edward Stoner,GBR,3,2001,-6,M
+Nicholas Keevy,RSA,3,2001,-6,M
+Pablo Figueroa,SWE,3,2001,-6,M
+Sgadat Ayap,KAZ,3,2001,-6,M
+Asier Mas Urkizu,ESP,3,2001,-6,M
+Jeppe Hoejbjerg,DEN,3,2001,-6,M
+Viktor Nyström,SWE,3,2001,0,M
+Hussain Kazerooni,BRN,3,2001,-6,M
+Mathieu Fung,FRA,3,2001,-6,M
+Kareem Abdelgawad,EGY,3,2001,-6,M
+Hayato Okubo,JPN,3,2001,-6,M
+Stefano Tricarico,ITA,3,2001,-6,M
+Andrew Borwick,RSA,3,2001,-6,M
+Pablo Crespo Bernal,ESP,3,2001,-6,M
+Rashed Alhammadi,UAE,3,2001,-6,M
+Pavel Lavrikov,RUS,3,2001,-6,M
+Zarour Derwich,CIV,3,2001,-6,M
+Victor Teboul,FRA,3,2001,-6,M
+Thibault De Galbert,FRA,3,2001,-6,M
+Svein Roger Olsen,NOR,3,2001,-6,M
+Jun Ming Liang,CHN,3,2001,-6,M
+Kyle Olivier,RSA,3,2001,-6,M
+Emilis Baltrimaitis,LTU,3,2001,-6,M
+Jaime Gonzalez Diaz,ESP,3,2001,-6,M
+Robert Gaylard,AUS,3,2001,398,M
+Yannik Molina,ESP,3,2001,-6,M
+Noah Johansen,FIN,3,2001,-6,M
+Kamel Zarour,LBN,3,2001,-6,M
+Ignacio Ybañez Cuerda,ESP,3,2001,0,M
+Callum Ward,GBR,3,2001,-6,M
+Victor Gomez Juan,ESP,3,2001,-6,M
+Manuel Jordi Fulla Silva,CHI,3,2001,-6,M
+Raul Vojinovic,CRO,3,2001,-6,M
+Aakash Lalith Kumar Nanu,IND,3,2001,-6,M
+Xavier Vilaseca Lucas,ESP,3,2001,-6,M
+Vilas Thomsen,DEN,3,2001,-6,M
+Pau García Bartual,ESP,3,2001,-6,M
+Wael El Amine,CIV,3,2001,-6,M
+Laurent Girbal,FRA,3,2001,-6,M
+Tomas Aniceto Solé Molina,ESP,3,2001,-6,M
+Jie Han Chai,MAS,3,2001,-6,M
+Sebastian Courbis Laciart,CHI,3,2001,-6,M
+Mario Krajinovic,CRO,3,2001,-6,M
+Kristian Lofts,AUS,3,2001,0,M
+Connor Taylor,GBR,3,2001,-6,M
+Pol Espinal Rey,ESP,3,2001,-6,M
+Adrian Sanchez Contreras,ESP,3,2001,-6,M
+Marc Sempere Cardona,ESP,3,2001,-6,M
+Jose Domingo Martinez Garcia,ESP,3,2001,-6,M
+Marco Dal Mas,ITA,3,2001,-6,M
+Gianmarco Gherardi,ITA,3,2001,-6,M
+Leonel Zapata,ARG,3,2001,-6,M
+Maxime Mora,FRA,3,2001,-34,M
+Kazbek Shalbassov,KAZ,3,2001,-6,M
+Tomas Diaz Dominguez,ESP,3,2001,-6,M
+Alex Gutierrez,MEX,3,2001,-6,M
+Mik Winterink,NED,3,2001,-6,M
+Trevor Kosemaa,EST,3,2001,-6,M
+Vladimir Popov,BUL,3,2001,-6,M
+Martin Harizanov,BUL,3,2001,-6,M
+Nicholas Cipri,AUS,3,2001,0,M
+Esteban Robles Quesada,CRC,3,2001,-6,M
+Anthony Salavracos,BEL,3,2001,-6,M
+Francisco De Borja Prados,ESP,3,2001,-6,M
+Khaled Almoosawi,BRN,3,2001,-6,M
+Rashed AlObaidli,BRN,3,2001,-6,M
+Tom Couturier,FRA,3,2001,-6,M
+Saul Duran Heras,ESP,3,2001,-6,M
+Adam Ottosson,SWE,3,2001,-6,M
+Adriel Keogh,AUS,3,2001,398,M
+David Catala Velasco,ESP,3,2001,-6,M
+Alonso Moreno Muñoz,ESP,3,2001,-6,M
+Eduard Medina Cuadradas,ESP,3,2001,-6,M
+Rafael Peiro Gonzalez,ESP,3,2001,-6,M
+Jorge Martinez,USA,3,2001,-6,M
+David Lawrenson,GBR,3,2001,-6,M
+Emmanuel Martin,FRA,3,2001,-6,M
+Sam Ashenden,AUS,3,2001,-874,M
+Brendan Falk,AUS,3,2001,0,M
+Romain Potier,FRA,3,2001,-6,M
+Hernan Cortez,ARG,3,2001,-6,M
+Armando Soemarno,INA,3,2001,-6,M
+Tobias Lystad,NOR,3,2001,-6,M
+Patrik Severovic,CRO,3,2001,-6,M
+Nikita Sidorov,KAZ,3,2001,-6,M
+Arjen Robben,NED,3,2001,-6,M
+Ziga Drobnic,SLO,3,2001,-6,M
+Samuel Anton Romero,ESP,3,2001,-6,M
+Mohamed Bahlool,BRN,3,2001,-6,M
+Kavin Tamizh Vendan,IND,3,2001,-6,M
+Robert Daley,AUS,3,2001,-479,M
+Mateu Riera Parra,ESP,3,2001,-6,M
+Kyle Isaacs,RSA,3,2001,-6,M
+Rasmus Sig Weibel,DEN,3,2001,-6,M
+Emanuele Fanti,ITA,3,2001,-6,M
+Luca Agostinacchio,ITA,3,2001,-6,M
+Janez Makovec,SLO,3,2001,-6,M
+Santino Cordoba Torres,ARG,3,2001,-6,M
+Javier Beloqui,ESP,3,2001,-6,M
+Maxim Tkachenko,UKR,3,2001,-6,M
+Manuel Cholbi Llido,ESP,3,2001,-6,M
+Simone Vitulano,ITA,3,2001,-6,M
+David Canavezes,POR,3,2001,-6,M
+Jon Southern,GBR,3,2001,-6,M
+Pierantonio Gherardi,ITA,3,2001,-6,M
+Nasser Rashdan,BRN,3,2001,-6,M
+Martin Torres Coggiola,ARG,3,2001,-6,M
+Fan Yang,CHN,3,2001,-6,M
+Joel Trifunovic,AUS,3,2001,0,M
+Weyers Meintjes,RSA,3,2001,0,M
+David Chelidze,GEO,3,2001,-6,M
+Jamie Gall,GBR,3,2001,-6,M
+Youssef Amin Safwat,EGY,3,2001,-6,M
+Lionel Aimar Cabrera Diaz,ESP,3,2001,-6,M
+Abdulaziz Almadani,BRN,3,2001,-6,M
+Arturo Muñoz Garcia,ESP,3,2001,-6,M
+Carlos Cuenca Navarro,ESP,3,2001,-6,M
+Ignasi Sugrañes Martinez,ESP,3,2001,-6,M
+Jonathan Almada Peralta,ARG,3,2001,-6,M
+Syed Imran Yusoof,IND,3,2001,-6,M
+Helder Simao,MOZ,3,2001,-6,M
+Rony Achkar,VEN,3,2001,679,M
+Faisal Ebrahim Hassan,ZIM,3,2001,-6,M
+Murat Ulu,TUR,3,2001,-6,M
+Ole Henrik Strand Odven,NOR,3,2001,-6,M
+Deni Zmak,CRO,3,2001,-6,M
+Jose Camilo Mesa,COL,3,2001,-6,M
+Pratish Thadani,IND,3,2001,0,M
+Tom Maquel,LUX,3,2001,-6,M
+Scott Clayton,GBR,3,2001,-6,M
+Georgi Stoyanov,BUL,3,2001,-6,M
+Enric Batalla Lopez,ESP,2,2428,-29,M
+Tsubasa Suminaka,JPN,2,2428,-29,M
+Miguel Angel Mendez Velasco,ESP,2,2428,-29,M
+Nikolajs Galkins,LAT,2,2428,-29,M
+Sorin Petru Suba,ROU,2,2428,-29,M
+Mahmoud Mohasseb,EGY,2,2428,-29,M
+Franco Altube Casaseca,ARG,2,2428,-29,M
+Abou Zeid Karim,CIV,2,2428,-29,M
+Carlos Perez Garcia,ESP,2,2428,-29,M
+Kaiyu Li,CHN,2,2428,-29,M
+Arnaud Jadoul,BEL,2,2428,-29,M
+Sebastian Graap,GER,2,2428,-29,M
+Carsten Hovestadt,GER,2,2428,-29,M
+Matteo Pracchi,ITA,2,2428,-29,M
+Yury Lobanov,ROU,2,2428,-29,M
+Luís Augusto Neves Guerra,BRA,2,2428,-29,M
+Mikkel Brandt,DEN,2,2428,-29,M
+Karl Leth,DEN,2,2428,-29,M
+Gabriel Toledo Amador,ESP,2,2428,-29,M
+Nicolas Vandermarliere,BEL,2,2428,-29,M
+Michael Anthony Kahn,PHI,2,2428,-29,M
+Daniel Herrera,ESP,2,2428,-29,M
+Jacopo Bartolini,ITA,2,2428,-29,M
+Loris Morvan,FRA,2,2428,-29,M
+Francisco Alcober Aleman,ESP,2,2428,-29,M
+Jose Miguel Sanchez Mañas,ESP,2,2428,-29,M
+Alexander Muravyev,RUS,2,2428,-29,M
+Halil Orbay Cobanoglu,TUR,2,2428,-29,M
+Nicolae-Adrian Rozorea,ROU,2,2428,-29,M
+Pierre Lebosse,FRA,2,2428,-29,M
+Alexandre Brym,FRA,2,2428,-29,M
+Georgios Hadjiconstantis,CYP,2,2428,-29,M
+Alberto Caballero,ESP,2,2428,-29,M
+Yida Ye,CHN,2,2428,-29,M
+Sindiso Moyo,ZIM,2,2428,-29,M
+Eduardo Franza,ESP,2,2428,-29,M
+Jose Chamorro Rodriguez,ESP,2,2428,-29,M
+Keiki Fukuda,JPN,2,2428,-29,M
+Fernando Gabriel Ingaramo,ARG,2,2428,-29,M
+Romain Luquet,GBR,2,2428,-29,M
+Qiaojie Wang,CHN,2,2428,-29,M
+Amadeo Baldini,ITA,2,2428,-29,M
+Jordan Cruz,ESP,2,2428,-29,M
+Joao Pedro Alves De Moraes,BRA,2,2428,-29,M
+Anton Uribe Chavert,ESP,2,2428,-29,M
+Ramon Camarena Gomez,ESP,2,2428,-29,M
+Faisal Alolayan,KUW,2,2428,-29,M
+Yannick Martell Beuzit,ESP,2,2428,-29,M
+Mario Cordero,FRA,2,2428,-29,M
+Samir Wazni,SEN,2,2428,-29,M
+Joel Andrew Suryadi,INA,2,2428,0,M
+Jesper Clausen,DEN,2,2428,-29,M
+Luca Di Colli,ITA,2,2428,-29,M
+Mario Navarro Ramirez,ESP,2,2428,-29,M
+Gabriel Garcia,ESP,2,2428,-29,M
+Wahyu Diantoro,INA,2,2428,-29,M
+Arno De Proost,BEL,2,2428,-29,M
+Francesc Bayona,ESP,2,2428,-461,M
+Alasdair Owers Bradley,GBR,2,2428,-29,M
+Lorenzo Dandieu,FRA,2,2428,-29,M
+Semal Robin,BEL,2,2428,-29,M
+Henrique Rosa De Freitas,BRA,2,2428,-29,M
+Ehouman Ange Imran,CIV,2,2428,-29,M
+Tomas Marques,POR,2,2428,-29,M
+Denis Adrian Mocanu,ROU,2,2428,-29,M
+Eduardo Ladeveze,ARG,2,2428,-29,M
+Manuel Molines Lozano,ESP,2,2428,-29,M
+Madalin Ilinca,ROU,2,2428,-29,M
+Cleo Carvalho,BRA,2,2428,-29,M
+Javier Zafra,ESP,2,2428,-29,M
+Anton Yakovlev,RUS,2,2428,-29,M
+Tomas Agustin Gallardo,ARG,2,2428,-29,M
+Eric Nezien,CIV,2,2428,-29,M
+Emilio Zwenger,ARG,2,2428,-29,M
+Raul Delgado Abril,ESP,2,2428,-29,M
+Gustavo Amastha,CHI,2,2428,-29,M
+Nicolas Lopez,FRA,2,2428,-29,M
+Marius Garnes,NOR,2,2428,-29,M
+Beni Gomez Cabrera,ESP,2,2428,-29,M
+Rui Huo,CHN,2,2428,-29,M
+Abbas Makke,LBN,2,2428,-29,M
+Conrado Capilla Garcia,ESP,2,2428,-29,M
+Cesar Testoni,FRA,2,2428,-29,M
+Karim Abdoul Kidami,CIV,2,2428,-29,M
+Adam Diprose,AUS,2,2428,252,M
+Ger Buenanueva,ARG,2,2428,-29,M
+Alexander Khalanskii,RUS,2,2428,-29,M
+Vincenzo Aiello,ITA,2,2428,-29,M
+Ali AlShaikh,BRN,2,2428,-29,M
+Ebbe Badersten,SWE,2,2428,-29,M
+George Aerakis,GRE,2,2428,-29,M
+Juan Pablo Ruiz,ARG,2,2428,-29,M
+Alejandro Barrera Garcia,ESP,2,2428,-29,M
+Dan Alexandru Tomescu,ROU,2,2428,-29,M
+Ling Li,CHN,2,2428,-29,M
+Antonio Sierra Sampaio,ESP,2,2428,-29,M
+Pedro Antonio Zwan Bertin,BRA,2,2428,-29,M
+Christoph Krenn,AUT,2,2428,-29,M
+Paolo Calzavara,ITA,2,2428,-29,M
+Francisco Camus Salvarredi,ARG,2,2428,-29,M
+Alfredas Udra,LTU,2,2428,-29,M
+Alex Alcega Dominguez,ESP,2,2428,-29,M
+Pablo Andrés Palencia,ESP,2,2428,-29,M
+Manfredas Udra,LTU,2,2428,-29,M
+Elia Purita,ITA,2,2428,-29,M
+Alessandro Tonelli,ITA,2,2428,-29,M
+Tommaso Giachetti,ITA,2,2428,-29,M
+Mariano Gombi,USA,2,2428,-29,M
+Walef Vinicius Silva,BRA,2,2428,-29,M
+Sebastiano Andrea Giustolisi,ITA,2,2428,-29,M
+Daisuke Shoyama,JPN,2,2428,-29,M
+Jose Falcon Castellanos,ESP,2,2428,-29,M
+Gioele Lorenzin,ITA,2,2428,-29,M
+Bernardo Terroso,POR,2,2428,-29,M
+De Shen Heng,MAS,2,2428,-29,M
+William Wiseman,USA,2,2428,-29,M
+Yuli Huang,CHN,2,2428,-29,M
+Joaquin Exequiel Blanco Gutierrez,ARG,2,2428,-29,M
+Sebastião Dias,POR,2,2428,-29,M
+Goncalo Berredo,POR,2,2428,-29,M
+Remi Maunier,FRA,2,2428,-29,M
+Bernardo Barreiros Ferreira,POR,2,2428,-29,M
+Antonio Ledesma Castellò,ESP,2,2428,-29,M
+Andrea Milani,ITA,2,2428,-29,M
+Romain Rutkowski,FRA,2,2428,-29,M
+German Ziella,USA,2,2428,-29,M
+Karim Alejandro Mignani Lemos,ARG,2,2428,-29,M
+Omar Amin,EGY,2,2428,-29,M
+Loïc Le Panse Fernandez,FRA,2,2428,-29,M
+Kevin Graff,FRA,2,2428,-29,M
+Maksim Sukhanos,BLR,2,2428,-29,M
+Carl Giles,AUS,2,2428,0,M
+Andrew Seymour,AUS,2,2428,-29,M
+Marcelo Hernandezgamez,USA,2,2428,-29,M
+Arturo Veiga Viñoly,ESP,2,2428,-29,M
+Zino Ouazene,CIV,2,2428,-29,M
+David Vuong,SUI,2,2428,-29,M
+Alejandro Andino Vallverdu,ESP,2,2428,-29,M
+Adrián Cabello Alaman,ESP,2,2428,-29,M
+Eric Bautheac,FRA,2,2428,-29,M
+Nicolas Pont,BEL,2,2428,-29,M
+Zhi Wang,CHN,2,2428,-29,M
+Andrey Malakhov,NED,2,2428,-29,M
+Ali Mert Ekener,TUR,2,2428,-29,M
+Mingnibo Fidele Diamaho,CIV,2,2428,-29,M
+Matias Nicolas Norre,ARG,2,2428,-29,M
+Bruno Juanito,FRA,2,2428,-29,M
+Hassan Ali,BRN,2,2428,-29,M
+Cesar Andrés Palencia,ESP,2,2428,-29,M
+Chenyang Fan,CHN,2,2428,-29,M
+Antonio Doria,POR,2,2428,-29,M
+Victor Rossi,ARG,2,2428,-29,M
+Wenhao Wu,CHN,2,2428,-29,M
+Andrew Smith,GBR,2,2428,-29,M
+Ivan Sanchez Segui,ESP,2,2428,-29,M
+Jon Guerra Larrauri,ESP,2,2428,-29,M
+Tanguy Montoisy,BEL,2,2428,-29,M
+Rakan Almuzaini,KUW,2,2428,-29,M
+David Alten,AUT,2,2428,-29,M
+Theodoros Rousos,CYP,2,2428,-29,M
+Nikolas Zogaj,BEL,2,2428,-29,M
+Leonardo Bogo Marcatto,BRA,2,2428,-29,M
+Nicolas Fernandez Diaz,ESP,2,2428,-29,M
+Darren McMullen,GBR,2,2428,0,M
+Ismail Hakk? Kula,TUR,2,2428,-29,M
+Andrea Masoero,ITA,2,2428,-29,M
+Pierre Lagouardille,FRA,2,2428,-29,M
+Marco Lazo Espinosa,CUB,2,2428,-29,M
+Pedro Tellechea Omiste,ESP,2,2428,-29,M
+Thibaut Mordacq,FRA,2,2428,-29,M
+Miguel Baptista Da Silva,POR,2,2428,-29,M
+Unax Arranz Maestre,ESP,2,2428,-29,M
+Nuno Quelhas,POR,2,2428,-29,M
+Xiangling Li,CHN,2,2428,-29,M
+Camilo Velasco,USA,2,2428,-29,M
+Guillermo Borrero Fernández De La Puente,ESP,2,2428,-29,M
+Gianluca Lalli,ITA,2,2428,-29,M
+David Garcia Gomez,ESP,2,2428,-29,M
+Santiago Fernandez Escarcena,ESP,2,2428,-29,M
+Xander Veys,BEL,2,2428,-29,M
+Carlos Miguel Ramoa,POR,2,2428,-29,M
+Daan Veldhuis,NED,2,2428,-29,M
+Carlos Rodriguez,ESP,2,2428,-29,M
+Hiroki Iwamoto,JPN,2,2428,-29,M
+Jan Hulshagen,BEL,2,2428,-29,M
+Adlan Bounemoura,FRA,2,2428,-29,M
+Mauricio Klenner Campos,CHI,2,2428,-29,M
+Lorenzo Maccarini,BRA,2,2428,-29,M
+Markuss Tions,LAT,2,2428,-29,M
+Aliaksei Hryts,BLR,2,2428,-29,M
+Nikolaj Lange,DEN,2,2428,-29,M
+Ronald Vargas,BEL,2,2428,-29,M
+Giulio De Lutiis,ITA,2,2428,-29,M
+Ryosuke Kizawa,JPN,2,2428,-29,M
+Juan Jose Medina Rico,ESP,2,2428,-29,M
+Anthony Galloo,FRA,2,2428,-29,M
+Laurent Payet,FRA,2,2428,-29,M
+Yaser Alhashemi,BRN,2,2428,-29,M
+Joao Moura,POR,2,2428,-29,M
+Daniel Lopez Gutierrez,ESP,2,2428,-29,M
+Denis Ionut Sas,ROU,2,2428,-29,M
+Omran Falaknazi,BRN,2,2428,-29,M
+Wen Tian,CHN,2,2428,-29,M
+Miguel Roman Moreno,ESP,2,2428,-29,M
+Anton Agapov,RUS,2,2428,-29,M
+Noah Houareau,FRA,2,2428,-29,M
+Manfredo Pirone,ITA,2,2428,-29,M
+Mattia Bosatelli,ITA,2,2428,-29,M
+Louis Corker,AUS,2,2428,0,M
+Juan Ignacio Gonzalez Jimenez,ESP,2,2428,-29,M
+Sergio Lopez Rodriguez,ESP,2,2428,-29,M
+Ilija Jankovic,SRB,2,2428,-29,M
+Mattia Mena,ITA,2,2428,-29,M
+Lautaro Nicolas Garcia Saez,ARG,2,2428,-29,M
+Andy De Bruijne,NED,2,2428,-29,M
+Miguel Ferreira,POR,2,2428,-29,M
+Hikaru Yokoyama,JPN,2,2428,-29,M
+Fernando Delgado,ESP,2,2428,-29,M
+Javier Reiter,ARG,2,2428,-29,M
+Armando Caiazzo,ITA,2,2428,-29,M
+Haifeng Luo,CHN,2,2428,-29,M
+Ted Nilsson,SWE,2,2428,0,M
+Thibo Matthyssens,BEL,2,2428,-29,M
+Ulugbek Ismailov,KAZ,2,2428,-29,M
+Robert Wezeman,NED,2,2428,-29,M
+Jared Cooper Vespa,USA,2,2428,-29,M
+Sergiu-Darie Mede?an,ROU,2,2428,-29,M
+Vito Morrone,ITA,2,2428,-29,M
+Pedro Kaminski,BRA,2,2428,-29,M
+Ian Salo,ESP,2,2428,-29,M
+Raditya Kirana Rianto,INA,2,2428,-29,M
+Benoit Dardaine,FRA,2,2428,-29,M
+Bodhi De Muinck,BEL,2,2428,-29,M
+Franck Binisti,FRA,2,2428,-29,M
+Lucas Ladeveze,ARG,2,2428,-29,M
+Joao Guimaraes,POR,2,2428,-29,M
+Adria Lombera,ESP,2,2428,-29,M
+Johannes Roscic,GER,2,2428,-29,M
+Ilhan Sarp A?abigün,TUR,2,2428,-29,M
+Samat Zhexenov,KAZ,2,2428,-29,M
+Aimar Benitez Bernet,ESP,2,2428,-29,M
+Axel Ezequiel Cardozo,ARG,2,2428,-29,M
+Mateo Giribaldi,ARG,2,2428,-29,M
+Alain Sassen,BEL,2,2428,-29,M
+Lucas Duffort,BRA,2,2428,-29,M
+Diego Ruiz Alcaide,ESP,2,2428,-29,M
+Calvin Wyatt,GBR,2,2428,-29,M
+Unsal Ataol Toker,TUR,2,2428,-29,M
+Kevin Aguilar Lamarcha,ESP,2,2428,-29,M
+Benjamin Oakes,GBR,2,2428,-29,M
+Paul Soubies,FRA,2,2428,-29,M
+Jonas Vanhauwe,BEL,2,2428,-29,M
+Javier Quesada Dominguez,ESP,2,2428,-29,M
+Jorn Vande Moortele,BEL,2,2428,-29,M
+Alejandro Pina Lopez,ESP,2,2428,-29,M
+Nicolas Escavabaja,FRA,2,2428,-29,M
+Xavier Cardoso,POR,2,2428,-29,M
+Jos Van Acker,BEL,2,2428,-29,M
+Edoardo Pennino Zugarelli,ITA,2,2428,-29,M
+Lautaro Aguilera,ARG,2,2428,-29,M
+Iacopo Zagaglioni,ITA,2,2428,-29,M
+Joaquin Paez,ARG,1,2689,-9,M
+Marco Fogliata,ITA,1,2689,-9,M
+Mario Lozano,ESP,1,2689,-9,M
+Sergio Grau Cervera,ESP,1,2689,-9,M
+Omar Althagib,KSA,1,2689,-9,M
+Javier Ignacio Cuadra Campusano,CHI,1,2689,-9,M
+Mariano Solano,CHI,1,2689,-9,M
+Maxime Moreau,FRA,1,2689,-290,M
+Marcos Felipe Guerra Alvarez,CHI,1,2689,-9,M
+Cristobal Matias Zamorano Lopez,CHI,1,2689,-9,M
+Patricio León Ancares,CHI,1,2689,-9,M
+Abdulaziz Alyafei,QAT,1,2689,-9,M
+Sebastian Burgos,CHI,1,2689,-9,M
+Giovanny Avello,CHI,1,2689,-9,M
+Delfina Brea Senesi,ARG,18060,1,0,F
+Gemma Triay Pons,ESP,18060,1,0,F
+Paula Josemaria Martin,ESP,14720,3,0,F
+Ariana Sanchez Fallada,ESP,14720,3,0,F
+Claudia Fernandez Sanchez,ESP,13040,5,0,F
+Beatriz Gonzalez Fernandez,ESP,13040,5,0,F
+Sofia Araujo,POR,7030,7,0,F
+Andrea Ustero Prieto,ESP,6625,8,0,F
+Marta Ortega Gallego,ESP,6435,9,0,F
+Tamara Icardo Alcorisa,ESP,6050,10,0,F
+Claudia Jensen,ARG,5405,11,0,F
+Alejandra Alonso De Villa,ESP,5385,12,0,F
+Alejandra Salazar Bengoechea,ESP,5110,13,0,F
+Martina Calvo Santamaria,ESP,4745,14,0,F
+Veronica Virseda,ESP,4190,15,0,F
+Marina Guinart España,ESP,4035,16,0,F
+Carmen Goenaga Garcia,ESP,3715,17,0,F
+Beatriz Caldera Sanchez,ESP,3715,17,0,F
+Aranzazu Osoro Ulrich,ARG,3640,19,0,F
+Victoria Iglesias Segador,ESP,3420,20,0,F
+Lucia Sainz Pelegri,ESP,2980,21,0,F
+Patricia Llaguno Zielinski,ESP,2965,22,0,F
+Jessica Castello Lopez,ESP,2480,23,0,F
+Raquel Eugenio Barrera,ESP,2380,24,0,F
+Martina Fassio Goyeneche,ARG,2370,25,0,F
+Lorena Rufo Ortiz,ESP,2190,26,0,F
+Marta Barrera De La Fuente,ESP,2185,27,0,F
+Jimena Velasco Postiguillo,ESP,2115,28,0,F
+Carolina Orsi,ITA,1960,29,0,F
+Marta Caparros Maldonado,ESP,1885,30,0,F
+Araceli Martinez,ESP,1845,31,0,F
+Noa Canovas Paredes,ESP,1820,32,0,F
+Ksenia Sharifova,RUS,1810,33,0,F
+Alix Collombon,FRA,1765,34,0,F
+Virginia Riera,ARG,1716,35,0,F
+Maria Eulalia Rodriguez Abajo,ESP,1690,36,0,F
+Nuria Rodriguez,ESP,1655,37,0,F
+Lucia Martinez Gomez,ESP,1650,38,0,F
+Julieta Evangelina Bidahorria,ARG,1575,39,0,F
+Ana Catarina Nogueira,POR,1565,40,0,F
+Melania Merino Saez,ESP,1502,41,0,F
+Lara Arruabarrena,ESP,1495,42,0,F
+Agueda Perez Ortiz,ESP,1474,43,0,F
+Marta Borrero,ESP,1472,44,0,F
+Marta Talavan,ESP,1470,45,0,F
+Sara Ruiz Soto,ESP,1315,46,0,F
+Marina Lobo,ESP,1315,46,0,F
+Letizia Maria Manquillo Alarza,ESP,1257,48,0,F
+Laura Lujan Rodriguez,ESP,1250,49,0,F
+Noemi Aguilar Carrillo,ESP,1244,50,0,F
+Giorgia Marchetti,ITA,1234,51,0,F
+Sofia Saiz Vallejo,ESP,1214,52,0,F
+Julia Polo Bautista,ESP,1174,53,0,F
+Barbara Las Heras,ESP,1148,54,0,F
+Patricia Martinez Fortun,ESP,1126,55,0,F
+Carolina Navarro Björk,SWE,1066,56,0,F
+Teresa Navarro lopez-Barajas,ESP,1064,57,0,F
+Jana Montes Cabruja,ESP,1046,58,0,F
+Lucia Garcia Trella,ESP,1013,59,0,F
+Carla Mesa Salazar,ESP,971,60,0,F
+Lea Godallier,FRA,940,61,0,F
+Esther Carnicero Martin,ESP,929,62,0,F
+Marta Marrero,ESP,926,63,0,F
+Amanda Lopez Moral,ESP,918,64,0,F
+Sandra Bellver Fructuoso,ESP,899,65,0,F
+Marta Arellano Navarro,ESP,876,66,0,F
+Giulia Dal Pozzo,ITA,857,67,0,F
+Ariadna Cañellas Rodero,ESP,763,68,0,F
+Camila Fassio Goyeneche,ESP,763,68,0,F
+Monica Gomez Rivas,ESP,747,70,0,F
+Ana Dominguez Gracia,ESP,738,71,1,F
+Natividad Lopez Diaz,ESP,730,72,-2,F
+Rebeca Lopez Lopez,ESP,727,73,0,F
+Alba Perez Momha,ESP,726,74,1,F
+Aida Martinez Sanjuan,ESP,710,75,-2,F
+Anna Ortiz Gasco,ESP,660,76,0,F
+Lorena Vano,ITA,654,77,0,F
+Carlotta Casali,ITA,610,78,0,F
+Carla Touly,FRA,602,79,1,F
+Marcella Koek,NED,581,80,-1,F
+Victoria Kurz,GER,572,81,0,F
+Lucia Peralta Exposito,ESP,559,82,0,F
+Daiara Agustina Valenzuela,ARG,542,83,1,F
+Lucia Micaela Fernandez Lopez,ESP,541,84,1,F
+Ana Varo Ramos,ESP,539,85,1,F
+Claudia Escacena Montero,ESP,531,86,-3,F
+Camila Ramme Coellar,MEX,522,87,1,F
+Aitana Garcia Roman,ESP,505,88,1,F
+Maria Portillo Perez,ESP,494,89,1,F
+Aimee Gibson,GBR,475,90,-3,F
+Carla Fito Fernandez,ESP,462,91,1,F
+Janine Hemmes,NED,446,92,1,F
+Catarina Santos Domingos,POR,442,93,1,F
+Rosalie Van Der Hoek,NED,440,94,1,F
+Maria Teresa Moriñigo Gomez,ESP,435,95,1,F
+Bo Luttikhuis,NED,433,96,-5,F
+Raquel Piltcher,BRA,426,97,0,F
+Brittany Dubins,USA,406,98,0,F
+Xenia Clasca Vidiella,ESP,390,99,0,F
+Lucia Perez Parra,ESP,389,100,0,F
+Patricia Araus Lopez,ESP,389,100,0,F
+Ana Cristina Sanchez Perez,ESP,386,102,0,F
+Martina Parmigiani,ITA,383,103,0,F
+Caterina Maria Baldi,ITA,373,104,0,F
+Emily Stellato,ITA,351,105,1,F
+Ainize Santamaria Landa,ESP,349,106,1,F
+Giorgia Rosi,ITA,348,107,1,F
+Blanca Arriola Cerrejon,ESP,342,108,1,F
+Clarissa Margherita Aima,ITA,339,109,1,F
+Clarinha Santos,POR,339,109,1,F
+Sara Pujals Perez,ESP,338,111,1,F
+Eugenia Guimet Bigas,ESP,336,112,5,F
+Stephanie Weterings,NED,331,113,0,F
+Manuela Schuck Silva,BRA,329,114,0,F
+Margarida Fernandes,POR,329,114,0,F
+Dora Andrejszki,HUN,328,116,0,F
+Patricia Maria Ribeiro,POR,321,117,1,F
+Louise Bahurel,FRA,320,118,1,F
+Carla Fernandez Gonzalez,ESP,315,119,3,F
+Catherine Rose,GBR,315,119,-14,F
+Giulia Sussarello,ITA,301,121,-1,F
+Maria Laura Ferreyra,ARG,298,122,-1,F
+Natalia Molinilla Paniagua,ESP,292,123,0,F
+Nerea Guerra Santana,ESP,291,124,2,F
+Camilla Livioni,ITA,291,124,0,F
+Paula Ferrán,ESP,278,126,-1,F
+Valeria Atencia Basilio,ESP,271,127,0,F
+Marianela Montesi,ITA,270,128,0,F
+Arantxa Soriano Perez,ESP,263,129,0,F
+Tia Louisa Norton,GBR,262,130,0,F
+Chiara Pappacena,ITA,260,131,0,F
+Alba Gallardo Salvado,ESP,254,132,0,F
+Dora Chamli,TUN,254,132,0,F
+Bruna Albuquerque Melo,POR,253,134,0,F
+Maaike Betz,NED,252,135,0,F
+Angelina Neizvestnaya,RUS,242,136,0,F
+Ana Maria Cabrejas Ruiz,MEX,240,137,0,F
+Carla Serrano Gonzalez,ESP,239,138,0,F
+Elsa Terranova,ITA,236,139,0,F
+Karin Hechenberger,SUI,235,140,0,F
+Lisa Rachel Phillips,GBR,223,141,2,F
+Sara Foguer Lapuente,ESP,222,142,2,F
+Camille Sireix,FRA,221,143,-2,F
+Elena De La Rosa Ramos,ESP,216,144,-3,F
+Melissa Martin,FRA,216,144,1,F
+Anastasiia Ryzhova,RUS,212,146,0,F
+Constança Gorito,POR,211,147,0,F
+Ainara Pozuelo Dominguez,ESP,210,148,0,F
+Francesca Ligotti,ITA,209,149,0,F
+Carmen Castillon Gamez,ESP,207,150,0,F
+Maria Delgado Medina,ESP,206,151,0,F
+Ivet Val Lopez,ESP,205,152,0,F
+Alicia Blanco Rojo,ESP,203,153,0,F
+Alexandra Silva,POR,201,154,0,F
+Nika Sluzhiteleva,RUS,200,155,0,F
+Lorena Alonso De Lera,ESP,198,156,0,F
+Renata Martinez Becerra,MEX,198,156,0,F
+Luna Di Battista,ITA,195,158,0,F
+Kae Tokumoto,JPN,194,159,0,F
+Steffi Merah,FRA,193,160,0,F
+Alena Vasileva,RUS,189,161,0,F
+Nuria Vivancos,ESP,179,162,1,F
+Cayetana Sanchez Vera,ESP,179,162,1,F
+Marisol Fernandez Garcia,ESP,178,164,2,F
+Liza Groenveld,NED,176,165,2,F
+Jessica Marie Agra,PHI,174,166,-4,F
+Alba Vazquez Gracia,ESP,174,166,-3,F
+Tess De Vocht,NED,172,168,1,F
+Puck Bernard,NED,168,169,1,F
+Daniela Catarino,POR,165,170,1,F
+Marie Amelie Dardaine,FRA,163,171,-3,F
+Yoshino Kushima,JPN,159,172,1,F
+Martina Vera Cebollero,ESP,156,173,1,F
+Kotomi Ozawa,JPN,154,174,-3,F
+Jimena Diaz De La Iglesia,ESP,153,175,24,F
+Saki Tsukamoto,JPN,149,176,-1,F
+Natalia Blanco,MEX,147,177,-1,F
+Ainhoa Navarro Fernandez,ESP,147,177,-1,F
+Claudia Ordoñez Romero,ESP,147,177,-1,F
+Mafalda Marques Fernandes,POR,147,177,-1,F
+Clara Miret Llorach,ESP,146,181,0,F
+Carmen Azcoitia Mazo,ESP,144,182,0,F
+Leire Uriarte Medina,ESP,143,183,0,F
+Jessica Ginier Barbier,FRA,143,183,0,F
+Charlotte Soubrie,FRA,142,185,-9,F
+Laura Buteau,FRA,142,185,1,F
+Coral Alvarez Castro,ESP,141,187,-4,F
+Cristina Cirne,BRA,138,188,0,F
+Catalina Arancibia,CHI,138,188,0,F
+Claudia Gaspar,POR,138,188,0,F
+Lucile Pothier,FRA,138,188,0,F
+Kimberley Ahumada Carrasco,CHI,138,188,0,F
+Carla Castillo Velarde,ESP,137,193,0,F
+Maria Garin,POR,137,193,0,F
+Alicia Cañellas,ESP,134,195,0,F
+Matilde Minelli,ITA,133,196,0,F
+Emma Karen Reyes Baca,MEX,132,197,1,F
+Aurora Buscaino,ITA,131,198,1,F
+Letizia Dell'Agnese,ITA,131,198,-2,F
+Sandra Oliveras Gonzalez,ESP,130,200,1,F
+Candela Lucendo Millan,ESP,129,201,-14,F
+Teresa Casero De La Casa,ESP,123,202,0,F
+Lucia Vicente Mera,ESP,122,203,0,F
+Lucia Dionisio Laureano,ESP,119,204,0,F
+Maria Rasmussen,DEN,119,204,12,F
+Vega Cano Ortin,ESP,119,204,0,F
+Laura Virginia Afonso Maas,BRA,118,207,0,F
+Luisa Roque De Pinho,POR,118,207,0,F
+Justine Pysson,BEL,118,207,0,F
+Maria Arteaga Vilches,ESP,117,210,0,F
+Camilla Ronchini,ITA,117,210,-6,F
+Helena Rousselet Novillo,BRA,116,212,-1,F
+Cristina Carrascosa Cazorla,ESP,115,213,25,F
+Martina Minetti,FIN,115,213,-1,F
+Dilara Torssell,TUR,114,215,-2,F
+Jessica Lucinda Palma La Cruz,VEN,113,216,-2,F
+Alessandra Abbud De Barros,BRA,112,217,-2,F
+Chifumi Sato,JPN,108,218,-1,F
+Valentina Tommasi,ITA,107,219,-1,F
+Moura Hakim,EGY,107,219,-1,F
+Florencia Lucila Berraz Vivas,ARG,106,221,-1,F
+Nerea Derbis,ESP,106,221,-1,F
+Michela Zaccagnini,ITA,105,223,-1,F
+Chiara Giaquinta,ITA,105,223,-1,F
+Abigail Tordoff,GBR,103,225,-1,F
+Gema Flores Saucedo,ESP,102,226,-1,F
+Leyre Montañez Marco,ESP,101,227,-1,F
+Patricia Roman Aldea,ESP,101,227,-1,F
+Nuria Molina Sanchez,ESP,101,227,-1,F
+Laila El Nimr,EGY,101,227,-1,F
+Jordana Ailen Lujan Ferreyra,ARG,100,231,-1,F
+Narine Sargsyan,ARM,99,232,-1,F
+Rodayna Fathy Elsayed,EGY,99,232,-1,F
+Gabriela Roux Vidal,CHI,99,232,-1,F
+Gianina Minieri,CHI,99,232,-1,F
+Elena Martinez Brito,ESP,98,236,-1,F
+Rita Vilaça,POR,98,236,-1,F
+Carlota Sanchez Gonzalez,ESP,92,238,1,F
+Novela Putria,INA,92,238,1,F
+Simone Alipieva,DEN,92,238,17,F
+Manon Marcarie,FRA,92,238,-1,F
+Elisabeth Nogueras Lorenz,ESP,91,242,-1,F
+Kimy Barla,FRA,89,243,-2,F
+Micaela Para,POR,88,244,-1,F
+Amelie Detriviere,FRA,88,244,-1,F
+Jessica Para,POR,88,244,-1,F
+Giulia Perusso Bettim,BRA,87,247,-1,F
+Maria Francisca Santos,POR,86,248,-1,F
+Sara Pereira Alvarez,POR,86,248,-1,F
+Irene Jimenez,ARG,85,250,1,F
+Carolina Petrelli,ITA,85,250,1,F
+Daniela Banchero,ARG,85,250,1,F
+Maria Martinez Perez,ESP,84,253,2,F
+Lou Lambert Agosti,FRA,84,253,-6,F
+Carla Medio Boto,ESP,83,255,-4,F
+Raquel Almendros Garcia,ESP,83,255,2,F
+Dafne Paola Peralta Sanchez,MEX,81,257,1,F
+Erika Mesa Martinez,ESP,81,257,-10,F
+Daniela Portilla Gomez,ESP,81,257,1,F
+Ivana Perches Arredondo,MEX,81,257,1,F
+Anna Cortiles,ESP,80,261,0,F
+Isadora Siga Nunes,BRA,80,261,0,F
+Candela Valverde,ESP,79,263,0,F
+Fernanda Abarzua Branchi,BRA,78,264,0,F
+Helena Wyckaert,BEL,78,264,0,F
+Carina Costa,POR,78,264,0,F
+Covadonga Verdejo Saiz,ESP,78,264,0,F
+Sofia Pastor Sebastian,ESP,78,264,0,F
+Zhai Yu,CHN,77,269,0,F
+Fiona Ligi,FRA,76,270,0,F
+Maria Castro Quevedo Pereira,POR,75,271,0,F
+Maria Jose Montoya,MEX,75,271,0,F
+Carmen Villar Gonzalez,ESP,74,273,0,F
+Maria Cristina Lopez Fuertes,ESP,74,273,0,F
+Ana Elliot garcia-Montaner,ESP,74,273,0,F
+Marta Eugenio Barrera,ESP,74,273,0,F
+Maria Del Carmen Gallego Castaño,ESP,73,277,0,F
+Gabriela Menna Barreto,BRA,72,278,1,F
+Hiu Wai Lau,HKG,71,279,1,F
+Cristina Gonzalez Cidoncha,ESP,71,279,-2,F
+Margarida Guerreiro,POR,71,279,1,F
+Maite Cano Pou,ESP,70,282,0,F
+Allison Peralta Sanchez,MEX,70,282,0,F
+Maria Guimarães Perry Ferreira,POR,70,282,0,F
+Susana Martin Marin,ESP,70,282,0,F
+Ares Llobera Irun,ESP,70,282,0,F
+Angela Lorenzo Martin,ESP,69,287,0,F
+Adriana Corona,MEX,69,287,0,F
+Giuditta Beltrami,ITA,68,289,0,F
+Bojana Jovanovic,SRB,68,289,0,F
+Beatriz Ferreira,POR,68,289,0,F
+Ainhoa Corrales Fernández,ESP,68,289,0,F
+Marianne Vandaele,FRA,66,293,-4,F
+Julia Gomes Giusti,BRA,66,293,1,F
+Noemi Sermant,BEL,66,293,1,F
+Tetyana Dychka,UKR,65,296,0,F
+Fatma Al Nabhani,OMA,65,296,0,F
+Olena Kyrpot,UKR,65,296,0,F
+Mayar Tawfik,EGY,64,299,0,F
+Nerea Gomez Blasquez,ESP,63,300,0,F
+Elyne Boeykens,BEL,63,300,0,F
+Joana Soares,POR,63,300,0,F
+Nadia Aida Acuña Lopez,SUI,61,303,-3,F
+Alenna Dawn Magpantay,PHI,60,304,0,F
+Anna Schmid,AUT,59,305,0,F
+Marta Morga Alonso,USA,59,305,0,F
+Martina Rivera Serra,ESP,58,307,0,F
+Alice Radu,ROU,58,307,0,F
+Sayaka Yoshimoto,JPN,58,307,24,F
+Nora Leinus,EST,57,310,0,F
+Vilena Petrova,RUS,57,310,0,F
+Maria Mayoral Estrada,ESP,56,312,-5,F
+Babette De Decker,BEL,56,312,0,F
+Ekaterina Nikitina,RUS,56,312,0,F
+Gitte Haxen,DEN,56,312,0,F
+Mar Munera Vila,ESP,55,316,-1,F
+Simone Simas,POR,55,316,-1,F
+Raquel Segura Aguilar,ESP,55,316,-1,F
+Daria Kucheriavaia,RUS,54,319,-1,F
+Farida El Halaby,EGY,54,319,-1,F
+Alejandra Elizabeth Aguirre Corrales,MEX,53,321,0,F
+Sandra Martinez Diaz,ESP,53,321,0,F
+Francisca Bragança,POR,53,321,0,F
+Julia Isabella Wiese,DEN,53,321,0,F
+Martina Mantova,ITA,52,325,0,F
+Cristina Rodriguez Enrich,ESP,51,326,0,F
+Alanoud Yamani,KSA,51,326,0,F
+Nura Padilla Tomasa,ESP,51,326,0,F
+Paula Del Rio Del Barrio,ESP,51,326,0,F
+Quetzali Dafne Vazquez Montesinos,MEX,51,326,0,F
+Alina Yeroshenko,UKR,50,331,0,F
+Laura Daniela Arciniegas,COL,50,331,0,F
+Baharak Soleymani,SWE,50,331,0,F
+Paola Ciabattoni,ITA,50,331,0,F
+Hiu Laam Chan,HKG,49,335,1,F
+Cassandra Senjean,FRA,49,335,-17,F
+Maria Fontes Vaz Ferreira,POR,48,337,1,F
+Areej Khalil Fareh,KSA,48,337,1,F
+Alexandra Alegre Ferré,ESP,47,339,-3,F
+Rune Vierendeels,BEL,46,340,2,F
+Sofia Carmo Machado,POR,46,340,2,F
+Gaëlle Rey,SUI,46,340,-2,F
+Jemilett Cortes Figueroa,MEX,45,343,1,F
+Merel Van Houten,NED,45,343,1,F
+Maria Vasileidi,GRE,44,345,1,F
+Francesca Campigotto,ITA,44,345,1,F
+Laura Rijkers,NED,43,347,1,F
+Sara Errani,ITA,43,347,-9,F
+Fernanda Salazar Morales,MEX,42,349,0,F
+Erika Zanchetta,ITA,41,350,0,F
+Claudia Esteban Esposito,ESP,41,350,0,F
+Karen Micaela Gomez Gonazlez,ESP,41,350,0,F
+Roberta Liberti,ITA,41,350,0,F
+Nelida Brito,ARG,41,350,0,F
+Yixuan Wang,CHN,41,350,0,F
+Yusra Mohamed Hegy,EGY,41,350,0,F
+Hanna Maddock Gamez,GBR,40,357,0,F
+Andrea Lima Ramirez,ESP,40,357,0,F
+Maria De La Paz Hermida Vazquez,ESP,40,357,0,F
+Lydia Silvan Ramiro,ESP,40,357,0,F
+Elena Schiattelli,ITA,39,361,0,F
+Flavia Coppola,ITA,39,361,0,F
+Ruth Petit Segarra,ESP,39,361,0,F
+Lea Jurkovi?,CRO,39,361,0,F
+Wing Chun Law,HKG,39,361,0,F
+Elisa Guiraud,FRA,39,361,0,F
+Christina-Styliani Ntanou,GRE,39,361,0,F
+Anna-Blue Houareau,FRA,39,361,0,F
+Fiorella Agostina Propato San Martin,ARG,38,369,0,F
+Dalal Al Qenaei,KUW,38,369,0,F
+Kateryna Yegoreychenko,UKR,38,369,0,F
+Valeria Montaño,MEX,38,369,0,F
+Sara Garrido Rodríguez,ESP,38,369,0,F
+Francesca Candelieri,ITA,37,374,0,F
+Yik Yan Law,HKG,36,375,0,F
+Laura Jackson,GBR,36,375,0,F
+Iris Donate Murcia,ESP,36,375,0,F
+Francielle Gaspar,BRA,36,375,0,F
+Minghui Wu,CHN,36,375,0,F
+Luisa Fernanda De La Peña Rosas,MEX,36,375,0,F
+Maria Florencia Ernandorena,ARG,36,375,0,F
+Cristina Musial Navarro,ESP,36,375,0,F
+Sofía María González Lara,MEX,36,375,0,F
+Giulia Cascapera,ITA,35,384,0,F
+Tatyana Kutulaeva,UZB,35,384,0,F
+Maria Constanza Vega,ARG,35,384,0,F
+Greta Mokrousova,RUS,35,384,0,F
+Carolina Martinho Santos,POR,35,384,0,F
+Zenab Sarkhoo,KUW,35,384,0,F
+Paula Hoyos Miranda,ESP,35,384,0,F
+Luana Trautwein,BRA,34,391,0,F
+Maria Mora Sanz,ESP,34,391,0,F
+Rieko Maruyama,JPN,33,393,0,F
+Clara Mansart,FRA,33,393,0,F
+Catarina Cardoso,POR,33,393,0,F
+Paula Canivell Varona,ESP,33,393,0,F
+Ines Coelho,POR,33,393,0,F
+Maria Do Carmo Ribeiro,POR,33,393,0,F
+Anna Tulenkova,RUS,33,393,0,F
+Gabriela Andrade,POR,33,393,0,F
+Maria Leonor Araujo Teixeira,POR,33,393,0,F
+Patricia Martin Ortiz,ESP,32,402,0,F
+Raluca Sandu,MON,32,402,0,F
+Edanur Sahin,TUR,32,402,0,F
+Sandra Gamez,ESP,32,402,0,F
+Beatrice Gumulya,INA,32,402,0,F
+Noha Amr,EGY,32,402,0,F
+Clara Sofia Martins Santos Faria Leite,POR,32,402,0,F
+Claudia Di Nicola,ITA,32,402,0,F
+Angela Maria Dangond Villamizar,AUS,32,402,79,F
+Adolfina Caballero Vico,ESP,31,411,0,F
+Anahi Salas Almaraz,MEX,31,411,0,F
+Christina Smith,GBR,31,411,0,F
+Dalila Elshaer,EGY,31,411,0,F
+Yiyun Chai,CHN,31,411,0,F
+Debra Fernanda Gonzalez Preciado,MEX,31,411,0,F
+Ana Julia Acunha De Oliveira,BRA,31,411,0,F
+Diana Toledo Jovani,ESP,31,411,0,F
+Alexandra Pils,AUT,31,411,0,F
+Tatiana Correa,BRA,30,420,0,F
+Maria Azul Llorens Gioda,ARG,30,420,0,F
+Ariadna Suárez López,ESP,30,420,0,F
+Francesca Ana Floriani,ARG,30,420,0,F
+Melissa Rodriguez Mayen,MEX,30,420,0,F
+Catarina Castro Vilela,POR,30,420,0,F
+Céline François,LUX,30,420,0,F
+Hayano Natsuki,JPN,30,420,0,F
+Silvia Trassinelli,ITA,30,420,0,F
+Gimena Sol Perez,ARG,29,429,0,F
+Noemi Bevilacqua,ITA,29,429,0,F
+Tessa Nikkelen,NED,29,429,0,F
+Ana Fernandez De Osso Fuentes,ESP,29,429,0,F
+Araceli Muñoz Sanchez,ESP,29,429,0,F
+Daria Ovsiannikova,RUS,29,429,0,F
+Ieva Ceilutkaite,LTU,29,429,0,F
+Feity Lesmana,INA,29,429,0,F
+Nina Duernberger,AUT,29,429,0,F
+Silvia Lopez Vidal,ESP,29,429,0,F
+Candelaria Sedano Acosta,ESP,29,429,0,F
+Aisha Alawadhi,UAE,29,429,0,F
+Eloise Tait,GBR,29,429,0,F
+Beatriz Gueiral,POR,28,442,0,F
+Jennifer Deguigne,FRA,28,442,0,F
+Gabriele Strolyt?,LTU,28,442,0,F
+Elodie Naegellen,FRA,28,442,0,F
+Fiorella Cuccioli,ARG,28,442,0,F
+Lorena Marruffo,VEN,28,442,0,F
+Maria Magraner,ESP,28,442,0,F
+Regina Estrada Dieguez,MEX,28,442,0,F
+Martina Correa Rodrigues,BRA,28,442,0,F
+Marina Cuadron Florez,ESP,28,442,0,F
+Carla Sánchez Nombela,ESP,27,452,0,F
+Johanna Hommy Falcon Manrique,ESP,27,452,0,F
+Susana Leticia Alcaraz González,MEX,27,452,0,F
+Sofia Piaskowy Santos,BRA,27,452,0,F
+Sarah De Vleeschouwer,BEL,27,452,0,F
+Iman Metwally,EGY,27,452,0,F
+Maria Domingues Dos Reis Pascoal,POR,27,452,0,F
+Vladyslava Kaplina,UKR,27,452,0,F
+Larissa Meyer,SUI,27,452,0,F
+Irache Sanchez Castillo,ESP,27,452,0,F
+Iryna Shemyakina,UKR,26,462,0,F
+Abby Ombler-Truran,GBR,26,462,0,F
+Daniela Valiente Escrich,ESP,26,462,0,F
+Ana Betina Magalhães Alves De Sousa,POR,26,462,0,F
+Maryam Alhashimi,UAE,26,462,0,F
+Victoria Fedorova,RUS,26,462,0,F
+Emine Kutluca,TUR,26,462,0,F
+Pascalle Thenoux,CHI,26,462,73,F
+Ana Clara Duffort,BRA,26,462,0,F
+Nihal Cetinkaya,TUR,26,462,0,F
+Valentina Varazi,ITA,26,462,0,F
+Sofia Formigal,POR,26,462,0,F
+Jauresse Kouamé,CIV,25,474,-1,F
+Siri Dandu,IND,25,474,-1,F
+Marta Buendia,ESP,25,474,-1,F
+Angela Navarro Garcia,ESP,25,474,-1,F
+Sadjo Coulibaly,CIV,25,474,-1,F
+Rosa Maria Carrasco Nunez,ESP,25,474,-1,F
+Angelina Gordienko,RUS,25,474,-1,F
+Padma Veda Manikonda,IND,25,474,-1,F
+Alejandra Arcis Flores,ESP,24,482,-1,F
+Aukse Maciulaityte,LTU,24,482,-1,F
+Paula Bartolome San Valeriano,ESP,24,482,-1,F
+Valentina Scaringi,ITA,24,482,-1,F
+Elvira Camacho Marente,ESP,24,482,-1,F
+Claudia Zufia Laraudogoitia,ESP,24,482,-1,F
+Jessy Rompies,INA,24,482,-1,F
+Fatma Abbas Janahi,UAE,24,482,-1,F
+Alicia Alegre Masnou,ESP,24,482,-1,F
+Lisa Andersson,SWE,23,491,0,F
+Ana Caballero Vico,ESP,23,491,0,F
+Amalia Bentjerodt Burgos,CHI,23,491,0,F
+Noelle Nikki Camille Zoleta,PHI,23,491,0,F
+Axelle Moens,BEL,23,491,0,F
+Olivia Morales Llorente,ESP,23,491,0,F
+Nour Faidallah,EGY,23,491,0,F
+Filippa Vial,SWE,23,491,0,F
+Irina Chernaya,RUS,23,491,0,F
+Vittoria Giraldi,ITA,23,491,0,F
+Anabela Salas Almaraz,MEX,23,491,0,F
+Jana El Khadrawy,EGY,23,491,0,F
+Emma Karlsrud,NOR,23,491,0,F
+Katharina Hering,GER,22,504,1,F
+Estefania Fuentes Szymanski,MEX,22,504,1,F
+An-Sophie Mestach,BEL,22,504,1,F
+Lena Plümer,GER,22,504,1,F
+Diana Silva,POR,22,504,1,F
+Maria Torres Montesinos,ESP,22,504,1,F
+Reem AlObaidli,BRN,22,504,1,F
+Daniela Jurado Cerezo,ESP,22,504,1,F
+Aroa Segura Alcover,ESP,22,504,1,F
+Maria Martinez Martinez,ESP,22,504,1,F
+Camila Acuña,PAR,22,504,1,F
+Daniela Rodriguez Borjas Villegas,MEX,22,504,1,F
+Chiara Catini,ITA,22,504,1,F
+Laura Gamblin,FRA,22,504,1,F
+Veronica Cepede Royg,PAR,22,504,1,F
+Vlada Kutuzova,RUS,22,504,1,F
+Morena Nicole Suarez,ARG,22,504,1,F
+Alessia La Monaca,ITA,21,521,2,F
+Benedetta Davato,ITA,21,521,2,F
+Karen Wachowicz De Oliveira,BRA,21,521,2,F
+Huiwen Liu,CHN,21,521,2,F
+Maria Carracha,POR,21,521,2,F
+Lucrezia Piernera,ITA,21,521,2,F
+Turkan Gurgan,TUR,21,521,2,F
+Candela De Soroa Jimenez,ESP,21,521,2,F
+Aitana Tejedor Garcia Rayo,ESP,21,521,2,F
+Elysia Wan,MAS,21,521,154,F
+Constanza Sampaio Kokorelis,POR,21,521,-119,F
+Maram Mohammed,BRN,21,521,2,F
+Nuna Azevedo,POR,21,521,2,F
+Vittoria Rotondo,ITA,21,521,2,F
+Aurelia Sara Argentieri,ITA,20,535,0,F
+Joana Peneda Paiva Cubal De Almeida,POR,20,535,0,F
+Noor Hanis Zainul Azizan,MAS,20,535,0,F
+Nerea Guerrero Gonzalez,ESP,20,535,0,F
+Sara Galvao,POR,20,535,0,F
+Ai Liu,CHN,20,535,0,F
+Jessica Lucas,PHI,19,541,1,F
+Iara Filipa Pereira Rocha,POR,19,541,1,F
+Irina Ceresuela,ESP,19,541,1,F
+Kenzy Mansour,EGY,19,541,1,F
+Mariana Borges Altmayer,BRA,19,541,1,F
+Elizabeth Rozin,CAN,19,541,1,F
+Olivia Çiftçi,GBR,19,541,1,F
+Erika Castillo Lopez,MEX,19,541,1,F
+Catarina Campos,POR,19,541,1,F
+Alexia Dalley,AUS,19,541,1,F
+Mar Burjats Guitart,ESP,19,541,1,F
+Marie Lefevre,FRA,19,541,1,F
+Lila Humaloja,FIN,19,541,1,F
+Paula Gil Aguilar,ESP,19,541,1,F
+Sofia Luini,ARG,19,541,1,F
+Anna Marya,BRA,18,556,1,F
+Alba Adrados Buades,ESP,18,556,1,F
+Nereida Quero Jiménez,ESP,18,556,1,F
+Egle Petrauskaite,USA,18,556,1,F
+Francesca Scrinzi,ITA,18,556,1,F
+Milene Cruz,BRA,18,556,1,F
+Aki Kitao,JPN,18,556,119,F
+Teodora Mirosavljevic,SRB,18,556,1,F
+Roberta Giulia Naicu,ROU,18,556,1,F
+Sirui He,CHN,18,556,-65,F
+Hanna Borjeson,SWE,18,556,1,F
+Valeria Canosa Del Valle,ESP,18,556,1,F
+Ines Ferreira Cerqueira,POR,18,556,1,F
+Marta Suñer Mas,ESP,18,556,1,F
+Celia Martin,ESP,18,556,1,F
+Avalon Segou Jonker,NED,18,556,1,F
+Sofia Victoria Adamowich Lebron,USA,18,556,1,F
+Elena Carboni,ITA,18,556,1,F
+Jadeleen Lee,MAS,18,556,119,F
+Jovana Knezevic,CYP,18,556,1,F
+Berta Martinez Barrachina,ESP,18,556,1,F
+Lisa Blake,RSA,18,556,1,F
+Rio Yamada,JPN,18,556,119,F
+Jasmine Dedakia,GBR,18,556,1,F
+Jimena Huerta Villegas,MEX,17,580,-3,F
+Noemi Ollero Ramirez,ESP,17,580,-3,F
+Pamela López Cervantes,MEX,17,580,-3,F
+Anouk Faure,SUI,17,580,-3,F
+Viktoriya Prudnikova,RUS,16,584,-3,F
+Lola Desque,FRA,16,584,-3,F
+Ludivine Grondin,FRA,16,584,-3,F
+Natalia Rohde,DEN,16,584,-3,F
+Ranran Zheng,CHN,16,584,-3,F
+Amelia De Parscau,FRA,16,584,-3,F
+Giulia Pisano,ITA,16,584,-3,F
+Ainhoa Rico Martin,ESP,16,584,-3,F
+Claudia Mora Cuart,ESP,16,584,-3,F
+Valentine Bousquet,FRA,16,584,-3,F
+Lola Tena Ibañez,ESP,16,584,-3,F
+Trinidad Del Real Bobadilla,CHI,16,584,-3,F
+Anneleen De Cock,BEL,16,584,-3,F
+Patricia Manglano Perez,ESP,16,584,-3,F
+Nicoline Pihl,DEN,16,584,-3,F
+Mayumi Jane Toribio,PHI,16,584,-3,F
+Elisa Sararu,ROU,16,584,-3,F
+Marina Miguel Chaves,ESP,16,584,-3,F
+Ruonan Li,CHN,16,584,-3,F
+Venla Andersson,FIN,16,584,-3,F
+Emilie Saintot,FRA,16,584,-3,F
+Ilenia Monti,ITA,16,584,-3,F
+Emma Speziali,ITA,16,584,-3,F
+Janice Tilbrook,RSA,16,584,-3,F
+Margarida Gaia Braz,POR,16,584,-3,F
+Mariluz Rojo Domingo,ESP,16,584,-3,F
+Anna Guryanova,ARM,16,584,-3,F
+Chun Wing Jennifer Sher,HKG,16,584,-3,F
+May Anne Stephanie Dela Torre Raquel,PHI,16,584,-3,F
+Sian Payne,GBR,16,584,-3,F
+Kimea Darmalingom,FRA,16,584,-3,F
+Juliette Mouis,FRA,16,584,-3,F
+Antria Tsangaridou,CYP,16,584,-3,F
+Benedita Terroso,POR,16,584,-3,F
+Dina Aoulad Bouhmama,MAR,16,584,-3,F
+Sandrine Leclercq,FRA,16,584,-3,F
+Chloe De La Mare,GBR,15,620,-3,F
+Karolina Balog,CRO,15,620,-3,F
+Aina Valls Izquierdo,ESP,15,620,-3,F
+Mara Lemes Lemes,ESP,15,620,-3,F
+Alia Taher,UAE,15,620,-3,F
+Asia Bicchi,ITA,15,620,-3,F
+Isabella Nass,BRA,15,620,-3,F
+Merituuli Saarela,FIN,15,620,-3,F
+Ariadna Valls Izquierdo,ESP,15,620,-3,F
+Ana Belec,SLO,15,620,-3,F
+Clara Teresa Siverio Trujillo,ESP,15,620,-3,F
+Martina Recuerda Corral,ESP,15,620,-3,F
+Yvonne Flynn,IRL,15,620,-3,F
+Maria Concepcion Liong,PHI,15,620,-3,F
+Shermin Bayazidi,IRI,15,620,-3,F
+Luiza Dutra Amador,BRA,15,620,-3,F
+Celia Alarcón García,ESP,15,620,-3,F
+Helen Crook,GBR,15,620,-3,F
+Rosie Quirk,GBR,15,620,-3,F
+Steisha Buddhala,IND,14,639,-3,F
+Agustina Berenice Giacomin,ARG,14,639,-3,F
+Elsa Pellegrinelli,FRA,14,639,-3,F
+Macarena Abigail Prieto,ARG,14,639,-3,F
+Riviere Anaise,FRA,14,639,-3,F
+Sarah Lochrie,GBR,14,639,-3,F
+Lena Damergie,CIV,14,639,-3,F
+Patricia Aburto,MEX,14,639,-3,F
+Sofia Gulnova,RUS,14,639,-3,F
+Marie Maligo,BEL,14,639,-3,F
+Laura Chavanel,FRA,14,639,-3,F
+Jennifer Demsey,USA,14,639,-3,F
+Fabiola Polvillo Camarero,ESP,14,639,-3,F
+Livia Freitas,BRA,14,639,-3,F
+Haruna Okunaga,JPN,14,639,-3,F
+Cammy MacGregor,USA,14,639,-3,F
+Lana Büttner,GER,14,639,-3,F
+Claudia Oses Equiza,ESP,14,639,-3,F
+Gwendoline Laurent,SEN,14,639,-3,F
+Amarjot Kaur Bundhel,IND,14,639,-3,F
+Carole Tirel,FRA,14,639,-3,F
+Claudia Manzanares Oton,ESP,14,639,-3,F
+Sofia Treviño Garza,MEX,14,639,-3,F
+Sara Almanza Martinez,MEX,14,639,-3,F
+Ariadna Santana Trujillo,ESP,14,639,-3,F
+Flore Poupart,FRA,14,639,-3,F
+Laura Solà Grau,ESP,14,639,-3,F
+Irene Frances Perez,ESP,14,639,-3,F
+Carla Aguila Tello,ESP,14,639,-3,F
+Siri Willems,BEL,14,639,-3,F
+Michelle Van Mol,BEL,14,639,-3,F
+Yoanne Laporte Ravelonarivo,FRA,14,639,-3,F
+Judit Orriols Serras,ESP,14,639,-3,F
+Mariam Fassahy,LBN,14,639,-3,F
+Chiara Messina,FRA,14,639,-3,F
+Karine Ghozayel,SEN,14,639,-3,F
+Lucie Vichier,FRA,14,639,-3,F
+Maria Luz Palmieri,ARG,14,639,-3,F
+Caroline Brandão,BRA,13,678,-3,F
+Xinyi Zhang,CHN,13,678,-3,F
+Medina Muftic,BIH,13,678,-3,F
+Wu Wei,CHN,13,678,-3,F
+Ma. Clarence Victoria Clemente,PHI,13,678,-3,F
+Marina Brandao,BRA,13,678,-3,F
+Samantha Martinez,VEN,13,678,-3,F
+Liis Org,EST,13,678,-3,F
+Gabriela Eufrasio,BRA,13,678,-3,F
+Tatyana Chsherbakova,KAZ,13,678,-3,F
+Finina Isabel Lava,PHI,13,678,-3,F
+Yuliya Hoske,UKR,13,678,-3,F
+Marta Ortiz Montoya,ESP,13,678,-3,F
+Valentina Fragomeni Bernasconi,BRA,13,678,-3,F
+Pia Ana Maria Ugarte garcia-Morera,PHI,13,678,-3,F
+Andrea Koch Benvenuto,CHI,13,678,-3,F
+Shelli Heathcote,RSA,13,678,-3,F
+Dawn Olsen,GBR,13,678,-3,F
+Marcela Lopes,BRA,13,678,-3,F
+Ji Arunrat Vichithong,THA,13,678,-3,F
+Sol Capello,ARG,13,678,-3,F
+Alice Keddie,GBR,13,678,-3,F
+Daniela Carolina Niella,ARG,13,678,-3,F
+Marina Vilariño,ESP,13,678,-3,F
+Sara Khonji,BRN,13,678,-3,F
+Saana Saarteinen,FIN,13,678,-3,F
+Amy Cairns,GBR,13,678,-3,F
+Alessa Belbes,PHI,13,678,-3,F
+Mariya Sinitsyna,KAZ,13,678,-3,F
+Catarina Almeida,POR,13,678,-3,F
+Maria Sysoeva,RUS,13,678,-3,F
+Alise Cernecka,LAT,13,678,-3,F
+Dorothy Van Miert,PHI,13,678,-3,F
+Laila Nassar,EGY,13,678,-3,F
+Maria Teeriaho,FIN,13,678,-3,F
+Ainhoa Santin,ESP,13,678,-3,F
+Sophia Horne Bang,DEN,13,678,-3,F
+Maria Belen Mosca,ARG,13,678,-3,F
+Rebeca Allen,ARG,13,678,-3,F
+Kristina Vasina,BLR,13,678,-3,F
+Marta Caballero Garcia,ESP,13,678,-3,F
+Sara Dina,ITA,13,678,-3,F
+Natalia Soledad Martinena,ARG,13,678,-3,F
+Alicia Keppenne,BEL,11,721,1,F
+Manoela Duarte,BRA,11,721,1,F
+Vladyslava Zanosiienko,UKR,11,721,1,F
+Jessica Isabelle Brycki,AUS,11,721,290,F
+Flavia Macedo,POR,11,721,1,F
+Felicitas Darboure,ARG,11,721,1,F
+Natalia Oxley Da Rosa,BRA,11,721,1,F
+Eman Hameed Alzaimoor,BRN,11,721,1,F
+Frida Torres,PHI,11,721,1,F
+Aisha Shahdoor,UAE,11,721,1,F
+Lorena Maddonni Gallardo,ESP,11,721,1,F
+Willeke Pas,BEL,11,721,1,F
+Luna Di Noto Fernandez,ESP,11,721,1,F
+Kyra Heemskerk,NED,11,721,1,F
+Karin Marlies Lems,NED,11,721,1,F
+Evelyn Van Puyvelde,BEL,11,721,1,F
+Lucy Jones,GBR,11,721,1,F
+Ksenia Danko,RUS,11,721,1,F
+Renata Silva,POR,11,721,1,F
+Paula Torres Fluxà,ESP,11,721,1,F
+Fatma Hassan,UAE,11,721,1,F
+Teresa Romero Yela,ESP,11,721,1,F
+Irene Nieves Lopez,ESP,11,721,1,F
+Latifa Suhail,UAE,11,721,1,F
+Eva Jimenez De La Plata Vargas,ESP,11,721,1,F
+Muneera Aldoseri,BRN,11,721,1,F
+Rita Baptista,POR,11,721,1,F
+Huda Ali,BRN,11,721,1,F
+Maria De Los Angeles Kilca Rojas,ARG,11,721,1,F
+Fatema Alasoomi,BRN,10,750,2,F
+Chiara Petrazzuolo,ITA,10,750,2,F
+Hedda Fritzell,SWE,10,750,2,F
+Gabriela Carolina Coglitore,ITA,10,750,2,F
+Andrea Medina Tomas,ESP,10,750,2,F
+Satu Salonen,FIN,10,750,2,F
+Deborah Alquier,FRA,10,750,2,F
+Bruna Brayer Silva,BRA,10,750,2,F
+Naomi Vullers,NED,10,750,2,F
+Nanou Vereertbrugghen,BEL,10,750,2,F
+Marietta Regina Antonieta Toribio,PHI,10,750,2,F
+Iah Isobel Macazo,PHI,10,750,2,F
+Sini Jokinen,FIN,10,750,2,F
+Susie Azoulay,GBR,10,750,2,F
+Ruth Gonzalez Martinez,ESP,10,750,2,F
+Anastasia Ivanova,KAZ,10,750,2,F
+Micaela Moroni,ITA,10,750,2,F
+Andrea Batlle Achando,POR,10,750,2,F
+Noelia Suarez Perez,ARG,10,750,2,F
+Jana Mahdy,EGY,10,750,2,F
+Adriana Matoses Dogaru,ESP,10,750,2,F
+Carmen Ibañez Diaz,ESP,10,750,2,F
+Maria Paula Amoreo,ARG,10,750,2,F
+Aigerim Suleimen,KAZ,10,750,2,F
+Deborah Cruciani,ITA,10,750,2,F
+Maria Eliza Margarita Camacho,PHI,10,750,2,F
+Selima Fendri,TUN,10,750,2,F
+Anne Sophie Tavan,FRA,10,750,2,F
+Michelle Perez,ESP,10,750,2,F
+Beatrice Varini,ITA,10,750,2,F
+Marija Mirosavljevic,SRB,10,750,2,F
+Signe Horenius,SWE,10,750,2,F
+Bruna Dos Santos,BRA,10,750,2,F
+Fatima Saeed,BRN,10,750,2,F
+Ainhoa Garcia Yepes,ESP,10,750,2,F
+Ella Mae Navarro,PHI,10,750,2,F
+Anna Peres,ITA,10,750,2,F
+Lolita Vakhrusheva,KAZ,10,750,2,F
+Noelia Lorenzo,ESP,10,750,2,F
+Nada Majdoubi,FRA,10,750,2,F
+Carla Pozuelo Salamanca,ESP,9,790,2,F
+Fabiana Magalhães Gomes Da Costa Caldas,POR,9,790,2,F
+Amaia Arteta,ESP,9,790,2,F
+Lucia Fernandez,ESP,9,790,2,F
+Annika Sillanpää,FIN,9,790,2,F
+Ingrid Salgado Morante,MEX,9,790,2,F
+Layla Marco Lasala,ESP,9,790,2,F
+Laura Hernández Crisantes,MEX,9,790,2,F
+Dido Blonk,NED,9,790,2,F
+Fernanda Guillén Aguilar,MEX,9,790,2,F
+Alexia Sosa Gonzalez,MEX,9,790,2,F
+Suheil Lizana,FIN,9,790,2,F
+Elena Boix Gonzalez,ESP,9,790,2,F
+Crystal Leung,USA,8,803,2,F
+Boyer Ophelie,FRA,8,803,2,F
+Linn Poels,BEL,8,803,2,F
+Nina Lammens,BEL,8,803,2,F
+Hafsah Sani,USA,8,803,2,F
+Vidhyani Jadala,IND,8,803,2,F
+Maryam Isa,BRN,8,803,2,F
+Zoe Andersson,SWE,8,803,2,F
+Gabrielle Paul,GBR,8,803,2,F
+Tea Jezidzic,CRO,8,803,2,F
+Alicja Domagalska,POL,8,803,2,F
+Maria Catalina Tenorio Cauvet,ESP,8,803,2,F
+Afaf Byad,LBN,8,803,2,F
+Laura Battistini,ITA,8,803,2,F
+Capucine Rochet,FRA,8,803,2,F
+Jaqueline Rocio Soto,ARG,8,803,2,F
+Elena Dudina,RUS,8,803,2,F
+Victoria Cabrera Goterris,ESP,8,803,2,F
+Zena Chhatwal,IND,8,803,2,F
+Pamela Sannazzaro,CHI,8,803,2,F
+Chenxi Sun,CHN,8,803,2,F
+Carmen Maria Sos,ESP,8,803,2,F
+Monika Veron Juan,PHI,8,803,2,F
+Candela Tores Garcia,ESP,8,803,2,F
+Tea Lovrekovi?,CRO,8,803,2,F
+Maria Soledad Mosca,CHI,8,803,2,F
+Leonie Geukens,BEL,8,803,2,F
+Clémentine Guerin Dubourg,FRA,8,803,2,F
+Alica Repcikova,SVK,8,803,2,F
+Maiko Kutsuna,JPN,8,803,2,F
+Maryam Alammadi,BRN,8,803,2,F
+Victoria Milena Vilchez,ARG,8,803,2,F
+Federica Bernardini,ITA,8,803,2,F
+Wendy Hunt,GBR,8,803,2,F
+Lucia Escalante Diz,MEX,8,803,2,F
+Claudette Gilhespie,GBR,8,803,2,F
+Elizaveta Dvoeglazova,RUS,8,803,2,F
+Chloe Rochet,FRA,8,803,2,F
+Maria Mizzi Rama,ESP,8,803,2,F
+Alba Izquierdo Rodriguez,ESP,8,803,2,F
+Marie Glandus,FRA,8,803,2,F
+Isabel Rapisarda Calvo,ESP,8,803,2,F
+Maria Lopez,ESP,8,803,2,F
+Huan Liu,CHN,8,803,2,F
+Xianqian Fan,CHN,8,803,2,F
+Joelle Schad,DOM,8,803,2,F
+Astrid Gehre,PAR,8,803,2,F
+Flora Carrella,ITA,8,803,2,F
+Ferdaous Bahri,TUN,8,803,2,F
+Kerry White,GBR,8,803,2,F
+Melina Bois,ARG,8,803,2,F
+Camille Dejonghe,BEL,8,803,2,F
+Romina Melonaro,ITA,8,803,2,F
+Vaibhavi Deshmukh,IND,8,803,2,F
+Emma Pallas,ESP,8,803,2,F
+Nanette Nylund,FIN,8,803,2,F
+Serena Tu,TPE,8,803,2,F
+Malak Amer,EGY,8,803,0,F
+Ana Sofia Gonçalves,POR,8,803,2,F
+Elpida Malamou,GRE,8,803,2,F
+Frederique Maillot,FRA,8,803,2,F
+Giulia Pasini,ITA,8,803,2,F
+Khadeejah Sani,USA,8,803,2,F
+Antonette Andersson,SWE,8,803,2,F
+Farah Mzid,TUN,8,803,2,F
+Laura Higueras,ESP,8,803,2,F
+Alicia Piqueras,FRA,8,803,2,F
+Sarah Sayegh,CIV,8,803,2,F
+Ni Nyoman Sri Maryati Sri Maryati,INA,8,803,2,F
+Yuliya Yankavets,BLR,8,803,2,F
+Anna Christine Patrimonio,PHI,8,803,2,F
+Nayla Agameya,EGY,8,803,2,F
+Martine Imary,FRA,8,803,2,F
+Zoljargal Neumann,GER,8,803,2,F
+Valeria Soledad Zoya,ARG,8,803,2,F
+Valentina Aimone,ITA,8,803,2,F
+Ni Putu Armini,INA,8,803,2,F
+Evelyne Dom,BEL,8,803,2,F
+Mariam Akkouch,LBN,8,803,2,F
+Anca Anastasiu,USA,8,803,2,F
+Aurora Paz Candia Gonzalez,CHI,8,803,2,F
+Wanda Henriette Antonia Håbrekke,NOR,8,803,2,F
+Lisa-Marie Peleska,AUT,8,803,2,F
+Romane Haddad,SEN,8,803,2,F
+Alba Tejera Dominguez,ESP,8,803,2,F
+Mayra Mega,URU,8,803,2,F
+Isabel Dominguez Munaiz,ESP,8,803,2,F
+Carla Hernandez Borrego,ESP,8,803,2,F
+Vinoothna Jadala,IND,8,803,2,F
+Bego Benjumeda Navas,ESP,8,803,2,F
+Paloma Cortina,USA,8,803,2,F
+Nina Pudar,NOR,8,803,2,F
+Oriana Sofia Medina,ARG,8,803,2,F
+Paula Duro Garcia,ESP,8,803,2,F
+Jana Bonnarens,BEL,8,803,2,F
+Wang Ying,CHN,8,803,2,F
+Caroline Hitimana,BEL,8,803,2,F
+Zahraa Akrah,LBN,8,803,2,F
+Ni Xiong,CHN,8,803,2,F
+Ana Loaiza,MEX,8,803,2,F
+Nicole Borzecka,POL,8,803,2,F
+Lavinia Mathys,SUI,8,803,2,F
+Vandana Narayan,USA,8,803,2,F
+Annie Frida Arenas Mondragón,MEX,8,803,2,F
+Alicia Lopez Arias De Saavedra,ESP,8,803,2,F
+Anamaria Bodescu,ROU,8,803,2,F
+Fayza Hojeij,CIV,8,803,2,F
+Patricia Pinilla Torres,ESP,8,803,2,F
+Maria Arribas Ballesteros,ESP,8,803,2,F
+Teliana Pereira,BRA,8,803,2,F
+Sandra Bolstad,NOR,8,803,2,F
+Hana Elshalkany,EGY,8,803,2,F
+Hayley Halsall-Randall,GBR,8,803,2,F
+Liyun Jia,CHN,8,803,2,F
+Amiina Bakunowicz,GBR,8,803,2,F
+Celia Aboukhalil,SEN,8,803,2,F
+Ma. Elmira Pagot,PHI,8,803,2,F
+Melina Fawaz,SEN,8,803,2,F
+Cristina Rayo Cardenas,ESP,8,803,2,F
+Cornelia Lister,SWE,8,803,2,F
+Lynn Vanhoof,BEL,8,803,2,F
+Iunona Rozhdestvenskaia,RUS,8,803,2,F
+Carla Vasquez Bocetti,ARG,8,803,2,F
+Karine Ananie,FRA,8,803,2,F
+Melati Anhar,INA,8,803,2,F
+Giulia Bortolin,ITA,8,803,2,F
+Yaiza Gallego Martinez,ESP,8,803,2,F
+Cristina Aiello,ROU,8,803,2,F
+Zahraa Byad,LBN,8,803,2,F
+Sandy Gumulya,INA,8,803,2,F
+Laura Navarro Garcia,ESP,8,803,2,F
+Ella Sillanpää,FIN,8,803,2,F
+Shooq Ali Ahmed Mohamed Alaseeri,BRN,8,803,2,F
+Maria Fernanda Espinosa Gonzalez,MEX,8,803,2,F
+Aurora Tasca,ITA,8,803,2,F
+Bella Genkina,USA,8,803,2,F
+Isabelle Bourdenet,FRA,8,803,2,F
+Marta Porras Sanchez,ESP,8,803,2,F
+Valentina Mago,ITA,8,803,2,F
+Tessa Van Puyvelde,BEL,8,803,2,F
+Alba Eunice Gauna Badaro,ARG,8,803,2,F
+Chandra Pamela Capozzi,USA,8,803,2,F
+Imane Omais,CIV,8,803,2,F
+Ghaida Jeribi,TUN,8,803,2,F
+Stephanie Collado,FRA,8,803,2,F
+Nafees Bano Syed,IND,8,803,2,F
+Amanda Gabrielle Zoleta,PHI,8,803,2,F
+Cyrine Hamrouni,FRA,8,803,2,F
+Bao Chun,CHN,8,803,2,F
+Esperanza Lamatta Vidal,CHI,8,803,2,F
+Eva Michelle Brito Peña,DOM,8,803,2,F
+Giorgia Venzi,ITA,8,803,2,F
+Angela Wood,GBR,8,803,2,F
+Paulina Luquín Chavoya,MEX,8,803,2,F
+Alma Sofia Cordoba,ARG,8,803,2,F
+Claire Manolou,GRE,8,803,2,F
+Flaminia Olmo,ITA,8,803,2,F
+Giulia Porzio,ITA,8,803,2,F
+Michelle Skov Jensen,DEN,8,803,2,F
+Lara Salloub,LBN,8,803,2,F
+Celia Marin Rios,ESP,8,803,2,F
+Araya Suksomrup,THA,8,803,2,F
+Selin Devrimci,NOR,8,803,2,F
+Dong Xue Pang,CHN,8,803,2,F
+Fadona Kusuma,INA,8,803,2,F
+Mie Skov,DEN,8,803,2,F
+Guixue Li,CHN,8,803,2,F
+Ophelie Michel,FRA,8,803,2,F
+Maria Joao Fernandes,POR,8,803,2,F
+Nicole Ictech,HON,8,803,2,F
+Sophie Cousins,GBR,8,803,2,F
+Natalia Rodriguez Laudelino,ESP,8,803,2,F
+Marcielle Resurreccion,PHI,8,803,2,F
+M Del Carmen Perez Alindado,ESP,8,803,2,F
+Louise Seret,BEL,8,803,2,F
+Paula Toscas Cruz,ESP,8,803,2,F
+Yueyue Yang,CHN,8,803,2,F
+Natalia Reynoso Frigolet,MEX,8,803,2,F
+Martina Hossen,BRA,8,803,2,F
+Camila Belassi,URU,8,803,2,F
+Rita Cura Machado Alves De Jesus,POR,7,983,2,F
+Ivana Vojvodic,SRB,7,983,2,F
+Victoria Davies,GBR,7,983,2,F
+Patricia Amador Fleitas,ESP,7,983,2,F
+Natalia Cespedes Garcia,ESP,6,987,2,F
+Sara Gutierrez Ruiz,ESP,6,987,2,F
+Elizabeth Mandujano,MEX,6,987,2,F
+Bashayer Alnaqeeb,BRN,6,987,2,F
+Eva Vazquez Gracia,ESP,6,987,2,F
+Noah Oostveen,NED,6,987,2,F
+Milka Pasanen,FIN,6,987,2,F
+Irene Gomez Gomez,ESP,6,987,2,F
+Adriana Lopez Lesende,ESP,6,987,2,F
+Nerea Herrero Perez,ESP,6,987,2,F
+Sofia Klimenko,RUS,6,987,2,F
+Beatriz Rodriguez Perez,ESP,6,987,2,F
+Virve Visakivi-Laine,FIN,6,987,2,F
+Laura Dalmau Moreno,ESP,6,987,2,F
+Alba Payeras Soler,ESP,6,987,2,F
+Carlota Leandres Rovira,ESP,6,987,2,F
+Pilar Escarti Martínez,ESP,6,987,2,F
+Erika Buntiene,LTU,6,987,2,F
+Outi Helminen,FIN,6,987,2,F
+Mireia Carrasco Miñana,ESP,6,987,2,F
+Maria Repullo Sala,ESP,6,987,2,F
+Rasa Butrimaite,LTU,6,987,2,F
+Johnne Paula Benitez,PHI,5,1009,2,F
+Princess Jean Naquila,PHI,5,1009,2,F
+Leah Casañares,PHI,5,1009,2,F
+Mai Elbanna,EGY,5,1009,2,F
+Lucia Hernández Cobos,ESP,5,1009,2,F
+Masumi Kato,JPN,5,1009,2,F
+Michele Potter Dos Santos,BRA,5,1009,2,F
+Melissa Tan,MAS,5,1009,2,F
+Natalija Tumsevica- gregoriu,LAT,5,1009,2,F
+Yekaterina Gurova,KAZ,5,1009,2,F
+Lumeng Wang,CHN,5,1009,2,F
+Emma Biagianti,ITA,5,1009,2,F
+Natasa Koraca,CRO,5,1009,2,F
+Inês Alexandra Abalada Do Val Bento,POR,5,1009,2,F
+Llum Martorell Gruwez,ESP,5,1009,2,F
+Saranya Wongsajan,THA,5,1009,2,F
+Gaelle Gautier,FRA,5,1009,2,F
+Florije Bergene,NOR,5,1009,2,F
+Alexandra Isabel Suarez,PHI,5,1009,2,F
+Celina Ermann,GER,5,1009,2,F
+Marilena Christoforou,GBR,5,1009,2,F
+Carmen Vega Listan,ESP,5,1009,2,F
+Anna Wall,FIN,5,1009,2,F
+Ophelie Lefebvre,FRA,5,1009,2,F
+Laura Raya Capitan,ESP,5,1009,2,F
+Alexia Carlone,ITA,5,1009,2,F
+Khatia Gogaladze,GEO,5,1009,2,F
+Rachael Goh,MAS,5,1009,2,F
+Jimena Suarez Garcia,ESP,5,1009,2,F
+Leire Flores Santana,ESP,5,1009,2,F
+Joanne Ward,GBR,5,1009,2,F
+Laurine Bergaud,FRA,5,1009,2,F
+Iciar Gomez De Segura De Luis,ESP,5,1009,2,F
+Aimy Cassam Chenai,FRA,5,1009,2,F
+Louise Adrina,INA,5,1009,2,F
+Carmen Rocio Diaz Vargas,ESP,5,1009,2,F
+Diana Ismailova,KAZ,5,1009,2,F
+Maria Afonso Meneses,ESP,5,1009,2,F
+Francisca Danae Lopez Escobar,IRL,5,1009,2,F
+Ana Paula Ambrozio Becerra,BRA,5,1009,2,F
+Johanne Granger,FRA,5,1009,2,F
+Aikaterini Stavroulaki,GRE,5,1009,2,F
+Reinata Agnes Sidik,INA,5,1009,2,F
+Agostina Dalmonego,ARG,5,1009,2,F
+Irene Avalle,ITA,5,1009,2,F
+Maíra Gonçalves,BRA,5,1009,2,F
+Gloria Maria Garcia Vacas,ESP,5,1009,2,F
+Cristiana Carvalho Telles Ferreira,BRA,5,1009,2,F
+Nerea Uclés Aceituno,ESP,5,1009,2,F
+Mariam Alsultan,QAT,5,1009,2,F
+Fiija Ketonen,FIN,5,1009,2,F
+Pepita Stonor,AUS,5,1009,-287,F
+Kanokwan Delelis,THA,5,1009,2,F
+Jemma Peterswald,AUS,5,1009,378,F
+Valentina Osorio Vallana,CHI,5,1009,2,F
+Bianca Ferretti,ITA,5,1009,0,F
+Lili Ana Maldonado,ESP,5,1009,2,F
+Julie Razafindranaly,FRA,5,1009,2,F
+Elizabeta Tomic,CRO,5,1009,2,F
+Czarina Howells,AUS,5,1009,0,F
+Nathalia Bedin,BRA,5,1009,2,F
+Emma Eerola,FIN,5,1009,2,F
+Regina Kalimullina,RUS,5,1009,2,F
+Yingying Huang,CHN,5,1009,2,F
+Alicia Hazzard,GBR,5,1009,2,F
+Sarah Riise,NOR,5,1009,2,F
+Lucie Rey,SUI,5,1009,2,F
+Beatriz Koerich,BRA,5,1009,2,F
+Silvana Campus,ARG,5,1009,2,F
+Janine Koleta,SLO,5,1009,2,F
+Yasuko Inaoka,JPN,5,1009,2,F
+Laura Domínguez Moya,ESP,5,1009,2,F
+Luciana Ingaramo,ARG,5,1009,2,F
+Romina Belda,ESP,5,1009,2,F
+Daisi Oliveira Da Cunha,BRA,5,1009,2,F
+Yanyan Xia,CHN,5,1009,2,F
+Shanyu Jin,CHN,5,1009,2,F
+Margherita Gentile,ITA,5,1009,2,F
+Jo Waugh,GBR,5,1009,0,F
+Peach Lucienne Orbe,PHI,5,1009,2,F
+Milla Blaschke,GER,5,1009,2,F
+Gabriella Bongiovanni,AUS,5,1009,0,F
+Diyana Miteva,BUL,5,1009,2,F
+Marina Ezzedine,SEN,5,1009,2,F
+Eliza Bosson,SWE,5,1009,2,F
+Delphine Francoise,FRA,5,1009,2,F
+Maria Perez Gavino,IRL,5,1009,2,F
+Charlotte Atkinson,GBR,5,1009,2,F
+Matilde Laura,ITA,5,1009,2,F
+Renata Escobar,ARG,5,1009,2,F
+Amy Flynn,IRL,5,1009,2,F
+Nadya Syarifah,INA,5,1009,2,F
+Alexandra Fouquet,FRA,5,1009,2,F
+Julia Gallifa Beltri,ESP,5,1009,2,F
+Elisa Leona Benitez,PHI,5,1009,2,F
+Daniela Chagay Leiva,CHI,5,1009,2,F
+Laura Gomez Pando,ESP,5,1009,2,F
+Catalina Isaza Brockland,COL,5,1009,2,F
+Emilia Feodorovici,ROU,5,1009,2,F
+Aspasia Kroustalaki,GRE,5,1009,2,F
+Linlin Zhao,CHN,5,1009,2,F
+Taly Merker,ECU,5,1009,2,F
+Fatima Awad,EGY,5,1009,2,F
+Noriko Toda,JPN,5,1009,2,F
+Gema Calvo Perez,ESP,5,1009,2,F
+Kelly Yamamoto,USA,5,1009,2,F
+Ana Renda,AUS,5,1009,378,F
+Macarena Lobo Ramirez,CHI,5,1009,2,F
+Jennifer Denécheau,FRA,5,1009,2,F
+Camila De Santana,NOR,5,1009,2,F
+Agostina Szyller,ARG,5,1009,2,F
+Cecilie Li Hansen,NOR,5,1009,2,F
+Maria Siopacha,CYP,5,1009,2,F
+Nathalie Delaplace Grosset,FRA,5,1009,2,F
+Angela Caro Cantin,ESP,5,1009,2,F
+Maria Zurita Porras,ESP,5,1009,2,F
+Elizabeth Hernandez Silva,MEX,5,1009,2,F
+Laura Moreno Amor,ESP,5,1009,2,F
+Alise Vaidere,LAT,5,1009,2,F
+Milena Poffo Messas,BRA,5,1009,2,F
+Anna Zuka,IRL,5,1009,2,F
+Bogdan Elena,ROU,5,1009,2,F
+Fuman Xie,CHN,5,1009,2,F
+Gara Santana Gazol,ESP,5,1009,2,F
+Mariam Takniashvili,GEO,5,1009,2,F
+Julia Adrados Buades,ESP,5,1009,2,F
+Chutima Chitpitak,THA,5,1009,2,F
+Elisa Mosos,AUS,5,1009,0,F
+Michelle Paz Coccio,CHI,5,1009,2,F
+Paula Fernandez Guzman,ESP,5,1009,2,F
+Mia Lopez,ARG,5,1009,2,F
+Maria Teresa Soto Arroyo,ESP,5,1009,2,F
+Irene Hervas Jimenez De Cisneros,ESP,5,1009,2,F
+Nthabeleng Mokalodise,RSA,5,1009,2,F
+Tara Jerika Cabullo,PHI,5,1009,2,F
+Martina Klimic,CRO,5,1009,2,F
+Samira Biyabani Zonouz,IRI,5,1009,2,F
+Sara Lopez Viejo,ESP,5,1009,2,F
+Urara Chihara,JPN,5,1009,2,F
+Yasmine Hojeij,CIV,5,1009,2,F
+Valeria Andrea Rothe,VEN,5,1009,2,F
+Jessica Tran,AUS,5,1009,0,F
+Juli Sarkar,JPN,5,1009,2,F
+Karine Duclos,FRA,5,1009,2,F
+Monica Andrea Barruffaldi,ARG,5,1009,2,F
+Luz Maria Diaz Lopez,ESP,5,1009,2,F
+Elena Draghicchio,ITA,5,1009,2,F
+Alba Bruna Corrales,ESP,5,1009,2,F
+Frederique Lagarde,FRA,5,1009,2,F
+Lingxiu Xu,CHN,5,1009,2,F
+Sonja Balic,AUS,5,1009,0,F
+Anastasia Anufrieva,RUS,5,1009,2,F
+Antonia Gonçalves,BRA,5,1009,2,F
+Mei Ling Young,MAS,5,1009,2,F
+Casty Manon,FRA,5,1009,2,F
+Karina Dimova,BUL,5,1009,2,F
+Ilena Matricardi,ITA,5,1009,2,F
+Diletta Mancinelli,ITA,5,1009,2,F
+Antonella Sol D'Angelo,ARG,5,1009,2,F
+Claudia Fraile,ESP,5,1009,2,F
+Rebeka Kalnozola,LAT,5,1009,2,F
+Liza Tsotsoria,GEO,5,1009,2,F
+Matilda Vainio,FIN,5,1009,2,F
+Marsa Laukkoski,FIN,5,1009,2,F
+Susan Mc Rann,IRL,5,1009,2,F
+Katie Nolan,IRL,5,1009,2,F
+Elsa Blom,SWE,5,1009,2,F
+Martina Pugliesi,ITA,5,1009,2,F
+Alexandra Rodicheva,KAZ,5,1009,2,F
+Nattiya Hothong,THA,5,1009,2,F
+Valeriia Bragina,RUS,5,1009,2,F
+Roxanna Agdas Keshavarz,GBR,5,1009,2,F
+Abrar Nema,BRN,5,1009,2,F
+Macarena Gomez,ARG,5,1009,2,F
+Noelle Conchita Corazon Manalac,PHI,5,1009,2,F
+Fatima Ezzeddine,LBN,5,1009,2,F
+Lea Subotic,CRO,5,1009,2,F
+Yiwen Zhang,CHN,5,1009,2,F
+Antonella Cavicchi,ITA,5,1009,2,F
+Julie Masson,FRA,5,1009,2,F
+Mariana Lavieri Silva,BRA,5,1009,2,F
+Birte Svenssen,NOR,5,1009,2,F
+Hana Youssef,EGY,5,1009,2,F
+Victoria Isaac,FRA,5,1009,2,F
+Lena Savva,CYP,5,1009,2,F
+Fuka Matsumoto,JPN,5,1009,2,F
+Wiktoria Rychlik,POL,5,1009,2,F
+Hanni Sonkeri,FIN,5,1009,2,F
+Bozhena Berezhniak,UKR,5,1009,2,F
+Chinatsu Sawada,JPN,5,1009,2,F
+Leah Wong,CAN,5,1009,2,F
+Gracia Radovanovic,SRB,5,1009,2,F
+Livane Jouanlanne,FRA,5,1009,2,F
+Layan Najaf,BRN,5,1009,2,F
+Aina Maria Rotger Martorell,ESP,5,1009,2,F
+Gema Macias Trujillano,ESP,5,1009,2,F
+Asta Renemark,SWE,5,1009,2,F
+Anna Kurkul,IRL,5,1009,2,F
+Kieatsupa Tupanan,THA,5,1009,2,F
+Ruixu Yang,CHN,5,1009,2,F
+Adriana Fugulin,ROU,5,1009,2,F
+Magdalini Adamopoulou,GRE,5,1009,2,F
+Piia Andsten,FIN,5,1009,2,F
+Farida Mohamed Ibrahim,EGY,5,1009,2,F
+Stephanie Anne,FRA,5,1009,2,F
+Jihane Assaf,CIV,5,1009,2,F
+Emilie Gullachsen,NOR,5,1009,2,F
+Marianne Robert Merrien,FRA,5,1009,2,F
+Yue Pan,CHN,5,1009,2,F
+Valentina Castro Diaz,CHI,5,1009,2,F
+Rubinia Antognoni,ITA,5,1009,2,F
+Maria Vargas,ARG,5,1009,2,F
+Juni Sjöland,SWE,5,1009,2,F
+Florencia Seguel Bas,CHI,5,1009,2,F
+Megan Ward,GBR,5,1009,2,F
+Elodie Lorion,FRA,5,1009,2,F
+Ana Renata Ursu,ROU,5,1009,2,F
+Brit Storhaug,NOR,5,1009,2,F
+Yilin Chen,CHN,5,1009,2,F
+Haruna Misago,JPN,5,1009,2,F
+Nagiho Nakamura,JPN,5,1009,2,F
+Dalal Malalla,BRN,5,1009,2,F
+Danning Liu,CHN,5,1009,2,F
+Celia Barthelemy,FRA,5,1009,2,F
+Elena Alacot Martinez,ESP,5,1009,2,F
+Lulia Vodislav,ROU,5,1009,2,F
+Aina Etxebarria,ESP,5,1009,2,F
+Giulia Conte,ITA,5,1009,2,F
+Olga Cosic,MDA,5,1009,2,F
+Emma Louise Windekilde Tranberg,DEN,5,1009,2,F
+Katja Hrka?,CRO,5,1009,2,F
+Tenielle Dunstall,AUS,5,1009,2,F
+Daria Makhortova,MDA,5,1009,2,F
+Denise Negro,ITA,5,1009,2,F
+Mika Ogawa,JPN,5,1009,2,F
+Dana Al Mudahka,QAT,5,1009,2,F
+Carola Gonzalez-King garibotti,ESP,5,1009,2,F
+Katrina Louise Santos,PHI,5,1009,2,F
+Patricia Manin,FRA,5,1009,2,F
+Dufau Lauriane,FRA,5,1009,2,F
+Albina Matveyeva,KAZ,5,1009,2,F
+Sille Tranberg,DEN,5,1009,2,F
+Lucia Rosa Vadillo,ESP,5,1009,2,F
+Emilie Olsen,NOR,5,1009,2,F
+Paloma Sillero Carrillo,ESP,5,1009,2,F
+Isabelle Garsault,FRA,5,1009,2,F
+Adriana Barbic,CRO,5,1009,2,F
+Voni Darlina,INA,5,1009,2,F
+Fei Meiling,CHN,5,1009,2,F
+Xinyi Xu,CHN,5,1009,2,F
+Carmen Miguel,ESP,5,1009,2,F
+Alsu Samigullina,RUS,5,1009,2,F
+Marianna Tsakkistou,CYP,5,1009,2,F
+Julianne Klaussen,NOR,5,1009,2,F
+Marija Lunova,SRB,5,1009,2,F
+Tatiana Sahagoff,BRA,5,1009,2,F
+Maja Aberg,SWE,5,1009,2,F
+Leiza Brabo,ARG,5,1009,2,F
+Janna Tanskanen,FIN,5,1009,2,F
+Oleksandra Mozharovska,UKR,5,1009,2,F
+Claudia Francisca Araneda Curtze,CHI,5,1009,2,F
+Alisa Reznichenko,UKR,5,1009,2,F
+Sofia Lozano,ARG,5,1009,2,F
+Maria Almagro Lara,ESP,5,1009,2,F
+April Salandanan,PHI,5,1009,2,F
+Anete Zabere,LAT,5,1009,2,F
+Dieuwertje Van Dijk,NED,5,1009,2,F
+Zaineh Abed Alhameed,UAE,5,1009,2,F
+Brule Lylou,BEL,3,1280,1,F
+Daira Valle Luque,ESP,3,1280,1,F
+Laura Quintana,ESP,3,1280,1,F
+Kiyoka Murakami,JPN,3,1280,1,F
+Aysha Yateem,UAE,3,1280,1,F
+Judit Mas Bassas,ESP,3,1280,1,F
+Jonice Pangilinan,PHI,3,1280,1,F
+Jo Weisen,LUX,3,1280,1,F
+Moya Ryan,IRL,3,1280,1,F
+Maryam Alaali,BRN,3,1280,1,F
+Sonia Smith,GBR,3,1280,1,F
+Almaha Alhajri,QAT,3,1280,1,F
+Paula Gregorio Lopez,ESP,3,1280,1,F
+Muneerah Alyahya,KUW,3,1280,1,F
+Mizuki Takita,JPN,3,1280,1,F
+Daniela Tomas Cerezo,ESP,3,1280,1,F
+Catarina Zheng,POR,3,1280,1,F
+Claudia Raya Capitan,ESP,3,1280,1,F
+Aleksandra Rosolska,POL,3,1280,1,F
+Lucia Benitez Garcia,ESP,3,1280,1,F
+Heta Heinamaki,FIN,3,1280,1,F
+Raya Uzunova,GBR,3,1280,1,F
+Sofía Hernández,ESP,3,1280,1,F
+Clare Clarke,GBR,3,1280,1,F
+Theofaneia Katsiki,GRE,3,1280,1,F
+Eliza Skil,LTU,3,1280,1,F
+Michaella Krajicek,NED,3,1280,1,F
+Anna Pribylova,RUS,3,1280,1,F
+Leyre Ballestero Berbegal,ESP,3,1280,1,F
+Mariella Minetti,FIN,3,1280,1,F
+Mari Forsell,THA,3,1280,1,F
+Carla Carrasco Miñana,ESP,3,1280,1,F
+Kristin Price,GBR,3,1280,1,F
+Selinay Topal,TUR,3,1280,1,F
+Hessa Alnaama,QAT,3,1280,1,F
+Icah Silvestre,PHI,3,1280,1,F
+Zofia Piorkowska,POL,3,1280,1,F
+Mia Smyth,IRL,3,1280,1,F
+Mar Garcia Carnicero,ESP,3,1280,1,F
+Amanda Vasquez Gonzalez,CHI,3,1280,1,F
+Marina Serrano Herrera,ESP,3,1280,1,F
+Desire Parn,EST,3,1280,1,F
+Adriana More,ARG,3,1280,1,F
+Dalal Chahuan,CHI,3,1280,1,F
+Olivia Collins,GBR,3,1280,1,F
+Erika Asada,JPN,3,1280,1,F
+Mako Mizunuma,JPN,3,1280,1,F
+Elena Carrillo Gonzalez,ESP,3,1280,1,F
+Maria Villalba Elena,ESP,3,1280,1,F
+Sabrina Stevens,GBR,3,1280,1,F
+Ayumi Hanahata,JPN,3,1280,1,F
+Stephanie Gomperts,NED,3,1280,1,F
+Hannah Stockton,GBR,3,1280,1,F
+Elena Esparcia Canada,ESP,3,1280,1,F
+Maria Farre Aguilera,ESP,3,1280,1,F
+Sohvi Vehko,FIN,3,1280,1,F
+Pilar Albarran Villalon,ESP,3,1280,1,F
+Aldryanna Ahmad Shah,MAS,3,1280,1,F
+Laura Çiftçi,GBR,3,1280,1,F
+Hala Alzayani,BRN,3,1280,1,F
+Skaiste Brazenaite Vasiliauskiene,LTU,3,1280,1,F
+Joyce Nouws,NED,3,1280,1,F
+Leonor Silva Oliveira,POR,3,1280,1,F
+Alba Montiel Miralles,ESP,3,1280,1,F
+Eloise Marais,FRA,3,1280,1,F
+Julie Hill,IRL,3,1280,1,F
+Walquiria Bley,LUX,3,1280,1,F
+Natasha Forrest,GBR,3,1280,1,F
+Liliana Cabezas,ARG,3,1280,1,F
+Sinead Lohan,IRL,3,1280,1,F
+Ligita Motiejauskaite,LTU,3,1280,1,F
+Caroline Francois,LUX,3,1280,1,F
+Linnea Granberg,SWE,3,1280,1,F
+Olga Velazquez Perez,ESP,3,1280,1,F
+Karime Betsabe Eberle,ARG,3,1280,1,F
+Ingrid Planas Puig,ESP,3,1280,1,F
+Sophie Bray,GBR,3,1280,-475,F
+Nayra Cantos Arencon,ESP,3,1280,1,F
+Tania Couto,POR,3,1280,1,F
+Elsa Rossi Hens,ESP,3,1280,1,F
+Lola Mansfeldt,LUX,3,1280,1,F
+Indre Kastanauskaite,LTU,3,1280,1,F
+Kerttu Ryhänen,FIN,3,1280,1,F
+Lisa Keegan,IRL,3,1280,1,F
+Blanca Puig Caballero,ESP,3,1280,1,F
+Arianna Ceccaroni,LUX,3,1280,1,F
+Patrycja Kozluk,POL,3,1280,1,F
+Hanin Shady,BRN,3,1280,1,F
+Izabela Kunat,POL,3,1280,1,F
+Federica Di Iorio,ITA,3,1280,1,F
+Haruna Obata,JPN,3,1280,1,F
+Areel Alblehed,KSA,3,1280,1,F
+Ines Lozano Hortelano,ESP,3,1280,1,F
+Lolwa Al Hamad,QAT,3,1280,1,F
+Roxy Van Wonterghem,BEL,3,1280,1,F
+Roxane Lacroix,BEL,3,1280,1,F
+Iida Palo,FIN,3,1280,1,F
+Viktorija Banaityte,LTU,3,1280,1,F
+Natasha Feidt,LUX,3,1280,1,F
+Maryam Shahdoor,UAE,3,1280,1,F
+Marjorie Croke,IRL,3,1280,1,F
+Dai Alnaimi,BRN,3,1280,1,F
+Mariam Alsarraj,KUW,3,1280,1,F
+Catalina Wiedmaier Olivares,CHI,3,1280,1,F
+Egle Beige,LTU,3,1280,1,F
+Cagla Irmak Badem,TUR,3,1280,1,F
+Ines Frias Rojas,ESP,2,1386,1,F
+Biljana Billie Gajic,SWE,2,1386,1,F
+Lucia Lopez Muñoz,ESP,2,1386,1,F
+Carmen Camino,ESP,2,1386,1,F
+Carmen Medina Gallego,ESP,2,1386,1,F
+Marina Tudela Bonet,ESP,2,1386,1,F
+Matilde Del Col Balletto,ITA,2,1386,1,F
+Varvara Popova,RUS,2,1386,1,F
+Andrea Sanchez Carro,ESP,2,1386,1,F
+Lucila Guerrero,ARG,2,1386,1,F
+Irene García Del Moral,ESP,2,1386,1,F
+Milica Tesic,SRB,2,1386,1,F
+Laura Del Olmo Diaz,ESP,2,1386,1,F
+Alba Zanon Bodi,ESP,2,1386,1,F
+Tamara Obradovi?,SRB,2,1386,1,F
+Maria Breidy,LBN,2,1386,1,F
+Patricia Brandao Almeida,POR,2,1386,1,F
+Neda Vukman,SRB,2,1386,1,F
+Vera Machado,POR,2,1386,1,F
+Rovanny Conle Castillo,ESP,2,1386,1,F
+Joana Martins Brito Figueirôa Da Silva,POR,2,1386,1,F
+Joana Zanatti,POR,2,1386,1,F
+Rocío Martínez Collado,ESP,2,1386,1,F
+Elma Misanovic,SWE,2,1386,1,F
+Nerea Sanchez Batanero,ESP,2,1386,1,F
+Aysan Absalan,IRI,2,1386,1,F
+Neda Mohammad Taghipour,IRI,1,1412,8,F
+Gema Soriano Llorens,ESP,1,1412,8,F
+Sarah Lisa Aubertin,TUN,1,1412,8,F
+Marina Fedanova,RUS,1,1412,8,F

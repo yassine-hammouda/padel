@@ -1,0 +1,21 @@
+sponsor_name,sponsorship_type,tournaments_sponsored,annual_investment_eur,duration_years,category,brand_visibility_score,roi_percent,activation_channels,activation_channels_list,activation_channels_count
+Estrella Damm,Title Sponsor,8,8500000,3,Beverage,92,185,TV;Digital;Stadium,"['TV', 'Digital', 'Stadium']",3
+Adidas,Apparel Partner,12,7200000,4,Sports Apparel,88,162,Apparel;Equipment;Digital,"['Apparel', 'Equipment', 'Digital']",3
+HEAD,Equipment Partner,10,6800000,3,Sports Equipment,85,148,Equipment;Player Sponsors,"['Equipment', 'Player Sponsors']",2
+Rolex,Official Timekeeper,15,6500000,5,Luxury,90,135,TV;Events;Digital,"['TV', 'Events', 'Digital']",3
+CUPRA,Automotive Partner,8,5800000,3,Automotive,82,142,Vehicles;Digital;Events,"['Vehicles', 'Digital', 'Events']",3
+BBVA,Banking Partner,6,5200000,4,Financial,84,128,Digital;Banking;Events,"['Digital', 'Banking', 'Events']",3
+Santander,Banking Partner,7,4800000,3,Financial,81,122,Stadium;Digital,"['Stadium', 'Digital']",2
+Emirates,Airline Partner,5,4500000,4,Aviation,79,118,Travel;Events,"['Travel', 'Events']",2
+Coca-Cola,Beverage Partner,9,4200000,3,Beverage,83,136,Stadium;Digital,"['Stadium', 'Digital']",2
+Mastercard,Payment Partner,8,3800000,3,Financial,78,112,Payments;Digital,"['Payments', 'Digital']",2
+Hyundai,Automotive Partner,6,3500000,3,Automotive,76,105,Vehicles;Events,"['Vehicles', 'Events']",2
+Puma,Apparel Partner,7,3200000,2,Sports Apparel,74,98,Apparel;Digital,"['Apparel', 'Digital']",2
+Telefónica,Telecom Partner,5,3000000,3,Telecom,80,115,Connectivity;Digital,"['Connectivity', 'Digital']",2
+Allianz,Insurance Partner,4,2800000,4,Insurance,75,102,Insurance;Events,"['Insurance', 'Events']",2
+Amazon,Digital Partner,3,2500000,2,Technology,85,145,Streaming;Digital,"['Streaming', 'Digital']",2
+Nike,Apparel Partner,6,2400000,2,Sports Apparel,72,92,Apparel;Equipment,"['Apparel', 'Equipment']",2
+Red Bull,Energy Drink Partner,5,2200000,3,Beverage,77,108,Events;Digital,"['Events', 'Digital']",2
+Porsche,Automotive Partner,3,2000000,3,Automotive,73,96,Cars;Events,"['Cars', 'Events']",2
+IBM,Technology Partner,4,1800000,3,Technology,84,132,Analytics;Digital,"['Analytics', 'Digital']",2
+Heineken,Beverage Partner,4,1600000,2,Beverage,71,89,Stadium;Events,"['Stadium', 'Events']",2

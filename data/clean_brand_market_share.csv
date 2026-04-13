@@ -1,0 +1,11 @@
+brand_name,market_share_percent,total_sponsored_players,top_100_sponsored,avg_contract_value_eur,total_investment_millions_eur,racket_models_count,racket_price_range_eur,top_player,market_position,price_range_min,price_range_max
+Bullpadel,28.5,47,12,185000,8.7,15,89.90-389.90,Arturo Coello,Market Leader,89.9,389.9
+Adidas,22.3,39,10,162000,6.3,12,69.90-389.90,Alejandro Galan,2nd Position,69.9,389.9
+HEAD,19.7,34,9,148000,5.0,10,69.90-299.90,Agustin Tapia,3rd Position,69.9,299.9
+Siux,9.2,16,4,95000,1.5,8,59.90-368.90,Pablo Lima,4th Position,59.9,368.9
+Nox,6.8,12,3,82000,1.0,6,79.90-299.90,Alex Ruiz,5th Position,79.9,299.9
+Babolat,5.4,9,3,78000,0.7,5,89.90-349.90,Maxi Sanchez,6th Position,89.9,349.9
+Starvie,4.1,7,2,71000,0.5,4,69.90-289.90,Javier Garrido,7th Position,69.9,289.9
+Wilson,1.9,3,1,65000,0.2,3,99.90-399.90,Tin Riba,Niche Market,99.9,399.9
+Dunlop,1.2,2,0,55000,0.1,2,79.90-269.90,Jorge Nieto,Specialized,79.9,269.9
+Akkeron,0.9,1,0,50000,0.05,1,149.90-349.90,Javi Garrido,Boutique,149.9,349.9

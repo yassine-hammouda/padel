@@ -1,0 +1,1055 @@
+id,name,category,gender,ranking,points,nationality,birthplace,birthdate,age,hand,side,height
+1,Facundo Dominguez,men,M,63.0,1040.0,IT,Mar del Plata,1997-11-09,28.0,right,drive,172.0
+2,Denis Tomas Perino,men,M,54.0,1181.0,IT,Córdoba,1996-01-08,30.0,left,drive,174.0
+3,Juan Carlos Vargas Vera,men,M,666.0,32.0,MX,,1999-09-13,26.0,,,
+4,Sergio Jimenez Amozurrutia,men,M,500.0,55.0,MX,,1988-04-17,37.0,,,
+5,Zé Alexandre Meireles,men,M,236.0,203.0,PT,Guimaraes,1999-11-30,26.0,,backhand,185.0
+6,Joao Maria Caiano,men,M,166.0,328.0,PT,Porto,2005-02-23,20.0,,drive,174.0
+7,Vasco Pascoal,men,M,241.0,197.0,PT,Lisbon,1988-11-21,37.0,,backhand,182.0
+8,Miguel Oliveira,men,M,250.0,183.0,PT,Oeiras,1988-02-28,37.0,,drive,178.0
+9,Oscar Matias Almada,men,M,217.0,225.0,AR,Santiago del Estero,1994-03-02,31.0,,drive,190.0
+10,Juan Manuel Argañaras,men,M,225.0,219.0,AR,Santiago del Estero,1988-07-20,37.0,,backhand,175.0
+11,Thijs Roper,men,M,120.0,467.0,NL,Maarn,2005-03-07,20.0,,backhand,
+12,Pau Miñano Ortinez,men,M,138.0,400.0,ES,Palma,2005-11-03,20.0,,drive,180.0
+13,Matias Emiliano Gutierrez C.,men,M,307.0,122.0,AR,Córdoba,1995-06-02,30.0,,backhand,186.0
+14,Amilcar Gaston Bejarano,men,M,938.0,17.0,AR,Luján,1995-06-09,30.0,,drive,179.0
+15,Boris Castro Garcia,men,M,97.0,691.0,ES,Douala,1998-06-11,27.0,right,backhand,184.0
+16,Enzo Jensen,men,M,64.0,1003.0,IT,Madrid,2006-05-17,19.0,left,drive,174.0
+17,Tolito Aguirre,men,M,19.0,2870.0,AR,Buenos Aires,1997-12-23,28.0,right,drive,180.0
+18,Gonzalo Alfonso,men,M,20.0,2760.0,AR,General Cabrera,1996-03-30,29.0,right,backhand,170.0
+19,Ionian Antonelly Carballo Hernandez,men,M,1028.0,14.0,MX,México D.F.,2001-09-16,24.0,,backhand,174.0
+20,Maximiliano Montaño,men,M,527.0,50.0,MX,Ciudad de México,2003-01-22,23.0,,drive,174.0
+21,Francisco Coirini,men,M,540.0,48.0,AR,Villamaria,2001-11-12,24.0,,,185.0
+22,Ivo Agustin Nuñez,men,M,505.0,54.0,AR,Presidencia de la Plaza,2003-08-13,22.0,,drive,183.0
+23,Jose Maria Alvarez Torres,men,M,590.0,40.0,MX,Puebla,1999-06-08,26.0,,drive,164.0
+24,Christian Orduña Guzman,men,M,635.0,35.0,MX,Puebla,1988-12-27,37.0,,,178.0
+25,Juan Ignacio Franco Rodriguez,men,M,,,AR,,,,,,
+26,Matias Soto,men,M,332.0,110.0,CL,,2004-03-05,21.0,,,
+27,Moises Rafael Castillo Contreras,men,M,618.0,37.0,MX,,1999-01-11,27.0,,,
+28,Mauricio Suarez Gonzalez,men,M,465.0,62.0,MX,,2000-07-14,25.0,,,
+29,Gaston Lazzarini,men,M,297.0,133.0,AR,La Vertientes,1998-08-08,27.0,,drive,170.0
+30,Cristobal Molina,men,M,380.0,87.0,CL,Santiago,1997-07-08,28.0,,backhand,180.0
+31,Christian Medina Murphy,men,M,118.0,483.0,GB,Kingstom,1998-08-26,27.0,,backhand,187.0
+32,Alberto Garcia Jimenez,men,M,108.0,549.0,ES,Albacete,2002-04-14,23.0,,drive,170.0
+33,Ivan Ramirez,men,M,188.0,277.0,ES,Madrid,2001-11-14,24.0,right,backhand,175.0
+34,Diego Arredondo Garcia,men,M,136.0,401.0,MX,Metepec,2007-09-02,18.0,,drive,163.0
+35,Jose Angel Montoya,men,M,410.0,76.0,MX,Toluca,2003-02-17,22.0,,drive,170.0
+36,Juan Pablo Castillo,men,M,351.0,97.0,MX,Puebla,2003-07-21,22.0,,drive,171.0
+37,Nicolas Crosio,men,M,230.0,210.0,AR,Buenos aires,1995-09-19,30.0,,backhand,187.0
+38,Ivo Andenmatten Gudiño,men,M,297.0,133.0,AR,Córdoba,2003-02-20,22.0,,backhand,175.0
+39,Manuel Gayone,men,M,145.0,382.0,AR,Mar delPlata,2003-05-11,22.0,,backhand,180.0
+40,Axel William Guevara,men,M,164.0,331.0,AR,General Pico,1996-10-20,29.0,,drive,
+41,Jorge Jimenez,men,M,590.0,40.0,MX,Cohaulila de Zaragoza,2006-11-07,19.0,,backhand,
+42,Moises Rafael Rivero,men,M,590.0,40.0,MX,,1993-10-08,32.0,,drive,
+43,Jose Gabriel Jimenez Jimenez,men,M,458.0,63.0,ES,,2006-09-24,19.0,,,
+44,Emmanuel Riesgo Méndez,men,M,764.0,25.0,ES,,2006-04-20,19.0,,,
+45,Luis Enrique Barrientos Garcia,men,M,626.0,36.0,MX,Puebla,1993-06-04,32.0,,backhand,185.0
+46,Maximiliano Jael Cejas,men,M,1028.0,14.0,AR,Quilmes,1990-01-26,36.0,,drive,179.0
+47,Alonso Rodriguez Martinez,men,M,72.0,964.0,ES,Torres de la Alameda,2003-04-03,22.0,right,backhand,185.0
+48,Juan Ignacio Rubini,men,M,53.0,1184.0,AR,Chacabuco,2006-09-03,19.0,left,drive,185.0
+49,Manuel Castaño Salguero,men,M,82.0,894.0,ES,Madrid,2008-10-03,17.0,,backhand,186.0
+50,Nicolas Suescun,men,M,129.0,435.0,IT,Rio Tercero,1985-10-29,40.0,right,drive,176.0
+51,Mateo Alvarez,men,M,287.0,138.0,AR,,2007-10-16,18.0,,,
+52,Vinny Nahuel Di Francesco,men,M,228.0,214.0,US,New York,2006-12-23,19.0,,backhand,188.0
+53,Simon Charaf Jones,men,M,700.0,29.0,MX,,1998-01-28,28.0,,,
+54,Ulises Martinez Avila,men,M,540.0,48.0,MX,,2002-09-25,23.0,,,
+55,Pablo Molina Tofanelli,men,M,198.0,257.0,AR,La Rioja,1997-12-30,28.0,,backhand,180.0
+56,Cristobal Martinez,men,M,211.0,240.0,CL,Ñuñoa,1997-04-08,28.0,,drive,175.0
+57,Pier Giulio Farabbi,men,M,256.0,177.0,IT,Roma,2005-02-09,20.0,,backhand,190.0
+58,Victor Ortega Garcia,men,M,248.0,185.0,ES,Valladolid,2007-04-17,18.0,,drive,164.0
+59,Raul Rosas,men,M,572.0,43.0,MX,,1989-05-04,36.0,,,
+60,Mauricio Garcia Villalobos,men,M,482.0,59.0,MX,,2000-08-04,25.0,,,
+61,Alejandro Calvo Perez,men,M,168.0,324.0,ES,Jaen,2007-10-08,18.0,,backhand,183.0
+62,Albert Trillas Garcia,men,M,155.0,365.0,ES,Barcelona,2005-02-18,20.0,,drive,188.0
+63,Miguel Lamperti,men,M,88.0,818.0,AR,Bahía Blanca,1978-11-11,47.0,right,backhand,180.0
+64,Agustin Torre,men,M,52.0,1212.0,AR,Olavarría,1994-10-18,31.0,right,backhand,182.0
+65,Arturo Coello,men,M,1.0,19800.0,ES,Valladolid,2002-03-08,23.0,left,drive,190.0
+66,Agustin Tapia,men,M,1.0,19800.0,AR,Catamarca,1999-07-24,26.0,right,backhand,179.0
+68,Victor Ruiz,men,M,34.0,1794.0,ES,Cartagena,1989-07-09,36.0,right,backhand,179.0
+69,Francisco Gil,men,M,45.0,1398.0,ES,Córdoba,1996-04-27,29.0,right,drive,185.0
+70,Javier Barahona,men,M,24.0,2475.0,ES,Madrid,1998-09-17,27.0,left,drive,179.0
+71,Javier Garcia,men,M,23.0,2500.0,ES,Murcia,2000-12-09,25.0,right,backhand,177.0
+72,Lucas Campagnolo,men,M,28.0,2280.0,BR,Alegrete,1995-06-13,30.0,right,drive,179.0
+73,Maxi Sanchez,men,M,51.0,1293.0,AR,Villa Mercedes,1986-12-15,39.0,right,backhand,183.0
+74,Ignacio Piotto,men,M,55.0,1169.0,AR,Concaran San Luis,2002-03-06,23.0,right,backhand,176.0
+75,Mario Del Castillo,men,M,69.0,980.0,ES,Sevilla,1997-12-20,28.0,right,backhand,174.0
+76,Lucas Bergamini,men,M,13.0,4550.0,BR,Bento Gonçalves,1997-08-18,28.0,right,drive,165.0
+77,Francisco Navarro,men,M,9.0,6115.0,ES,Sevilla,1989-02-10,36.0,right,backhand,181.0
+78,Momo Gonzalez,men,M,15.0,4350.0,ES,Antequera,1997-02-21,28.0,right,backhand,180.0
+79,Jon Sanz,men,M,11.0,5125.0,ES,Pamplona,2000-09-25,25.0,left,drive,175.0
+80,Nicholas Agritelley,men,M,416.0,75.0,US,,1995-03-03,30.0,,,
+81,Jairo Bautista,men,M,30.0,2201.0,ES,Málaga,2001-07-11,24.0,right,backhand,190.0
+82,Francisco Guerrero,men,M,14.0,4410.0,ES,Málaga,2003-07-30,22.0,right,drive,176.0
+83,Pablo Cardona,men,M,25.0,2400.0,ES,Mérida,2004-11-03,21.0,left,drive,188.0
+84,Leo Augsburger,men,M,10.0,5155.0,AR,Posadas Misiones,2004-08-11,21.0,right,backhand,190.0
+85,Jaime Munoz,men,M,166.0,328.0,ES,Madrid,1999-06-14,26.0,right,drive,183.0
+86,Nacho Vilariño,men,M,,,ES,,,,right,,
+87,Franco Stupaczuk,men,M,5.0,7905.0,AR,Chaco,1996-03-25,29.0,right,backhand,180.0
+88,Juan Lebron,men,M,6.0,7845.0,ES,Puerto de Santa María,1995-01-31,31.0,right,drive,184.0
+89,Miguel Yanguas,men,M,7.0,6322.0,ES,Málaga,2002-03-18,23.0,right,drive,189.0
+90,Jorge Nieto,men,M,7.0,6322.0,ES,Madrid,1998-12-18,27.0,right,backhand,175.0
+91,Jose Rico,men,M,102.0,578.0,ES,Valencia,1995-09-21,30.0,right,drive,176.0
+92,Agustin Gutierrez,men,M,86.0,839.0,AR,San Luis,1998-01-07,28.0,right,backhand,175.0
+93,Tino Libaak,men,M,44.0,1447.0,AR,Villa Mercedes,2005-08-09,20.0,right,drive,184.0
+94,Juan Tello,men,M,17.0,3330.0,AR,Córdoba,1995-02-01,31.0,right,backhand,185.0
+95,Javier Leal,men,M,16.0,3665.0,ES,Puerto de Santa María,2003-07-28,22.0,right,backhand,175.0
+96,Sanyo Gutierrez,men,M,31.0,2148.0,AR,San Luis,1984-06-15,41.0,right,drive,177.0
+97,Gonzalo Rubio,men,M,42.0,1461.0,ES,Sevilla,1991-02-22,34.0,left,drive,183.0
+98,Pablo Lijo,men,M,46.0,1390.0,ES,Sta. Uxía de Ribeira,1991-07-06,34.0,right,backhand,185.0
+99,Miguel Benitez,men,M,153.0,368.0,ES,Puerto de Santa María,1996-08-18,29.0,right,backhand,190.0
+100,Javier Martinez,men,M,68.0,982.0,ES,Valladolid,1996-11-18,29.0,right,backhand,173.0
+101,Edu Alonso,men,M,18.0,2955.0,ES,Valencia,2001-01-08,25.0,right,drive,180.0
+102,Alejandro Arroyo,men,M,26.0,2354.0,ES,Valencia,2001-10-25,24.0,right,backhand,188.0
+103,Martin Di Nenno,men,M,12.0,5110.0,AR,Ezeiza,1997-03-18,28.0,right,drive,175.0
+104,Javier Garrido,men,M,22.0,2528.0,ES,Córdoba,2000-10-26,25.0,right,backhand,184.0
+105,Jesus Moya,men,M,93.0,728.0,ES,Melilla,2000-04-28,25.0,right,backhand,181.0
+106,Javier Rico,men,M,114.0,495.0,ES,Valencia,1998-05-15,27.0,left,drive,167.0
+107,Federico Mouriño,men,M,79.0,928.0,AR,San Martín de los Andes,1999-10-05,26.0,right,drive,175.0
+108,Antonio Fernandez,men,M,62.0,1042.0,ES,Badajoz,1992-08-16,33.0,right,backhand,180.0
+109,Javier Ruiz,men,M,38.0,1518.0,ES,Granada,1987-06-17,38.0,right,backhand,183.0
+110,Jose Antonio Diestro,men,M,33.0,1935.0,ES,Badajoz,1989-09-01,36.0,left,drive,183.0
+111,Alex Ruiz,men,M,21.0,2570.0,ES,Málaga,1994-06-12,31.0,left,drive,187.0
+112,Alex Chozas,men,M,29.0,2252.0,AR,Hurlingham,2003-07-18,22.0,right,backhand,186.0
+113,Alvaro Cepero,men,M,50.0,1345.0,ES,San Fernando,1991-04-26,34.0,right,drive,167.0
+114,Federico Chingotto,men,M,3.0,17320.0,AR,Buenos aires,1997-04-13,28.0,right,drive,170.0
+115,Alejandro Galan,men,M,3.0,17320.0,ES,Madrid,1996-05-15,29.0,right,backhand,186.0
+116,Roberto Belmont Pastor,men,M,111.0,506.0,ES,Madrid,2003-04-27,22.0,,backhand,173.0
+117,Victor Tur Checa,men,M,148.0,375.0,ES,Ibiza,2004-02-21,21.0,,backhand,177.0
+118,Youssef Hossam,men,M,145.0,382.0,EG,Giza,1998-06-03,27.0,,backhand,
+119,Julian Lacamoire,men,M,143.0,384.0,AR,Lanus,2004-04-04,21.0,,drive,176.0
+120,Julien Seurin,men,M,168.0,324.0,FR,Né à Melun,1997-05-12,28.0,,drive,185.0
+121,Philemon Raichman,men,M,190.0,274.0,FR,París,2000-05-11,25.0,,drive,185.0
+122,Clement Geens,men,M,92.0,744.0,BE,Uccle,1996-03-11,29.0,right,backhand,180.0
+123,Alejandro Jerez Carnero,men,M,95.0,696.0,ES,Málaga,2005-10-05,20.0,left,drive,186.0
+124,Sten Richters,men,M,123.0,453.0,NL,Zoetermeer,1999-04-16,26.0,,backhand,186.0
+125,Bram Meijer,men,M,273.0,148.0,NL,Almelo - Hol,1994-10-13,31.0,,drive,195.0
+126,Manuel Aragon Herrera,men,M,117.0,485.0,ES,Campillos,2006-07-05,19.0,,backhand,188.0
+127,Facundo Dehnike,men,M,171.0,323.0,PY,Hohenau,2008-08-21,17.0,right,drive,164.0
+128,Nacho Moragues Moltò,men,M,,,ES,,,,,,
+129,Marc Sintes Villalonga,men,M,64.0,1003.0,ES,Mahón,2006-04-17,19.0,right,drive,180.0
+130,Gustavo Nunes,men,M,138.0,400.0,PT,Aveiro,2006-10-28,19.0,right,backhand,191.0
+131,Miguel Angel Solbes,men,M,151.0,372.0,ES,Villajoyosa,1988-03-16,37.0,left,drive,186.0
+132,Adrian Naranjo Martinez,men,M,172.0,322.0,ES,Valencia,2006-10-31,19.0,,drive,180.0
+133,Christian Fuster,men,M,147.0,379.0,ES,Villajoyosa,1989-08-25,36.0,,backhand,190.0
+134,Emiliano Martin Iriart,men,M,344.0,100.0,IT,Lobería,1994-09-20,31.0,,backhand,186.0
+135,Mauro Agustin Salandro,men,M,344.0,100.0,IT,San Miguel de Tucumán,1995-09-04,30.0,,drive,167.0
+136,Teo Gamondi,men,M,394.0,83.0,IT,Olavarria,2006-01-24,20.0,right,backhand,183.0
+137,Joel Olivera Palos,men,M,193.0,267.0,ES,Barcelona,2004-10-07,21.0,,drive,186.0
+138,Jaume Romera Barcelo,men,M,98.0,655.0,ES,Palma de Mallorca,2005-06-17,20.0,,backhand,184.0
+139,Simone Cremona,men,M,94.0,720.0,IT,Codogno,1987-09-14,38.0,,drive,181.0
+140,Simon Vasquez,men,M,96.0,694.0,SE,Angelholm,1992-12-21,33.0,,drive,175.0
+141,Adam Axelsson,men,M,89.0,810.0,SE,Smalandsstenar,2005-08-27,20.0,right,backhand,200.0
+142,Jaime Fermosell Delgado,men,M,666.0,32.0,ES,Madrid,1997-12-06,28.0,,backhand,178.0
+143,Jose Pablo Padilla,men,M,224.0,220.0,MX,Ciudad de Mexico,2005-06-17,20.0,,backhand,185.0
+144,Pablo Reina Ambel,men,M,222.0,222.0,ES,Granada,2006-06-09,19.0,,backhand,187.0
+145,Antonio Varo Ramos,men,M,203.0,249.0,ES,Marbella,2003-05-23,22.0,,backhand,180.0
+146,Andres Fdz Lancha,men,M,58.0,1104.0,ES,Madrid,2005-03-02,20.0,right,backhand,192.0
+147,Rodrigo Coello Manso,men,M,116.0,487.0,ES,Valladolid,2004-05-05,21.0,,drive,181.0
+148,Francisco Cabeza Teres,men,M,39.0,1507.0,ES,Marbella,2007-12-05,18.0,right,drive,180.0
+149,Diego Garcia Garcia,men,M,47.0,1379.0,ES,La Linea de la Concepción,2006-04-02,19.0,right,backhand,190.0
+150,Aris Patiniotis,men,M,71.0,968.0,IT,Mar del Plata,1991-11-12,34.0,right,drive,175.0
+151,David Gala,men,M,35.0,1736.0,ES,Madrid,2006-02-06,20.0,right,backhand,182.0
+152,Luciano Capra,men,M,99.0,596.0,AR,Quilmes,1993-09-16,32.0,left,drive,184.0
+153,Juanlu Esbri,men,M,27.0,2292.0,ES,Castellón de la Plana,2001-01-22,25.0,right,backhand,182.0
+154,Luis Hernandez,men,M,57.0,1138.0,ES,Cuenca,1999-08-03,26.0,right,backhand,176.0
+155,Inigo Jofre,men,M,32.0,1941.0,AE,Santa Cruz de Tenerife,2000-08-13,25.0,right,backhand,185.0
+156,Ramiro Valenzuela,men,M,85.0,848.0,AR,Capital Federal,2005-01-23,21.0,right,backhand,180.0
+157,Pol Hernandez,men,M,40.0,1506.0,ES,Granollers,2004-07-14,21.0,right,drive,172.0
+158,Anton Sans,men,M,78.0,931.0,ES,Tarragona,1995-09-29,30.0,right,drive,188.0
+159,Marc Quilez,men,M,80.0,911.0,ES,Barcelona,1995-09-22,30.0,right,backhand,192.0
+160,Ignacio Sager,men,M,56.0,1145.0,ES,Malabrigo,1997-08-28,28.0,right,backhand,198.0
+161,Juan Cruz Belluati,men,M,70.0,975.0,AR,Buenos Aires,1993-10-20,32.0,left,drive,176.0
+162,Mario Huete,men,M,73.0,962.0,ES,Madrid,1993-12-16,32.0,right,backhand,183.0
+163,Enrique Goenaga,men,M,61.0,1060.0,ES,Palma de Mallorca,2002-01-22,24.0,right,drive,180.0
+164,Teodoro Zapata,men,M,80.0,911.0,ES,Mérida,1995-04-10,30.0,right,backhand,178.0
+165,Miguel Deus,men,M,48.0,1367.0,PT,Lisboa,1993-04-06,32.0,right,drive,180.0
+166,Nuno Deus,men,M,48.0,1367.0,PT,Lisboa,1995-05-07,30.0,right,backhand,184.0
+167,Henrique Barbosa,men,M,229.0,212.0,PT,Aveiro,2000-09-09,25.0,,drive,174.0
+168,Alejandro Caton Calvo,men,M,421.0,74.0,ES,Valladolid,2003-12-30,22.0,,backhand,178.0
+169,Alberto Garcia Trabanco,men,M,141.0,394.0,ES,Gijón,2005-09-26,20.0,,drive,186.0
+170,Pablo Marqués Gonzalez,men,M,814.0,22.0,ES,,1991-11-13,34.0,,,
+171,Miguel Melero Bernal,men,M,136.0,401.0,ES,Madrid,1999-03-03,26.0,,drive,178.0
+172,Karlos Rodriguez Vidal,men,M,219.0,224.0,ES,Málaga,1995-02-16,30.0,,drive,173.0
+173,Menno Nolten,men,M,175.0,315.0,NL,Oudkarspel,2000-11-14,25.0,,backhand,195.0
+174,Thomas Vanbauce,men,M,273.0,148.0,FR,Maubeuge,1996-12-08,29.0,,backhand,187.0
+175,Simon Wagner,men,M,540.0,48.0,FR,,2003-08-02,22.0,,,
+176,Pablo Pastor Landaburu,men,M,288.0,137.0,ES,Granada,1999-11-14,26.0,,drive,192.0
+177,Samuel Rivas Garcia,men,M,215.0,230.0,ES,Salamanca,2008-11-16,17.0,,drive,175.0
+178,Matteo Platania,men,M,305.0,124.0,IT,Agrigento,2006-12-08,19.0,,backhand,
+179,Matteo Sargolini,men,M,245.0,188.0,IT,Civitavecchia,2007-11-22,18.0,,backhand,
+180,Mariano Agustin Gonzalez San Martin,men,M,104.0,567.0,PY,Encarnación,2007-10-16,18.0,,backhand,187.0
+181,Juan Zamora Perez,men,M,105.0,565.0,ES,Osuna,2008-06-09,17.0,,backhand,166.0
+182,Alvaro Lopez Campos,men,M,384.0,86.0,ES,Gijón,2004-11-15,21.0,,,168.0
+183,Marc Lupon Martinez,men,M,276.0,147.0,ES,,2006-10-04,19.0,,,
+184,Julian Prins,men,M,133.0,414.0,NL,Breda,2000-02-07,26.0,,backhand,
+185,Youp De Kroon,men,M,125.0,451.0,NL,Breda,2004-10-18,21.0,,drive,188.0
+186,Abdulla Alhijji,men,M,430.0,69.0,QA,Doha,1990-01-25,36.0,,backhand,177.0
+187,Mohammed Saadon Alkuwari,men,M,360.0,93.0,QA,Doha,1983-07-21,42.0,,backhand,182.0
+188,Daniele Cattaneo,men,M,232.0,207.0,IT,Vimercate,1989-09-10,36.0,,backhand,187.0
+189,Albin Olsson,men,M,143.0,384.0,SE,Eskilstuna,2002-02-26,23.0,,drive,201.0
+190,Douglas Rutgersson,men,M,232.0,207.0,SE,Helsingborg,2002-03-02,23.0,,drive,188.0
+191,Sergio Arias Aznar,men,M,206.0,245.0,ES,Murcia,2004-05-02,21.0,,backhand,188.0
+192,Diogo Jesus,men,M,182.0,290.0,PT,Lisbon,1998-09-28,27.0,,drive,175.0
+193,Simone Iacovino,men,M,115.0,489.0,IT,Roma,2002-02-11,23.0,,backhand,183.0
+194,Lorenzo Di Giovanni,men,M,127.0,441.0,IT,Chieti,1987-12-25,38.0,,backhand,190.0
+195,Ramiro Moyano,men,M,112.0,505.0,AR,La Plata,1989-10-25,36.0,right,backhand,185.0
+196,Jose Jimenez,men,M,36.0,1591.0,ES,Granada,2004-02-21,21.0,left,drive,180.0
+197,Álvaro Melendez Amaya,men,M,87.0,838.0,ES,Sevilla,2000-03-22,25.0,,drive,175.0
+198,Daniel Santigosa,men,M,66.0,1000.0,ES,Madrid,2004-02-16,21.0,right,drive,180.0
+199,Pablo Garcia Rodrigo,men,M,37.0,1580.0,ES,Madrid,2003-01-23,23.0,right,drive,188.0
+200,Arnau Ayats,men,M,106.0,557.0,AE,Vic,2000-03-07,25.0,right,backhand,185.0
+201,Javier Valdes,men,M,84.0,853.0,CL,Santiago de Chile,1996-06-27,29.0,right,drive,175.0
+202,Emilio Sanchez,men,M,77.0,940.0,ES,Madrid,2003-03-27,22.0,right,backhand,185.0
+203,Toni Bueno,men,M,206.0,245.0,ES,Barcelona,1990-08-23,35.0,right,drive,178.0
+204,Rafael Mendez,men,M,110.0,521.0,ES,Jerez de la Frontera,1992-01-22,34.0,right,backhand,197.0
+205,Mario Ortega,men,M,75.0,947.0,ES,Massamagrell,2002-11-11,23.0,right,drive,175.0
+206,Carlos Marti,men,M,249.0,184.0,ES,Bocairent,1996-02-29,29.0,right,backhand,185.0
+207,Thomas Leygue,men,M,165.0,329.0,FR,Aix-en-provence,2001-12-04,24.0,right,drive,188.0
+208,Maxime Deloyer,men,M,814.0,22.0,BE,,2003-08-20,22.0,right,backhand,176.0
+209,Isaac Huysveld,men,M,236.0,203.0,BE,Veurne,2006-02-14,19.0,right,backhand,
+210,Guillermo Collado,men,M,41.0,1463.0,ES,Madrid,2005-05-05,20.0,right,backhand,180.0
+211,Salvador Oria,men,M,90.0,807.0,ES,Valencia,1996-10-01,29.0,right,drive,180.0
+212,Martin Abud,men,M,142.0,387.0,PY,,2003-01-31,23.0,,,
+227,Pablo Lijó,men,M,46.0,1390.0,ES,Sta. Uxía de Ribeira,1991-07-06,34.0,,backhand,185.0
+228,Alvaro Montiel Caruso,men,M,83.0,878.0,IT,Barcelona,2005-02-04,21.0,right,backhand,180.0
+229,Leonardo Yob,men,M,234.0,204.0,AR,San Francisco,2002-05-30,23.0,,drive,190.0
+232,Marco Cassetta,men,M,74.0,953.0,IT,Torino,1999-05-27,26.0,right,backhand,182.0
+233,Jose Luis Gonzalez,men,M,60.0,1078.0,ES,Sevilla,1997-12-14,28.0,left,drive,180.0
+234,Álvaro Mélendez Amaya,men,M,87.0,838.0,ES,Sevilla,2000-03-22,25.0,,drive,175.0
+235,Daniel Windahl,men,M,187.0,279.0,SE,Helsingborg,1996-07-20,29.0,right,backhand,190.0
+236,Jose Solano Marmolejo,men,M,202.0,254.0,ES,Málaga,2000-06-02,25.0,right,drive,170.0
+237,Miguel Semmler,men,M,,,ES,,,,right,,
+238,Raul Marcos,men,M,465.0,62.0,ES,Madrid,1992-06-28,33.0,left,drive,182.0
+239,Jose David Sanchez,men,M,307.0,122.0,ES,Murcia,1994-12-03,31.0,,backhand,178.0
+240,Pablo Lima,men,M,2732.0,,BR,Porto Alegre,1986-10-11,39.0,right,drive,180.0
+242,Fernando Belasteguin,men,M,2732.0,,AR,Pehuajo,1979-05-19,46.0,right,backhand,180.0
+244,Jorge Ruiz,men,M,814.0,22.0,ES,Torrelavega,1992-12-12,33.0,right,backhand,174.0
+245,Martin Sanchez Piñeiro,men,M,2732.0,,ES,A Coruña,1992-10-26,33.0,,backhand,184.0
+246,Antonio Luque,men,M,168.0,324.0,ES,Jaen,1987-09-09,38.0,right,backhand,184.0
+247,Cristian German Gutierrez,men,M,208.0,243.0,AR,San Luis,1990-12-15,35.0,right,drive,170.0
+248,Juan Martin Diaz Martinez,men,M,2732.0,,ES,Mar del Plata,1975-11-28,50.0,,drive,184.0
+249,Agustin Gomez Silingo,men,M,2732.0,,AR,La Plata,1983-08-01,42.0,,backhand,186.0
+250,Pedro Melendez Amaya,men,M,113.0,498.0,ES,Sevilla,1997-06-19,28.0,right,drive,179.0
+251,Diego Gil,men,M,122.0,455.0,ES,Las Palmas,1998-03-27,27.0,right,drive,187.0
+252,Maxi Sanchez Blasco,men,M,43.0,1449.0,AR,Deaireaux,2002-09-06,23.0,right,backhand,186.0
+253,Santiago Rolla,men,M,246.0,187.0,AR,Junin,2001-06-13,24.0,,drive,176.0
+254,Ferran Insa Sotillo,men,M,101.0,586.0,ES,Granollers,1994-07-21,31.0,,backhand,179.0
+255,Juan Ignacio De Pascual,men,M,103.0,571.0,AR,Pergamino,2004-12-09,21.0,left,drive,186.0
+256,Facundo Rodrigo Luis Lopez,men,M,158.0,352.0,AR,Misiones,2004-03-24,21.0,,backhand,190.0
+257,Ruben Rivera,men,M,2732.0,,ES,Barcelona,1990-07-29,35.0,,backhand,182.0
+258,Adria Mercadal,men,M,814.0,22.0,ES,Barcelona,1990-11-19,35.0,right,drive,173.0
+259,Sergio Alba,men,M,320.0,115.0,ES,Guadalajara,1990-05-26,35.0,right,backhand,178.0
+260,Mauricio A Rivero,men,M,531.0,49.0,AR,La Plata,2001-12-06,24.0,,drive,175.0
+261,Francisco Britos,men,M,445.0,65.0,AR,Chivilcoy,2001-12-27,24.0,,backhand,174.0
+262,Relis Ferreyra,men,M,518.0,51.0,AR,Chaco,1999-05-07,26.0,,drive,174.0
+263,Juan Manuel Restivo,men,M,2732.0,,IT,La Plata,1988-06-11,37.0,,backhand,180.0
+264,Sergio Icardo,men,M,180.0,301.0,ES,Valencia,1989-10-04,36.0,,drive,178.0
+265,Benjamin Tison,men,M,311.0,120.0,FR,,1989-02-02,37.0,left,,
+266,Aitor Garcia,men,M,436.0,68.0,ES,Gerona,1994-09-10,31.0,,backhand,181.0
+267,Victor Mena,men,M,152.0,370.0,ES,Madrid,1999-06-24,26.0,right,backhand,194.0
+269,Marcos Cordoba,men,M,148.0,375.0,ES,Tenerife,2004-12-21,21.0,right,drive,184.0
+270,Miguel Gonzalez,men,M,148.0,375.0,ES,Melilla,1997-05-21,28.0,,backhand,184.0
+271,Roberto Rodriguez Alonso,men,M,842.0,21.0,ES,Caracas,1985-11-25,40.0,,drive,172.0
+272,Eduardo Andres Lopez Figuera,men,M,2732.0,,VE,,1996-02-09,29.0,,,
+273,Francisco Miguel Ramirez Navas,men,M,,,ES,,,,,,
+274,Andres Devletian,men,M,2890.0,,VE,,1992-03-06,33.0,,,
+275,Diego Gonzalez Almedo,men,M,2890.0,,VE,,2001-07-02,24.0,,,
+276,Bram Coene,men,M,874.0,20.0,BE,,1992-12-13,33.0,right,,185.0
+277,Joris De Weerdt,men,M,1028.0,14.0,BE,Kontich,1987-07-05,38.0,left,drive,
+278,Dylan Demian Cuello,men,M,221.0,223.0,AR,El Trebol Santa fe,2000-12-11,25.0,,backhand,187.0
+279,Federico Chiostri,men,M,176.0,308.0,AR,San Nicolas de los Arroyos,1999-02-22,26.0,right,drive,166.0
+280,Bastien Blanque,men,M,127.0,441.0,FR,Toulouse,1995-05-10,30.0,,backhand,180.0
+281,Dylan Guichard,men,M,130.0,428.0,FR,Rennes,2000-06-05,25.0,,drive,
+282,Adrian Marques Berdonce,men,M,106.0,557.0,ES,Palma de Mallorca,2002-06-20,23.0,right,drive,175.0
+283,Riccardo Sinicropi,men,M,294.0,134.0,IT,Genova,1990-09-12,35.0,,drive,178.0
+284,Flavio Abbate,men,M,76.0,943.0,IT,Siracusa,2004-07-31,21.0,,drive,184.0
+285,Giulio Graziotti,men,M,132.0,419.0,IT,Roma,1998-08-28,27.0,,backhand,
+286,Juan Pablo Andrada,men,M,565.0,44.0,AR,Villa Mercedes,2003-08-15,22.0,,drive,185.0
+287,Max Sjovall,men,M,386.0,85.0,FI,Turku,1986-07-10,39.0,,drive,191.0
+288,Saska Huttunen,men,M,1394.0,8.0,FI,,1994-05-12,31.0,,,
+289,Pyry Hyrkkönen,men,M,1394.0,8.0,FI,Tampere,1996-11-24,29.0,,drive,180.0
+290,Antonio Luque,men,M,168.0,324.0,PT,Jaen,1987-09-09,38.0,right,backhand,184.0
+291,Gerard Arnaldos Serrano,men,M,197.0,258.0,ES,Barcelona,1997-12-31,28.0,,drive,184.0
+292,Johan Bergeron,men,M,124.0,452.0,FR,Lyon,1993-06-12,32.0,,backhand,
+293,Fran Ramirez Navas,men,M,131.0,427.0,ES,Sevilla,1991-07-31,34.0,right,backhand,174.0
+294,Georges Wakim,men,M,240.0,198.0,EG,,1994-11-14,31.0,,drive,
+295,Alejandro Tasa Van Beek,men,M,814.0,22.0,ES,Benidorm,1999-01-09,27.0,,backhand,173.0
+296,Maxime Moreau,men,M,2855.0,1.0,FR,Niza,1987-07-16,38.0,,backhand,183.0
+297,Khalid Saadon Alkuwari,men,M,1175.0,11.0,QA,Doha,1988-12-07,37.0,,backhand,177.0
+298,Mohamed Aboulkassem,men,M,747.0,26.0,EG,,1998-01-19,28.0,,backhand,
+299,Carlos Perez Cabeza,men,M,280.0,144.0,ES,Málaga,1996-06-27,29.0,,drive,191.0
+300,Adrian Ronco Lopez,men,M,184.0,286.0,ES,Madrid,1997-10-31,28.0,,drive,179.0
+301,Pedro Araujo,men,M,159.0,351.0,PT,Lisboa,2000-03-11,25.0,,backhand,180.0
+305,Diego García,men,M,1712.0,5.0,ES,,2006-01-13,20.0,,,
+307,Rayan Abdulla,men,M,,,QA,,,,,,
+308,Ali Alsaygh,men,M,2732.0,,QA,,1996-02-12,29.0,,,
+309,Manuel Rocafort Lores,men,M,1394.0,8.0,ES,Marbella,1997-03-03,28.0,,drive,170.0
+310,Cayetano Rocafort Lores,men,M,1394.0,8.0,ES,Málaga,1994-10-04,31.0,,backhand,175.0
+311,Mohammed Abdulla,men,M,2732.0,,QA,Doha,1985-05-23,40.0,,backhand,180.0
+313,Mohammed Al Khanji,men,M,518.0,51.0,QA,Doha,1994-08-09,31.0,,,
+314,Jabor Al-Mutawa,men,M,968.0,16.0,QA,,1994-05-27,31.0,,,178.0
+315,Ricardo Martinez,men,M,482.0,59.0,ES,Yecla,1988-06-24,37.0,,backhand,182.0
+316,Aday Santana,men,M,2732.0,,ES,Las Palmas,1978-05-04,47.0,,backhand,179.0
+317,Cristian Jensen Sirvent,men,M,2732.0,,IT,Mar del Plata,2003-09-17,22.0,,backhand,160.0
+318,Jeremy Scatena,men,M,998.0,15.0,FR,Cannes,1985-04-16,40.0,,backhand,184.0
+319,Jerome Inzerillo,men,M,1712.0,5.0,FR,Marseille,1990-02-15,35.0,,drive,173.0
+320,Pedro Vera,men,M,1611.0,6.0,ES,Murcia,1993-12-04,32.0,,drive,184.0
+321,Jose Carlos Gaspar,men,M,2732.0,,ES,Málaga,1997-08-28,28.0,,drive,185.0
+322,Jose Maria Mouliaa,men,M,2732.0,,ES,Lorca,1989-01-10,37.0,right,backhand,188.0
+323,Raul Peralta Corredor,men,M,874.0,20.0,ES,Villena,2005-02-16,20.0,,backhand,170.0
+324,Diego Pascual Simon Tomas,men,M,618.0,37.0,ES,Murcia,2002-09-18,23.0,,backhand,176.0
+325,Martin Ariel Andornino,men,M,2126.0,3.0,IT,Mar del Plata,1996-09-18,29.0,,drive,170.0
+326,Alvaro Montiel Caruso,men,M,83.0,878.0,ES,Barcelona,2005-02-04,21.0,right,backhand,180.0
+327,Felipe Calleja,men,M,161.0,340.0,AR,La Paz,2001-03-10,24.0,,drive,185.0
+328,Matias Emmanuel Del Moral,men,M,453.0,64.0,AR,La Rioja,1998-08-08,27.0,,backhand,185.0
+329,Santiago Frugoni,men,M,2732.0,,AR,,1995-05-21,30.0,,,
+330,Julian Di Bene,men,M,2732.0,,IT,Cruz del eje,1999-07-10,26.0,,backhand,178.0
+331,Matias Damian Gonzalez,men,M,733.0,27.0,AR,Buenos Aires,1997-12-06,28.0,,drive,174.0
+332,Luciano Puppo,men,M,191.0,269.0,AR,Buenos Aires,2001-09-03,24.0,,backhand,174.0
+333,Adrien Maigret,men,M,400.0,82.0,FR,París,1987-06-24,38.0,,backhand,190.0
+334,Pepe Aliaga,men,M,119.0,476.0,ES,Ecija,2004-03-01,21.0,,backhand,190.0
+335,Francisco Gomes,men,M,358.0,94.0,BR,Porto Alegre,1981-06-07,44.0,,drive,180.0
+336,Abdullah Alabdullah,men,M,814.0,22.0,SA,,2002-09-04,23.0,,,
+337,Faisal Alrebdi,men,M,814.0,22.0,SA,,1999-10-17,26.0,,,
+338,Omar Althagib,men,M,2855.0,1.0,SA,,1983-12-15,42.0,,,
+339,Abdulaziz Redha,men,M,1078.0,13.0,KW,,1998-02-25,27.0,,,
+340,Sattam Alshahrani,men,M,2085.0,4.0,SA,,1997-12-07,28.0,,,
+341,Manuel Yuste Apolinar,men,M,2732.0,,ES,Sevilla,1996-10-11,29.0,,drive,185.0
+342,Rayan Abdulla,men,M,,,QA,,,,,,
+343,Amr Hassan,men,M,,,QA,,,,,,
+344,Abdulaziz Saadon Alkuwari,men,M,2732.0,,QA,Doha,1979-11-13,46.0,,drive,179.0
+345,Carlos Luna,men,M,2732.0,,EC,Riobamba,1989-08-08,36.0,,drive,180.0
+346,Javier Rodriguez Marquez,men,M,618.0,37.0,ES,Cáceres,1998-01-31,28.0,,backhand,179.0
+347,Gonzalo Perez Arbona,men,M,353.0,96.0,ES,Valencia,1998-07-04,27.0,,drive,190.0
+348,Ignacio Andres Lehyt Sances,men,M,777.0,24.0,CL,Santiago,1991-12-19,34.0,,drive,175.0
+349,Sebastian Muñoz Campos,men,M,666.0,32.0,CL,Gran Santiago,1996-01-24,30.0,,,
+350,Carlos Zarhi,men,M,2732.0,,CL,Santiago,1986-05-05,39.0,,,193.0
+351,Michele Bruno,men,M,2732.0,,IT,Roma,1989-01-14,37.0,,backhand,188.0
+352,Jose Roman Martinez Sanchis,men,M,219.0,224.0,ES,Almansa,2003-06-05,22.0,,backhand,182.0
+353,Pablo Castillo Valverde,men,M,189.0,276.0,ES,Melilla,1999-11-06,26.0,,drive,175.0
+354,Afonso Fazendeiro,men,M,179.0,302.0,PT,Lisboa,1998-07-18,27.0,,backhand,181.0
+355,Roger Aromi Siquier,men,M,268.0,153.0,ES,Mataró,1997-04-29,28.0,,drive,180.0
+356,Francisco Alameda Robles,men,M,2890.0,,ES,Málaga,1992-08-10,33.0,,drive,182.0
+357,Luis Pozo Carballo,men,M,2890.0,,ES,Las Palmas de Gran Canaria,1999-04-11,26.0,,backhand,178.0
+358,Bart Van Opstal,men,M,204.0,247.0,NL,Amsterdam,1995-02-19,30.0,,drive,179.0
+359,Maxime Joris,men,M,192.0,268.0,FR,Bordeaux,2001-03-26,24.0,,drive,
+360,Javier Bravo Alvarez,men,M,1712.0,5.0,ES,Málaga,1990-01-15,36.0,,drive,169.0
+361,Fares Al Janahi,men,M,540.0,48.0,AE,Dubai,1999-01-08,27.0,,drive,
+362,Sergio Icardo,men,M,180.0,301.0,AE,Valencia,1989-10-04,36.0,,drive,178.0
+363,Francisco Jurado Sosa,men,M,234.0,204.0,AE,El Coronil,1996-12-10,29.0,,backhand,184.0
+364,Javier Navarro Perez,men,M,690.0,30.0,ES,Valencia,2001-05-03,24.0,,drive,176.0
+365,Abdulrahman Alawadhi,men,M,635.0,35.0,KW,,1992-02-17,33.0,,,
+366,Facundo Erguy,men,M,367.0,91.0,AR,Buenos Aires,1997-04-02,28.0,,backhand,175.0
+367,Candido Jorge Alfaro,men,M,195.0,265.0,ES,Las Palmas de Gran Canaria,1995-04-22,30.0,,backhand,185.0
+368,Pablo Francisco Amora Hernandez,men,M,380.0,87.0,MX,Veracruz,1994-09-24,31.0,,backhand,167.0
+369,Abdulrahman Alazzam,men,M,814.0,22.0,SA,,1995-11-30,30.0,,,
+370,Qassem Alobidan,men,M,814.0,22.0,SA,,,,,,
+371,Aaron Segura,men,M,814.0,22.0,US,,2004-12-03,21.0,,,
+372,Matias Segura,men,M,518.0,51.0,US,,1999-01-01,27.0,,,
+373,Joaquin Nicolas Escalona Linz,men,M,251.0,182.0,CL,Punta Arenas,2007-04-02,18.0,,,
+374,Alonso Villavicencio Mancilla,men,M,518.0,51.0,CL,Limache,2008-12-04,17.0,,,
+375,Hassan Adel Waly,men,M,585.0,41.0,QA,,2008-11-25,17.0,,,
+376,Mashari Nawaf,men,M,330.0,111.0,QA,,2007-07-23,18.0,,,
+377,Rashed Nawaf,men,M,355.0,95.0,QA,,2005-06-01,20.0,,,
+378,Federico Alejandro Fleitas,men,M,657.0,33.0,AR,Formosa,1996-03-07,29.0,,drive,
+379,Juan Pablo Dametto,men,M,200.0,256.0,AR,Cordoba,1999-03-27,26.0,,,173.0
+380,Santiago Jose Pineda Cabello,men,M,121.0,460.0,ES,Sevilla,2006-11-15,19.0,,drive,181.0
+381,Daniel Luna Peinado,men,M,355.0,95.0,ES,Palma de Mallorca,2002-04-16,23.0,,backhand,184.0
+382,Renzo Gabriel Nuñez,men,M,157.0,353.0,AR,Resistencia,2006-07-30,19.0,,backhand,180.0
+383,Kevin Uriel Kviatkovski,men,M,210.0,242.0,AR,Chaco,2005-01-11,21.0,,,178.0
+384,Tomas Luco,men,M,585.0,41.0,AR,Villa Mercedes,2002-09-06,23.0,,backhand,180.0
+385,Naim Horacio Diaz,men,M,500.0,55.0,AR,La Rioja,2008-01-11,18.0,,,168.0
+386,Antonio Graupera,men,M,318.0,116.0,AR,,2008-10-20,17.0,,,
+387,Alfonso Sanchez Arriaga,men,M,174.0,320.0,ES,,1998-08-10,27.0,,,
+388,Ariana Sanchez Fallada,women,F,3.0,14720.0,ES,Reus,1997-07-19,28.0,,backhand,165.0
+389,Paula Josemaria Martin,women,F,3.0,14720.0,ES,Moraleja,1996-10-31,29.0,,drive,160.0
+390,Sara Foguer Lapuente,women,F,141.0,231.0,ES,Palma de Mallorca,2008-05-20,17.0,,backhand,156.0
+391,Lucia Micaela Fernandez Lopez,women,F,85.0,541.0,ES,Alicante,2005-06-22,20.0,,backhand,165.0
+392,Alix Collombon,women,F,34.0,1800.0,FR,Lyon,1993-03-17,32.0,,drive,174.0
+393,Araceli Martinez,women,F,31.0,1845.0,ES,Murcia,2000-08-28,25.0,,backhand,162.0
+394,Beatriz Caldera Sanchez,women,F,17.0,3715.0,ES,Valladolid,2001-09-03,24.0,,drive,164.0
+395,Carmen Goenaga Garcia,women,F,17.0,3715.0,ES,Salamanca,2004-02-23,21.0,,backhand,167.0
+396,Jana Montes Cabruja,women,F,56.0,1108.0,ES,Girona,2008-01-04,18.0,,drive,172.0
+397,Marta Arellano Navarro,women,F,66.0,880.0,ES,Madrid,2006-05-20,19.0,,backhand,173.0
+398,Alejandra Alonso De Villa,women,F,12.0,5385.0,ES,Valladolid,2006-05-29,19.0,,backhand,169.0
+399,Claudia Jensen,women,F,11.0,5405.0,AR,Madrid,2005-07-21,20.0,,drive,158.0
+400,Lucia Sainz Pelegri,women,F,21.0,2980.0,ES,Barcelona,1984-10-05,41.0,,drive,173.0
+401,Patricia Llaguno Zielinski,women,F,22.0,2965.0,ES,Cartagena,1985-02-25,40.0,,backhand,167.0
+402,Sara Ruiz Soto,women,F,46.0,1315.0,ES,Santander,1995-08-06,30.0,,drive,160.0
+403,Carla Mesa Salazar,women,F,60.0,971.0,ES,Tenerife,1991-03-24,34.0,,backhand,168.0
+404,Carolina Orsi,women,F,29.0,1960.0,IT,Roma,1991-07-04,34.0,,drive,178.0
+406,Aranzazu Osoro Ulrich,women,F,19.0,3640.0,AR,Parana,1996-06-03,29.0,,drive,166.0
+408,Maria Virginia Riera,women,F,,,AR,,,,,,
+409,Raquel Eugenio Barrera,women,F,24.0,2380.0,ES,Las Palmas de Gran Canaria,2008-01-25,18.0,,backhand,170.0
+410,Andrea Ustero Prieto,women,F,8.0,6625.0,ES,Barcelona,2007-05-12,18.0,,drive,170.0
+411,Sofia Araujo,women,F,7.0,7030.0,PT,Lisboa,1994-11-30,31.0,,backhand,172.0
+412,Claudia Fernandez Sanchez,women,F,5.0,13040.0,ES,Madrid,2006-02-28,19.0,,drive,164.0
+413,Beatriz Gonzalez Fernandez,women,F,5.0,13040.0,ES,Málaga,2001-11-23,24.0,,backhand,174.0
+414,Noa Canovas Paredes,women,F,32.0,1820.0,ES,Barcelona,2004-04-23,21.0,,backhand,163.0
+415,Jimena Velasco Postiguillo,women,F,28.0,2115.0,ES,Segovia,2004-06-19,21.0,,drive,175.0
+416,Jessica Castello Lopez,women,F,23.0,2480.0,ES,Villena,1997-10-29,28.0,,backhand,169.0
+417,Lorena Rufo Ortiz,women,F,26.0,2190.0,ES,Cáceres,2003-08-04,22.0,,backhand,166.0
+418,Lucia Martinez Gomez,women,F,38.0,1650.0,ES,Granada,1991-05-16,34.0,,drive,166.0
+419,Marta Marrero,women,F,63.0,926.0,ES,Las Palmas de Gran Canaria,1983-01-16,43.0,,backhand,173.0
+420,Marta Talavan,women,F,45.0,1470.0,ES,Madrid,1995-04-12,30.0,,drive,163.0
+421,Teresa Navarro lopez-Barajas,women,F,58.0,1064.0,ES,Granada,1988-10-22,37.0,,backhand,170.0
+422,Marta Ortega Gallego,women,F,9.0,6435.0,ES,Madrid,1997-02-14,28.0,,drive,170.0
+423,Tamara Icardo Alcorisa,women,F,10.0,6050.0,ES,Valencia,1995-10-10,30.0,,drive,178.0
+424,Alejandra Salazar Bengoechea,women,F,13.0,5110.0,ES,Madrid,1985-12-31,40.0,,drive,168.0
+426,Maria Eulalia Rodriguez Abajo,women,F,36.0,1690.0,ES,Barcelona,2004-09-26,21.0,,drive,170.0
+427,Carolina Navarro Björk,women,F,57.0,1066.0,SE,Málaga,1976-02-26,49.0,,backhand,165.0
+428,Melania Merino Saez,women,F,41.0,1502.0,ES,Valladolid,1999-04-24,26.0,,drive,172.0
+429,Marina Guinart España,women,F,16.0,4035.0,ES,Castellar del Valles,1996-06-30,29.0,,drive,178.0
+430,Victoria Iglesias Segador,women,F,20.0,3420.0,ES,Sevilla,1994-05-16,31.0,,backhand,176.0
+431,Laura Lujan Rodriguez,women,F,49.0,1250.0,ES,Sevilla,2005-04-24,20.0,,backhand,167.0
+432,Lea Godallier,women,F,61.0,940.0,FR,Papeete,1995-05-09,30.0,,backhand,178.0
+433,Gemma Triay Pons,women,F,1.0,18060.0,ES,Mahón,1992-06-28,33.0,,backhand,173.0
+434,Delfina Brea Senesi,women,F,1.0,18060.0,AR,Buenos Aires,1999-12-05,26.0,,drive,170.0
+435,Marta Marrero Marrero,women,F,,,ES,,,,,,
+436,Marta Barrera De La Fuente,women,F,27.0,2185.0,ES,Cádiz,2004-10-05,21.0,,backhand,169.0
+437,Marta Caparros Maldonado,women,F,30.0,1885.0,ES,Málaga,2001-03-17,24.0,,drive,183.0
+439,Ana Catarina Nogueira,women,F,40.0,1565.0,PT,Oporto,1978-09-20,47.0,,backhand,171.0
+440,Martina Fassio Goyeneche,women,F,25.0,2370.0,AR,Pamplona,2004-04-26,21.0,,backhand,165.0
+441,Raquel Piltcher,women,F,97.0,426.0,BR,Pelotas,1991-06-14,34.0,,drive,165.0
+442,Alicia Blanco Rojo,women,F,153.0,201.0,ES,Medina del Campo,1989-11-17,36.0,,backhand,164.0
+443,Lucia Peralta Exposito,women,F,82.0,555.0,ES,Zaragoza,2006-08-01,19.0,,backhand,172.0
+444,Lorena Vano,women,F,77.0,654.0,IT,Caserta,1999-08-15,26.0,,drive,167.0
+445,Sara Pujals Perez,women,F,114.0,338.0,ES,Berga,1988-01-30,38.0,,backhand,161.0
+446,Daiara Agustina Valenzuela,women,F,84.0,542.0,AR,Picún Leufu,2004-07-18,21.0,,backhand,
+448,Barbara Las Heras,women,F,54.0,1148.0,ES,Madrid,1993-10-07,32.0,,drive,161.0
+449,Giorgia Marchetti,women,F,51.0,1234.0,IT,Roma,1995-01-21,31.0,,backhand,178.0
+450,Lara Arruabarrena,women,F,42.0,1495.0,ES,San Sebastian,1992-03-20,33.0,,drive,165.0
+451,Julieta Evangelina Bidahorria,women,F,39.0,1575.0,AR,Jesús Maria - Cba,1991-12-12,34.0,,backhand,178.0
+452,Maximiliano Arce,men,M,59.0,1085.0,AR,Salta,1998-01-27,28.0,left,drive,175.0
+453,Agueda Perez Ortiz,women,F,43.0,1474.0,ES,Madrid,2007-07-20,18.0,,backhand,167.0
+454,Marta Borrero,women,F,44.0,1472.0,ES,Sevilla,2003-02-09,22.0,,drive,170.0
+455,Sofia Saiz Vallejo,women,F,52.0,1227.0,ES,Palma de Mallorca,2003-03-26,22.0,,backhand,172.0
+456,Marina Lobo,women,F,46.0,1315.0,ES,Alicante,2003-03-06,22.0,,drive,169.0
+457,Nuria Rodriguez,women,F,37.0,1655.0,ES,Sanlucar de Barrameda,1994-12-09,31.0,,backhand,160.0
+458,Enric Sanmarti Beleta,men,M,814.0,22.0,ES,,1982-06-11,43.0,,,
+459,Guillem Figuerola Santiago,men,M,109.0,536.0,ES,Valls,1998-07-30,27.0,,backhand,176.0
+460,Anna Ortiz Gascó,women,F,76.0,697.0,ES,Tarragona,2005-06-17,20.0,,backhand,167.0
+461,Alba Gallardo Salvado,women,F,133.0,254.0,ES,Tarragona,2005-12-04,20.0,,backhand,170.0
+462,Noemi Aguilar Carrillo,women,F,50.0,1244.0,ES,Madrid,2006-08-09,19.0,,backhand,162.0
+463,Julia Polo Bautista,women,F,53.0,1174.0,ES,Rota - Cádiz,1999-01-24,27.0,,backhand,167.0
+464,Letizia Maria Manquillo Alarza,women,F,48.0,1257.0,ES,Madrid,2005-11-26,20.0,,backhand,167.0
+465,Aimar Goñi,men,M,,,ES,,,,right,,
+466,Franco Renato Del Bianco,men,M,,,AR,,,,,,
+467,Rebeca Lopez Lopez,women,F,73.0,733.0,ES,Madrid,2000-11-02,25.0,,drive,157.0
+468,Amanda Lopez Moral,women,F,64.0,918.0,ES,Madrid,2008-01-16,18.0,,backhand,163.0
+469,Martina Calvo Santamaria,women,F,14.0,4745.0,ES,Pamplona,2008-07-05,17.0,,backhand,166.0
+470,Esther Carnicero Martin,women,F,62.0,929.0,ES,Valladolid,1999-11-23,26.0,,backhand,170.0
+471,Franco Renato Dal Bianco,men,M,214.0,231.0,AR,,2000-03-04,25.0,,,
+472,Bastien Blanqué,men,M,127.0,441.0,FR,Toulouse,1995-05-10,30.0,,backhand,180.0
+473,Yoan Boronad,men,M,201.0,255.0,FR,Perpignan,2007-09-12,18.0,,drive,174.0
+474,Timeo Fonteny,men,M,186.0,280.0,FR,Antibes,2007-03-18,18.0,,backhand,178.0
+475,Maxime Forcin,men,M,453.0,64.0,FR,,1989-06-26,36.0,,,
+476,Louise Bahurel,women,F,120.0,320.0,FR,Annecy,2006-05-30,19.0,,,146.0
+477,Lucile Pothier,women,F,184.0,143.0,FR,Aix-les-Bains,1997-05-09,28.0,,drive,167.0
+478,Mónica Gómez Rivas,women,F,70.0,747.0,ES,Madrid,2003-06-18,22.0,,drive,160.0
+479,Carla Touly,women,F,80.0,602.0,FR,Montbrison,1996-08-30,29.0,,backhand,162.0
+480,Lucia Garcia Trella,women,F,59.0,1013.0,ES,Málaga,2004-05-16,21.0,,drive,169.0
+481,Natividad Lopez Diaz,women,F,74.0,730.0,ES,Málaga,1997-08-22,28.0,,backhand,160.0
+483,Sandra Bellver Fructuoso,women,F,65.0,899.0,ES,Barcelona,1991-12-14,34.0,,backhand,167.0
+484,Ariadna Cañellas Rodero,women,F,69.0,759.0,ES,Palma de Mallorca,2002-10-26,23.0,,drive,165.0
+485,Laura Luján Rodríguez,women,F,49.0,1250.0,ES,Sevilla,2005-04-24,20.0,,backhand,167.0
+486,Chiara Pappacena,women,F,132.0,260.0,IT,Roma,1994-07-14,31.0,,drive,171.0
+487,Jessica Ginier Barbier,women,F,184.0,143.0,FR,Lyon,1992-10-21,33.0,,backhand,170.0
+488,Patricia Martinez Fortun,women,F,55.0,1133.0,ES,Zaragoza,2001-09-26,24.0,,drive,167.0
+489,Giulia Dal Pozzo,women,F,67.0,857.0,IT,Borgo Maggiore,2005-02-15,20.0,,drive,168.0
+490,Anna Ortiz Gasco,women,F,76.0,697.0,ES,Tarragona,2005-06-17,20.0,,backhand,167.0
+491,Alba Perez Momha,women,F,75.0,726.0,ES,Málaga,1999-09-18,26.0,,backhand,165.0
+492,Aida Martinez Sanjuan,women,F,71.0,741.0,ES,Muro de alcoy,1993-01-15,33.0,,drive,164.0
+493,Ana Dominguez Gracia,women,F,72.0,738.0,ES,Barcelona,2005-04-23,20.0,,backhand,172.0
+494,Camila Fassio Goyeneche,women,F,68.0,763.0,ES,Pamplona,2007-03-20,18.0,,backhand,
+495,Monica Gomez Rivas,women,F,70.0,747.0,ES,Madrid,2003-06-18,22.0,,drive,160.0
+496,Virginia Riera,women,F,35.0,1716.0,AR,Resistencia,1988-09-27,37.0,,backhand,165.0
+497,Veronica Virseda,women,F,15.0,4190.0,ES,Toledo,1992-07-01,33.0,,backhand,170.0
+498,Claudia Jensen Sirvent,women,F,,,AR,,,,,,
+499,Areej Khalil Fareh,women,F,340.0,48.0,SA,,1998-07-12,27.0,,,
+500,Alanoud Yamani,women,F,330.0,51.0,SA,,1997-11-03,28.0,,,
+501,María Virginia Riera,women,F,,,AR,,,,,,
+502,Coral Alvarez Castro,women,F,179.0,148.0,ES,,1996-02-10,29.0,,,
+503,Cristina Gonzalez Cidoncha,women,F,281.0,71.0,ES,,2001-08-07,24.0,,,
+504,Arantxa Soriano Perez,women,F,130.0,263.0,ES,Utiel,1990-01-24,36.0,,drive,171.0
+505,Luisa Fernanda De La Peña Rosas,women,F,382.0,36.0,MX,,1985-09-09,40.0,,,
+506,Camila Ramme Coellar,women,F,87.0,522.0,MX,Ciudad de México,2001-04-10,24.0,,backhand,157.0
+507,Brittany Dubins,women,F,100.0,406.0,US,Miami,1992-03-03,33.0,,backhand,
+508,Marta Morga Alonso,women,F,308.0,59.0,US,Madrid,1995-02-13,30.0,,,
+509,Kimberley Ahumada Carrasco,women,F,191.0,138.0,CL,,2000-04-25,25.0,,,
+510,Catalina Arancibia,women,F,191.0,138.0,CL,,1987-11-12,38.0,,,
+511,Carmen Castillon Gamez,women,F,165.0,176.0,ES,Málaga,2002-02-04,24.0,,backhand,179.0
+512,Laila El Nimr,women,F,229.0,101.0,EG,,1999-02-17,26.0,,,
+513,Moura Hakim,women,F,219.0,107.0,EG,,1993-02-01,33.0,,,
+514,Fatma Al Nabhani,women,F,298.0,65.0,OM,Muscat,1991-05-20,34.0,,drive,
+515,Maria Portillo Perez,women,F,89.0,494.0,ES,Sevilla,2001-03-29,24.0,,backhand,168.0
+516,Carlotta Casali,women,F,78.0,627.0,IT,Roma,1993-01-30,33.0,,backhand,170.0
+517,An-Sophie Mestach,women,F,520.0,22.0,BE,Wilrijk,1994-03-07,31.0,,backhand,170.0
+518,Helena Wyckaert,women,F,266.0,78.0,BE,Wilrijk,1993-11-21,32.0,,backhand,159.0
+519,Maria Florencia Ernandorena,women,F,382.0,36.0,AR,,1989-11-25,36.0,,,
+520,Camila Acuña,women,F,520.0,22.0,PY,,,,,,
+521,Veronica Cepede Royg,women,F,520.0,22.0,PY,Asunción,1992-01-21,34.0,,drive,
+522,Daniela Banchero,women,F,254.0,85.0,AR,,1980-12-26,45.0,,,
+523,Irene Jimenez,women,F,254.0,85.0,AR,,1990-06-06,35.0,,,
+524,Marianela Montesi,women,F,128.0,269.0,IT,La Plata,1998-04-05,27.0,,backhand,170.0
+525,Maria Laura Ferreyra,women,F,123.0,298.0,AR,Villa Ángela,2005-05-30,20.0,,backhand,
+526,Ana Varo Ramos,women,F,83.0,548.0,ES,Marbella,1999-09-27,26.0,,drive,165.0
+527,Martina Parmigiani,women,F,99.0,407.0,IT,Brescia,1994-06-16,31.0,,drive,165.0
+528,Sara Errani,women,F,287.0,68.0,IT,Bologna,1987-04-29,38.0,,,
+530,Johannes Lindmeyer,men,M,605.0,39.0,DE,Wuppertal,1993-01-30,33.0,,drive,186.0
+531,Matthias Wunner,men,M,605.0,39.0,DE,Forchheim,1991-03-10,34.0,,backhand,183.0
+532,Agustin Reca,men,M,162.0,335.0,DE,Madrid,2003-11-22,22.0,,drive,195.0
+533,Victoria Kurz,women,F,79.0,603.0,DE,Karlsruhe,1999-12-19,26.0,,drive,168.0
+534,Dora Andrejszki,women,F,118.0,328.0,HU,Budapest,1993-03-07,32.0,,drive,
+535,Franco Dal Bianco,men,M,214.0,231.0,AR,,2000-03-04,25.0,right,,
+536,Marcella Koek,women,F,81.0,581.0,NL,Leidschendam,1988-05-27,37.0,,backhand,180.0
+537,Stephanie Weterings,women,F,116.0,331.0,NL,Gravenzande,1989-03-08,36.0,,drive,170.0
+538,Bo Luttikhuis,women,F,96.0,433.0,NL,Amsterdam,1999-01-19,27.0,,,
+539,Janine Hemmes,women,F,92.0,446.0,NL,Den haag,1997-10-13,28.0,,backhand,167.0
+540,Ksenia Sharifova,women,F,33.0,1810.0,RU,Sakhalin,1996-05-01,29.0,,backhand,177.0
+541,Harold Bernard,men,M,367.0,91.0,FR,,1997-07-22,28.0,,,
+542,Albert Roglan Pons,men,M,140.0,397.0,ES,Barcelona,1998-11-13,27.0,,drive,190.0
+543,Luis Oliver Artigas,men,M,185.0,284.0,ES,Palma de Mallorca,2003-04-15,22.0,,backhand,200.0
+544,Manuel Vives,men,M,334.0,108.0,FR,París,1999-10-02,26.0,,backhand,175.0
+545,Olivier Guy De Chamisso,men,M,494.0,56.0,FR,,2008-10-31,17.0,,,
+546,Patricia Araus Lopez,women,F,103.0,389.0,ES,Zaragoza,2005-01-23,21.0,,drive,172.0
+547,Carla Fito Fernandez,women,F,91.0,462.0,ES,Barcelona,1999-06-11,26.0,,drive,170.0
+548,Dora Chamli,women,F,129.0,268.0,TN,,1996-05-04,29.0,,,
+549,Chiara Messina,women,F,652.0,14.0,FR,,2002-04-05,23.0,,,
+550,Elsa Pellegrinelli,women,F,652.0,14.0,FR,,1994-02-27,31.0,,,
+551,Camille Sireix,women,F,143.0,221.0,FR,Paris,1997-01-03,29.0,,,
+552,Melissa Martin,women,F,145.0,216.0,FR,Paris,1990-07-08,35.0,,backhand,180.0
+553,Ivet Val Lopez,women,F,152.0,205.0,ES,Castellar del Vallès,2006-03-28,19.0,,,
+554,Giorgia Rosi,women,F,111.0,348.0,IT,Terni,2002-10-27,23.0,,,176.0
+555,Steffi Merah,women,F,159.0,193.0,FR,,2000-12-08,25.0,,,
+556,Marie Amelie Dardaine,women,F,170.0,171.0,FR,,2000-05-15,25.0,,,
+557,Karin Hechenberger,women,F,139.0,235.0,CH,Sarnen,1988-01-25,38.0,,drive,156.0
+558,Riviere Anaise,women,F,652.0,14.0,FR,,1984-08-10,41.0,,,
+559,Lucie Vichier,women,F,652.0,14.0,FR,,1991-12-13,34.0,,,
+560,Alexandra Silva,women,F,153.0,201.0,PT,,2001-03-26,24.0,,,
+561,Mafalda Marques Fernandes,women,F,180.0,147.0,PT,Lisboa,2001-03-15,24.0,,backhand,167.0
+562,Ainhoa Navarro Fernandez,women,F,180.0,147.0,ES,Santander,2006-02-21,19.0,,,172.0
+563,Angelina Neizvestnaya,women,F,136.0,242.0,RU,Moscow,2006-07-01,19.0,,backhand,166.0
+564,Rosalie Van Der Hoek,women,F,94.0,440.0,NL,Singapore,1994-12-16,31.0,,drive,180.0
+565,Martina Minetti,women,F,209.0,120.0,FI,Tampere,2001-05-31,24.0,,backhand,174.0
+566,Aida Martinez,women,F,,,ES,,,,,,
+567,Bruna Albuquerque Melo,women,F,134.0,253.0,PT,Porto,1996-03-27,29.0,,backhand,169.0
+568,Carmen Azcoitia Mazo,women,F,177.0,150.0,ES,Algeciras,1997-09-30,28.0,,,164.0
+569,Ana Cristina Sanchez Perez,women,F,105.0,386.0,ES,Madrid,2005-08-12,20.0,,drive,166.0
+570,Kimy Barla,women,F,,,FR,,,,,,
+571,Lou Lambert Agosti,women,F,244.0,89.0,FR,,2007-11-03,18.0,,,
+572,Lucia Perez Parra,women,F,103.0,389.0,ES,Sevilla,2001-03-06,24.0,,drive,160.0
+573,Elisabet Amatriain Armas,women,F,1413.0,,ES,Logroño,1984-03-10,41.0,,drive,161.0
+574,Maria Del Carmen Villalba Sanchez,women,F,1413.0,,ES,Málaga,1987-05-20,38.0,,drive,160.0
+575,Martina Fassio Goyenche,women,F,,,ES,,,,,,
+576,Sandra Hernandez Camacho,women,F,1413.0,,ES,Palma de Mallorca,1986-10-31,39.0,,drive,161.0
+577,Teresa Navarro,women,F,,,ES,,,,,,
+578,Emily Stellato,women,F,120.0,320.0,IT,Sezze,1982-05-31,43.0,,drive,176.0
+579,Giulia Sussarello,women,F,122.0,301.0,IT,Como,1992-05-29,33.0,,backhand,160.0
+580,Letizia Maria Manquillo Alarda,women,F,,,ES,,,,,,
+581,Patricia Maria Ribeiro,women,F,119.0,321.0,ES,Alcobaça,1986-04-10,39.0,,drive,159.0
+582,Marina Martinez Lobo,women,F,,,ES,,,,,,
+583,Marina Guinart,women,F,,,ES,,,,,,
+584,Lorena Alonso,women,F,,,ES,,,,,,
+586,Jimena Velasco,women,F,,,ES,,,,,,
+587,Marina Pinacho Sanchez,women,F,1413.0,,ES,Valladolid,1989-03-20,36.0,,drive,167.0
+588,Manuela Schuck Silva,women,F,109.0,356.0,BR,Porto Alegre,1998-02-13,27.0,,backhand,172.0
+589,Caterina Maria Baldi,women,F,106.0,373.0,IT,Reggio Emilia,1997-09-03,28.0,,drive,
+590,Valentina Tommasi,women,F,219.0,107.0,IT,Roma,1995-10-16,30.0,,backhand,170.0
+591,Catarina Castro Vilela,women,F,424.0,30.0,ES,Porto,1994-12-11,31.0,,drive,169.0
+592,Francesca Ligotti,women,F,150.0,209.0,IT,Torino,2001-02-21,24.0,,backhand,169.0
+593,Ana Fernandez De Osso Fuentes,women,F,434.0,29.0,ES,Sevilla,1986-05-17,39.0,,backhand,167.0
+594,Maria Jose Sanchez Alayeto,women,F,1413.0,,ES,Zaragoza,1984-06-20,41.0,,backhand,175.0
+595,Maria Pilar Sanchez Alayeto,women,F,1413.0,,ES,Zaragoza,1984-06-20,41.0,,drive,173.0
+597,Cristina Gonzalez Moro,women,F,1413.0,,ES,Bilbao,1997-05-21,28.0,,drive,160.0
+598,Xenia Clasca Vidiella,women,F,102.0,390.0,ES,Barcelona,2001-09-23,24.0,,backhand,169.0
+599,Julieta Bidahorria,women,F,,,AR,,,,,,
+600,Mireia Herrada Ruiz,women,F,1413.0,,ES,Sabadell - Barcelona,1997-05-14,28.0,,backhand,170.0
+601,Carmen Garcia Pardo,women,F,1413.0,,ES,Torre-Pacheco,1996-08-07,29.0,,backhand,160.0
+602,Carmen Castillon,women,F,,,ES,,,,,,
+603,Nuria Vivancos,women,F,163.0,179.0,ES,Murcia,2001-12-31,24.0,,drive,160.0
+604,Carla Castillo Velarde,women,F,195.0,137.0,ES,Madrid,1997-06-26,28.0,,drive,165.0
+605,Raquel Segura Aguilar,women,F,322.0,54.0,ES,Torremolinos,2001-03-12,24.0,,drive,173.0
+606,Lourdes Pascual Rodriguez,women,F,1413.0,,ES,Mérida,1985-09-29,40.0,,drive,154.0
+607,Ainhoa Rico Martin,women,F,597.0,16.0,ES,Madrid,1993-11-03,32.0,,backhand,172.0
+608,Wendy Barsotti,women,F,1413.0,,FR,Aix en Provence,1997-01-17,29.0,,drive,169.0
+609,Elodie Invernon,women,F,1413.0,,FR,Rouen,1995-08-12,30.0,,backhand,178.0
+610,Carla Serrano Gonzalez,women,F,140.0,234.0,ES,Toledo,1997-11-24,28.0,,backhand,173.0
+611,Lorena Vano Martin,women,F,,,IT,,,,,,
+612,Maria Castañera Hernandez,women,F,1413.0,,ES,Madrid,2006-02-14,19.0,,drive,167.0
+613,Jaime Menendez,men,M,1712.0,5.0,ES,Madrid,1994-03-28,31.0,,backhand,180.0
+614,Borja Yribarren Abecia,men,M,2732.0,,ES,A Coruña,1979-10-17,46.0,,drive,184.0
+615,Avalon Segou Jonker,women,F,577.0,18.0,NL,Capelle aan den IJssel,1994-03-29,31.0,,backhand,180.0
+616,Aitana Garcia Roman,women,F,87.0,522.0,ES,Madrid,2000-11-21,25.0,,drive,155.0
+617,Catarina Santos Domingos,women,F,93.0,442.0,PT,Porto,1997-01-22,29.0,,drive,173.0
+618,Elena De La Rosa Ramos,women,F,146.0,215.0,ES,Sevilla,2005-06-12,20.0,,backhand,175.0
+620,Alicia Alegre Masnou,women,F,494.0,24.0,ES,Madrid,2000-12-02,25.0,,backhand,167.0
+621,Martina Pugliesi,women,F,1057.0,5.0,IT,Tivoli,1997-08-29,28.0,,drive,170.0
+622,Elsa Terranova,women,F,138.0,239.0,IT,Parma,1999-03-09,26.0,,,
+623,Maaike Betz,women,F,135.0,252.0,NL,Dordrecht,2002-09-04,23.0,,backhand,168.0
+624,Margarida Fernandes,women,F,117.0,329.0,PT,Lisboa,1992-03-07,33.0,,backhand,170.0
+625,Ainara Pozuelo Dominguez,women,F,149.0,210.0,ES,Tarragona,2003-09-26,22.0,,drive,173.0
+627,Belar Vera Lopez,men,M,777.0,24.0,ES,Barcelona,2003-09-17,22.0,,drive,178.0
+628,Pablo Nicolas Egea,men,M,559.0,45.0,AR,Córdoba,1990-11-23,35.0,,drive,179.0
+629,Jacobo Perez Cendon,men,M,2732.0,,ES,Santiago de Compostela,1993-07-12,32.0,,drive,185.0
+630,Adrian Rodriguez rodriguez-Manzaneque,men,M,258.0,172.0,ES,Valencia,2003-03-13,22.0,,backhand,182.0
+631,Samuel Jones,men,M,402.0,80.0,GB,London,1999-12-27,26.0,,drive,180.0
+632,Gustavo Ariel Aguirre,men,M,2732.0,,AR,Buones Aires,1986-05-19,39.0,,backhand,170.0
+633,Raul Mendez Carranco,men,M,2732.0,,MX,Querétaro,1993-03-10,32.0,,backhand,189.0
+634,Javier Perez Morillas,men,M,2126.0,3.0,ES,Arahal,1987-04-07,38.0,,backhand,189.0
+635,Omar Matias Ortiz,men,M,814.0,22.0,AR,Jujuy,1998-12-23,27.0,,drive,176.0
+636,Martin Araujo De Lizarza,men,M,407.0,77.0,UY,Montevideo,2002-08-14,23.0,,backhand,185.0
+637,Luis Ortega Perez,men,M,2732.0,,ES,Madrid,1995-03-31,30.0,,drive,181.0
+638,Lorena Alonso De Lera,women,F,156.0,198.0,ES,León,1982-06-01,43.0,,backhand,173.0
+639,Amanda Girdo,women,F,1413.0,,SE,Malmö,2002-11-21,23.0,,backhand,170.0
+640,Sara Mohammed Salhab,women,F,1488.0,,SA,,,,,,
+641,Gimena Sol Perez,women,F,434.0,29.0,AR,,1997-04-10,28.0,,,
+642,Ares Llobera Irun,women,F,287.0,68.0,ES,Lleida,1999-01-10,27.0,,drive,158.0
+643,Maite Cano Pou,women,F,287.0,68.0,ES,La Garriga,1996-11-22,29.0,,backhand,175.0
+644,Carolina Gallo Frias,women,F,1413.0,,ES,Málaga,1987-10-17,38.0,,backhand,165.0
+645,Carolina Petrelli,women,F,254.0,85.0,IT,Segrate,1988-11-22,37.0,,backhand,165.0
+646,Ana Maria Cabrejas Ruiz,women,F,137.0,240.0,MX,Ciudad de México,1991-06-06,34.0,,drive,162.0
+647,Daiara Valenzuela,women,F,,,AR,,,,,,
+648,Valeria Atencia Basilio,women,F,127.0,271.0,ES,Huelva,2004-04-04,21.0,,drive,162.0
+649,Candela Lucendo Millan,women,F,203.0,127.0,ES,Castellón de la Plana,2005-07-01,20.0,,drive,156.0
+650,Maria Natacha Grau Blanco,women,F,1413.0,,VE,,1989-08-04,36.0,,,
+651,Maria Eugenia Turrillo Briquet,women,F,1413.0,,VE,,1998-09-23,27.0,,,
+652,Silvana Campus,women,F,1057.0,5.0,AR,Buenos Aires,1979-09-07,46.0,,backhand,160.0
+653,Gianina Minieri,women,F,236.0,99.0,CL,Independencia,1989-02-28,36.0,,,
+654,Gabriela Roux Vidal,women,F,236.0,99.0,CL,Punta Arenas,1989-03-28,36.0,,drive,160.0
+655,Erika Zanchetta,women,F,354.0,41.0,IT,Latina,1989-02-06,37.0,,backhand,165.0
+656,Carolina Navarro,women,F,,,SE,,,,,,
+657,Sandra Oliveras Gonzalez,women,F,201.0,130.0,ES,Sabadell,2006-02-19,19.0,,backhand,170.0
+658,Leon David Ruiz Shannon,men,M,344.0,100.0,ES,Malaga,2008-12-18,17.0,,,184.0
+659,Izan Ranera Pedrero,men,M,666.0,32.0,ES,,2008-09-10,17.0,,,
+660,Kaori Peco,women,F,1413.0,,ES,Madrid,2008-04-11,17.0,,backhand,168.0
+661,Claudia Escacena Montero,women,F,86.0,540.0,ES,Pueblo del Rio,2007-07-22,18.0,,backhand,162.0
+662,Saana Saarteinen,women,F,692.0,13.0,FI,Tampere,1993-02-11,32.0,,drive,175.0
+663,Ella Sillanpää,women,F,,,FI,,,,,,
+664,Maria Catalina Tenorio Cauvet,women,F,832.0,8.0,AR,Paraná,1975-08-27,50.0,,,
+665,Charlotte Soubrie,women,F,187.0,142.0,FR,Albi,1989-03-07,36.0,,backhand,165.0
+666,Mora Hakim,women,F,,,EG,,,,,,
+667,Alicia Cañellas,women,F,190.0,140.0,ES,,2007-08-30,18.0,,,
+668,Mariam Alsarraj,women,F,1413.0,,KW,,1995-09-04,30.0,,,
+669,Silvia Lopez Vidal,women,F,434.0,29.0,ES,Ferrol,1995-02-27,30.0,,,167.0
+670,Alan Gabriel Ibarrola,men,M,540.0,48.0,AR,Buenos Aires,2002-12-28,23.0,,drive,186.0
+671,Alejandro Alcaraz Gonzalez,men,M,700.0,29.0,MX,Ciudad de Mexico,1994-03-09,31.0,,,187.0
+672,Emilio Canela Melgar,men,M,2732.0,,MX,Querétaro,2004-06-23,21.0,,drive,167.0
+673,Edgar Espinosa Angelino,men,M,2732.0,,MX,Monterrey,2004-11-06,21.0,,backhand,178.0
+674,Javier Hazouri Celorio,men,M,1712.0,5.0,MX,,2002-05-13,23.0,,,
+675,Adriana Corona,women,F,286.0,69.0,MX,Ciudad de México,2003-01-22,23.0,,,
+676,Ivana Perches Arredondo,women,F,259.0,81.0,MX,,2006-09-28,19.0,,,
+677,Maria Fernanda Espinosa Gonzalez,women,F,832.0,8.0,MX,,1999-06-26,26.0,,,
+678,Fantine Botella,women,F,1413.0,,FR,,1996-01-20,30.0,,,
+679,Aranzazu Gallardo Muñoz,women,F,1413.0,,MX,,1973-09-30,52.0,,,
+680,Natalia Blanco,women,F,180.0,147.0,MX,,1995-08-14,30.0,,,
+681,Emma Karen Reyes Baca,women,F,198.0,132.0,MX,,1991-11-17,34.0,,,
+682,Anahi Salas Almaraz,women,F,418.0,31.0,MX,,2005-04-01,20.0,,,
+683,Anabela Salas Almaraz,women,F,507.0,23.0,MX,,2008-03-14,17.0,,,
+684,Maria Jose Montoya,women,F,273.0,75.0,MX,,2008-08-13,17.0,,,
+685,Annie Frida Arenas Mondragón,women,F,14.0,300.0,MX,,,,,,
+686,Andrea Koch Benvenuto,women,F,692.0,13.0,CL,Santiago,1985-04-26,40.0,,backhand,174.0
+687,Tia Louisa Norton,women,F,131.0,262.0,GB,Warwick,2003-08-12,22.0,,backhand,170.0
+688,Clarinha Santos,women,F,113.0,339.0,PT,Porto,2006-09-13,19.0,,,160.0
+689,Allison Peralta Sanchez,women,F,284.0,70.0,MX,,1998-12-06,27.0,,,
+690,Dafne Paola Peralta Sanchez,women,F,259.0,81.0,MX,,1991-11-16,34.0,,,
+691,Pamela López Cervantes,women,F,595.0,17.0,MX,,1994-07-29,31.0,,,
+692,Alejandra Elizabeth Aguirre Corrales,women,F,326.0,53.0,MX,,1993-11-27,32.0,,,
+693,Lisa Rachel Phillips,women,F,141.0,231.0,GB,Chichester,1999-01-01,27.0,,backhand,
+694,Lucia Vicente Mera,women,F,207.0,122.0,ES,Madrid,2005-02-24,20.0,,drive,168.0
+695,Estefania Fuentes Szymanski,women,F,2732.0,,MX,,,,,,
+696,Nerea Derbis,women,F,221.0,106.0,ES,Buenos aires,2002-08-04,23.0,,drive,160.0
+697,Fernanda Salazar Morales,women,F,353.0,42.0,MX,Ciudad de México,1998-02-23,27.0,,backhand,168.0
+698,Sara Almanza Martinez,women,F,652.0,14.0,MX,,2000-05-05,25.0,,,
+699,Maria Magraner,women,F,448.0,28.0,ES,,1999-10-10,26.0,,,
+700,Jordana Ailen Lujan Ferreyra,women,F,231.0,100.0,AR,,1990-11-17,35.0,,,
+701,Michela Zaccagnini,women,F,225.0,105.0,IT,Melzo,1998-11-09,27.0,,drive,173.0
+702,Alexandra Alegre Ferré,women,F,342.0,47.0,ES,,1999-10-01,26.0,,,
+703,Nadia Aida Acuña Lopez,women,F,306.0,61.0,CH,,2000-01-01,26.0,,,
+704,Renata Martinez Becerra,women,F,156.0,198.0,MX,Torreón,2006-08-09,19.0,,backhand,163.0
+705,Ainize Santamaria Landa,women,F,110.0,349.0,ES,Bilbao,2005-09-24,20.0,,backhand,171.0
+706,Jemilett Cortes Figueroa,women,F,346.0,45.0,MX,,2001-11-12,24.0,,,
+707,Jimena Huerta Villegas,women,F,595.0,17.0,MX,,2000-04-24,25.0,,,
+708,Sofía María González Lara,women,F,382.0,36.0,MX,,1994-10-31,31.0,,,
+709,Abraham Muñoz Zurita,men,M,317.0,117.0,ES,,2008-04-04,17.0,,,
+710,Miguel Muñoz Zurita,men,M,315.0,118.0,ES,,2008-04-04,17.0,,,
+711,Javier Garcia Caro,men,M,394.0,83.0,ES,,2008-07-10,17.0,,,
+712,Alejandro Garcia Calahorro,men,M,386.0,85.0,ES,,2008-12-18,17.0,,,
+713,Ana Elliot garcia-Montaner,women,F,247.0,88.0,ES,Sevilla,1996-01-19,30.0,,,167.0
+714,Andrea Lima Ramirez,women,F,362.0,40.0,ES,,2001-12-22,24.0,,,
+715,Maria Delgado Medina,women,F,144.0,220.0,ES,,2010-02-20,15.0,,,
+716,Maria Arteaga Vilches,women,F,201.0,130.0,ES,,2009-04-15,16.0,,,
+717,Fabiola Polvillo Camarero,women,F,22.0,1127.0,ES,,,,,,
+718,Teresa Casero De La Casa,women,F,206.0,123.0,ES,,2006-06-03,19.0,,,
+719,Amelie Detriviere,women,F,250.0,87.0,FR,,1979-06-28,46.0,,,
+721,Daniel Appelgren,men,M,239.0,200.0,SE,Boras,1996-05-06,29.0,,drive,177.0
+722,Marcos Gonzalez Blanco,men,M,135.0,406.0,ES,Málaga,2005-07-05,20.0,,drive,180.0
+723,Iman Metwally,women,F,456.0,27.0,EG,,1982-12-14,43.0,,,
+724,Claudia Ordoñez Romero,women,F,176.0,152.0,ES,Linares,2009-03-26,16.0,,backhand,165.0
+727,Juan Martín Díaz,men,M,,,ES,,,,right,,
+728,Agustín Gómez Silingo,men,M,2732.0,,AR,La Plata,1983-08-01,42.0,right,backhand,186.0
+729,Jaime Fermosell,men,M,,,ES,,,,right,,
+731,Borja Yribarren,men,M,,,ES,,,,left,,
+732,Alvaro Melendez Amaya,men,M,87.0,838.0,ES,Sevilla,2000-03-22,25.0,right,drive,175.0
+733,Cristobal Garcia,men,M,,,ES,,,,right,,
+734,Dhari Alansari,men,M,635.0,35.0,KW,,1991-01-07,35.0,,,
+736,Zenab Sarkhoo,women,F,,,KW,,,,,,
+737,Dalal Al Qenaei,women,F,376.0,38.0,KW,,2005-03-05,20.0,,,
+738,Eugenia Guimet,women,F,,,ES,,,,,,
+739,Majed Al Janahi,men,M,555.0,46.0,AE,,2001-02-11,24.0,,,
+741,Diego Garcia,men,M,1712.0,5.0,MX,,2006-01-13,20.0,,,
+742,Arturo Sosa,men,M,1712.0,5.0,MX,,1994-06-12,31.0,,,
+743,Diego Garcia Villalobos Blanco,men,M,1394.0,8.0,MX,,2005-03-26,20.0,,,
+744,Pablo Humberto Montoya Ramirez,men,M,1078.0,13.0,MX,,2003-04-07,22.0,,,
+745,Carlos Huerta,men,M,1078.0,13.0,MX,,1982-03-03,43.0,,,
+746,Oscar Diaz Jauregui,men,M,907.0,18.0,MX,,2010-02-03,16.0,,,
+747,Pablo Nicolas Silberman,men,M,1078.0,13.0,AR,,1992-07-18,33.0,,,
+748,Jose Alberto Funes Ontivero,men,M,515.0,52.0,AR,La Rioja,2006-05-30,19.0,,,175.0
+749,Argel Alexandro Albanes,men,M,798.0,23.0,MX,,2004-08-11,21.0,,,
+750,Maximo Jesus Maldonado,men,M,213.0,233.0,AR,Rosario del Tala,2004-05-22,21.0,,drive,186.0
+751,Francisco Maier,men,M,247.0,186.0,AR,,2006-05-27,19.0,,,
+752,Lautaro Mambrini,men,M,712.0,28.0,AR,San Miguel de Tucumán,2004-07-24,21.0,,drive,181.0
+753,Luis Facundo Sayes,men,M,690.0,30.0,AR,,1999-12-20,26.0,,,
+754,Pablo Acevedo Iturribarria,men,M,380.0,87.0,MX,Ciudad de Mexico,1986-06-27,39.0,,drive,186.0
+755,Santiago Sebastian Strazzabopo Nieves,men,M,348.0,99.0,AR,,2002-05-10,23.0,,,
+756,Jose Alban Paz De La Llave,men,M,626.0,36.0,MX,,1993-10-28,32.0,,,
+757,Marcelo Vidaurreta Villanueva,men,M,747.0,26.0,MX,,2006-09-14,19.0,,,
+758,Alejandro Ochoa Garcia,men,M,1259.0,10.0,MX,,1992-07-24,33.0,,,
+759,Juan Manuel Vergara,men,M,1712.0,5.0,AR,,2000-04-03,25.0,,,
+760,Erick Eduardo Martínez Torres,men,M,874.0,20.0,MX,,1992-11-04,33.0,,,
+761,Fernando Agustin Vega,men,M,907.0,18.0,AR,,1997-01-21,29.0,,,
+762,Jeronimo Jose Campora,men,M,1394.0,8.0,AR,,1999-11-02,26.0,,,
+763,Gaston Diaz,men,M,649.0,34.0,AR,,2000-03-18,25.0,,,
+764,Mario Alberto Yañez Tapia,men,M,1078.0,13.0,MX,,1993-07-29,32.0,,,
+765,Daniel Elohim,men,M,,,US,,,,,,
+766,Joaquin De Astoreca,men,M,288.0,137.0,AR,Tandil,2003-06-04,22.0,,backhand,175.0
+767,Octavio Alvarez,men,M,277.0,146.0,AR,Pergamino,2004-05-06,21.0,,,175.0
+768,Mateo Rivero,men,M,259.0,169.0,AR,,2006-05-23,19.0,,,
+769,Juan Agustin Ordoñez,men,M,1259.0,10.0,MX,,1989-07-13,36.0,,,
+770,Darío Gabriel Agustin Vergara,men,M,1259.0,10.0,AR,,2001-07-15,24.0,,,
+771,Borja Sierra Del Val,men,M,968.0,16.0,MX,,2006-01-18,20.0,,,
+772,Lautaro Angelini,men,M,1712.0,5.0,AR,,1999-06-27,26.0,,,
+773,Cenith Adrian Castillo Chavez,men,M,1712.0,5.0,MX,,1991-01-24,35.0,,,
+774,Quetzali Dafne Vazquez Montesinos,women,F,330.0,51.0,MX,,1998-01-01,28.0,,,
+775,Regina Estrada Dieguez,women,F,448.0,28.0,MX,,1999-07-01,26.0,,,
+776,Paulina Luquín Chavoya,women,F,832.0,8.0,MX,,1989-04-15,36.0,,,
+777,Daniela Rodriguez Borjas Villegas,women,F,520.0,22.0,MX,,2001-11-03,24.0,,,
+778,Lorena Marruffo,women,F,448.0,28.0,VE,,1999-02-23,26.0,,,
+779,Fiorella Cuccioli,women,F,448.0,28.0,AR,,2002-08-15,23.0,,,
+780,Lucia Escalante Diz,women,F,832.0,8.0,MX,,2006-03-18,19.0,,,
+781,Natalia Reynoso Frigolet,women,F,832.0,8.0,MX,,2005-02-03,21.0,,,
+782,Melissa Rodriguez Mayen,women,F,424.0,30.0,MX,,2006-05-21,19.0,,,
+783,Erika Castillo Lopez,women,F,561.0,19.0,MX,,1993-04-23,32.0,,,
+784,Susana Leticia Alcaraz González,women,F,456.0,27.0,MX,,1992-02-22,33.0,,,
+785,Aly Zaghloul,men,M,263.0,160.0,EG,,1999-09-27,26.0,,drive,
+786,Bohou Zhang,men,M,266.0,154.0,CN,,1997-01-16,29.0,,,
+787,Claudia Gaspar,women,F,191.0,138.0,PT,,1995-02-11,30.0,,,
+788,Constanca Gorito,women,F,148.0,211.0,PT,,2007-09-17,18.0,,,
+789,Patricia Roman Aldea,women,F,,,ES,,,,,,
+790,Carmen Villar Gonzalez,women,F,275.0,74.0,ES,,2006-07-11,19.0,,,
+791,Maria Leonor Araujo Teixeira,women,F,61.0,285.0,PT,,,,,,
+792,Ines Ferreira Cerqueira,women,F,60.0,450.0,PT,,,,,,
+793,Daniela Portilla Gomez,women,F,244.0,89.0,ES,,2009-07-22,16.0,,,
+795,Maria Garin,women,F,195.0,137.0,PT,,2002-09-07,23.0,,,
+796,Micaela Para,women,F,247.0,88.0,PT,,2003-03-04,22.0,,,
+797,Jéssica Para,women,F,247.0,88.0,PT,,2006-08-13,19.0,,,
+798,Maria Francisca Santos,women,F,252.0,86.0,PT,,2009-04-02,16.0,,,
+799,Maria Guimarães Perry Ferreira,women,F,284.0,70.0,PT,,1999-06-29,26.0,,,
+800,Maria Castro Quevedo Pereira,women,F,273.0,75.0,PT,,2005-04-27,20.0,,,
+801,Carina Costa,women,F,266.0,78.0,PT,,1987-05-29,38.0,,,
+802,Luisa Roque De Pinho,women,F,210.0,118.0,PT,,2001-12-05,24.0,,,
+803,Maria Do Carmo Ribeiro,women,F,401.0,33.0,PT,,2003-08-10,22.0,,,
+804,Nerea Gomez Blazquez,women,F,,,ES,,,,,,
+806,Marisol Fernandez Garcia,women,F,164.0,178.0,ES,,2005-05-02,20.0,,,
+807,Rita Vilaça,women,F,240.0,98.0,PT,,1993-09-07,32.0,,,
+808,Laura Buteau,women,F,187.0,142.0,FR,,1994-07-01,31.0,,,
+809,Daniela Catarino,women,F,,,PT,,,,,,
+810,Beatriz Ferreira,women,F,287.0,68.0,PT,,2006-02-11,19.0,,,
+811,Covadonga Verdejo Saiz,women,F,,,ES,,,,,,
+812,Martina Vera Cebollero,women,F,9.0,2000.0,ES,,,,,,
+814,Aurora Buscaino,women,F,199.0,131.0,IT,,2006-07-25,19.0,,,
+815,Clara Miret Llorach,women,F,183.0,146.0,ES,Fujian,2004-11-22,21.0,,drive,166.0
+816,Gema Flores Saucedo,women,F,229.0,101.0,ES,,2007-01-27,19.0,,,
+818,Alvaro Jauregui Sadaba,men,M,887.0,19.0,ES,,1998-01-08,28.0,,,
+819,Andres Ortuño De Pablo,men,M,712.0,28.0,ES,,2008-10-03,17.0,,,
+820,Marko Bilyk,men,M,2890.0,,UA,,2005-05-09,20.0,,,
+821,Alberto Simon Garcia,men,M,712.0,28.0,ES,Madrid,2003-05-05,22.0,,drive,184.0
+822,Francisco Gonçalves Da Silva,men,M,1559.0,7.0,PT,,2008-06-13,17.0,,,
+823,Antonio Doria,men,M,2565.0,2.0,PT,,1998-03-29,27.0,,,
+824,Theo Suzanna,men,M,938.0,17.0,FR,,1998-01-25,28.0,,,
+825,Tristan Piombo,men,M,635.0,35.0,FR,,2004-04-13,21.0,,,
+827,Diogo Alves,men,M,1028.0,14.0,PT,,2003-10-25,22.0,,,
+828,Martim Solano,men,M,583.0,42.0,PT,,2003-12-03,22.0,,,
+829,Diogo Moreira,men,M,657.0,33.0,PT,,2003-09-06,22.0,,,
+830,Guilherme Coelho,men,M,494.0,56.0,PT,,1997-11-14,28.0,,,
+831,Gonçalo Valente,men,M,677.0,31.0,PT,,2003-10-01,22.0,,,
+832,Manuel Bragança,men,M,1712.0,5.0,PT,,2004-12-26,21.0,,,
+833,Gabriel Morbey Basso,men,M,1175.0,11.0,PT,,1997-12-22,28.0,,,
+834,Nuno Quelhas,men,M,2565.0,2.0,PT,,1993-04-24,32.0,,,
+835,Xavier Cardoso,men,M,2565.0,2.0,PT,,1990-01-21,36.0,,,
+836,David Fernandes,men,M,998.0,15.0,PT,,2000-10-08,25.0,,,
+837,Tiago Marques Pereira,men,M,2890.0,,PT,,2006-04-28,19.0,,,
+838,Nuno Sa,men,M,1151.0,12.0,PT,,1996-08-22,29.0,,,
+839,Luciano Miguel Piñero,men,M,2085.0,4.0,AR,,2003-03-28,22.0,,,
+840,Henrique Brazão,men,M,427.0,71.0,PT,,2000-11-29,25.0,,,
+841,Vasco Mensurado,men,M,590.0,40.0,PT,,1994-04-01,31.0,,,
+842,Antonio Garcia Fernandez,men,M,490.0,57.0,ES,,2008-02-13,17.0,,,
+843,Carlos Miguel Ramoa,men,M,2565.0,2.0,PT,,1997-10-30,28.0,,,
+844,Guilherme Baptista,men,M,2890.0,,PT,,1999-10-20,26.0,,,
+845,Manuel Correia,men,M,747.0,26.0,PT,,2002-10-17,23.0,,,
+846,Antonio Pedro Pragana,men,M,907.0,18.0,PT,,2001-07-26,24.0,,,
+847,Pedro Parada,men,M,1559.0,7.0,PT,,2004-09-07,21.0,,,
+848,Guilherme Alves,men,M,1559.0,7.0,PT,,2004-08-19,21.0,,,
+849,Leonardo Ariel Torres,men,M,968.0,16.0,AR,,1998-08-01,27.0,,,
+850,André Monteiro Maia,men,M,938.0,17.0,PT,,1994-06-20,31.0,,,
+851,Sergio Garcia Rodriguez,men,M,2890.0,,ES,,2006-02-07,20.0,,,
+852,Nuno Baptista,men,M,2890.0,,PT,,2005-10-04,20.0,,,
+853,Jaime Lobo Wordsworth,men,M,505.0,54.0,GB,,2005-06-05,20.0,,,
+854,Ben Phillips,men,M,618.0,37.0,GB,,2008-10-02,17.0,,,
+855,Vasco Estevens Barbosa,men,M,887.0,19.0,PT,,2006-07-04,19.0,,,
+856,Diogo Veiga Pereira,men,M,605.0,39.0,PT,,2006-04-21,19.0,,,
+858,Angel Deza Torrecilla,men,M,1712.0,5.0,ES,,2006-07-07,19.0,,,
+859,Bernardo Terroso,men,M,2565.0,2.0,PT,,1998-05-04,27.0,,,
+860,Tiago Fernandes,men,M,712.0,28.0,PT,,1996-10-11,29.0,,,
+861,Guilherme Lupi,men,M,2890.0,,PT,,2005-10-10,20.0,,,
+862,Guilherme Moreira,men,M,2890.0,,PT,,2002-10-29,23.0,,,
+863,Ivo Rodrigues,men,M,1559.0,7.0,PT,,1996-09-14,29.0,,,
+864,Bernardo Roque,men,M,733.0,27.0,PT,,1998-03-17,27.0,,,
+865,Manuel Ramírez Pérez,men,M,159.0,175.0,ES,,,,,,
+866,Pedro Jesús Robles Rodríguez,men,M,938.0,17.0,ES,Cadiz,1994-12-19,31.0,,backhand,180.0
+867,Javier García Caro,men,M,394.0,83.0,ES,,2008-07-10,17.0,,,
+868,Pedro Sousa Martinez,men,M,470.0,61.0,ES,,2003-02-07,23.0,,,
+869,Ali Dawani,men,M,320.0,115.0,BH,,2000-12-15,25.0,,,
+870,Julien Biron,men,M,490.0,57.0,FR,,2005-10-28,20.0,,,
+871,Lucas Filippini,men,M,635.0,35.0,FR,,2000-04-12,25.0,,,
+872,Jorrit Notenboom,men,M,309.0,121.0,NL,Haarlem,2002-07-23,23.0,,drive,180.0
+873,Cameron Dollimore,men,M,337.0,104.0,GB,,2001-08-28,24.0,,,
+874,Kazuki Tomita,men,M,386.0,85.0,JP,,1995-02-01,31.0,,,
+875,Nicolas Zurita,men,M,156.0,359.0,IT,Mar del Plata,2004-04-25,21.0,,backhand,187.0
+876,Imran Danill Van Dijk,men,M,421.0,74.0,NL,,2005-08-31,20.0,,,
+877,Lars Du Pree,men,M,436.0,68.0,NL,,2003-12-18,22.0,,,
+878,Austin Varghese,men,M,470.0,61.0,IN,,1982-06-12,43.0,,,
+879,Pol Alsina,men,M,360.0,93.0,ES,Gavà,1991-12-24,34.0,,drive,168.0
+880,Marc Bernils Garcia,men,M,288.0,137.0,ES,Barcelona,1999-02-25,26.0,,,185.0
+881,Jarrett Laabs,men,M,649.0,34.0,US,,1972-12-25,53.0,,,
+882,David Quiros Peiro,men,M,470.0,61.0,ES,,1995-11-23,30.0,,,
+883,Aimee Gibson,women,F,90.0,492.0,GB,London,1991-08-21,34.0,,drive,160.0
+884,Charlotte Atkinson,women,F,,,GB,,,,,,
+885,Liza Groenveld,women,F,162.0,184.0,NL,Amsterdam,1994-03-15,31.0,,,
+886,Tess De Vocht,women,F,169.0,172.0,NL,,2003-11-06,22.0,,,
+887,Kae Tokumoto,women,F,151.0,208.0,JP,,1991-04-20,34.0,,,
+888,Saki Tsukamoto,women,F,178.0,149.0,JP,,1991-06-04,34.0,,,
+889,Pascalle Thenoux,women,F,362.0,40.0,CL,,1993-09-06,32.0,,,
+890,Chifumi Sato,women,F,218.0,108.0,JP,,2000-10-07,25.0,,,
+891,Anne Sophie Tavan,women,F,,,FR,,,,,,
+892,Rio Yamada,women,F,466.0,26.0,JP,,1992-01-23,34.0,,,
+893,Aki Kitao,women,F,466.0,26.0,JP,,1987-09-04,38.0,,,
+894,Patricia Araus López,women,F,103.0,389.0,ES,Zaragoza,2005-01-23,21.0,,drive,172.0
+895,Zhai Yu,women,F,271.0,77.0,CN,,1994-11-15,31.0,,,
+896,Sayaka Yoshimoto,women,F,302.0,63.0,JP,,1984-07-05,41.0,,,
+897,Minghui Wu,women,F,382.0,36.0,CN,,1982-03-10,43.0,,,
+898,Fuman Xie,women,F,,,CN,,,,,,
+899,Kotomi Ozawa,women,F,171.0,168.0,JP,,1998-04-02,27.0,,,
+900,Elisabeth Nogueras,women,F,,,ES,,,,,,
+901,Alexia Dalley,women,F,456.0,27.0,AU,,1986-11-21,39.0,,,
+902,Yoshino Kushima,women,F,168.0,173.0,JP,,1998-03-27,27.0,,,
+903,Rieko Maruyama,women,F,401.0,33.0,JP,,1982-02-13,43.0,,,
+904,Francisco Goncalves Da Silva,men,M,1559.0,7.0,PT,,2008-06-13,17.0,,,
+905,Miguel Vieira,men,M,968.0,16.0,PT,,2000-01-01,26.0,,,
+906,Joel Losana,men,M,1394.0,8.0,ES,,1995-10-24,30.0,,,
+907,Samuel Pontes,men,M,612.0,38.0,ES,,2005-06-21,20.0,,,
+908,Iago Fuertes Leonardo,men,M,29.0,1200.0,ES,,,,,,
+909,Plinio Ferrao,men,M,338.0,103.0,PT,,2002-03-01,23.0,,,
+910,Ignacio Alonso Chillaron,men,M,282.0,143.0,ES,Valencia,2005-05-17,20.0,,drive,182.0
+911,Vega Cano Ortin,women,F,208.0,121.0,ES,,2009-05-22,16.0,,,
+912,Carla Aguila Tello,women,F,652.0,14.0,ES,,2010-07-04,15.0,,,
+913,Clara Sofia Martins Santos Faria Leite,women,F,411.0,32.0,PT,,2002-07-11,23.0,,,
+914,Francisca Bragança,women,F,326.0,53.0,PT,,2009-11-10,16.0,,,
+915,Carolina Martinho Santos,women,F,38.0,750.0,PT,,,,,,
+916,Nura Padilla Tomasa,women,F,315.0,56.0,ES,,2008-10-06,17.0,,,
+917,Beatriz Gueiral,women,F,51.0,550.0,PT,,,,,,
+918,Diana Silva,women,F,520.0,22.0,PT,,1990-10-30,35.0,,,
+919,Maria Fontes Vaz Ferreira,women,F,340.0,48.0,PT,,2006-02-09,19.0,,,
+920,Sofia Carmo Machado,women,F,343.0,46.0,PT,,2000-01-11,26.0,,,
+921,Angela Navarro Garcia,women,F,481.0,25.0,ES,,2009-03-02,16.0,,,
+922,Daniela Jurado Cerezo,women,F,80.0,300.0,ES,,,,,,
+923,Susana Martin Marin,women,F,271.0,77.0,ES,,2009-01-08,17.0,,,
+924,Pedro Perry,men,M,217.0,225.0,PT,Porto,2001-09-06,24.0,,backhand,182.0
+925,Constança Gorito,women,F,148.0,211.0,PT,,2007-09-17,18.0,,,
+926,Manuel Ramirez Perez,men,M,159.0,175.0,ES,,,,,,
+927,Pedro Jesus Robles Rodriguez,men,M,938.0,17.0,ES,Cadiz,1994-12-19,31.0,,backhand,180.0
+928,Jessica Para,women,F,247.0,88.0,PT,,2006-08-13,19.0,,,
+929,Jose Pablo Garza De La Peña,men,M,907.0,18.0,MX,,2010-03-26,15.0,,,
+930,Santiago Gonzalez,men,M,1712.0,5.0,MX,,1983-02-24,42.0,,,
+931,Bruno Alfaro,men,M,1712.0,5.0,AR,,1991-01-04,35.0,,,
+932,Nicolás Borgatta,men,M,2890.0,,AR,,1986-11-29,39.0,,,
+933,David Andrés Agüero Mateo,men,M,,,EC,,,,,,
+934,Daniel Andrés Agüero Mateo,men,M,6.0,665.0,EC,,,,,,
+935,Matias Emiliano Gutierrez,men,M,,,AR,,,,,,
+936,Joaquin Garcia,men,M,2890.0,,MX,,2005-05-10,20.0,,,
+937,Murat Cornejo,men,M,2890.0,,MX,,2005-04-29,20.0,,,
+938,José Alban Paz De La Llave,men,M,626.0,36.0,MX,,1993-10-28,32.0,,,
+939,Aldo Castelan,men,M,2890.0,,MX,,2004-12-17,21.0,,,
+940,Francisco Javier Carro Revuelta,men,M,2890.0,,MX,,1993-06-08,32.0,,,
+942,Hector Dubuc,men,M,2890.0,,MX,,2002-01-11,24.0,,,
+943,Elias Nasif,men,M,764.0,25.0,AR,Córdoba,1993-03-24,32.0,,,172.0
+944,Koen Hugo Kachanoski Echeverria,men,M,2890.0,,MX,,2008-05-03,17.0,,,
+945,Rodolfo Perez Bravo,men,M,2890.0,,MX,,2008-03-22,17.0,,,
+946,Matías Angel Paredes,men,M,1712.0,5.0,AR,,2005-01-14,21.0,,,
+947,Marcelo Antonio Godoy,men,M,1712.0,5.0,AR,,2006-05-06,19.0,,,
+949,Matias Ilardia Meyer,men,M,2732.0,,UY,,,,,,
+951,Gonzalo Federico Luis Lopez,men,M,,,AR,,,,,,
+952,Hugo Martinez Toral,men,M,1712.0,5.0,MX,,2007-04-12,18.0,,,
+954,Jesus Amezcua Virues,men,M,2890.0,,MX,,1997-03-05,28.0,,,
+955,Gonzalo Federico Lopez,men,M,500.0,55.0,AR,,2001-05-11,24.0,,,
+956,Sebastian Domínguez Remis,men,M,1078.0,13.0,MX,,2003-09-03,22.0,,,
+957,Juan Pablo Bello,men,M,2890.0,,MX,,1996-09-13,29.0,,,
+958,Alexander Espinoza Palmeros,men,M,2890.0,,MX,,2000-04-17,25.0,,,
+959,Matias Angel Paredes,men,M,1712.0,5.0,AR,,2005-01-14,21.0,,,
+960,Lucas Franco Rodriguez,men,M,690.0,30.0,AR,,1998-09-08,27.0,,,
+961,Mauricio Juarez,men,M,2890.0,,MX,,2002-02-23,23.0,,,
+962,Nicolas Borgatta,men,M,2890.0,,AR,,1986-11-29,39.0,,,
+963,David Aguero,men,M,1712.0,5.0,EC,,2007-01-22,19.0,,,
+964,Daniel Agüero Mateo,men,M,81.0,65.0,EC,,,,,,
+965,Patricia Aburto,women,F,,,MX,,,,,,
+966,Debra Fernanda Gonzalez Preciado,women,F,418.0,31.0,MX,,1997-09-16,28.0,,,
+967,Diego Arredondo García,men,M,136.0,401.0,MX,Metepec,2007-09-02,18.0,,drive,163.0
+968,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+969,Catarina Santos,women,F,,,PT,,,,,,
+970,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+971,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+972,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+973,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+974,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+975,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+976,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+977,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+978,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+979,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+980,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+981,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+982,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+983,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+984,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+985,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+986,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+987,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+988,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+989,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+990,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+991,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+992,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+993,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+994,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+995,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+996,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+997,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+998,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+999,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1000,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1001,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1002,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1003,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1004,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1005,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1006,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1007,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1008,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1009,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1010,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1011,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1012,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1013,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1014,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1015,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1018,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1019,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1020,Manuel Castaño,men,M,,,ES,,,,,,
+1021,Adrian Marques,men,M,,,ES,,,,,,
+1022,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1023,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1024,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1025,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1028,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1029,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1031,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1032,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1035,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1036,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1039,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1040,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1041,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1043,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1046,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1047,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1048,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1049,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1050,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1051,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1052,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1054,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1055,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1056,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1060,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1061,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1062,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1065,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1066,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1067,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1069,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1071,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1072,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1073,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1075,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1080,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1082,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1083,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1084,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1085,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1087,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1089,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1092,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1093,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1094,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1095,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1097,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1099,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1101,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1102,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1103,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1109,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1112,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1114,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1118,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1120,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1123,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1124,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1127,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1128,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1129,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1130,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1134,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1140,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1141,Maria Teresa Moriñigo Gomez,women,F,,,ES,,,,,,
+1142,Blanca Arriola Cerrejon,women,F,,,ES,,,,,,
+1144,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1146,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1148,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1149,Jeremy Robert,men,M,,,FR,,,,,,
+1155,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1158,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1160,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1162,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1164,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1166,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1171,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1172,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1175,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1177,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1181,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1189,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1191,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1192,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1197,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1202,Carlotta Casali Vannicelli,women,F,,,IT,,,,,,
+1204,Eugenia Guimet Bigas,women,F,,,ES,,,,,,
