@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padel Analytics - Dashboard BI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1C352D;
+            --primary-dark: #14231e;
+            --primary-light: #2a4c41;
+            --secondary-color: #A6B28B;
+            --secondary-dark: #8f9a7a;
+            --danger-color: #d9534f;
+            --warning-color: #F5C9B0;
+            --info-color: #a8d5e2;
+            --light-color: #F9F6F3;
+            --gray-color: #8a8a8a;
+            --gray-light: #e8e8e8;
+            --sidebar-width: 250px;
+            --header-height: 65px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #F9F6F3;
+            color: #1C352D;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: var(--sidebar-width);
+            background-color: var(--primary-color);
+            color: #F9F6F3;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            z-index: 1000;
+            box-shadow: 0 0 28px 0 rgba(28, 53, 45, 0.15);
+        }
+
+        .sidebar-header {
+            padding: 0 25px;
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgba(249, 246, 243, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 6px;
+            background-color: var(--secondary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+        }
+
+        .logo-text {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #F9F6F3;
+        }
+
+        .logo-text span {
+            color: var(--secondary-color);
+        }
+
+        .sidebar-nav {
+            padding: 20px 0;
+        }
+
+        .nav-section {
+            margin-bottom: 20px;
+        }
+
+        .nav-title {
+            padding: 0 25px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: #A6B28B;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+
+        .nav-menu {
+            list-style: none;
+        }
+
+        .nav-item {
+            padding: 12px 25px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-left: 3px solid transparent;
+            color: #F9F6F3;
+        }
+
+        .nav-item:hover {
+            background-color: rgba(166, 178, 139, 0.1);
+            border-left-color: var(--secondary-color);
+        }
+
+        .nav-item.active {
+            background-color: rgba(166, 178, 139, 0.15);
+            border-left-color: var(--secondary-color);
+        }
+
+        .nav-item i {
+            width: 20px;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .nav-text {
+            font-size: 0.95rem;
+            font-weight: 400;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            margin-left: var(--sidebar-width);
+            background-color: #F9F6F3;
+        }
+
+        /* Header */
+        .header {
+            height: var(--header-height);
+            background-color: #F9F6F3;
+            box-shadow: 0 0 13px 0 rgba(28, 53, 45, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 30px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid var(--gray-light);
+        }
+
+        .page-title h1 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+
+        .breadcrumb {
+            font-size: 0.85rem;
+            color: var(--gray-color);
+            margin-top: 5px;
+        }
+
+        .user-actions {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .user-profile {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: #F9F6F3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .user-info {
+            line-height: 1.4;
+        }
+
+        .user-name {
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+
+        .user-role {
+            font-size: 0.85rem;
+            color: var(--gray-color);
+        }
+
+        /* Content Container */
+        .content-container {
+            padding: 30px;
+            background-color: #F9F6F3;
+        }
+
+        /* Pages - Hidden by default */
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 0 13px 0 rgba(28, 53, 45, 0.05);
+            padding: 25px;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s;
+            border: 1px solid #e8e4df;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px 0 rgba(28, 53, 45, 0.1);
+            border-color: var(--secondary-color);
+        }
+
+        .stat-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin-right: 20px;
+            color: white;
+        }
+
+        .stat-info {
+            flex: 1;
+        }
+
+        .stat-title {
+            font-size: 0.95rem;
+            color: var(--gray-color);
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .stat-change {
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 5px;
+        }
+
+        .positive {
+            color: var(--secondary-color);
+        }
+
+        .negative {
+            color: var(--danger-color);
+        }
+
+        /* Dashboard Grid */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .dashboard-card {
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 0 13px 0 rgba(28, 53, 45, 0.05);
+            padding: 25px;
+            border: 1px solid #e8e4df;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--gray-light);
+            padding-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+
+        .card-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border-radius: 4px;
+            border: none;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+        }
+
+        .btn-secondary {
+            background-color: var(--gray-light);
+            color: var(--gray-color);
+        }
+
+        .btn-secondary:hover {
+            background-color: #d8d8d8;
+        }
+
+        /* Chart placeholders */
+        .chart-placeholder {
+            height: 250px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray-color);
+            text-align: center;
+            padding: 20px;
+            border: 1px dashed #e8e4df;
+        }
+
+        .chart-placeholder i {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            opacity: 0.7;
+            color: var(--secondary-color);
+        }
+
+        /* Table styles */
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        thead {
+            background-color: var(--primary-color);
+        }
+
+        th {
+            padding: 15px 12px;
+            text-align: left;
+            font-weight: 600;
+            color: white;
+            border-bottom: 1px solid var(--gray-light);
+            font-size: 0.9rem;
+        }
+
+        td {
+            padding: 15px 12px;
+            border-bottom: 1px solid var(--gray-light);
+            color: var(--primary-color);
+        }
+
+        tbody tr:hover {
+            background-color: rgba(166, 178, 139, 0.1);
+        }
+
+        .player-rank {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+
+        /* Filters */
+        .filters {
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 0 13px 0 rgba(28, 53, 45, 0.05);
+            padding: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: flex-end;
+            border: 1px solid #e8e4df;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .filter-label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: var(--primary-color);
+            font-size: 0.9rem;
+        }
+
+        .filter-select {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid var(--gray-light);
+            border-radius: 4px;
+            font-size: 0.95rem;
+            background-color: white;
+            color: var(--primary-color);
+            transition: all 0.3s;
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .filters {
+                flex-direction: column;
+            }
+            
+            .filter-group {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="logo-text">Padel<span>Analytics</span></div>
+            </div>
+        </div>
+        
+        <div class="sidebar-nav">
+            <div class="nav-section">
+                <div class="nav-title">MAIN NAVIGATION</div>
+                <ul class="nav-menu">
+                    <li class="nav-item active" onclick="showPage('dashboard')">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span class="nav-text">Dashboard</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav-section">
+                <div class="nav-title">ANALYTICS</div>
+                <ul class="nav-menu">
+                    <li class="nav-item" onclick="showPage('joueurs')">
+                        <i class="fas fa-users"></i>
+                        <span class="nav-text">Joueurs</span>
+                    </li>
+                    <li class="nav-item" onclick="showPage('tournois')">
+                        <i class="fas fa-trophy"></i>
+                        <span class="nav-text">Tournois</span>
+                    </li>
+                    <li class="nav-item" onclick="showPage('equipements')">
+                        <i class="fas fa-baseball-ball"></i>
+                        <span class="nav-text">Équipements</span>
+                    </li>
+                    <li class="nav-item" onclick="showPage('business')">
+                        <i class="fas fa-briefcase"></i>
+                        <span class="nav-text">Business</span>
+                    </li>
+                    <li class="nav-item" onclick="showPage('advanced')">
+                        <i class="fas fa-brain"></i>
+                        <span class="nav-text">Advanced Analytics</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Header -->
+        <header class="header">
+            <div class="page-title">
+                <h1 id="pageTitle">Dashboard Padel Analytics</h1>
+                <div class="breadcrumb">
+                    <span>Home</span> / <span id="pageBreadcrumb">Dashboard</span>
+                </div>
+            </div>
+            
+            <div class="user-actions">
+                <div class="user-profile">
+                    <div class="user-avatar">MB</div>
+                    <div class="user-info">
+                        <div class="user-name">Med Moenes Bouslimi</div>
+                        <div class="user-role">Administrateur</div>
+                    </div>
+                    <i class="fas fa-chevron-down" style="color: var(--gray-color); font-size: 0.9rem;"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- PAGE 1: MAIN DASHBOARD (Executive Overview) -->
+        <div id="dashboard" class="page active">
+            <div class="content-container">
+                <!-- Filters -->
+                <div class="filters">
+                    <div class="filter-group">
+                        <label class="filter-label">Période</label>
+                        <select class="filter-select">
+                            <option>3 derniers mois</option>
+                            <option selected>2025</option>
+                            <option>2024</option>
+                            <option>2023</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Catégorie</label>
+                        <select class="filter-select">
+                            <option>Toutes catégories</option>
+                            <option>Professionnel</option>
+                            <option>Amateur</option>
+                            <option>Jeunes</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Surface</label>
+                        <select class="filter-select">
+                            <option>Toutes surfaces</option>
+                            <option>Béton poreux</option>
+                            <option>Gazon artificiel</option>
+                            <option>Ciment</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary">Appliquer les filtres</button>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, var(--primary-color), var(--primary-light));">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Joueurs Actifs</div>
+                            <div class="stat-value">1,254</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>12.5% vs mois dernier</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, var(--secondary-color), #c0c9a5);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Taux de croissance global</div>
+                            <div class="stat-value">68.2%</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>5.3% vs mois dernier</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, var(--warning-color), #f7d4be);">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Prochain Tournoi Majeur</div>
+                            <div class="stat-value">12 jours</div>
+                            <div class="stat-change">
+                                <i class="fas fa-users"></i>
+                                <span>287 participants attendus</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #d9534f, #e57373);">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Tournois 2025</div>
+                            <div class="stat-value">48</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>18% vs 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Grid -->
+                <div class="dashboard-grid">
+                    <div class="dashboard-card" style="grid-column: span 8;">
+                        <div class="card-header">
+                            <h3 class="card-title">Performance des Joueurs (Top 10)</h3>
+                            <div class="card-actions">
+                                <button class="btn btn-secondary">
+                                    <i class="fas fa-download"></i> Exporter
+                                </button>
+                            </div>
+                        </div>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Joueur</th>
+                                        <th>Matchs</th>
+                                        <th>Victoires</th>
+                                        <th>Taux de victoire</th>
+                                        <th>Classement</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="player-rank">1</span></td>
+                                        <td>Ahmed Bettaieb</td>
+                                        <td>124</td>
+                                        <td>98</td>
+                                        <td>79.0%</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="player-rank">2</span></td>
+                                        <td>Yassine Hammouda</td>
+                                        <td>115</td>
+                                        <td>89</td>
+                                        <td>77.4%</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="player-rank">3</span></td>
+                                        <td>Hazem Ayech</td>
+                                        <td>132</td>
+                                        <td>97</td>
+                                        <td>73.5%</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="player-rank">4</span></td>
+                                        <td>Roudayna Abdi</td>
+                                        <td>108</td>
+                                        <td>78</td>
+                                        <td>72.2%</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="player-rank">5</span></td>
+                                        <td>Nour Kooli</td>
+                                        <td>95</td>
+                                        <td>68</td>
+                                        <td>71.6%</td>
+                                        <td>5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 4;">
+                        <div class="card-header">
+                            <h3 class="card-title">Évolution Trimestrielle</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                            <p>Graphique d'évolution</p>
+                            <p style="font-size: 0.9rem; margin-top: 10px;">Q1: +8% | Q2: +12% | Q3: +15%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 2: JOUEURS (Players Performance) -->
+        <div id="joueurs" class="page">
+            <div class="content-container">
+                <!-- Filters -->
+                <div class="filters">
+                    <div class="filter-group">
+                        <label class="filter-label">Joueur</label>
+                        <select class="filter-select">
+                            <option>Tous les joueurs</option>
+                            <option>Top 10</option>
+                            <option>Top 50</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Période</label>
+                        <select class="filter-select">
+                            <option selected>12 derniers mois</option>
+                            <option>6 derniers mois</option>
+                            <option>3 derniers mois</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary">Appliquer</button>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #1C352D, #2a4c41);">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Classement Moyen</div>
+                            <div class="stat-value">142</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+8 positions</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #A6B28B, #c0c9a5);">
+                            <i class="fas fa-percentage"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Taux de Victoire Moyen</div>
+                            <div class="stat-value">72.4%</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+3.2% vs période précédente</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #F5C9B0, #f7d4be);">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Tournois Joués</div>
+                            <div class="stat-value">38</div>
+                            <div class="stat-change">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Moyenne: 3.2/mois</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #d9534f, #e57373);">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Victoires vs Top 10</div>
+                            <div class="stat-value">42%</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+5% vs l'an dernier</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Grid -->
+                <div class="dashboard-grid">
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Évolution du Classement (Top 5)</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                            <p>Graphique d'évolution des classements</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">Progression mensuelle des 5 meilleurs joueurs</p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Taux de Victoire par Surface</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Comparaison des performances</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">Béton: 75% | Gazon: 68% | Ciment: 71%</p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 12;">
+                        <div class="card-header">
+                            <h3 class="card-title">Statistiques Détaillées par Joueur</h3>
+                        </div>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Classement</th>
+                                        <th>Joueur</th>
+                                        <th>Évolution</th>
+                                        <th>Matchs</th>
+                                        <th>Victoires</th>
+                                        <th>Win Rate Global</th>
+                                        <th>Win Rate Béton</th>
+                                        <th>Win Rate Gazon</th>
+                                        <th>Vs Top 10</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Ahmed Bettaieb</td>
+                                        <td style="color: var(--secondary-color);">↑ 2</td>
+                                        <td>124</td>
+                                        <td>98</td>
+                                        <td>79.0%</td>
+                                        <td>82%</td>
+                                        <td>75%</td>
+                                        <td>58%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Yassine Hammouda</td>
+                                        <td style="color: var(--secondary-color);">↑ 1</td>
+                                        <td>115</td>
+                                        <td>89</td>
+                                        <td>77.4%</td>
+                                        <td>79%</td>
+                                        <td>73%</td>
+                                        <td>52%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Hazem Ayech</td>
+                                        <td style="color: var(--danger-color);">↓ 2</td>
+                                        <td>132</td>
+                                        <td>97</td>
+                                        <td>73.5%</td>
+                                        <td>76%</td>
+                                        <td>70%</td>
+                                        <td>48%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Roudayna Abdi</td>
+                                        <td>-</td>
+                                        <td>108</td>
+                                        <td>78</td>
+                                        <td>72.2%</td>
+                                        <td>74%</td>
+                                        <td>69%</td>
+                                        <td>45%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Nour Kooli</td>
+                                        <td style="color: var(--secondary-color);">↑ 3</td>
+                                        <td>95</td>
+                                        <td>68</td>
+                                        <td>71.6%</td>
+                                        <td>73%</td>
+                                        <td>67%</td>
+                                        <td>42%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 3: TOURNOIS (Tournament Management) -->
+        <div id="tournois" class="page">
+            <div class="content-container">
+                <!-- Filters -->
+                <div class="filters">
+                    <div class="filter-group">
+                        <label class="filter-label">Tournoi</label>
+                        <select class="filter-select">
+                            <option>Tous les tournois</option>
+                            <option>Masters</option>
+                            <option>Open</option>
+                            <option>Challengers</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Période</label>
+                        <select class="filter-select">
+                            <option selected>2025</option>
+                            <option>2024</option>
+                            <option>2023</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary">Appliquer</button>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #1C352D, #2a4c41);">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Participants Moyens</div>
+                            <div class="stat-value">287</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+15% vs 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #A6B28B, #c0c9a5);">
+                            <i class="fas fa-percentage"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Taux d'Occupation</div>
+                            <div class="stat-value">92%</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>Capacité quasi-complète</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #F5C9B0, #f7d4be);">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Audience Totale</div>
+                            <div class="stat-value">2.4M</div>
+                            <div class="stat-change">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Stade + Digital</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #d9534f, #e57373);">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Pays Représentés</div>
+                            <div class="stat-value">42</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+8 vs 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Grid -->
+                <div class="dashboard-grid">
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Évolution de la Participation</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-area"></i>
+                            <p>Nombre de participants par tournoi</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">Tendance croissante sur les 3 dernières années</p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Audience & Engagement Social</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                            <p>Vues digitales & interactions</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">YouTube: 1.2M | Instagram: 800K | TikTok: 400K</p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Distribution Géographique</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p>Carte des pays participants</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">Europe: 58% | Amérique: 28% | Asie: 14%</p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Prochains Tournois</h3>
+                        </div>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Tournoi</th>
+                                        <th>Date</th>
+                                        <th>Lieu</th>
+                                        <th>Participants</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Masters Paris</td>
+                                        <td>21 Fév 2025</td>
+                                        <td>Paris, FR</td>
+                                        <td>320/350</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Barcelona Open</td>
+                                        <td>05 Mar 2025</td>
+                                        <td>Barcelona, ES</td>
+                                        <td>287/300</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dubai Championship</td>
+                                        <td>18 Mar 2025</td>
+                                        <td>Dubai, AE</td>
+                                        <td>245/280</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 4: ÉQUIPEMENTS (Equipment & Sponsorship) -->
+        <div id="equipements" class="page">
+            <div class="content-container">
+                <!-- Filters -->
+                <div class="filters">
+                    <div class="filter-group">
+                        <label class="filter-label">Marque</label>
+                        <select class="filter-select">
+                            <option>Toutes les marques</option>
+                            <option>Bullpadel</option>
+                            <option>Adidas</option>
+                            <option>Nox</option>
+                            <option>Head</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Catégorie</label>
+                        <select class="filter-select">
+                            <option>Raquettes</option>
+                            <option>Vêtements</option>
+                            <option>Chaussures</option>
+                            <option>Accessoires</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary">Appliquer</button>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #1C352D, #2a4c41);">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Leader du Marché</div>
+                            <div class="stat-value">Bullpadel</div>
+                            <div class="stat-change">
+                                <i class="fas fa-info-circle"></i>
+                                <span>32% de part de marché</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #A6B28B, #c0c9a5);">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Joueurs Sponsorisés</div>
+                            <div class="stat-value">487</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+52 vs 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #F5C9B0, #f7d4be);">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Valeur Sponsoring</div>
+                            <div class="stat-value">€12.4M</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+18% vs 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #d9534f, #e57373);">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">ROI Moyen</div>
+                            <div class="stat-value">3.2x</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>Retour sur investissement</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Grid -->
+                <div class="dashboard-grid">
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Parts de Marché par Marque</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-pie"></i>
+                            <p>Distribution des parts de marché</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">
+                                Bullpadel: 32% | Adidas: 28% | Nox: 18% | Head: 12% | Autres: 10%
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">ROI par Marque</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Retour sur investissement sponsoring</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">
+                                Visibilité vs Performance des joueurs sponsorisés
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 12;">
+                        <div class="card-header">
+                            <h3 class="card-title">Top Marques - Analyse Détaillée</h3>
+                        </div>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Rang</th>
+                                        <th>Marque</th>
+                                        <th>Part de Marché</th>
+                                        <th>Joueurs Sponsorisés</th>
+                                        <th>Valeur Contrats</th>
+                                        <th>Visibilité (impressions)</th>
+                                        <th>ROI Estimé</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><strong>Bullpadel</strong></td>
+                                        <td>32%</td>
+                                        <td>156</td>
+                                        <td>€4.2M</td>
+                                        <td>48.5M</td>
+                                        <td style="color: var(--secondary-color);">3.8x</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><strong>Adidas</strong></td>
+                                        <td>28%</td>
+                                        <td>132</td>
+                                        <td>€3.8M</td>
+                                        <td>42.1M</td>
+                                        <td style="color: var(--secondary-color);">3.5x</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><strong>Nox</strong></td>
+                                        <td>18%</td>
+                                        <td>89</td>
+                                        <td>€2.4M</td>
+                                        <td>28.7M</td>
+                                        <td style="color: var(--secondary-color);">3.2x</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><strong>Head</strong></td>
+                                        <td>12%</td>
+                                        <td>58</td>
+                                        <td>€1.5M</td>
+                                        <td>18.2M</td>
+                                        <td style="color: var(--secondary-color);">2.9x</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><strong>Wilson</strong></td>
+                                        <td>6%</td>
+                                        <td>32</td>
+                                        <td>€0.8M</td>
+                                        <td>9.5M</td>
+                                        <td style="color: var(--warning-color);">2.4x</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 5: BUSINESS (Market & Economics) -->
+        <div id="business" class="page">
+            <div class="content-container">
+                <!-- Filters -->
+                <div class="filters">
+                    <div class="filter-group">
+                        <label class="filter-label">Métrique</label>
+                        <select class="filter-select">
+                            <option>Toutes métriques</option>
+                            <option>Médias</option>
+                            <option>Économie</option>
+                            <option>Talents</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Période</label>
+                        <select class="filter-select">
+                            <option selected>12 derniers mois</option>
+                            <option>6 derniers mois</option>
+                            <option>3 derniers mois</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary">Appliquer</button>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #1C352D, #2a4c41);">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Recherches Google</div>
+                            <div class="stat-value">+142%</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>vs année dernière</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #A6B28B, #c0c9a5);">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Articles de Presse</div>
+                            <div class="stat-value">3,847</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+68% vs 2024</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #F5C9B0, #f7d4be);">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Valeur Économique</div>
+                            <div class="stat-value">€84M</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>TV + Sponsoring</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #d9534f, #e57373);">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Jeunes Talents Détectés</div>
+                            <div class="stat-value">47</div>
+                            <div class="stat-change">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Progression >100 places</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Grid -->
+                <div class="dashboard-grid">
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Popularité Médiatique</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                            <p>Tendances de recherche & presse</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">
+                                Évolution mensuelle de l'intérêt médiatique
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Valeur Économique Générée</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Répartition des revenus</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">
+                                Droits TV: €42M | Sponsoring: €28M | Billetterie: €14M
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 12;">
+                        <div class="card-header">
+                            <h3 class="card-title">Jeunes Talents - Progression Rapide</h3>
+                        </div>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Joueur</th>
+                                        <th>Âge</th>
+                                        <th>Pays</th>
+                                        <th>Classement Actuel</th>
+                                        <th>Progression (12 mois)</th>
+                                        <th>Win Rate</th>
+                                        <th>Potentiel</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Lucas Martinez</td>
+                                        <td>19</td>
+                                        <td>🇪🇸 Espagne</td>
+                                        <td>42</td>
+                                        <td style="color: var(--secondary-color);">↑ 287 places</td>
+                                        <td>74%</td>
+                                        <td><span style="color: gold;">⭐⭐⭐⭐⭐</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sofia Rossi</td>
+                                        <td>21</td>
+                                        <td>🇮🇹 Italie</td>
+                                        <td>68</td>
+                                        <td style="color: var(--secondary-color);">↑ 215 places</td>
+                                        <td>69%</td>
+                                        <td><span style="color: gold;">⭐⭐⭐⭐</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ahmed Khalil</td>
+                                        <td>20</td>
+                                        <td>🇦🇪 UAE</td>
+                                        <td>93</td>
+                                        <td style="color: var(--secondary-color);">↑ 178 places</td>
+                                        <td>67%</td>
+                                        <td><span style="color: gold;">⭐⭐⭐⭐</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Emma Johnson</td>
+                                        <td>18</td>
+                                        <td>🇬🇧 UK</td>
+                                        <td>124</td>
+                                        <td style="color: var(--secondary-color);">↑ 156 places</td>
+                                        <td>65%</td>
+                                        <td><span style="color: gold;">⭐⭐⭐⭐</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE 6: ADVANCED ANALYTICS -->
+        <div id="advanced" class="page">
+            <div class="content-container">
+                <!-- Filters -->
+                <div class="filters">
+                    <div class="filter-group">
+                        <label class="filter-label">Modèle</label>
+                        <select class="filter-select">
+                            <option>Prédiction Matchs</option>
+                            <option>Recommandation Sponsoring</option>
+                            <option>Détection Talents</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Confiance</label>
+                        <select class="filter-select">
+                            <option>Toutes prédictions</option>
+                            <option>>90%</option>
+                            <option>>80%</option>
+                            <option>>70%</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary">Exécuter Analyse</button>
+                </div>
+
+                <!-- Stats Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #1C352D, #2a4c41);">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Précision Modèle</div>
+                            <div class="stat-value">87.4%</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>+2.1% vs mois dernier</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #A6B28B, #c0c9a5);">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Prédictions Générées</div>
+                            <div class="stat-value">1,248</div>
+                            <div class="stat-change">
+                                <i class="fas fa-info-circle"></i>
+                                <span>Ce mois</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #F5C9B0, #f7d4be);">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">Opportunités Identifiées</div>
+                            <div class="stat-value">34</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>Joueurs sous-valorisés</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon" style="background: linear-gradient(135deg, #d9534f, #e57373);">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="stat-info">
+                            <div class="stat-title">ROI Recommandations</div>
+                            <div class="stat-value">4.2x</div>
+                            <div class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                <span>Retour moyen</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Grid -->
+                <div class="dashboard-grid">
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Prédictions de Matchs (Top Prochains)</h3>
+                        </div>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Match</th>
+                                        <th>Prob. Victoire J1</th>
+                                        <th>Prob. Victoire J2</th>
+                                        <th>Confiance</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Bettaieb vs Hammouda</td>
+                                        <td style="color: var(--secondary-color); font-weight: bold;">62%</td>
+                                        <td>38%</td>
+                                        <td>91%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ayech vs Kooli</td>
+                                        <td style="color: var(--secondary-color); font-weight: bold;">58%</td>
+                                        <td>42%</td>
+                                        <td>85%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Abdi vs Martinez</td>
+                                        <td>45%</td>
+                                        <td style="color: var(--secondary-color); font-weight: bold;">55%</td>
+                                        <td>88%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 6;">
+                        <div class="card-header">
+                            <h3 class="card-title">Score de Prédiction - Distribution</h3>
+                        </div>
+                        <div class="chart-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                            <p>Distribution des probabilités</p>
+                            <p style="font-size: 0.85rem; margin-top: 10px;">
+                                Haute confiance (>85%): 67% | Moyenne (70-85%): 28% | Basse (<70%): 5%
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-card" style="grid-column: span 12;">
+                        <div class="card-header">
+                            <h3 class="card-title">Recommandations Sponsoring - Joueurs Sous-valorisés</h3>
+                        </div>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Joueur</th>
+                                        <th>Classement</th>
+                                        <th>Performance</th>
+                                        <th>Visibilité Actuelle</th>
+                                        <th>Potentiel Estimé</th>
+                                        <th>Écart Valeur</th>
+                                        <th>Recommandation</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Lucas Martinez</strong></td>
+                                        <td>42</td>
+                                        <td style="color: var(--secondary-color);">Excellent (74%)</td>
+                                        <td>2.3M impressions</td>
+                                        <td>8.5M impressions</td>
+                                        <td style="color: gold; font-weight: bold;">+270%</td>
+                                        <td><span style="background: var(--secondary-color); color: white; padding: 4px 8px; border-radius: 3px;">FORT ACHAT</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Emma Johnson</strong></td>
+                                        <td>124</td>
+                                        <td style="color: var(--secondary-color);">Très bon (65%)</td>
+                                        <td>1.1M impressions</td>
+                                        <td>4.2M impressions</td>
+                                        <td style="color: gold; font-weight: bold;">+282%</td>
+                                        <td><span style="background: var(--secondary-color); color: white; padding: 4px 8px; border-radius: 3px;">FORT ACHAT</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Ahmed Khalil</strong></td>
+                                        <td>93</td>
+                                        <td style="color: var(--secondary-color);">Très bon (67%)</td>
+                                        <td>1.8M impressions</td>
+                                        <td>5.8M impressions</td>
+                                        <td style="color: var(--warning-color); font-weight: bold;">+222%</td>
+                                        <td><span style="background: var(--warning-color); color: #333; padding: 4px 8px; border-radius: 3px;">ACHAT</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Sofia Rossi</strong></td>
+                                        <td>68</td>
+                                        <td style="color: var(--secondary-color);">Très bon (69%)</td>
+                                        <td>3.2M impressions</td>
+                                        <td>7.1M impressions</td>
+                                        <td style="color: var(--warning-color); font-weight: bold;">+122%</td>
+                                        <td><span style="background: var(--warning-color); color: #333; padding: 4px 8px; border-radius: 3px;">ACHAT</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update active nav item
+            const navItems = document.querySelectorAll('.nav-item');
+            navItems.forEach(item => item.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            
+            // Update page title
+            const titles = {
+                'dashboard': 'Dashboard Padel Analytics',
+                'joueurs': 'Analyse des Joueurs',
+                'tournois': 'Gestion des Tournois',
+                'equipements': 'Équipements & Sponsoring',
+                'business': 'Business & Économie',
+                'advanced': 'Advanced Analytics'
+            };
+            
+            const breadcrumbs = {
+                'dashboard': 'Dashboard',
+                'joueurs': 'Joueurs',
+                'tournois': 'Tournois',
+                'equipements': 'Équipements',
+                'business': 'Business',
+                'advanced': 'Advanced Analytics'
+            };
+            
+            document.getElementById('pageTitle').textContent = titles[pageId];
+            document.getElementById('pageBreadcrumb').textContent = breadcrumbs[pageId];
+        }
+    </script>
+</body>
+</html>
