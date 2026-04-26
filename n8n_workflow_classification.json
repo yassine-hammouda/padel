@@ -1,0 +1,148 @@
+{
+  "name": "🎾 Padel ML — Classification Pipeline (Match Winner)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "hours", "hoursInterval": 1 }] }
+      },
+      "name": "⏰ Every Hour Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "padel-match-trigger",
+        "responseMode": "responseNode"
+      },
+      "name": "🔔 Webhook Trigger (Manual)",
+      "type": "n8n-nodes-base.webhook",
+      "position": [240, 460]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/health",
+        "method": "GET"
+      },
+      "name": "❤️ Health Check API",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [460, 380]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [{ "value1": "={{ $json.status }}", "operation": "equal", "value2": "ok" }]
+        }
+      },
+      "name": "✅ API Alive?",
+      "type": "n8n-nodes-base.if",
+      "position": [680, 380]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/matches/latest",
+        "method": "GET"
+      },
+      "name": "📥 Get Latest Matches",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const matches = $input.all();\nconst results = [];\nfor (const match of matches) {\n  const data = match.json;\n  results.push({\n    json: {\n      category: data.category || 'men',\n      round: parseInt(data.round) || 1,\n      round_name: data.round_name || 'Finals',\n      index: parseInt(data.index) || 0,\n      court: data.court || 'Unknown',\n      competition_source: data.competition_source || 'FIP',\n      month: new Date(data.played_at || Date.now()).getMonth() + 1,\n      match_id: String(data.match_id || data.id || 'N/A'),\n      match_name: data.name || 'Unknown Match',\n      played_at: data.played_at || 'Unknown'\n    }\n  });\n}\nreturn results;"
+      },
+      "name": "🔄 Prepare Match Features",
+      "type": "n8n-nodes-base.code",
+      "position": [1120, 300]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/predict",
+        "method": "POST",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "specifyBody": "keypair",
+        "bodyParameters": {
+          "parameters": [
+            { "name": "category", "value": "={{ $json.category }}" },
+            { "name": "round", "value": "={{ $json.round }}" },
+            { "name": "round_name", "value": "={{ $json.round_name }}" },
+            { "name": "index", "value": "={{ $json.index }}" },
+            { "name": "court", "value": "={{ $json.court }}" },
+            { "name": "competition_source", "value": "={{ $json.competition_source }}" },
+            { "name": "month", "value": "={{ $json.month }}" },
+            { "name": "match_id", "value": "={{ $json.match_id }}" },
+            { "name": "match_name", "value": "={{ $json.match_name }}" }
+          ]
+        }
+      },
+      "name": "🤖 XGBoost Predict Winner",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [1340, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst results = [];\nfor (const item of items) {\n  const d = item.json;\n  const confidence = Math.max(d.probability_team1 || 0, d.probability_team2 || 0);\n  const alert = confidence < 60 ? '⚠️ LOW CONFIDENCE' : '✅ HIGH CONFIDENCE';\n  results.push({\n    json: {\n      match_id: d.match_id || 'N/A',\n      match_name: d.match_name || 'Unknown',\n      predicted_winner: d.winner || d.predicted_winner,\n      probability_team1: d.probability_team1,\n      probability_team2: d.probability_team2,\n      confidence_level: confidence.toFixed(1) + '%',\n      confidence_alert: alert,\n      model: 'XGBoost Classifier (74.2% accuracy)',\n      prediction_timestamp: new Date().toISOString(),\n      status: d.status\n    }\n  });\n}\nreturn results;"
+      },
+      "name": "📊 Format + Confidence Score",
+      "type": "n8n-nodes-base.code",
+      "position": [1560, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst predictions = items.map(item => ({\n  match_id: item.json.match_id || 'N/A',\n  predicted_winner: item.json.predicted_winner || 'Unknown',\n  probability_team1: item.json.probability_team1 || 0,\n  probability_team2: item.json.probability_team2 || 0,\n  timestamp: item.json.prediction_timestamp || new Date().toISOString()\n}));\nconst response = await this.helpers.httpRequest({\n  method: 'POST',\n  url: 'http://127.0.0.1:5000/save_predictions',\n  headers: { 'Content-Type': 'application/json' },\n  body: { predictions },\n  json: true\n});\nreturn [{ json: { ...response, total_saved: predictions.length } }];"
+      },
+      "name": "💾 Save to CSV via API",
+      "type": "n8n-nodes-base.code",
+      "position": [1780, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [{ "value1": "={{ $json.status }}", "operation": "equal", "value2": "error" }]
+        }
+      },
+      "name": "⚠️ Error Detected?",
+      "type": "n8n-nodes-base.if",
+      "position": [1560, 500]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst errorData = {\n  pipeline: 'Classification — Match Winner',\n  timestamp: new Date().toISOString(),\n  error: items[0]?.json?.error || 'Unknown error',\n  match_id: items[0]?.json?.match_id || 'N/A'\n};\nawait this.helpers.httpRequest({\n  method: 'POST',\n  url: 'http://127.0.0.1:5000/log_error',\n  headers: { 'Content-Type': 'application/json' },\n  body: errorData,\n  json: true\n});\nreturn [{ json: errorData }];"
+      },
+      "name": "📋 Log Error to File",
+      "type": "n8n-nodes-base.code",
+      "position": [1780, 500]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/retrain",
+        "method": "POST"
+      },
+      "name": "🔁 Auto Retrain XGBoost",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [2000, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst summary = items.map(i => i.json);\nconst lowConf = summary.filter(s => parseFloat(s.confidence_level) < 60);\nconst report = {\n  timestamp: new Date().toISOString(),\n  total_predictions: summary.length,\n  low_confidence_matches: lowConf.length,\n  summary: summary.map(s => `${s.match_name}: ${s.predicted_winner} (${s.confidence_level})`).join('\\n')\n};\nreturn [{ json: report }];"
+      },
+      "name": "📧 Build Email Report",
+      "type": "n8n-nodes-base.code",
+      "position": [2000, 460]
+    }
+  ],
+  "connections": {
+    "⏰ Every Hour Trigger": { "main": [[{ "node": "❤️ Health Check API", "type": "main", "index": 0 }]] },
+    "🔔 Webhook Trigger (Manual)": { "main": [[{ "node": "❤️ Health Check API", "type": "main", "index": 0 }]] },
+    "❤️ Health Check API": { "main": [[{ "node": "✅ API Alive?", "type": "main", "index": 0 }]] },
+    "✅ API Alive?": { "main": [[{ "node": "📥 Get Latest Matches", "type": "main", "index": 0 }], [{ "node": "📋 Log Error to File", "type": "main", "index": 0 }]] },
+    "📥 Get Latest Matches": { "main": [[{ "node": "🔄 Prepare Match Features", "type": "main", "index": 0 }]] },
+    "🔄 Prepare Match Features": { "main": [[{ "node": "🤖 XGBoost Predict Winner", "type": "main", "index": 0 }]] },
+    "🤖 XGBoost Predict Winner": { "main": [[{ "node": "📊 Format + Confidence Score", "type": "main", "index": 0 }]] },
+    "📊 Format + Confidence Score": { "main": [[{ "node": "💾 Save to CSV via API", "type": "main", "index": 0 }], [{ "node": "⚠️ Error Detected?", "type": "main", "index": 0 }]] },
+    "💾 Save to CSV via API": { "main": [[{ "node": "🔁 Auto Retrain XGBoost", "type": "main", "index": 0 }]] },
+    "⚠️ Error Detected?": { "main": [[{ "node": "📋 Log Error to File", "type": "main", "index": 0 }]] },
+    "🔁 Auto Retrain XGBoost": { "main": [[{ "node": "📧 Build Email Report", "type": "main", "index": 0 }]] }
+  }
+}

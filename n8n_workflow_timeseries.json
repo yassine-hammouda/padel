@@ -1,0 +1,109 @@
+{
+  "name": "🎾 Padel ML — Time Series Pipeline (Monthly Forecast)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "weeks", "weeksInterval": 1 }] }
+      },
+      "name": "⏰ Weekly Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "padel-timeseries-trigger"
+      },
+      "name": "🔔 Webhook — Manual Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "position": [240, 460]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/matches/latest",
+        "method": "GET"
+      },
+      "name": "📥 Get Recent Matches",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [460, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const matches = $input.all();\nconst monthlyVolume = {};\nfor (const match of matches) {\n  const data = match.json;\n  const date = new Date(data.played_at || Date.now());\n  const key = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;\n  monthlyVolume[key] = (monthlyVolume[key] || 0) + 1;\n}\nconst series = Object.entries(monthlyVolume)\n  .sort(([a], [b]) => a.localeCompare(b))\n  .map(([month, count]) => ({ month, count }));\nconst lastCount = series[series.length - 1]?.count || 0;\nconst prevCount = series[series.length - 2]?.count || lastCount;\nconst growthRate = prevCount > 0 ? ((lastCount - prevCount) / prevCount * 100).toFixed(1) : 0;\nreturn [{ json: {\n  series,\n  total_months: series.length,\n  latest_month: series[series.length - 1]?.month || 'N/A',\n  latest_count: lastCount,\n  growth_rate: growthRate + '%',\n  peak_month: series.reduce((a, b) => a.count > b.count ? a : b, { month: 'N/A', count: 0 })\n}}];"
+      },
+      "name": "📊 Aggregate Monthly Volume",
+      "type": "n8n-nodes-base.code",
+      "position": [680, 380]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/forecast",
+        "method": "POST",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "specifyBody": "keypair",
+        "bodyParameters": {
+          "parameters": [
+            { "name": "series", "value": "={{ JSON.stringify($json.series) }}" },
+            { "name": "periods", "value": "=3" }
+          ]
+        }
+      },
+      "name": "🤖 ARIMA Forecast (3 months)",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [900, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst results = [];\nfor (const item of items) {\n  const d = item.json;\n  const forecast = d.forecast || [{ month: 'N/A', predicted: 0 }];\n  const trend = parseFloat(d.growth_rate || '0');\n  let trendLabel = '';\n  if (trend > 15) trendLabel = '🚀 Strong Growth';\n  else if (trend > 5) trendLabel = '📈 Moderate Growth';\n  else if (trend > -5) trendLabel = '➡️ Stable';\n  else trendLabel = '📉 Declining';\n  results.push({\n    json: {\n      analysis_date: new Date().toISOString(),\n      current_month: d.latest_month,\n      current_volume: d.latest_count,\n      growth_rate: d.growth_rate,\n      trend_label: trendLabel,\n      forecast_next_3_months: forecast,\n      peak_month: d.peak_month,\n      model: 'ARIMA (MAE=360 matches/month)',\n      recommendation: trend < -10 ? '⚠️ Volume declining — investigate scheduling issues' : '✅ Volume on track'\n    }\n  });\n}\nreturn results;"
+      },
+      "name": "📈 Enrich Forecast Analysis",
+      "type": "n8n-nodes-base.code",
+      "position": [1120, 380]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [{ "value1": "={{ $json.trend_label }}", "operation": "contains", "value2": "Declining" }]
+        }
+      },
+      "name": "📉 Declining Trend?",
+      "type": "n8n-nodes-base.if",
+      "position": [1340, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst alert = {\n  type: 'VOLUME_DECLINE_ALERT',\n  pipeline: 'Time Series — Monthly Forecast',\n  timestamp: new Date().toISOString(),\n  current_month: items[0]?.json?.current_month,\n  current_volume: items[0]?.json?.current_volume,\n  growth_rate: items[0]?.json?.growth_rate,\n  message: 'Match volume declining — check tournament scheduling',\n  email_to: 'mohamedyassine.hammouda@esprit.tn'\n};\nawait this.helpers.httpRequest({\n  method: 'POST',\n  url: 'http://127.0.0.1:5000/log_error',\n  headers: { 'Content-Type': 'application/json' },\n  body: alert,\n  json: true\n});\nreturn [{ json: alert }];"
+      },
+      "name": "🚨 Alert Volume Decline",
+      "type": "n8n-nodes-base.code",
+      "position": [1560, 260]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst predictions = items.map(item => ({\n  match_id: 'FORECAST_' + (item.json.current_month || 'N/A'),\n  predicted_winner: item.json.trend_label || 'Unknown',\n  probability_team1: item.json.current_volume || 0,\n  probability_team2: parseFloat(item.json.growth_rate) || 0,\n  timestamp: item.json.analysis_date || new Date().toISOString()\n}));\nconst response = await this.helpers.httpRequest({\n  method: 'POST',\n  url: 'http://127.0.0.1:5000/save_predictions',\n  headers: { 'Content-Type': 'application/json' },\n  body: { predictions },\n  json: true\n});\nreturn [{ json: { ...response, forecast_saved: true } }];"
+      },
+      "name": "💾 Save Forecast Results",
+      "type": "n8n-nodes-base.code",
+      "position": [1560, 500]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst report = items[0]?.json || {};\nconst emailBody = `\n🎾 PADEL ML — Weekly Time Series Report\n==========================================\nDate: ${new Date().toLocaleDateString('fr-FR')}\n\n📊 CURRENT STATUS\n- Month: ${report.current_month || 'N/A'}\n- Volume: ${report.current_volume || 0} matches\n- Growth: ${report.growth_rate || '0%'}\n- Trend: ${report.trend_label || 'N/A'}\n\n🔮 FORECAST (next 3 months)\n${JSON.stringify(report.forecast_next_3_months || [], null, 2)}\n\n🏆 Peak Month: ${JSON.stringify(report.peak_month || {})}\n\n💡 Recommendation: ${report.recommendation || 'N/A'}\n\nModel: ${report.model || 'ARIMA'}\n`;\nreturn [{ json: { email_body: emailBody, email_to: 'mohamedyassine.hammouda@esprit.tn', subject: '🎾 Padel ML Weekly Forecast Report' } }];"
+      },
+      "name": "📧 Build Weekly Email Report",
+      "type": "n8n-nodes-base.code",
+      "position": [1780, 380]
+    }
+  ],
+  "connections": {
+    "⏰ Weekly Trigger": { "main": [[{ "node": "📥 Get Recent Matches", "type": "main", "index": 0 }]] },
+    "🔔 Webhook — Manual Trigger": { "main": [[{ "node": "📥 Get Recent Matches", "type": "main", "index": 0 }]] },
+    "📥 Get Recent Matches": { "main": [[{ "node": "📊 Aggregate Monthly Volume", "type": "main", "index": 0 }]] },
+    "📊 Aggregate Monthly Volume": { "main": [[{ "node": "🤖 ARIMA Forecast (3 months)", "type": "main", "index": 0 }]] },
+    "🤖 ARIMA Forecast (3 months)": { "main": [[{ "node": "📈 Enrich Forecast Analysis", "type": "main", "index": 0 }]] },
+    "📈 Enrich Forecast Analysis": { "main": [[{ "node": "📉 Declining Trend?", "type": "main", "index": 0 }]] },
+    "📉 Declining Trend?": { "main": [[{ "node": "🚨 Alert Volume Decline", "type": "main", "index": 0 }], [{ "node": "💾 Save Forecast Results", "type": "main", "index": 0 }]] },
+    "💾 Save Forecast Results": { "main": [[{ "node": "📧 Build Weekly Email Report", "type": "main", "index": 0 }]] }
+  }
+}

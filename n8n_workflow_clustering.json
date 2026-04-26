@@ -1,0 +1,127 @@
+{
+  "name": "🎾 Padel ML — Clustering Pipeline (Match Segments)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "days", "daysInterval": 1 }] }
+      },
+      "name": "⏰ Daily Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "padel-clustering-trigger"
+      },
+      "name": "🔔 Webhook — Manual Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "position": [240, 460]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/matches/latest",
+        "method": "GET"
+      },
+      "name": "📥 Get Matches Batch",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [460, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const matches = $input.all();\nconst results = [];\nfor (const match of matches) {\n  const data = match.json;\n  results.push({\n    json: {\n      category: data.category || 'men',\n      round: parseInt(data.round) || 1,\n      round_name: data.round_name || 'Finals',\n      index: parseInt(data.index) || 0,\n      court: data.court || 'Unknown',\n      competition_source: data.competition_source || 'FIP',\n      month: new Date(data.played_at || Date.now()).getMonth() + 1,\n      winner_enc: data.winner === 'team_1' ? 1 : 0,\n      duration_filled: data.duration_minutes !== 'Unknown' && data.duration_minutes ? parseFloat(data.duration_minutes) : 87.0,\n      match_id: String(data.match_id || data.id || 'N/A'),\n      match_name: data.name || 'Unknown'\n    }\n  });\n}\nreturn results;"
+      },
+      "name": "🔄 Prepare Cluster Features",
+      "type": "n8n-nodes-base.code",
+      "position": [680, 380]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/cluster",
+        "method": "POST",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "specifyBody": "keypair",
+        "bodyParameters": {
+          "parameters": [
+            { "name": "category", "value": "={{ $json.category }}" },
+            { "name": "round", "value": "={{ $json.round }}" },
+            { "name": "round_name", "value": "={{ $json.round_name }}" },
+            { "name": "index", "value": "={{ $json.index }}" },
+            { "name": "court", "value": "={{ $json.court }}" },
+            { "name": "competition_source", "value": "={{ $json.competition_source }}" },
+            { "name": "month", "value": "={{ $json.month }}" },
+            { "name": "winner_enc", "value": "={{ $json.winner_enc }}" },
+            { "name": "duration_filled", "value": "={{ $json.duration_filled }}" },
+            { "name": "match_id", "value": "={{ $json.match_id }}" }
+          ]
+        }
+      },
+      "name": "🤖 KMeans Assign Cluster",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [900, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst results = [];\nconst clusterProfiles = {\n  0: { name: 'FIP Circuit Matches', description: 'High round numbers, FIP circuit dominant', color: '#2EC878' },\n  1: { name: 'WPT Circuit Matches', description: 'WPT circuit, different round structure', color: '#3B9EE8' }\n};\nfor (const item of items) {\n  const d = item.json;\n  const clusterId = d.cluster !== undefined ? d.cluster : 0;\n  const profile = clusterProfiles[clusterId] || clusterProfiles[0];\n  results.push({\n    json: {\n      match_id: d.match_id || 'N/A',\n      cluster_id: clusterId,\n      cluster_name: profile.name,\n      cluster_description: profile.description,\n      model: 'KMeans k=2 (Silhouette=0.216)',\n      timestamp: new Date().toISOString()\n    }\n  });\n}\nconst cluster0 = results.filter(r => r.json.cluster_id === 0).length;\nconst cluster1 = results.filter(r => r.json.cluster_id === 1).length;\nresults.push({\n  json: {\n    summary: true,\n    total_matches: results.length,\n    cluster_0_count: cluster0,\n    cluster_1_count: cluster1,\n    cluster_0_pct: ((cluster0 / results.length) * 100).toFixed(1) + '%',\n    cluster_1_pct: ((cluster1 / results.length) * 100).toFixed(1) + '%',\n    timestamp: new Date().toISOString()\n  }\n});\nreturn results;"
+      },
+      "name": "📊 Enrich Cluster Results",
+      "type": "n8n-nodes-base.code",
+      "position": [1120, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst summary = items.find(i => i.json.summary === true);\nif (!summary) return items;\nconst cluster0Pct = parseFloat(summary.json.cluster_0_pct);\nconst driftDetected = Math.abs(cluster0Pct - 64.2) > 10;\nreturn [{ json: {\n  ...summary.json,\n  drift_detected: driftDetected,\n  drift_alert: driftDetected ? `⚠️ Cluster distribution shifted! Expected ~64% FIP, got ${summary.json.cluster_0_pct}` : null,\n  baseline_cluster0_pct: '64.2%'\n}}];"
+      },
+      "name": "🔍 Drift Detection",
+      "type": "n8n-nodes-base.code",
+      "position": [1340, 380]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "boolean": [{ "value1": "={{ $json.drift_detected }}", "value2": true }]
+        }
+      },
+      "name": "⚠️ Drift Detected?",
+      "type": "n8n-nodes-base.if",
+      "position": [1560, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst driftInfo = items[0]?.json || {};\nconst alert = {\n  type: 'CLUSTER_DRIFT_ALERT',\n  pipeline: 'Clustering — Match Segments',\n  timestamp: new Date().toISOString(),\n  message: driftInfo.drift_alert,\n  current_distribution: { cluster_0: driftInfo.cluster_0_pct, cluster_1: driftInfo.cluster_1_pct },\n  baseline_distribution: { cluster_0: '64.2%', cluster_1: '35.8%' },\n  recommendation: 'Consider retraining KMeans model with new data'\n};\nawait this.helpers.httpRequest({\n  method: 'POST',\n  url: 'http://127.0.0.1:5000/log_error',\n  headers: { 'Content-Type': 'application/json' },\n  body: alert,\n  json: true\n});\nreturn [{ json: alert }];"
+      },
+      "name": "📋 Log Drift Alert",
+      "type": "n8n-nodes-base.code",
+      "position": [1780, 260]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/retrain",
+        "method": "POST"
+      },
+      "name": "🔁 Retrain on Drift",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [2000, 260]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst predictions = items\n  .filter(i => !i.json.summary && !i.json.drift_detected)\n  .map(item => ({\n    match_id: item.json.match_id || 'N/A',\n    predicted_winner: item.json.cluster_name || 'Unknown',\n    probability_team1: item.json.cluster_id || 0,\n    probability_team2: 0,\n    timestamp: item.json.timestamp || new Date().toISOString()\n  }));\nif (predictions.length === 0) return [{ json: { saved: false, reason: 'no data' } }];\nconst response = await this.helpers.httpRequest({\n  method: 'POST',\n  url: 'http://127.0.0.1:5000/save_predictions',\n  headers: { 'Content-Type': 'application/json' },\n  body: { predictions },\n  json: true\n});\nreturn [{ json: response }];"
+      },
+      "name": "💾 Save Cluster Results",
+      "type": "n8n-nodes-base.code",
+      "position": [1780, 500]
+    }
+  ],
+  "connections": {
+    "⏰ Daily Trigger": { "main": [[{ "node": "📥 Get Matches Batch", "type": "main", "index": 0 }]] },
+    "🔔 Webhook — Manual Trigger": { "main": [[{ "node": "📥 Get Matches Batch", "type": "main", "index": 0 }]] },
+    "📥 Get Matches Batch": { "main": [[{ "node": "🔄 Prepare Cluster Features", "type": "main", "index": 0 }]] },
+    "🔄 Prepare Cluster Features": { "main": [[{ "node": "🤖 KMeans Assign Cluster", "type": "main", "index": 0 }]] },
+    "🤖 KMeans Assign Cluster": { "main": [[{ "node": "📊 Enrich Cluster Results", "type": "main", "index": 0 }]] },
+    "📊 Enrich Cluster Results": { "main": [[{ "node": "🔍 Drift Detection", "type": "main", "index": 0 }]] },
+    "🔍 Drift Detection": { "main": [[{ "node": "⚠️ Drift Detected?", "type": "main", "index": 0 }]] },
+    "⚠️ Drift Detected?": { "main": [[{ "node": "📋 Log Drift Alert", "type": "main", "index": 0 }], [{ "node": "💾 Save Cluster Results", "type": "main", "index": 0 }]] },
+    "📋 Log Drift Alert": { "main": [[{ "node": "🔁 Retrain on Drift", "type": "main", "index": 0 }]] }
+  }
+}

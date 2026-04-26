@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/hammo/Downloads/BI_ML_Project/notebooks/mlruns/0/28e49c889ded42a0bd6234440d3add93/artifacts
+end_time: 1777231071398
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28e49c889ded42a0bd6234440d3add93
+run_name: XGBoost_Classification_v1
+run_uuid: 28e49c889ded42a0bd6234440d3add93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777231067744
+status: 3
+tags: []
+user_id: hammo

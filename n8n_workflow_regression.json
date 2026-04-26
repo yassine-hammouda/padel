@@ -1,0 +1,109 @@
+{
+  "name": "🎾 Padel ML — Regression Pipeline (Match Duration)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "hours", "hoursInterval": 6 }] }
+      },
+      "name": "⏰ Every 6 Hours Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "padel-regression-trigger",
+        "responseMode": "responseNode"
+      },
+      "name": "🔔 Webhook — Manual Trigger",
+      "type": "n8n-nodes-base.webhook",
+      "position": [240, 460]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/matches/latest",
+        "method": "GET"
+      },
+      "name": "📥 Fetch Latest Matches",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [460, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const matches = $input.all();\nconst results = [];\nfor (const match of matches) {\n  const data = match.json;\n  results.push({\n    json: {\n      category: data.category || 'men',\n      round: parseInt(data.round) || 1,\n      round_name: data.round_name || 'Finals',\n      index: parseInt(data.index) || 0,\n      court: data.court || 'Unknown',\n      competition_source: data.competition_source || 'FIP',\n      month: new Date(data.played_at || Date.now()).getMonth() + 1,\n      winner_enc: data.winner === 'team_1' ? 1 : 0,\n      match_id: String(data.match_id || data.id || 'N/A'),\n      match_name: data.name || 'Unknown',\n      actual_duration: data.duration_minutes !== 'Unknown' ? data.duration_minutes : null\n    }\n  });\n}\nreturn results;"
+      },
+      "name": "🔄 Prepare Regression Features",
+      "type": "n8n-nodes-base.code",
+      "position": [680, 380]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/predict_duration",
+        "method": "POST",
+        "sendBody": true,
+        "bodyContentType": "json",
+        "specifyBody": "keypair",
+        "bodyParameters": {
+          "parameters": [
+            { "name": "category", "value": "={{ $json.category }}" },
+            { "name": "round", "value": "={{ $json.round }}" },
+            { "name": "round_name", "value": "={{ $json.round_name }}" },
+            { "name": "index", "value": "={{ $json.index }}" },
+            { "name": "court", "value": "={{ $json.court }}" },
+            { "name": "competition_source", "value": "={{ $json.competition_source }}" },
+            { "name": "month", "value": "={{ $json.month }}" },
+            { "name": "winner_enc", "value": "={{ $json.winner_enc }}" },
+            { "name": "match_id", "value": "={{ $json.match_id }}" },
+            { "name": "match_name", "value": "={{ $json.match_name }}" }
+          ]
+        }
+      },
+      "name": "🤖 RF Predict Duration",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [900, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst results = [];\nfor (const item of items) {\n  const d = item.json;\n  const predicted = parseFloat(d.predicted_duration || 90);\n  let category = '';\n  if (predicted < 70) category = '⚡ Short Match (<70 min)';\n  else if (predicted < 100) category = '🎾 Standard Match (70-100 min)';\n  else if (predicted < 130) category = '⏳ Long Match (100-130 min)';\n  else category = '🔥 Marathon Match (>130 min)';\n  results.push({\n    json: {\n      match_id: d.match_id || 'N/A',\n      match_name: d.match_name || 'Unknown',\n      predicted_duration_min: predicted.toFixed(1),\n      duration_category: category,\n      model: 'Random Forest Regressor (MAE=26.3 min)',\n      warning: predicted > 150 ? '🚨 Unusually long match predicted!' : null,\n      timestamp: new Date().toISOString()\n    }\n  });\n}\nreturn results;"
+      },
+      "name": "📊 Categorize Duration",
+      "type": "n8n-nodes-base.code",
+      "position": [1120, 380]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "string": [{ "value1": "={{ $json.warning }}", "operation": "isNotEmpty" }]
+        }
+      },
+      "name": "🚨 Long Match Alert?",
+      "type": "n8n-nodes-base.if",
+      "position": [1340, 380]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst alert = {\n  type: 'LONG_MATCH_ALERT',\n  pipeline: 'Regression — Match Duration',\n  timestamp: new Date().toISOString(),\n  matches: items.map(i => ({\n    match_id: i.json.match_id,\n    match_name: i.json.match_name,\n    predicted_duration: i.json.predicted_duration_min + ' min'\n  }))\n};\nawait this.helpers.httpRequest({\n  method: 'POST',\n  url: 'http://127.0.0.1:5000/log_error',\n  headers: { 'Content-Type': 'application/json' },\n  body: alert,\n  json: true\n});\nreturn [{ json: alert }];"
+      },
+      "name": "📋 Log Long Match Alert",
+      "type": "n8n-nodes-base.code",
+      "position": [1560, 260]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst predictions = items.map(item => ({\n  match_id: item.json.match_id || 'N/A',\n  predicted_winner: item.json.duration_category || 'Unknown',\n  probability_team1: item.json.predicted_duration_min || 0,\n  probability_team2: 0,\n  timestamp: item.json.timestamp || new Date().toISOString()\n}));\nconst response = await this.helpers.httpRequest({\n  method: 'POST',\n  url: 'http://127.0.0.1:5000/save_predictions',\n  headers: { 'Content-Type': 'application/json' },\n  body: { predictions },\n  json: true\n});\nreturn [{ json: response }];"
+      },
+      "name": "💾 Save Duration Predictions",
+      "type": "n8n-nodes-base.code",
+      "position": [1560, 500]
+    }
+  ],
+  "connections": {
+    "⏰ Every 6 Hours Trigger": { "main": [[{ "node": "📥 Fetch Latest Matches", "type": "main", "index": 0 }]] },
+    "🔔 Webhook — Manual Trigger": { "main": [[{ "node": "📥 Fetch Latest Matches", "type": "main", "index": 0 }]] },
+    "📥 Fetch Latest Matches": { "main": [[{ "node": "🔄 Prepare Regression Features", "type": "main", "index": 0 }]] },
+    "🔄 Prepare Regression Features": { "main": [[{ "node": "🤖 RF Predict Duration", "type": "main", "index": 0 }]] },
+    "🤖 RF Predict Duration": { "main": [[{ "node": "📊 Categorize Duration", "type": "main", "index": 0 }]] },
+    "📊 Categorize Duration": { "main": [[{ "node": "🚨 Long Match Alert?", "type": "main", "index": 0 }]] },
+    "🚨 Long Match Alert?": { "main": [[{ "node": "📋 Log Long Match Alert", "type": "main", "index": 0 }], [{ "node": "💾 Save Duration Predictions", "type": "main", "index": 0 }]] }
+  }
+}
