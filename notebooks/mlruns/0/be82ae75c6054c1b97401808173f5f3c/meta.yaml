@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/hammo/Downloads/BI_ML_Project/notebooks/mlruns/0/be82ae75c6054c1b97401808173f5f3c/artifacts
+end_time: 1777252475991
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be82ae75c6054c1b97401808173f5f3c
+run_name: RandomForest_Regression_Duration_v1
+run_uuid: be82ae75c6054c1b97401808173f5f3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777252469908
+status: 3
+tags: []
+user_id: hammo
