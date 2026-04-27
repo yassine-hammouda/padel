@@ -1,21 +1,23 @@
 ﻿# 📊 Audit Performance — Power BI Dashboard
 ## Projet : Padel Analytics ML — matches_dashboard_PBI.pbix
+## Date d'audit : 26/04/2026
 
 ---
 
 ## 🔧 Outil utilisé
-**Power BI Desktop — Performance Analyzer** (View → Performance Analyzer → Start Recording)
+**Power BI Desktop — Analyseur de performances**
+(Afficher → Analyseur de performances → Démarrer l'enregistrement)
 
 ---
 
-## 📋 Dashboard analysé : Padel Analytics — Matches
+## 📋 Dashboard analysé
 
-### Structure du rapport
 | | Détail |
 |--|--|
 | **Fichier** | matches_dashboard_PBI.pbix |
-| **Pages** | 2 pages dédiées aux matchs |
-| **Source de données** | PostgreSQL 16 — dw_padel (fact_match, dim_tournament, dim_round) |
+| **Pages** | 2 pages (Page 1 + Doublon de Page 1) |
+| **Source** | PostgreSQL 16 — dw_padel |
+| **Tables** | public.fact_match, dim_player, dim_tournament, dim_round, dim_date, dim_location, dim_brand, dim_sponsor, dim_team, dim_tour |
 | **Volume** | ~2,000 matchs professionnels (2023–2026) |
 | **Filtres globaux** | Round, Tournament, Season Year, Status |
 
@@ -23,164 +25,139 @@
 
 ## 📄 Page 1 — Match Overview
 
-### KPI Cards analysées
-| KPI | Valeur mesurée | Mesure DAX |
-|-----|----------------|------------|
-| Total Matches | 2K | `COUNT(fact_match[id])` |
-| Completion Rate % | 69.54% | `DIVIDE(COUNTIF finished, total)` |
-| Avg Duration (min) | 95.45 | `AVERAGE(fact_match[duration_minutes])` |
-| Longest Match (min) | 199 | `MAX(fact_match[duration_minutes])` |
-| Shortest Match (min) | 5 | `MIN(fact_match[duration_minutes])` |
-| Total Duration (hrs) | 3.44K | `SUM / 60` |
+### Mesures réelles (Performance Analyzer)
 
-### Visuels analysés — Page 1
+| Visuel | Durée (ms) | Statut |
+|--------|-----------|--------|
+| Segment (Round) | **30ms** | ✅ Rapide |
+| Segment (Tournament) | **25ms** | ✅ Rapide |
+| Segment (Season Year) | **31ms** | ✅ Rapide |
+| Segment (Status) | **26ms** | ✅ Rapide |
+| Forme (Header) | **120ms** | ✅ Rapide |
+| Zone de texte | **72ms** | ✅ Rapide |
+| Carte (Total Matches) | **279ms** | ✅ Rapide |
+| Carte (Completion Rate) | **281ms** | ✅ Rapide |
+| Carte (Avg Duration) | **283ms** | ✅ Rapide |
+| Carte (Longest Match) | **286ms** | ✅ Rapide |
+| Carte (Shortest Match) | **264ms** | ✅ Rapide |
+| Carte (Total Duration) | **384ms** | ✅ Rapide |
+| Matches by Round | **379ms** | ✅ Rapide |
+| Matches by Status | **376ms** | ✅ Rapide |
+| Matches Evolution by Season Year | **376ms** | ✅ Rapide |
+| Match Details (Table) | **351ms** | ✅ Rapide |
 
-| Visuel | Type | DAX Query (ms) | Visual Display (ms) | Total (ms) | Statut |
-|--------|------|---------------|---------------------|------------|--------|
-| Total Matches | Card | 45 | 12 | **57ms** | ✅ Rapide |
-| Completion Rate % | Card | 120 | 15 | **135ms** | ✅ Rapide |
-| Avg Duration | Card | 85 | 12 | **97ms** | ✅ Rapide |
-| Longest Match | Card | 78 | 12 | **90ms** | ✅ Rapide |
-| Shortest Match | Card | 95 | 12 | **107ms** | ✅ Rapide |
-| Total Duration | Card | 110 | 15 | **125ms** | ✅ Rapide |
-| Matches by Round | Bar Chart | 380 | 245 | **625ms** | ⚠️ Moyen |
-| Matches by Status | Donut Chart | 210 | 180 | **390ms** | ✅ Rapide |
-| Matches Evolution by Season | Line Chart | **1,240ms** | 420 | **1,660ms** | 🔴 Lent |
-| Match Details | Table | **2,180ms** | 650 | **2,830ms** | 🔴 Très lent |
+**🏆 Page 1 — Excellente performance ! Tous les visuels < 500ms**
 
 ---
 
-## 📄 Page 2 — Match Statistics
+## 📄 Page 2 — Match Statistics (Doublon de Page 1)
 
-### KPI Cards analysées
-| KPI | Valeur | Note |
-|-----|--------|------|
-| Finished Matches | 2K | Filtre sur status='finished' |
-| Total Courts Used | 40 | COUNT DISTINCT sur court |
-| Total Seasons | 4 | 2023, 2024, 2025, 2026 |
-| Avg Matches per Season | 540.00 | Total/4 saisons |
-| Matches per Tournament | 30.00 | Total/nb tournois |
-| Completion Rate % | 69.54% | Même mesure que Page 1 |
+### Mesures réelles (Performance Analyzer)
 
-### Visuels analysés — Page 2
+| Visuel | Durée (ms) | Statut |
+|--------|-----------|--------|
+| Forme (Header) | **163ms** | ✅ Rapide |
+| Zone de texte | **142ms** | ✅ Rapide |
+| Segment (Round) | **161ms** | ✅ Rapide |
+| Segment (Tournament) | **161ms** | ✅ Rapide |
+| Segment (Season Year) | **160ms** | ✅ Rapide |
+| Segment (Status) | **160ms** | ✅ Rapide |
+| Match Status Breakdown | **245ms** | ✅ Rapide |
+| Avg Duration by Round | **245ms** | ✅ Rapide |
+| Match Status by Season | **243ms** | ✅ Rapide |
+| Walkover Rate | **241ms** | ✅ Rapide |
+| Most Used Courts | **241ms** | ✅ Rapide |
+| Carte (Finished Matches) | **282ms** | ✅ Rapide |
+| Carte (Total Courts) | **284ms** | ✅ Rapide |
+| Carte (Total Seasons) | **287ms** | ✅ Rapide |
+| Carte (Avg Matches/Season) | **289ms** | ✅ Rapide |
+| Carte (Matches/Tournament) | **292ms** | ✅ Rapide |
+| Carte (Completion Rate) | **216ms** | ✅ Rapide |
 
-| Visuel | Type | DAX Query (ms) | Visual Display (ms) | Total (ms) | Statut |
-|--------|------|---------------|---------------------|------------|--------|
-| Finished Matches | Card | 95 | 12 | **107ms** | ✅ Rapide |
-| Total Courts Used | Card | 145 | 15 | **160ms** | ✅ Rapide |
-| Total Seasons | Card | 45 | 10 | **55ms** | ✅ Rapide |
-| Avg Matches per Season | Card | 180 | 15 | **195ms** | ✅ Rapide |
-| Matches per Tournament | Card | 175 | 15 | **190ms** | ✅ Rapide |
-| Avg Duration by Round | Bar Chart | 420 | 280 | **700ms** | ⚠️ Moyen |
-| Match Status by Season | Stacked Bar | **980ms** | 380 | **1,360ms** | 🔴 Lent |
-| Match Status Breakdown | Pie Chart | 290 | 195 | **485ms** | ✅ Rapide |
-| Walkover Rate | Gauge | 520 | 210 | **730ms** | ⚠️ Moyen |
-| Most Used Courts | Bar Chart | **1,150ms** | 420 | **1,570ms** | 🔴 Lent |
+**🏆 Page 2 — Excellente performance ! Tous les visuels < 500ms**
+
+---
+
+## 📊 Analyse des interactions (avec filtres actifs)
+
+Lors des interactions avec les filtres, les temps augmentent légèrement :
+
+| Visuel | Sans filtre | Avec filtre | Variation |
+|--------|------------|-------------|-----------|
+| Matches by Round | 379ms | **447ms** | +18% ⚠️ |
+| Matches by Status | 376ms | **405ms** | +8% ✅ |
+| Matches Evolution | 376ms | **445ms** | +18% ⚠️ |
+| Match Details | 351ms | **441ms** | +26% ⚠️ |
+| Most Used Courts | 241ms | **408ms** | +69% ⚠️ |
 
 ---
 
 ## 🐛 Problèmes identifiés
 
-### Problème 1 — Match Details Table (2,830ms) 🔴 CRITIQUE
-**Visuel :** Table "Match Details" — Page 1
-**Cause :** La table charge toutes les lignes sans pagination. Elle affiche status, duration, score, tournament_name, season_year pour chaque match sans filtre initial.
-**Impact :** 2.8 secondes de chargement à chaque interaction avec les filtres.
+### Problème 1 — Match Details Table (351–441ms selon filtre) ⚠️
+**Cause :** La table charge toutes les lignes sans pagination.
+Elle affiche status, duration, score, tournament_name, season_year.
+**Impact :** Augmente de 26% lors des interactions avec les filtres.
 
-**Solution recommandée :**
+**Solution DAX :**
 ```dax
-// Avant (lent) — charge toutes les lignes
-Match Details Table = fact_match
-
-// Après (rapide) — top 100 avec pagination
 Top Matches = TOPN(100, fact_match, fact_match[played_at], DESC)
 ```
-Ajouter un **filtre de page** sur `season_year = 2026` par défaut.
+Ajouter un filtre de page sur `season_year = 2026` par défaut.
 
 ---
 
-### Problème 2 — Matches Evolution by Season (1,660ms) 🔴
-**Visuel :** Line Chart — Page 1
-**Cause :** Le graphique agrège les matchs par mois sur 4 années (48 points de données). La mesure recalcule le COUNT à chaque refresh sans utiliser de table de dates optimisée.
+### Problème 2 — Most Used Courts (241→408ms) ⚠️
+**Cause :** +69% de temps lors des interactions filtres.
+La colonne `court` dans fact_match n'est pas indexée côté PostgreSQL.
 
-**Solution recommandée :**
-```dax
-// Créer une mesure optimisée avec variable
-Monthly Matches = 
-VAR CurrentMonth = SELECTEDVALUE(dim_date[month_year])
-RETURN
-  CALCULATE(
-    COUNT(fact_match[id]),
-    dim_date[month_year] = CurrentMonth
-  )
-```
-Utiliser une **table calendrier** (`dim_date`) correctement reliée pour accélérer l'agrégation temporelle.
-
----
-
-### Problème 3 — Most Used Courts (1,570ms) 🔴
-**Visuel :** Bar Chart horizontal — Page 2
-**Cause :** Le visuel affiche 12 courts avec COUNT(*) par court. La colonne `court` dans fact_match n'est pas indexée côté PostgreSQL, ce qui ralentit la requête DirectQuery.
-
-**Solution recommandée :**
+**Solution SQL :**
 ```sql
--- Côté PostgreSQL — ajouter un index
 CREATE INDEX idx_fact_match_court ON fact_match(court);
-
--- Côté Power BI — utiliser Import Mode
--- au lieu de DirectQuery pour cette table
+CREATE INDEX idx_fact_match_played_at ON fact_match(played_at);
 ```
 
 ---
 
-### Problème 4 — Match Status by Season (1,360ms) ⚠️
-**Visuel :** Stacked Bar — Page 2
-**Cause :** Le visuel croise 4 saisons × 4 statuts (finished/bye/retired/walkover). La mesure COUNTROWS avec plusieurs filtres CALCULATE imbriqués est coûteuse.
+### Problème 3 — Données aberrantes dans Match Details 🔴
+**Observation :** Matchs `bye` avec :
+- Duration = 395 min (impossible pour un match non joué)
+- Score = "5-5 5-5" (incohérent pour un bye)
+- Total duration affiché : **22,610 min** incluant les byes
 
-**Solution recommandée :**
+**Impact sur KPIs :**
+- Avg Duration 99.60 min biaisée par les byes
+- Shortest Match = 45 min (valeur suspecte)
+- Total Duration 376.83 hrs inclut des matchs non joués
+
+**Solution DAX :**
 ```dax
-// Remplacer les mesures individuelles par une seule mesure générique
-Match Count by Status = 
-CALCULATE(
-  COUNT(fact_match[id]),
-  ALLEXCEPT(fact_match, fact_match[status], dim_date[season_year])
-)
-```
-
----
-
-### Problème 5 — Données aberrantes dans Match Details 🔴 DATA QUALITY
-**Observation :** La table "Match Details" montre des durées aberrantes :
-- `bye` matches avec duration = 395 min (impossible pour un match non joué)
-- `bye` matches avec scores = "5-5 5-5" (incohérent pour un bye)
-- Score "5-5 5-5" répété multiple fois → semble être une valeur par défaut erronée
-
-**Impact :** Ces anomalies faussent les KPIs :
-- Avg Duration 95.45 min est biaisée par les byes aberrants
-- Shortest Match = 5 min suggère des données corrompues
-- Total Duration 3.44K hrs inclut des matchs non joués
-
-**Solutions :**
-```dax
-// Filtrer les byes dans les mesures de durée
-Avg Duration Clean = 
+Avg Duration Clean =
 CALCULATE(
   AVERAGE(fact_match[duration_minutes]),
   fact_match[status] = "finished"
 )
 
-// KPI correct
-Completion Rate = 
-DIVIDE(
-  CALCULATE(COUNT(fact_match[id]), fact_match[status] = "finished"),
-  COUNT(fact_match[id])
+Match Count Clean =
+CALCULATE(
+  COUNT(fact_match[id]),
+  fact_match[status] IN {"finished", "retired"}
 )
 ```
 
 ---
 
-### Problème 6 — Duplication de la mesure Completion Rate
-**Observation :** La même mesure "Completion Rate % = 69.54%" apparaît sur les deux pages avec des contextes différents (Page 1 = tous matchs, Page 2 = finished only).
-**Solution :** Nommer clairement les mesures : `Completion Rate All` vs `Completion Rate Finished Only`.
+### Problème 4 — Duplication mesure Completion Rate ⚠️
+**Observation :** Completion Rate 69.54% apparaît sur les 2 pages avec contextes différents.
+**Solution :** Créer 2 mesures distinctes :
+- `Completion Rate All` (Page 1)
+- `Completion Rate Finished` (Page 2)
+
+---
+
+### Problème 5 — Filtres sans valeur par défaut ⚠️
+**Observation :** Les 4 filtres (Round, Tournament, Season, Status) affichent "Tout" par défaut → charge toutes les données au démarrage.
+**Solution :** Définir `Season Year = 2025` comme filtre par défaut pour réduire le volume initial.
 
 ---
 
@@ -188,12 +165,14 @@ DIVIDE(
 
 | Force | Détail |
 |-------|--------|
+| **Performance excellente** | 100% des visuels < 500ms sans filtre |
 | **Filtres globaux cohérents** | Round, Tournament, Season Year, Status sur les 2 pages |
 | **Palette cohérente** | Vert foncé (#1a5c1a) sur tous les visuels |
-| **KPIs bien choisis** | Completion Rate, Avg Duration, Longest/Shortest Match pertinents |
+| **KPIs bien choisis** | Completion Rate, Avg Duration, Longest/Shortest pertinents |
 | **Walkover Rate Gauge** | Indicateur innovant (4.49%) avec échelle 0-10 |
 | **Most Used Courts** | Vision opérationnelle utile pour les organisateurs |
-| **Match Evolution** | Croissance 375→885 matchs (2023→2026) clairement visible |
+| **Match Evolution** | Croissance 375→885 matchs (2023→2026) visible |
+| **Modèle de données riche** | 12 tables connectées (dim + fact) |
 
 ---
 
@@ -201,12 +180,12 @@ DIVIDE(
 
 | Métrique | Page 1 | Page 2 | Global |
 |---------|--------|--------|--------|
-| Nombre de visuels | 10 | 10 | 20 |
-| Visuels rapides (<500ms) | 7 | 6 | 13 (65%) |
-| Visuels moyens (500-1000ms) | 1 | 3 | 4 (20%) |
-| Visuels lents (>1000ms) | 2 | 1 | 3 (15%) |
-| Temps chargement initial | ~3.2 sec | ~2.8 sec | ~3.2 sec |
-| Score performance | 7/10 | 6.5/10 | **6.8/10** |
+| Nombre de visuels | 16 | 17 | 33 |
+| Visuels rapides (<500ms) | 16 (100%) | 17 (100%) | 33 (100%) |
+| Visuels moyens (500-1000ms) | 0 | 0 | 0 |
+| Visuels lents (>1000ms) | 0 | 0 | 0 |
+| Temps chargement initial | ~380ms | ~290ms | ~380ms |
+| Score performance | **9.5/10** | **9.5/10** | **9.5/10** |
 
 ---
 
@@ -214,24 +193,23 @@ DIVIDE(
 
 | Priorité | Action | Impact attendu | Effort |
 |----------|--------|----------------|--------|
-| 🔴 P1 | Paginer la table Match Details (TOP 100) | -70% temps table | Faible |
-| 🔴 P1 | Filtrer les byes des mesures de durée | KPIs corrects | Faible |
-| 🟡 P2 | Créer table calendrier dim_date | -40% line chart | Moyen |
-| 🟡 P2 | Index PostgreSQL sur court + played_at | -50% DirectQuery | Moyen |
-| 🟢 P3 | Unifier les mesures dupliquées | Maintenance | Faible |
-| 🟢 P3 | Ajouter tooltips sur les visuels | UX | Faible |
+| 🔴 P1 | Filtrer les byes des mesures durée | KPIs corrects | Faible |
+| 🔴 P1 | Index PostgreSQL sur court + played_at | -30% filtres | Moyen |
+| 🟡 P2 | Paginer Match Details (TOP 100) | -26% interactions | Faible |
+| 🟡 P2 | Filtre par défaut Season Year = 2025 | Chargement initial | Faible |
+| 🟢 P3 | Séparer mesures Completion Rate | Lisibilité | Faible |
+| 🟢 P3 | Ajouter tooltips sur visuels | UX | Faible |
 
 ---
 
-## 🔗 Connexion avec le Pipeline ML (N8N)
+## 🔗 Connexion Pipeline ML → Power BI
 
-Le dashboard Power BI est directement connecté aux résultats du pipeline N8N :
+| Donnée Power BI | Source N8N | Pipeline ML |
+|-----------------|-----------|-------------|
+| Match predictions | outputs/predictions.csv | Classification XGBoost (74.2%) |
+| Duration estimates | outputs/predictions.csv | RF Regressor (MAE=26.3 min) |
+| Cluster segments | outputs/predictions.csv | KMeans k=2 (Silhouette=0.216) |
+| Monthly forecast | outputs/predictions.csv | ARIMA (MAE=360/mois) |
 
-| Donnée Power BI | Source N8N | Pipeline |
-|-----------------|-----------|----------|
-| Match predictions | outputs/predictions.csv | Classification |
-| Duration estimates | outputs/predictions.csv | Regression |
-| Cluster segments | outputs/predictions.csv | Clustering |
-| Monthly forecast | outputs/predictions.csv | Time Series |
-
-**Recommandation** : Connecter Power BI directement à `outputs/predictions.csv` via **Get Data → Text/CSV** pour afficher les prédictions ML en temps réel dans le dashboard.
+**Recommandation :** Connecter Power BI à `outputs/predictions.csv` via
+**Obtenir les données → Texte/CSV** pour visualiser les prédictions ML en temps réel.
